@@ -1,0 +1,238 @@
+/* 
+	LUDOK Website
+	Dr. Carl GmbH 2020
+*/
+
+
+@font-face {
+    font-family: 'metanormal';
+    src: url('fonts/meta-normal-webfont.woff2') format('woff2'),
+         url('fonts/meta-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+	font-family: 'MetaPlusNormal';
+	src: url('fonts/meta-normal.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family:'meganoot-medium';src:url('fonts/meganoot-medium.eot');src:url('fonts/meganoot-medium.eot') format("embedded-opentype"),
+	url('fonts/meganoot-medium.woff') format("woff"),
+	url('fonts/meganoot-medium.ttf') format("truetype"),
+	url('fonts/meganoot-medium.svg#meganoot-medium') format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+*/
+
+
+html {
+	height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+	color: #474747;
+	
+	font-family: metanormal, Arial, sans-serif; 
+	font-size: 16px;
+	
+	height:100%;
+	
+	margin: 0px;
+	padding: 20px;
+}
+
+
+.btn {
+	background-color: #97BE0D; 
+	border: 1px solid white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: table-cell;
+	flex-grow: 1;
+	font-size: 20px;
+	height: 38px;
+	margin: 2px;
+	padding-top: 7px;
+	text-align: center;
+	width: 142px;
+}
+.btn:hover {
+	box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
+}
+.btn:active {
+	border-width: 2px;
+}
+
+.btn_chosen {
+	box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
+	border-width: 2px;
+	/*filter: brightness(1.75);*/
+}
+
+
+  
+.div_Main {
+	text-align: center;
+	width: 100%;
+}
+
+.div_Menu {
+	background-color: white;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	height: 80px;
+}
+
+.div_Menu_Buttons {
+	display: flex;
+	flex-direction: row;
+	padding: 2px;
+}
+
+.div_Menu_Entry {
+	background-color: #468ab2;
+	border: 1px solid white;
+	border-radius: 5px;
+	display: table-cell;
+	flex-grow: 3;
+	height: 100%;
+	vertical-align: bottom;
+}
+
+.div_Menu_Title {
+	font-size: 26px;
+	text-align: center;
+}
+
+.div_PageContent {
+	background-color: white;
+	position: relative;
+	width: 1200px;
+	margin: auto;
+}
+
+.div_Results {
+	position: absolute;
+	left: 30px;
+	top: 130px;
+	width: 400px;
+}
+.div_Results_right {
+	left: unset;
+	right: 30px;
+}
+
+.div_Results_Header {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+.img_Organ {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+
+.margin_bottom {
+	margin-bottom: 30px;
+}
+
+
+table {
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+
+td {
+	background-color: #F0F0F0;
+	border-color: White;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	/*text-align: left;
+	vertical-align: top;*/
+}
+
+.td_effekt_typ {
+	text-align: center;
+	width: 20px;
+}
+
+
+.pad_100 {
+	padding-left: 100px;
+}
+
+
+/****************************** COLORS ***************************************************************************************************************************************/
+
+
+.bg_Feinstaub {
+	background-color: #9e9e9e;
+}
+
+.bg_Ozon {
+	background-color: #6ba1c1;
+}
+
+.bg_Stickstoffdioxid {
+	background-color: #cc5b52;
+}
+
+.bg_Schwefeldioxid {
+	background-color: #f1d783;
+}
+
+.bg_Kohlenmonoxid {
+	background-color: #c4d375;
+}
+
+
+.bg_Feinstaub_invert {
+	color: #9e9e9e;
+	background-color: white !important;
+	border-color: #9e9e9e;
+}
+
+.bg_Ozon_invert {
+	color: #6ba1c1;
+	background-color: white !important;
+	border-color: #6ba1c1;
+}
+  
+.bg_Stickstoffdioxid_invert {
+	color: #cc5b52;
+	background-color: white !important;
+	border-color: #cc5b52;
+}
+
+.bg_Schwefeldioxid_invert {
+	color: #f1d783;
+	background-color: white !important;
+	border-color: #f1d783;
+}
+
+.bg_Kohlenmonoxid_invert {
+	color: #c4d375;
+	background-color: white !important;
+	border-color: #c4d375;
+}
