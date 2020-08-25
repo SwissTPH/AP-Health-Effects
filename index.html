@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>LUDOK</title>
+	<LINK rel="stylesheet" type="text/css" href="ludok.css">
+	<script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+
+	<script type="text/javascript" src="zz_utils.js"></script>
+	<script type="text/javascript" src="json_matrix.js"></script>
+
+	<script>
+
+		$(document).ready(function() {
+	
+			// Sprachauswahl
+			glb_Lang = location.search.split('a_lang=')[1] ? location.search.split('a_lang=')[1] : 'de';
+//console.log("glb_lang: "+glb_Lang);
+			
+			// Init
+			//Show_Matrix();
+			
+		}); // $(document).ready
+	
+	</script>
+
+</head>
+
+<body>
+
+<div class="div_PageContent">
+
+
+<!--img src="graph/Buttonzeile.png" width="1200px">
+<br><br-->
+
+<div class="div_Menu">
+
+    <div class="div_Menu_Entry" id="div_Menu_Langzeit">
+        <div class="div_Menu_Buttons">
+            <div id="btn_L_Feinstaub" class="btn bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'L')">Feinstaub</div>
+            <div id="btn_L_Ozon" class="btn bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'L')">Ozon</div>
+            <div id="btn_L_Stickstoffdioxid" class="btn bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'L')">Stickstoffdioxid</div>
+        </div>
+        <div class="div_Menu_Title">Langzeit</div>
+    </div>
+    
+    <div class="div_Menu_Entry" id="div_Menu_Kurzzeit" style="flex-grow: 5;">
+        <div class="div_Menu_Buttons">
+            <div id="btn_K_Feinstaub" class="btn bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'K')">Feinstaub</div>
+            <div id="btn_K_Ozon" class="btn bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'K')">Ozon</div>
+            <div id="btn_K_Stickstoffdioxid" class="btn bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'K')">Stickstoffdioxid</div>
+            <div id="btn_K_Schwefeldioxid" class="btn bg_Schwefeldioxid" onclick="Show_Noxe_Zeit('Schwefeldioxid', 'K')">Schwefeldioxid</div>
+            <div id="btn_K_Kohlenmonoxid" class="btn bg_Kohlenmonoxid" onclick="Show_Noxe_Zeit('Kohlenmonoxid', 'K')">Kohlenmonoxid</div>
+        </div>
+        <div class="div_Menu_Title">Kurzzeit</div>
+    </div>
+
+</div>
+
+<br><br>
+
+<div class="div_Main">
+
+    <span id="div_Mensch" style="display: inline-block;position: relative;">
+        <img src="graph/mensch.jpg" id="img_Mensch">
+
+        
+        <img src="graph/nerven.png" id="img_Organ_Nervensystem"  class="img_Organ" style="left: 7px; top: 69px">
+
+        <img src="graph/hirn.png" id="img_Organ_Hirn" class="img_Organ" style="left: 103px; top: 12px">
+        <!--img src="graph/gebaermutter.png" class="img_Organ" style="left: 95px; top: 312px"-->
+        <img src="graph/lunge.png" id="img_Organ_Atemwege"  class="img_Organ" style="left: 80px; top: 95px">
+        <img src="graph/leber.png" id="img_Organ_Stoffwechsel"  class="img_Organ" style="left: 84px; top: 232px">
+
+        <img src="graph/herz.png" id="img_Organ_Herz"  class="img_Organ" style="left: 116px; top: 22px">
+    </span>
+
+</div>
+
+<div class="div_Results">
+    
+    <div class="margin_bottom" id="div_Results_Atemwege">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Herz">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Nervensystem">
+    </div>
+
+    <div class="" id="div_Results_Stoffwechsel">
+    </div>
+</div>
+
+<div class="div_Results div_Results_right">
+    
+    <div class="margin_bottom" id="div_Results_Sterblichkeit">
+    </div>
+
+    <div class="" id="div_Results_Notfälle">
+    </div>
+
+</div>
+
+
+<!--br><br>
+
+<b>Auswahl Noxe</b><br>
+<a href="javascript:Select_Noxe_Zeit('L')">Langzeit</a><br>
+<a href="javascript:Select_Noxe_Zeit('K')">Kurzzeit</a><br>
+<br>
+<div class="pad_100" id="div_Auswahl_Noxe">
+</div>
+
+<br><hr><br>
+
+<b>Auswahl Organ</b><br>
+<a href="javascript:Select_Organ_Zeit('L')">Langzeit</a><br>
+<a href="javascript:Select_Organ_Zeit('K')">Kurzzeit</a><br>
+<br>
+<div class="pad_100" id="div_Auswahl_Organ">
+</div>
+
+<br><hr><br>
+
+<a href="javascript:Show_Matrix();">Gesamte Matrix anzeigen</a>
+<br><br>
+<a href="https://www.isglobal.org/en/ciudadesquequeremos#contaminacion" target="_blank">Vorlage https://www.isglobal.org/en/ciudadesquequeremos#contaminacion</a>
+
+<br><hr><br>
+
+<a href="_test_matrix.html?a_lang=de">[DE]</a>
+<a href="_test_matrix.html?a_lang=en">[EN]</a>
+<a href="_test_matrix.html?a_lang=fr">[FR]</a>
+<a href="_test_matrix.html?a_lang=it">[IT]</a>
+
+<br><br-->
+
+<!--a href="javascript:Filter_Noxe('Feinstaub PM2.5')">Feinstaub PM2.5</a><br>
+<a href="javascript:Filter_Noxe('Ozon')">Ozon</a>
+
+<br><br>
+
+<b>Auswahl Organsystem</b><br>
+<a href="javascript:Filter_Organ('Atemweg')">Atemweg</a><br>
+<a href="javascript:Filter_Organ('Herz-/Kreislaufsystem')">Herz-/Kreislaufsystem</a>
+
+<br><br>
+
+<hr><br>
+<a href="javascript:Show_Matrix()">Alle Datensätze</a><br-->
+
+
+</div> <!-- div_PageContent -->
+
+</body>
+</html>
