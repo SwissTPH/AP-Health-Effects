@@ -1,8 +1,7 @@
 /* 
 	LUDOK Website
-	Dr. Carl GmbH 2020
+	Dr. Carl GmbH 2020 
 */
-
 
 @font-face {
     font-family: 'metanormal';
@@ -13,7 +12,18 @@
 
 }
 
+
+@font-face { /* font von www.swisstph.ch */
+    font-family: 'metanormal_swisstph';
+    src: url('fonts/2EF516_0_0.woff2') format('woff2'),
+         url('fonts/2EF516_0_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*
+
 @font-face {
 	font-family: 'MetaPlusNormal';
 	src: url('fonts/meta-normal.ttf') format("truetype");
@@ -38,7 +48,8 @@ html {
 }
 
 body {
-    background: #f5f5f5;
+	background: #f5f5f5;
+	background-color: white;
 	color: #474747;
 	
 	font-family: metanormal, Arial, sans-serif; 
@@ -47,14 +58,32 @@ body {
 	height:100%;
 	
 	margin: 0px;
-	padding: 20px;
+	padding: 0px;
+}
+
+a {
+	color: initial;
+	text-decoration: none;
+}
+a:hover {
+	color: #DDBA4A;
+	text-decoration: none;
 }
 
 
+button {
+	outline: 0;
+	cursor: pointer;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
 .btn {
 	background-color: #97BE0D; 
-	border: 1px solid white;
-	border-radius: 5px;
+	/*border: 1px solid white;
+	border-radius: 5px;*/
 	box-sizing: border-box;
 	color: white;
 	cursor: pointer;
@@ -81,63 +110,194 @@ body {
 }
 
 
-  
-.div_Main {
-	text-align: center;
-	width: 100%;
+
+.btn_round {
+	background-color: white;	
+	border-radius: 45px;
+	border: none;
+	box-shadow: 2px 2px 5px 0px #c3c3c3;
+	color: #474747;
+	font-family: metanormal, Arial, sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	height: 90px;
+	width: 90px;
+	padding: 0px;
+	/* text-align: center;
+	vertical-align: middle;
+	display: table-cell; */
 }
 
-.div_Menu {
+.btn_round_zeit {
 	background-color: white;
+	border-radius: 50%;
+	color: #90B9D1;
+	font-size: 22px;
+}
+.btn_round_zeit_inv {
+	background-color: #90B9D1;
 	color: white;
-	display: flex;
-	flex-direction: row;
-	height: 80px;
 }
 
-.div_Menu_Buttons {
-	display: flex;
-	flex-direction: row;
-	padding: 2px;
-}
 
-.div_Menu_Entry {
-	background-color: #468ab2;
-	border: 1px solid white;
-	border-radius: 5px;
-	display: table-cell;
-	flex-grow: 3;
-	height: 100%;
+.btn_round_small {
+	background-color: white;	
+	border-radius: 33px;
+	border: none;
+	box-shadow: 2px 2px 5px 0px #c3c3c3;
+	color: #474747;
+	font-family: metanormal, Arial, sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	height: 70px;
+	width: 70px;
+	padding: 0px;
 	vertical-align: bottom;
 }
 
-.div_Menu_Title {
-	font-size: 26px;
-	text-align: center;
+
+.cursorHand { 
+	cursor: pointer;
 }
 
-.div_PageContent {
-	background-color: white;
+
+.div_Flex_Row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.div_i_Container {
+	position: relative; 
+	display: inline-block;
+}
+
+
+
+.div_Intro {
+	color: #468AB2;
+	font-size: 20px;
+}
+
+.div_Legend {
+	display: none;
+	/*margin-top: 10px;
+	padding-top: 10px;*/
+	padding-left: 60px;
+	text-align: left;
+}
+  
+  
+.div_Main {
+	background-color: #EDEDED;
+	margin-top: 30px;
+	text-align: right;
+	width: 100%;
+	height: 1075px;
+}
+
+
+.div_Menu {
+	display: inline-block;
+	position: absolute;
+	left: 57px;
+	/*top: 90px;*/
+	width: 660px;
+}
+
+.div_Menu_Left { 
+	display: inline-block;
+	position: absolute;
+	top: 133px;	
+	font-size: 20px;
+}
+
+.div_Menu_Line { 
+	position: absolute;
+	left: 30px;
+	width: 375px;
+}
+
+.div_Menu_Noxe { 
+	display: inline-block;
+	text-align: center;
+	width: 70px;
 	position: relative;
-	width: 1200px;
+	vertical-align: top;
+}
+
+.div_Menu_Sterblichkeit{
+	position: absolute;
+	top: 52px;
+	right: 177px;
+}
+  
+
+.div_PageContent {
+	box-sizing: border-box;
+	padding: 40px;
+	background-color: #EDEDED;
+	position: relative;
+	width: 1160px;
 	margin: auto;
 }
 
+
 .div_Results {
 	position: absolute;
-	left: 30px;
-	top: 130px;
-	width: 400px;
+	left: 57px;
+	top: 150px;
+	width: 660px;
+	max-height: 1015px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-width: thin;
 }
+/*
+.div_Results::-webkit-scrollbar {
+	width: 5px;
+}
+*/
+
+
+  
 .div_Results_right {
 	left: unset;
-	right: 30px;
+	right: 15px;
 }
 
 .div_Results_Header {
-	color: white;
 	font-size: 20px;
-	padding: 10px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.i_header {
+	color: #BF3227;
+	margin-bottom: 10px;
+}
+
+.ic_info {
+	cursor: pointer;
+	vertical-align: bottom;
+	width: 25px;
+}
+
+.ic_info_top {
+	position: absolute;
+	top: -11px;
+	left: 32px;
+}
+
+.ic_info_top_small {
+	position: absolute;
+	top: -17px;
+	left: 24px;
 }
 
 
@@ -148,33 +308,18 @@ body {
 	left: 10px;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
+
+li {
+	padding-bottom: 5px;
+}
+
 
 .margin_bottom {
-	margin-bottom: 30px;
-}
-
-
-table {
-	border: 0px;
-	border-collapse: collapse;
-	border-spacing: 0;
-	width: 100%;
-}
-
-
-td {
-	background-color: #F0F0F0;
-	border-color: White;
-	border-style: solid;
-	border-width: 2px;
-	padding: 5px;
-	/*text-align: left;
-	vertical-align: top;*/
-}
-
-.td_effekt_typ {
-	text-align: center;
-	width: 20px;
+	margin-bottom: 10px;
 }
 
 
@@ -182,57 +327,121 @@ td {
 	padding-left: 100px;
 }
 
+  
+table {
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left: 55px;
+	table-layout: fixed;
+	width: 609px;
+}
+
+
+td { 
+	background-color: transparent;
+	padding: 5px;	
+}
+
+.td_effekt {
+	text-align: left;
+}
+
+.td_effekt_typ {
+	text-align: center;
+	width: 65px;
+}
+
+
+tr {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+tr:last-of-type {
+	_border: none;
+}
+
+
+.ui-tooltip {
+	padding: 10px 20px;
+	color: #222222;
+	border-radius: 2px;
+	font-size: 16px !important;
+	border: none;
+	box-shadow: none;
+	/*box-shadow: 0 0 7px #222222;*/
+  }
+
+.ui-tooltip-content {
+	font-size: 16px !important;
+}
 
 /****************************** COLORS ***************************************************************************************************************************************/
 
 
 .bg_Feinstaub {
-	background-color: #9e9e9e;
+	color: #868686;
+	background-color: white;
+	border-color: #868686;
 }
 
 .bg_Ozon {
-	background-color: #6ba1c1;
+	color: #468AB2;
+	background-color: white;
+	border-color: #468AB2;
 }
-
+  
 .bg_Stickstoffdioxid {
-	background-color: #cc5b52;
+	color: #BF3227;
+	background-color: white;
+	border-color: #BF3227;
 }
 
 .bg_Schwefeldioxid {
-	background-color: #f1d783;
+	color: #DDBA4A;
+	background-color: white;
+	border-color: #EDCD64;
 }
 
 .bg_Kohlenmonoxid {
-	background-color: #c4d375;
+	color: #A4B645;
+	background-color: white;
+	border-color: #B5C752;
+}
+
+.bg_Zusatz {
+	color: #D9847E;
+	background-color: white;
+	border-color: #9e9e9e;	
 }
 
 
 .bg_Feinstaub_invert {
-	color: #9e9e9e;
-	background-color: white !important;
-	border-color: #9e9e9e;
+	background-color: #868686;
+	color: white;
 }
 
 .bg_Ozon_invert {
-	color: #6ba1c1;
-	background-color: white !important;
-	border-color: #6ba1c1;
+	background-color: #468AB2;
+	color: white;
 }
-  
+
 .bg_Stickstoffdioxid_invert {
-	color: #cc5b52;
-	background-color: white !important;
-	border-color: #cc5b52;
+	background-color: #BF3227;
+	color: white;
 }
 
 .bg_Schwefeldioxid_invert {
-	color: #f1d783;
-	background-color: white !important;
-	border-color: #f1d783;
+	background-color: #EDCD64;
+	color: white;
 }
 
 .bg_Kohlenmonoxid_invert {
-	color: #c4d375;
-	background-color: white !important;
-	border-color: #c4d375;
+	background-color: #B5C752;
+	color: white;
+}
+
+.bg_Zusatz_invert {
+	color: white;
+	background-color: #D9847E;
 }
