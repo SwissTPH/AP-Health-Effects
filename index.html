@@ -4,11 +4,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>LUDOK</title>
-	<LINK rel="stylesheet" type="text/css" href="ludok.css">
-	<script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+        
+    <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+
+    <script src="jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    
+    <script src="jquery/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="jquery/jquery.modal.css" />
+
+    <link rel="stylesheet" type="text/css" href="ludok.css">
 
 	<script type="text/javascript" src="zz_utils.js"></script>
-	<script type="text/javascript" src="json_matrix.js"></script>
+    <script type="text/javascript" src="json_matrix.js"></script>
+    <script type="text/javascript" src="json_text.js"></script>
 
 	<script>
 
@@ -18,12 +27,72 @@
 			glb_Lang = location.search.split('a_lang=')[1] ? location.search.split('a_lang=')[1] : 'de';
 //console.log("glb_lang: "+glb_Lang);
 			
-			// Init
-			//Show_Matrix();
-			
-		}); // $(document).ready
+            // Init
+            /*
+            $("#map_Atemwege").hover(
+                function() {
+                    $("#img_Organ_Atemwege").show();
+                }, function() {
+                    if (glb_Organ != "Atemwege") {
+                        $("#img_Organ_Atemwege").hide();
+                    }
+                }
+            );*/
+
+            // Tooltips
+            $( "#i_Organe_Effekte" ).tooltip({
+                /*position: {
+                    my: "center bottom-20",
+                    at: "center top",
+                    using: function( position, feedback ) {
+                    $( this ).css( position );
+                    $( "<div>" )
+                        .addClass( "arrow" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                    }
+                },*/
+                content: Get_Tooltip("Organe_Effekte", glb_Lang)
+            });
+            $("#i_causally").tooltip({
+                content: Get_Tooltip("causally", glb_Lang)
+            });
+            $("#i_likely").tooltip({
+                content: Get_Tooltip("likely", glb_Lang)
+            });
+            $("#i_Kurzzeit").tooltip({
+                content: Get_Tooltip("Kurzzeit", glb_Lang)
+            });
+            $("#i_Langzeit").tooltip({
+                content: Get_Tooltip("Langzeit", glb_Lang)
+            });
+            $("#i_Feinstaub").tooltip({
+                content: Get_Tooltip("Feinstaub", glb_Lang)
+            });
+            $("#i_Ozon").tooltip({
+                content: Get_Tooltip("Ozon", glb_Lang)
+            });
+            $("#i_Stickstoffdioxid").tooltip({
+                content: Get_Tooltip("Stickstoffdioxid", glb_Lang)
+            });
+			$("#i_Schwefeldioxid").tooltip({
+                content: Get_Tooltip("Schwefeldioxid", glb_Lang)
+            });
+            $("#i_Kohlenmonoxid").tooltip({
+                content: Get_Tooltip("Kohlenmonoxid", glb_Lang)
+            });
+            $("#i_Sterblichkeit").tooltip({
+                content: Get_Tooltip("Sterblichkeit", glb_Lang)
+            });
+            $("#i_Notfälle").tooltip({
+                content: Get_Tooltip("Notfälle", glb_Lang)
+            });
+		}); // $(document).ready 
 	
 	</script>
+
+
 
 </head>
 
@@ -32,55 +101,108 @@
 <div class="div_PageContent">
 
 
-<!--img src="graph/Buttonzeile.png" width="1200px">
-<br><br-->
-
 <div class="div_Menu">
 
-    <div class="div_Menu_Entry" id="div_Menu_Langzeit">
-        <div class="div_Menu_Buttons">
-            <div id="btn_L_Feinstaub" class="btn bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'L')">Feinstaub</div>
-            <div id="btn_L_Ozon" class="btn bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'L')">Ozon</div>
-            <div id="btn_L_Stickstoffdioxid" class="btn bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'L')">Stickstoffdioxid</div>
+    <div class="div_Menu_Line">
+        <div class="div_i_Container">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title=""> 
+            <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('K')" id="btn_Zeit_K">Kurzzeit</button>
         </div>
-        <div class="div_Menu_Title">Langzeit</div>
+        <div class="div_i_Container">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title=""> 
+            <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('L')" id="btn_Zeit_L">Langzeit</button>
+        </div>
     </div>
+
     
-    <div class="div_Menu_Entry" id="div_Menu_Kurzzeit" style="flex-grow: 5;">
-        <div class="div_Menu_Buttons">
-            <div id="btn_K_Feinstaub" class="btn bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'K')">Feinstaub</div>
-            <div id="btn_K_Ozon" class="btn bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'K')">Ozon</div>
-            <div id="btn_K_Stickstoffdioxid" class="btn bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'K')">Stickstoffdioxid</div>
-            <div id="btn_K_Schwefeldioxid" class="btn bg_Schwefeldioxid" onclick="Show_Noxe_Zeit('Schwefeldioxid', 'K')">Schwefeldioxid</div>
-            <div id="btn_K_Kohlenmonoxid" class="btn bg_Kohlenmonoxid" onclick="Show_Noxe_Zeit('Kohlenmonoxid', 'K')">Kohlenmonoxid</div>
+    <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="left: 295px; top: 12px; text-align: left;">
+        <div class="div_Menu_Noxe">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Feinstaub" title=""> 
+            <button class="btn_round_small bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'K')" id="btn_Feinstaub">Fein<br>staub</button>
         </div>
-        <div class="div_Menu_Title">Kurzzeit</div>
+        <div class="div_Menu_Noxe">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Ozon" title=""> 
+            <button class="btn_round_small bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'K')" id="btn_Ozon">Ozon</button>
+        </div>
+        <div class="div_Menu_Noxe">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Stickstoffdioxid" title=""> 
+            <button class="btn_round_small bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'K')" id="btn_Stickstoffdioxid">Stickstoff<br>dioxid</button>
+        </div>
+        <div class="div_Menu_Noxe" id="mnu_Schwefeldioxid">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Schwefeldioxid" title=""> 
+            <button class="btn_round_small bg_Schwefeldioxid"  id="btn_Schwefeldioxid" onclick="Show_Noxe_Zeit('Schwefeldioxid', 'K')">Schwefel<br>dioxid</button>
+        </div>
+        <div class="div_Menu_Noxe" id="mnu_Kohlenmonoxid">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Kohlenmonoxid" title=""> 
+            <button class="btn_round_small bg_Kohlenmonoxid"  id="btn_Kohlenmonoxid" onclick="Show_Noxe_Zeit('Kohlenmonoxid', 'K')">Kohlen<br>monoxid</button>
+        </div>
     </div>
 
 </div>
 
-<br><br>
+<img src="graph/ic_tph.png" width="130px" style="position: absolute; top: 55px; right: 20px" class="cursorHand" onclick="window.location.reload()" title="Reset">
 
 <div class="div_Main">
 
-    <span id="div_Mensch" style="display: inline-block;position: relative;">
-        <img src="graph/mensch.jpg" id="img_Mensch">
+    <span id="div_Mensch" style="display: inline-block; position: relative; margin-top: 80px;">
+        <img src="graph/mensch.png" height="1000px" id="img_Mensch">
 
-        
-        <img src="graph/nerven.png" id="img_Organ_Nervensystem"  class="img_Organ" style="left: 7px; top: 69px">
+        <img src="graph/sterblichkeit.png" id="img_Organ_Sterblichkeit" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
+        <img src="graph/notfaelle.png" id="img_Organ_Notfälle" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
 
-        <img src="graph/hirn.png" id="img_Organ_Hirn" class="img_Organ" style="left: 103px; top: 12px">
-        <!--img src="graph/gebaermutter.png" class="img_Organ" style="left: 95px; top: 312px"-->
-        <img src="graph/lunge.png" id="img_Organ_Atemwege"  class="img_Organ" style="left: 80px; top: 95px">
-        <img src="graph/leber.png" id="img_Organ_Stoffwechsel"  class="img_Organ" style="left: 84px; top: 232px">
+        <img src="graph/nerven.png" id="img_Organ_Nervensystem"  class="img_Organ" style="left: 0px; top: 0px">
+        <img src="graph/herz.png" id="img_Organ_Herz"  class="img_Organ" style="left: 1px; top: 0px">
 
-        <img src="graph/herz.png" id="img_Organ_Herz"  class="img_Organ" style="left: 116px; top: 22px">
+        <!--img src="graph/hirn.png" id="img_Organ_Hirn" class="img_Organ" style="left: 150px; top: 13px"-->
+        <img src="graph/lunge.png" id="img_Organ_Atemwege"  class="img_Organ" style="left: 117px; top: 137px">
+        <img src="graph/leber.png" id="img_Organ_Stoffwechsel"  class="img_Organ" style="left: 123px; top: 327px">
+
+        <img src="graph/mensch_empty.png" style="position: absolute; top: 0; left: 0;" id="img_mensch_empty" usemap="(set in Choose_Zeit)">
+
+        <map name="image-map" id="image-map">
+            <area shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('Stoffwechsel')" onMouseover="$('#img_Organ_Stoffwechsel').show()" onMouseout="Hide_imgOrgan('Stoffwechsel')" alt="" />
+            <area shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Nervensystem')" onMouseover="$('#img_Organ_Nervensystem').show()" onMouseout="Hide_imgOrgan('Nervensystem')" alt="" />
+            <area shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show()" onMouseout="Hide_imgOrgan('Herz')" alt="" />
+            <area shape="rect" coords="119,139,278,341" href="#" onClick="Show_Organ('Atemwege')" onMouseover="$('#img_Organ_Atemwege').show();" onMouseout="Hide_imgOrgan('Atemwege');" alt="" />
+            <area shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show();" onMouseout="Hide_imgOrgan('Herz');" alt="" />
+            <area shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('Nervensystem')" onMouseover="$('#img_Organ_Nervensystem').show()" onMouseout="Hide_imgOrgan('Nervensystem')" alt="" />
+        </map>
+
     </span>
+
+    <div class="div_Menu_Sterblichkeit hidden" id="div_Menu_Sterblichkeit">
+        <div class="div_Menu_Noxe">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Sterblichkeit" title=""> 
+            <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Sterblichkeit')" id="btn_Sterblichkeit">Sterblich<br>keit</button>
+        </div>
+        <div class="div_Menu_Noxe">
+            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Notfälle" title=""> 
+            <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Notfälle')" id="btn_Notfälle">Notfälle</button>
+        </div>
+    </div>
+
 
 </div>
 
 <div class="div_Results">
     
+    <div class="div_Intro margin_bottom" id="div_Intro">
+        <br><br>
+        <b>Wie verwenden Sie diese Infografik?</b>
+        <br><br>
+        Wir haben für Sie die <!--a href="javascript:Show_Popup('Hintergrund')">gesicherten und wahrscheinlichen Gesundheitsfolgen</a--> 
+        gesicherten und wahrscheinlichen Gesundheitsfolgen der wichtigsten Luftschadstoffe in der Aussenluft zusammengetragen 
+        und in einer interaktiven Grafik aufbereitet. 
+        <br><br>
+        Wählen Sie zwischen Schadstoffen, den Auswirkungen kurz- oder langfristiger Belastung oder Wirkungen von Schadstoffen auf bestimmte Organe aus:
+        <ul>
+            <li>Wählen Sie zwischen Kurz- und Langzeit</li>
+            <li>Wählen Sie einen Schadstoff oder betroffenes Organ aus</li>
+            <!--li>Klicken Sie ein Organ</li-->
+        </ul>
+        Am Fussende der Grafik finden Sie weitere Buttons zur Anzeige weiterführender Hintergrundinformationen.
+    </div>
+
     <div class="margin_bottom" id="div_Results_Atemwege">
     </div>
 
@@ -90,70 +212,85 @@
     <div class="margin_bottom" id="div_Results_Nervensystem">
     </div>
 
-    <div class="" id="div_Results_Stoffwechsel">
+    <div class="margin_bottom" id="div_Results_Stoffwechsel">
     </div>
-</div>
 
-<div class="div_Results div_Results_right">
-    
+    <div class="margin_bottom" id="div_Results_Feinstaub_K">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Ozon_K">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Stickstoffdioxid_K">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Schwefeldioxid_K">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Kohlenmonoxid_K">
+    </div>
+
     <div class="margin_bottom" id="div_Results_Sterblichkeit">
     </div>
 
-    <div class="" id="div_Results_Notfälle">
+    <div class="margin_bottom" id="div_Results_Notfälle">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Feinstaub_L">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Ozon_L">
+    </div>
+
+    <div class="margin_bottom" id="div_Results_Stickstoffdioxid_L">
+    </div>
+
+    <div class="div_Legend" id="div_Legend">
+        Kausalität: 
+        <img src="graph/ic_C.png" width="14px"> ursächlich <img src="graph/ic_info.png" class="ic_info" id="i_causally" title=""> &nbsp; 
+        <img src="graph/ic_L.png" width="14px"> wahrscheinlich ursächlich <img src="graph/ic_info.png" class="ic_info" id="i_likely" title=""> 
     </div>
 
 </div>
 
-
-<!--br><br>
-
-<b>Auswahl Noxe</b><br>
-<a href="javascript:Select_Noxe_Zeit('L')">Langzeit</a><br>
-<a href="javascript:Select_Noxe_Zeit('K')">Kurzzeit</a><br>
-<br>
-<div class="pad_100" id="div_Auswahl_Noxe">
-</div>
-
-<br><hr><br>
-
-<b>Auswahl Organ</b><br>
-<a href="javascript:Select_Organ_Zeit('L')">Langzeit</a><br>
-<a href="javascript:Select_Organ_Zeit('K')">Kurzzeit</a><br>
-<br>
-<div class="pad_100" id="div_Auswahl_Organ">
-</div>
-
-<br><hr><br>
-
-<a href="javascript:Show_Matrix();">Gesamte Matrix anzeigen</a>
 <br><br>
-<a href="https://www.isglobal.org/en/ciudadesquequeremos#contaminacion" target="_blank">Vorlage https://www.isglobal.org/en/ciudadesquequeremos#contaminacion</a>
 
-<br><hr><br>
 
-<a href="_test_matrix.html?a_lang=de">[DE]</a>
-<a href="_test_matrix.html?a_lang=en">[EN]</a>
-<a href="_test_matrix.html?a_lang=fr">[FR]</a>
-<a href="_test_matrix.html?a_lang=it">[IT]</a>
+<!-- Untere Buttonleiste -->
+
+<div class="div_Flex_Row">
+    <button class="btn_round" onclick="Show_Popup('Aktuelle Luftbelastung')">Aktuelle Belastung</button>
+    <button class="btn_round" onclick="Show_Popup('Grenzwerte')">Grenz<br>werte</button>
+    <button class="btn_round" onclick="Show_Popup('Quellen')">Quellen Schadstoffe</button>
+    <button class="btn_round" onclick="Show_Popup('Hintergrund')">Hintergrund</button>
+    <button class="btn_round" onclick="Show_Popup('Was ich tun kann')">Was ich tun kann</button>
+    <button class="btn_round" onclick="Show_Popup('Referenzen')">Referenzen</button>
+    <button class="btn_round" onclick="Show_Popup('Impressum')">Impressum</button>
+</div>
+
+<br><br>
+
+
+<!--div class="div_Flex_Row">
+    <span class="btn_round" onclick="Show_Info('')">Aktuelle Belastung</span>
+    <span class="btn_round" onclick="Show_Info('')">Grenz<br>werte</span>
+    <span class="btn_round" onclick="Show_Info('')">Quellen Schadstoffe</span>
+    <span class="btn_round" onclick="Show_Info('')">Hintergrund</span>
+    <span class="btn_round" onclick="Show_Info('')">Was kann ich tun</span>
+    <span class="btn_round" onclick="Show_Info('')">Referenzen</span>
+    <span class="btn_round" onclick="Show_Info('')">Impressum</span>
+</div>
 
 <br><br-->
 
-<!--a href="javascript:Filter_Noxe('Feinstaub PM2.5')">Feinstaub PM2.5</a><br>
-<a href="javascript:Filter_Noxe('Ozon')">Ozon</a>
-
-<br><br>
-
-<b>Auswahl Organsystem</b><br>
-<a href="javascript:Filter_Organ('Atemweg')">Atemweg</a><br>
-<a href="javascript:Filter_Organ('Herz-/Kreislaufsystem')">Herz-/Kreislaufsystem</a>
-
-<br><br>
-
-<hr><br>
-<a href="javascript:Show_Matrix()">Alle Datensätze</a><br-->
 
 
 </div> <!-- div_PageContent -->
+
+
+<div class="div_Popup_modal modal" id="div_Popup_modal">
+    Das ist das modale Popup
+</div>
 
 </body>
 </html>
