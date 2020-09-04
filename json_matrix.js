@@ -1,20 +1,8 @@
 // LUDOK Data
 //
-// id = xyzi
-// where x = #Noxe
-//       y = 0 Langzeit, y = 1 Kurzzeit
-//       z = #Organ
-//       i = #Effekt 
+// Version 1.0, 4.9.2020
 //
 // Dr. Carl GmbH 2020
-//
-// recall: http://alasql.org/
-//         https://github.com/agershun/alasql
-//
-// Vorlage https://www.isglobal.org/en/ciudadesquequeremos#contaminacion
-//
-// torso scaling: 74%
-
 
 arrNoxen = [
   {"id": 1,

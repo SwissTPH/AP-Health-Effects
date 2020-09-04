@@ -1,5 +1,8 @@
 /* 
-	LUDOK Website
+	LUDOK Interaktive Grafik
+
+	Version 1.0, 4.9.2020
+
 	Dr. Carl GmbH 2020 
 */
 
@@ -13,34 +16,6 @@
 }
 
 
-@font-face { /* font von www.swisstph.ch */
-    font-family: 'metanormal_swisstph';
-    src: url('fonts/2EF516_0_0.woff2') format('woff2'),
-         url('fonts/2EF516_0_0.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/*
-
-@font-face {
-	font-family: 'MetaPlusNormal';
-	src: url('fonts/meta-normal.ttf') format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-@font-face {
-	font-family:'meganoot-medium';src:url('fonts/meganoot-medium.eot');src:url('fonts/meganoot-medium.eot') format("embedded-opentype"),
-	url('fonts/meganoot-medium.woff') format("woff"),
-	url('fonts/meganoot-medium.ttf') format("truetype"),
-	url('fonts/meganoot-medium.svg#meganoot-medium') format("svg");
-	font-weight:normal;
-	font-style:normal
-}
-*/
 
 
 html {
@@ -62,7 +37,7 @@ body {
 }
 
 a {
-	color: initial;
+	color: #468AB2;
 	text-decoration: none;
 }
 a:hover {
@@ -133,10 +108,12 @@ li {
 	border-radius: 50%;
 	color: #90B9D1;
 	font-size: 22px;
+	/*opacity: 0.5;*/
 }
 .btn_round_zeit_inv {
 	background-color: #90B9D1;
 	color: white;
+	/*opacity: 1;*/
 }
 
 
@@ -166,7 +143,9 @@ li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
+	/* width: 100%; */
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .div_i_Container {
@@ -237,13 +216,22 @@ li {
 
 .div_PageContent {
 	box-sizing: border-box;
-	padding: 40px;
+	padding-top: 40px;
 	background-color: #EDEDED;
 	position: relative;
 	width: 1160px;
 	margin: auto;
 }
 
+.div_PageContent_mobile {
+	background-color: #EDEDED;
+	/*background-color: #ADADFF;*/
+	display: none;
+	padding: 0px;
+	width: 100%;
+	height: 1352px;
+	overflow: hidden;
+}
 
 .div_Results {
 	position: absolute;
@@ -312,6 +300,9 @@ li {
 	display: inline-block;
 }
 
+.left {
+	text-align: left !important;
+}
 
 li {
 	padding-bottom: 5px;
@@ -322,6 +313,13 @@ li {
 	margin-bottom: 10px;
 }
 
+.margin_10 {
+	margin: 10px;
+}
+
+.pad_10 {
+	padding: 10px;
+}
 
 .pad_100 {
 	padding-left: 100px;
@@ -445,3 +443,142 @@ tr:last-of-type {
 	color: white;
 	background-color: #D9847E;
 }
+
+
+
+/** RESPONSIVE ADAPTATIONS FOR TABLETS & SMARTPHONES (<= 1160 px) **/
+
+
+@media (max-width: 1159px) {
+/*@media (max-width: 1023px) {
+
+	@viewport{
+		zoom: 1.0;
+		width: device-width;
+	}
+*/
+	.div_PageContent {
+		display: none;
+	}
+
+	.div_PageContent_mobile {
+		display: block;
+	}
+
+
+	.btn_round {
+		border-radius: 0;
+		width: 100%;
+		height: 45px;
+	}
+
+	.btn_round_zeit {
+		border-radius: 0;
+		width: 100%;
+	}
+  
+	.btn_round_small {
+		border-radius: 0;
+		height: 45px;
+		width: 100%;
+	}
+	
+	  
+	.div_Flex_Row {
+		display: block; 
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.div_i_Container {
+		display: block;
+	}
+
+	.div_Intro {
+		padding: 20px;
+		padding-top: 0;
+	}
+  
+	.div_Legend {
+		padding-left: 5px;
+		padding-bottom: 20px;
+	}
+
+  
+	.div_Menu {
+		display: block;
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+	
+	.div_Menu_Line {	
+		left: 0;
+		top: 0;
+		position: relative;
+		width: 100%;
+	}
+	
+	.div_Menu_Noxe {
+		display: block;
+		text-align: left;
+		width: 100%;
+	}
+	
+	.div_Main {
+		margin: 0px;
+		height: 100%;
+	}
+	
+	.div_Results {
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		padding-top: 20px;
+	}
+  
+	.div_Results_Header {
+		padding-left: 5px;
+	}
+
+	.ic_info_top {
+		top: 10px;
+		left: 24px;
+	}
+
+	.ic_info_top_small {
+		top: 10px;
+	}
+	/*
+	.ic_info {
+		width: 35px;
+	}
+
+	.ic_info_top {
+		top: 7px;
+		left: 24px;
+	}
+
+	.ic_info_top_small {
+		top: 7px;
+	}
+	*/
+
+	table {
+		margin-left: 34px;
+		width: 90%;
+	}
+
+	td {
+		padding: 4px;
+	}
+
+	.td_effekt_typ {
+		white-space: nowrap;
+	}
+  
+}
+
+
+  

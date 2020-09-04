@@ -1,5 +1,8 @@
-// LUDOK
-
+// LUDOK Interaktive Grafik
+//
+// Version 1.0, 4.9.2020
+//
+// Dr. Carl GmbH 2020
 
 
 // Globale Variablen
@@ -8,26 +11,47 @@ glb_Organ = "";     // Gewähltes Organ (leer für Noxe)
 glb_Noxe = "";      // Gewählte Noxe (leer für Organ)
 glb_Zeit = "";      // K - Kurzzeit / L - Langzeit 
 
+glb_isMobile = false;   // Bin ich mobile oder desktop?
+glb_PCID = '.div_PageContent '; // Page Content ID (für mobile/desktop)
 
-function Choose_Zeit(a_zeit) {
+
+
+function Check_mobile() {
+// Bin ich mobile...?  
+// -> Hauptanzeigebereich div_PageContent[_mobile] in glb_PCID speichern 
+    if ($('.div_PageContent').is(":visible") == true) {
+        glb_PCID = '.div_PageContent ';
+        glb_isMobile = false;
+    } else {
+        glb_PCID = '.div_PageContent_mobile ';
+        glb_isMobile = true;
+    }
+console.log('Check_mobile glb_isMobile: ' + glb_isMobile);
+}
+
+
+function Choose_Zeit(a_zeit, a_mobile) {
 // Auswahl a_zeit = K - Kurzzeit / L - Langzeit   
     glb_Zeit = a_zeit;
 
     ResetAll();
 
+
+//console.log('Choose_Zeit glb_PCID: ' + glb_PCID);
+
     $('button[id^="btn_Zeit_"]').removeClass('btn_round_zeit_inv');
-    $('#btn_Zeit_' + a_zeit).addClass('btn_round_zeit_inv');
+    $(glb_PCID + '#btn_Zeit_' + a_zeit).addClass('btn_round_zeit_inv');
 
     if (glb_Zeit == "K") {
-        $('#mnu_Schwefeldioxid').show();
-        $('#mnu_Kohlenmonoxid').show();
+        $(glb_PCID + '#mnu_Schwefeldioxid').show();
+        $(glb_PCID + '#mnu_Kohlenmonoxid').show();
     } else {
-        $('#mnu_Schwefeldioxid').hide();
-        $('#mnu_Kohlenmonoxid').hide();
+        $(glb_PCID + '#mnu_Schwefeldioxid').hide();
+        $(glb_PCID + '#mnu_Kohlenmonoxid').hide();
     }
     
-    $('#div_Menu_Noxen').fadeIn();
-    $('#div_Menu_Sterblichkeit').fadeIn();
+    $(glb_PCID + '#div_Menu_Noxen').fadeIn();
+    $(glb_PCID + '#div_Menu_Sterblichkeit').fadeIn();
 
     $('#img_mensch_empty').attr("usemap", "#image-map");
 
@@ -49,7 +73,7 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
         strNoxe_Zeit = "Kurzzeit";
     }
 
-    $('#div_Results_' + a_organ).hide();
+    $(glb_PCID + '#div_Results_' + a_organ).hide();
     $('#img_Organ_' + a_organ).hide();
 
     if (a_data.length > 0) {
@@ -67,15 +91,19 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
             str += '<td class="td_effekt">' + Get_Effekt(a_data[i].effekt, glb_Lang) + '</td>';
                     //'<td>' + a_data[i]["organ_"+glb_Lang] + '</td>' +
                     //'<td>' + a_data[i]["effekt_"+glb_Lang] + '</td>' 
-                    
-            for (var j = 1; j < Get_Noxe_ID(a_noxe); j++) {
-                str += '<td class="td_effekt_typ"></td>';
+         
+            if (glb_isMobile == false) {
+                for (var j = 1; j < Get_Noxe_ID(a_noxe); j++) {
+                    str += '<td class="td_effekt_typ"></td>';
+                }
             }
 
             str += '<td class="td_effekt_typ"><img src="graph/ic_' + a_data[i].effekt_typ + '_' + a_noxe + '.png" width="14px"></td>';
             
-            for (var j =  Get_Noxe_ID(a_noxe); j < 5; j++) {
-                str += '<td class="td_effekt_typ"></td>';
+            if (glb_isMobile == false) {
+                for (var j =  Get_Noxe_ID(a_noxe); j < 5; j++) {
+                    str += '<td class="td_effekt_typ"></td>';
+                }
             }
 
             str += '</tr>';
@@ -86,14 +114,15 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
 
 //console.log('Draw_Results Organ: ' + a_organ);
 
-        $('#div_Results_' + a_organ).html(str);
-        $('#div_Results_' + a_organ).fadeIn();
-        $('#div_Legend').fadeIn();
-        $('#div_Menu_Headline').fadeIn();
 
-        if ((a_organ != "Sterblichkeit") && (a_organ != "Notfälle")) {
+        $(glb_PCID + '#div_Results_' + a_organ).html(str);
+        $(glb_PCID + '#div_Results_' + a_organ).fadeIn();
+        $(glb_PCID + '#div_Legend').fadeIn();
+        $(glb_PCID + '#div_Menu_Headline').fadeIn();
+
+        //if ((a_organ != "Sterblichkeit") && (a_organ != "Notfälle")) {
             $('#img_Organ_' + a_organ).fadeIn();
-        }
+        //}
         
         $("#i_eff_" + a_organ).tooltip({content: Get_Tooltip(a_organ, glb_Lang)});
         
@@ -101,9 +130,14 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
         
     }// if (a_data.length > 0)
 
+    // mobile: div_Results unter Button schieben
+    if (glb_isMobile == true) {
+        $(glb_PCID + ".div_Results").appendTo(glb_PCID + "#mnu_" + a_noxe);
+    }
+
     // Button aktivieren
     $('button[id^="btn_"]').removeClass(['bg_Feinstaub_invert', 'bg_Ozon_invert', 'bg_Stickstoffdioxid_invert', 'bg_Schwefeldioxid_invert', 'bg_Kohlenmonoxid_invert']);
-    $('#btn_' + a_noxe).addClass('bg_' + a_noxe + '_invert');
+    $(glb_PCID + '#btn_' + a_noxe).addClass('bg_' + a_noxe + '_invert');
 
 
 } // Draw_Results
@@ -134,18 +168,25 @@ function Draw_Results_Organ(a_data) {
             str_row = '<tr>';
 
             str_row += '<td class="td_effekt">' + Get_Effekt(a_data[i].effekt_de, glb_Lang) + '</td>';
+            str_row += '<td class="td_effekt_typ left">';
 
             for (var j=0; j<arrEffekte.length; j++) {
                 objEffekt = Get_Organ_Effekt_Noxe_Zeit(a_data[i].organ, a_data[i].effekt_de, arrEffekte[j], glb_Zeit);
                 
-                str_row += '<td class="td_effekt_typ">';
+                if (glb_isMobile == false) {
+                    str_row += '<td class="td_effekt_typ">';
+                }
+
                 if (objEffekt.length > 0) {
                     anzEffekte = anzEffekte + 1;
-                    str_row += '<img src="graph/ic_' + objEffekt[0].effekt_typ + '_' + objEffekt[0].noxe + '.png" width="14px"></img>';
+                    str_row += '<img src="graph/ic_' + objEffekt[0].effekt_typ + '_' + objEffekt[0].noxe + '.png" width="14px"></img>&nbsp;';
                 }
-                str_row += '</td>';
+                
+                if (glb_isMobile == false) {
+                    str_row += '</td>';
+                }
             }
-
+            str_row += '</td>';
             str_row += '</tr>';
 
             if (anzEffekte > 0) {
@@ -160,11 +201,16 @@ function Draw_Results_Organ(a_data) {
         
         str += '</table>';
 
-        $('#div_Results_' + a_noxe + '_' + a_noxe_zeit).html(str);
-        $('#div_Results_' + a_noxe + '_' + a_noxe_zeit).fadeIn();
-        $('#div_Legend').fadeIn();
+        $(glb_PCID + '#div_Results_' + a_noxe + '_' + a_noxe_zeit).html(str);
+        $(glb_PCID + '#div_Results_' + a_noxe + '_' + a_noxe_zeit).fadeIn();
+        $(glb_PCID + '#div_Legend').fadeIn();
 
-        $("#i_eff_" + a_data[0].organ).tooltip({content: Get_Tooltip(a_data[0].organ, glb_Lang)});
+        $(glb_PCID + "#i_eff_" + a_data[0].organ).tooltip({content: Get_Tooltip(a_data[0].organ, glb_Lang)});
+
+        // mobile: div_Results unter Button schieben
+        if (glb_isMobile == true) {
+            $(glb_PCID + ".div_Results").appendTo(glb_PCID + "#mnu_" + a_data[0].organ);
+        }
 
     } else {
         
@@ -444,66 +490,16 @@ function ResetAll() {
     $('div[id^="div_Results_"]').hide();
     $('img[id^="img_Organ_"]').hide();
 
-    $('#btn_Sterblichkeit').removeClass('bg_Zusatz_invert');
-    $('#btn_Notfälle').removeClass('bg_Zusatz_invert');
+    $(glb_PCID + 'button[id^="btn_"]').removeClass('bg_Zusatz_invert');
+    //$(glb_PCID + '#btn_Sterblichkeit').removeClass('bg_Zusatz_invert');
+    //$(glb_PCID + '#btn_Notfälle').removeClass('bg_Zusatz_invert');
 
-    $('#div_Legend').hide();
-    $('#div_Menu_Headline').hide();
+    $(glb_PCID + '#div_Legend').hide();
+    $(glb_PCID + '#div_Menu_Headline').hide();
 
     // Buttons deaktivieren
     $('button[id^="btn_"]').removeClass(['bg_Feinstaub_invert', 'bg_Ozon_invert', 'bg_Stickstoffdioxid_invert', 'bg_Schwefeldioxid_invert', 'bg_Kohlenmonoxid_invert']);
 }
-
-/*
-
-// N O T   I N   U S E
-
-function Select_Noxe_Zeit(a_noxe_zeit) {
-// Auswahl noxe_zeit = a_noxe_zeit
-
-    var str = "";
-
-    if (a_noxe_zeit == "K") {
-        str = "<b>Kurzzeit</b><br>";
-    } else {
-        str = "<b>Langzeit</b><br>";
-    }
-
-    //str += "<a href=\"javascript:Filter_Noxe_Zeit(&quot;Feinstaub PM2.5&quot;, &quot;" + a_noxe_zeit + "&quot;)\">Feinstaub PM2.5</a><br>" +
-    //       "<a href=\"javascript:Filter_Noxe_Zeit(&quot;Ozon&quot;, &quot;" + a_noxe_zeit + "&quot;)\">Ozon</a>";
-
-    for (var i=0; i<arrNoxen.length; i++) {
-
-        str += "<a href=\"javascript:Filter_Noxe_Zeit(&quot;" + arrNoxen[i].noxe_de + "&quot;, &quot;" + a_noxe_zeit + "&quot;)\">" + arrNoxen[i]["noxe_"+glb_Lang] + "</a><br>";
-    }
-
-    $('#div_Auswahl_Noxe').html(str);
-
-} // Select_Noxe_Zeit
-
-
-function Select_Organ_Zeit(a_noxe_zeit) {
-// Auswahl organ_zeit = a_noxe_zeit
-
-    var str = "";
-
-    if (a_noxe_zeit == "K") {
-        str = "<b>Kurzzeit</b><br>";
-    } else {
-        str = "<b>Langzeit</b><br>";
-    }
-
-    for (var i=0; i<arrOrgane.length; i++) {
-
-        str += "<a href=\"javascript:Filter_Organ_Zeit(&quot;" + arrOrgane[i].organ_de + "&quot;, &quot;" + a_noxe_zeit + "&quot;)\">" + arrOrgane[i]["organ_"+glb_Lang] + "</a><br>";
-    }
-
-    $('#div_Auswahl_Organ').html(str);
-
-} // Select_Organ_Zeit
-*/
-
-
 
 
 function Show_Popup(a_parent) {
@@ -513,98 +509,27 @@ function Show_Popup(a_parent) {
 }
 
 
-function _Show_Matrix() {
-// TEST: gesamte json_matrix.arrMatrix ausgeben
-
-    var jsonData = arrMatrix;
-    //jsonData = $(arrMatrix).filter(function (i,n){return n.organ_effekt=='Sterblichkeit'});
-    //var str = JSON.stringify(arrMatrix[0], null, 2);
-    //var jsonData = JSON.parse(arrMatrix[0]);
-    //var str = 'json data: ';
-
-    //str += jsonData.Langzeit;
-    var str = '<table>';
-
-    for (var i=0; i<jsonData.length; i++) {
-        //alert(as[i].name +"         "+as[i].website);
-        str += '<tr>' +
-        '<td>' + jsonData[i].noxe + '</td>' +
-        '<td>' + jsonData[i].noxe_zeit + '</td>' +
-        '<td>' + jsonData[i].organ + '</td>' +
-        '<td>' + jsonData[i].effekt + '</td>' +
-        '<td>' + jsonData[i].effekt_typ + '</td>' +
-        '</tr>';
-    }
-/*
-    jsonData.forEach(function(item){
-        str += '<tr>' +
-                '<td>' + item.organ_effekt + '</td>' +
-                '<td>' + item.Langzeit + '</td>' +
-                '</tr>';
-        });
-*/
-    str += '</table>';
-
-
-    $('#div_Results').html(str);
-
-} // Show_Matrix
-
-
-
-function _Show_Matrix_export() {
-// json_matrix.arrMatrix_export ausgeben
-// N O T   I N   U S E
-
-            var jsonData = arrMatrix;
-            jsonData = $(arrMatrix).filter(function (i,n){return n.organ_effekt=='Sterblichkeit'});
-            //var str = JSON.stringify(arrMatrix[0], null, 2);
-            //var jsonData = JSON.parse(arrMatrix[0]);
-            //var str = 'json data: ';
-
-            //str += jsonData.Langzeit;
-            var str = '<table>';
-
-            for (var i=0; i<jsonData.length; i++) {
-                //alert(as[i].name +"         "+as[i].website);
-                str += '<tr>' +
-                '<td>' + jsonData[i].organ_effekt + '</td>' +
-                '<td>' + jsonData[i].Langzeit + '</td>' +
-                '</tr>';
-            }
-/*
-            jsonData.forEach(function(item){
-                str += '<tr>' +
-                        '<td>' + item.organ_effekt + '</td>' +
-                        '<td>' + item.Langzeit + '</td>' +
-                        '</tr>';
-                });
-*/
-            str += '</table>';
-
-
-            
-
-            $('#div_Results').html(str);
-
-
-} // Show_Matrix_export
-
-
 
 function Show_Organ(a_organ) {
 // Zeige Einträge mit organ = a_organ
-    //console.log("Show_Organ: "+ a_organ);
-    
-    ResetAll();
-    $('#div_Intro').hide();
+
+    if ((glb_Organ == a_organ) && (glb_isMobile == true)) {
+    // Zweiter Klick = Reset
+        ResetAll();
+        $(glb_PCID + '.div_Results').hide();
+        glb_Organ = "";
+        return;
+    }
 
     glb_Organ = a_organ;
     glb_Noxe = ""; 
 
+    ResetAll();
+    $(glb_PCID + '#div_Intro').hide();
+    $(glb_PCID + '.div_Results').show();
     $('#img_Organ_' + a_organ).show();
 
-    $('#btn_' + a_organ).addClass('bg_Zusatz_invert');
+    $(glb_PCID + '#btn_' + a_organ).addClass('bg_Zusatz_invert');
 
     Get_Organ_Effekte(a_organ);
 
@@ -614,6 +539,14 @@ function Show_Organ(a_organ) {
 function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 // Zeige Einträge mit noxe = a_noxe und noxe_zeit = a_noxe_zeit
 
+    if ((glb_Noxe == a_noxe) && (glb_isMobile == true)) {
+    // Zweiter Klick = Reset
+        ResetAll();
+        $(glb_PCID + '.div_Results').hide();
+        glb_Noxe = "";
+        return;
+    }
+
     a_noxe_zeit = glb_Zeit;
     glb_Organ = "";
     glb_Noxe = a_noxe; 
@@ -621,7 +554,8 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 //console.log("Show_Noxe_Zeit: "+ a_noxe + " / " + a_noxe_zeit);
 
     ResetAll();
-    $('#div_Intro').hide();
+    $(glb_PCID + '#div_Intro').hide();
+    $(glb_PCID + '.div_Results').show();
     
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Atemwege'); 
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Herz');
@@ -632,3 +566,42 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Notfälle');
 
 } // Show_Noxe_Zeit
+
+
+function Show_Zusatzinfo(a_parent) {
+// Für mobile: Anzeige in div_Result (statt Popup) 
+    //$('#div_Popup_modal').html(Get_Popuptext(a_parent, glb_Lang));
+    //$('#div_Popup_modal').modal();
+
+    $(glb_PCID + '#div_Intro').hide();
+
+    $('#div_Results_Zusatzinfo').html(Get_Popuptext(a_parent, glb_Lang));
+    $(glb_PCID + ".div_Results").appendTo("#btn_Zusatz_"+ a_parent);
+    $('#div_Results_Zusatzinfo').show();
+}
+
+
+function Tooltips_Init() {
+// Tooltips initialisieren
+
+    var i_elements = ["Kurzzeit", "Langzeit", 
+                      "causally", "likely", "causality_mobile",
+                      "Feinstaub", "Ozon", "Stickstoffdioxid", "Schwefeldioxid", "Kohlenmonoxid", 
+                      "Atemwege", "Herz", "Nervensystem", "Stoffwechsel", "Sterblichkeit", "Notfälle"];
+
+    i_elements.forEach(function(item, index, array) {
+        //console.log(item, index);
+        $(".div_PageContent #i_" + item).tooltip({
+            content: Get_Tooltip(item, glb_Lang)
+        });
+        $(".div_PageContent_mobile #i_" + item).tooltip({
+            content: Get_Tooltip(item, glb_Lang)
+        });
+      });
+
+    /*
+    $("#i_Organe_Effekte" ).tooltip({
+        content: Get_Tooltip("Organe_Effekte", glb_Lang)
+    });
+    */
+}
