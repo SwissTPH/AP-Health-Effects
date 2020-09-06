@@ -1,7 +1,7 @@
 /* 
 	LUDOK Interaktive Grafik
 
-	Version 1.0, 4.9.2020
+	Version 1.1, 5.9.2020
 
 	Dr. Carl GmbH 2020 
 */
@@ -535,8 +535,14 @@ tr:last-of-type {
 		left: 0;
 		top: 0;
 		width: 100%;
+		max-height: none;
 		padding-top: 20px;
+		background-image: url(graph/mensch_bg.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
 	}
+
   
 	.div_Results_Header {
 		padding-left: 5px;
