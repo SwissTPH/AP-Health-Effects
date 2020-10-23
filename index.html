@@ -3,7 +3,7 @@
 
 <!-- 
     LUDOK Interaktive Grafik
-    Version 1.1, 5.9.2020
+    Version 1.5, 21.10.2020
     Dr. Carl GmbH 2020
 -->
 
@@ -21,6 +21,8 @@
     <script src="jquery/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="jquery/jquery.modal.css" />
 
+    <script type="text/javascript" src="jquery/jquery-ui-touch-punch.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="ludok.css">
 
 	<script type="text/javascript" src="zz_utils.js"></script>
@@ -29,21 +31,54 @@
 
 	<script>
 
+
+        // Sprachauswahl
+        glb_Lang = location.search.split('a_lang=')[1] ? location.search.split('a_lang=')[1] : 'de';
+
+        // Mobile oder Desktop?
+        Check_mobile();
+
+
 		$(document).ready(function() {
-	
-			// Sprachauswahl
-			glb_Lang = location.search.split('a_lang=')[1] ? location.search.split('a_lang=')[1] : 'de';
-//console.log("glb_lang: "+glb_Lang);
 			
             // Init
-            Check_mobile();
             Tooltips_Init();
         
             // Responsiveness
             $(window).resize(function () { 
+                var old_isMobile = glb_isMobile;
                 Check_mobile();
-            }); 
+                if (old_isMobile != glb_isMobile) {
+                    ResetAll();
+                    $('.div_PageContent #div_Menu_Noxen').hide();
+                    $('.div_PageContent_mobile #div_Menu_Noxen').hide();
+                    $('#div_Menu_Sterblichkeit').hide();
+                    $('#img_mensch_empty').attr("usemap", "");
+                }
 
+            }); // $(window).resize
+
+
+            // Initiale Höhenanpassung iFrame
+            setTimeout(function(){
+                var ht = $('body').height();
+                var id = 'ifr_LUDOK'; //iframe id
+                parent.postMessage( JSON.stringify( {'docHeight': ht, 'id':id} ), '*' );
+            }, 400);
+            
+
+            // Sonderbehandlung fürs geliebte iPad
+            if (navigator.userAgent.indexOf('iPad') == -1) { // NOT an iPad
+                // Mouseover für Organe
+                Set_Organ_Mouseover('Stoffwechsel');
+                Set_Organ_Mouseover('Herz');
+                Set_Organ_Mouseover('Nervensystem');
+                Set_Organ_Mouseover('Atemwege');
+            } else {
+                // Tooltip closing for iPad
+                $('.div_PageContent').on('click', function() {$('img[id^="i_"]').tooltip('close');});
+                $('.div_PageContent_mobile').on('click', function() {$('img[id^="i_"]').tooltip('close');});
+            }
 
 		}); // $(document).ready 
 	
@@ -55,49 +90,53 @@
 
 <body>
 
+<!-- for testing -->
+    <div style="position: fixed; top: 20px; right: 20px; background: lightblue; padding: 10px; z-index: 99">
+        <a href="index.html?a_lang=de">DE</a><br>
+        <a href="index.html?a_lang=en">EN</a><br>
+        <a href="index.html?a_lang=fr">FR</a><br>
+        <a href="index.html?a_lang=it">IT</a>
+    </div>
+<!-- for testing end. -->
+
+
+<!-- Desktop Version -->
+
 <div class="div_PageContent">
 
 
 <div class="div_Menu">
 
     <div class="div_Menu_Line">
-        <div class="div_i_Container">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title=""> 
-            <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('K')" id="btn_Zeit_K">Kurzzeit</button>
-        </div>
-        <div class="div_i_Container">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title=""> 
-            <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('L')" id="btn_Zeit_L">Langzeit</button>
-        </div>
+        <script>
+            echo('<div class="div_i_Container">');
+                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title="">');
+                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'K\')" id="btn_Zeit_K">' + Get_UI('btn_Kurzzeit', glb_Lang) + '</button>');
+            echo('</div>');
+            echo('&nbsp;');
+            echo('<div class="div_i_Container">');
+                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title="">');
+                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'L\')" id="btn_Zeit_L">' + Get_UI('btn_Langzeit', glb_Lang) + '</button>');
+            echo('</div>');
+        </script>
     </div>
 
     
     <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="left: 295px; top: 12px; text-align: left;">
-        <div class="div_Menu_Noxe">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Feinstaub" title=""> 
-            <button class="btn_round_small bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'K')" id="btn_Feinstaub">Fein<br>staub</button>
-        </div>
-        <div class="div_Menu_Noxe">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Ozon" title=""> 
-            <button class="btn_round_small bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'K')" id="btn_Ozon">Ozon</button>
-        </div>
-        <div class="div_Menu_Noxe">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Stickstoffdioxid" title=""> 
-            <button class="btn_round_small bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'K')" id="btn_Stickstoffdioxid">Stickstoff<br>dioxid</button>
-        </div>
-        <div class="div_Menu_Noxe" id="mnu_Schwefeldioxid">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Schwefeldioxid" title=""> 
-            <button class="btn_round_small bg_Schwefeldioxid"  id="btn_Schwefeldioxid" onclick="Show_Noxe_Zeit('Schwefeldioxid', 'K')">Schwefel<br>dioxid</button>
-        </div>
-        <div class="div_Menu_Noxe" id="mnu_Kohlenmonoxid">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Kohlenmonoxid" title=""> 
-            <button class="btn_round_small bg_Kohlenmonoxid"  id="btn_Kohlenmonoxid" onclick="Show_Noxe_Zeit('Kohlenmonoxid', 'K')">Kohlen<br>monoxid</button>
-        </div>
+        
+        <script>           
+            Draw_BtnNoxe('Feinstaub');
+            Draw_BtnNoxe('Ozon');
+            Draw_BtnNoxe('Stickstoffdioxid');
+            Draw_BtnNoxe('Schwefeldioxid');
+            Draw_BtnNoxe('Kohlenmonoxid');
+        </script>
+
     </div>
 
 </div> <!-- div_Menu -->
 
-<img src="graph/ic_tph.png" width="130px" style="position: absolute; top: 55px; right: 20px" class="cursorHand" onclick="window.location.reload()" title="Reset">
+<img src="graph/ic_tph.png" class="img_LogoTC cursorHand" onclick="window.location.reload()" title="Reset">
 
 <div class="div_Main">
 
@@ -105,37 +144,32 @@
         <img src="graph/mensch.png" height="1000px" id="img_Mensch">
 
         <img src="graph/sterblichkeit.png" id="img_Organ_Sterblichkeit" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
-        <img src="graph/notfaelle.png" id="img_Organ_Notfälle" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
+        <img src="graph/notfaelle.png" id="img_Organ_Notfaelle" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
 
         <img src="graph/nerven.png" id="img_Organ_Nervensystem"  class="img_Organ" style="left: 0px; top: 0px">
         <img src="graph/herz.png" id="img_Organ_Herz"  class="img_Organ" style="left: 1px; top: 0px">
 
-        <!--img src="graph/hirn.png" id="img_Organ_Hirn" class="img_Organ" style="left: 150px; top: 13px"-->
         <img src="graph/lunge.png" id="img_Organ_Atemwege"  class="img_Organ" style="left: 117px; top: 137px">
         <img src="graph/leber.png" id="img_Organ_Stoffwechsel"  class="img_Organ" style="left: 123px; top: 327px">
 
         <img src="graph/mensch_empty.png" style="position: absolute; top: 0; left: 0;" id="img_mensch_empty" usemap="(set in Choose_Zeit)">
 
         <map name="image-map" id="image-map">
-            <area shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('Stoffwechsel')" onMouseover="$('#img_Organ_Stoffwechsel').show()" onMouseout="Hide_imgOrgan('Stoffwechsel')" alt="" />
-            <area shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Nervensystem')" onMouseover="$('#img_Organ_Nervensystem').show()" onMouseout="Hide_imgOrgan('Nervensystem')" alt="" />
-            <area shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show()" onMouseout="Hide_imgOrgan('Herz')" alt="" />
-            <area shape="rect" coords="119,139,278,341" href="#" onClick="Show_Organ('Atemwege')" onMouseover="$('#img_Organ_Atemwege').show();" onMouseout="Hide_imgOrgan('Atemwege');" alt="" />
-            <area shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show();" onMouseout="Hide_imgOrgan('Herz');" alt="" />
-            <area shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('Nervensystem')" onMouseover="$('#img_Organ_Nervensystem').show()" onMouseout="Hide_imgOrgan('Nervensystem')" alt="" />
+            <area id="map_Stoffwechsel" shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('Stoffwechsel')" alt="" />
+            <area id="map_Nervensystem" shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Nervensystem')" alt="" />
+            <area id="map_Herz" shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" alt="" />
+            <area id="map_Atemwege" shape="rect" coords="119,139,278,341" href="#" onClick="Show_Organ('Atemwege')" alt="" />
+            <area id="map_Herz" shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" alt="" />
+            <area id="map_Nervensystem" shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('Nervensystem')" alt="" />
         </map>
 
     </span>
 
     <div class="div_Menu_Sterblichkeit hidden" id="div_Menu_Sterblichkeit">
-        <div class="div_Menu_Noxe">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Sterblichkeit" title=""> 
-            <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Sterblichkeit')" id="btn_Sterblichkeit">Sterblich<br>keit</button>
-        </div>
-        <div class="div_Menu_Noxe">
-            <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Notfälle" title=""> 
-            <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Notfälle')" id="btn_Notfälle">Notfälle</button>
-        </div>
+        <script>
+            Draw_BtnOrgan('Sterblichkeit');
+            Draw_BtnOrgan('Notfaelle');
+        </script>
     </div>
 
 
@@ -143,18 +177,9 @@
 
 <div class="div_Results">
     
-    <div class="div_Intro margin_bottom" id="div_Intro">
-        <br><br>
-        <b>Interaktive Grafik zu den Auswirkungen der Luftverschmutzung auf die Gesundheit</b>
-        <br><br>
-        Wir haben für Sie die ursächlichen und wahrscheinlich ursächlichen Gesundheitsfolgen der wichtigsten Schadstoffe in der Aussenluft zusammengetragen und in einer interaktiven Grafik aufbereitet.
-        <ul>
-            <li>Wählen Sie zwischen Kurzzeit- oder Langzeitbelastung aus</li>
-            <li>Wählen Sie einen Schadstoff oder betroffenes Organ aus</li>
-            <!--li>Klicken Sie ein Organ</li-->
-        </ul>
-        Am Fussende der Grafik finden Sie weitere Informationen. 
-    </div>
+    <script>
+        Draw_IntroText();
+    </script>
 
     <div class="margin_bottom" id="div_Results_Atemwege">
     </div>
@@ -168,66 +193,42 @@
     <div class="margin_bottom" id="div_Results_Stoffwechsel">
     </div>
 
-    <div class="margin_bottom" id="div_Results_Feinstaub_K">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Ozon_K">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Stickstoffdioxid_K">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Schwefeldioxid_K">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Kohlenmonoxid_K">
-    </div>
-
     <div class="margin_bottom" id="div_Results_Sterblichkeit">
     </div>
 
-    <div class="margin_bottom" id="div_Results_Notfälle">
+    <div class="margin_bottom" id="div_Results_Notfaelle">
     </div>
 
-    <div class="margin_bottom" id="div_Results_Feinstaub_L">
-    </div>
+    <script>
+        Draw_Legende();
+    </script>
 
-    <div class="margin_bottom" id="div_Results_Ozon_L">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Stickstoffdioxid_L">
-    </div>
-
-    <div class="div_Legend" id="div_Legend">
-        Kausalität:
-        <img src="graph/ic_C.png" width="14px"> ursächlich <img src="graph/ic_info.png" class="ic_info" id="i_causally" title=""> &nbsp; 
-        <img src="graph/ic_L.png" width="14px"> wahrscheinlich ursächlich <img src="graph/ic_info.png" class="ic_info" id="i_likely" title=""> 
-    </div>
 
 </div> <!-- div_Results -->
 
 <br><br>
 
-
 <!-- Untere Buttonleiste -->
 
 <div class="div_Flex_Row">
-    <button class="btn_round" onclick="Show_Popup('Aktuelle Luftbelastung')">Aktuelle Belastung</button>
-    <button class="btn_round" onclick="Show_Popup('Grenzwerte')">Grenz<br>werte</button>
-    <button class="btn_round" onclick="Show_Popup('Quellen')">Quellen Schadstoffe</button>
-    <button class="btn_round" onclick="Show_Popup('Hintergrund')">Hintergrund</button>
-    <button class="btn_round" onclick="Show_Popup('Was ich tun kann')">Was ich tun kann</button>
-    <button class="btn_round" onclick="Show_Popup('Referenzen')">Referenzen</button>
-    <button class="btn_round" onclick="Show_Popup('Impressum')">Impressum</button>
+    <script>
+        Draw_BtnHintergrundInfo('Luftbelastung');
+        Draw_BtnHintergrundInfo('Grenzwerte');
+        Draw_BtnHintergrundInfo('Quellen');
+        Draw_BtnHintergrundInfo('Hintergrund');
+        Draw_BtnHintergrundInfo('Beitrag');
+        Draw_BtnHintergrundInfo('Referenzen');
+        Draw_BtnHintergrundInfo('Impressum');
+    </script>
 </div>
 
 <br><br>
-
 
 </div> <!-- div_PageContent -->
 
 
 
+<!-- Mobile Version -->
 
 <div class="div_PageContent_mobile">
 
@@ -236,108 +237,54 @@
 
     <div class="div_Menu">
 
-        <!--div class="div_Menu_Line"></div-->
-            <div class="div_i_Container">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title=""> 
-                <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('K', 'mobile')" id="btn_Zeit_K">Kurzzeit</button>
-            </div>
-            <div class="div_i_Container">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title=""> 
-                <button class="btn_round btn_round_zeit" onclick="Choose_Zeit('L', 'mobile')" id="btn_Zeit_L">Langzeit</button>
-            </div>
+        <script>
+            echo('<div class="div_i_Container">');
+                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title="">');
+                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'K\')" id="btn_Zeit_K">' + Get_UI('btn_Kurzzeit', glb_Lang) + '</button>');
+            echo('</div>');
+            
+            echo('<div class="div_i_Container">');
+                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title="">');
+                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'L\')" id="btn_Zeit_L">' + Get_UI('btn_Langzeit', glb_Lang) + '</button>');
+            echo('</div>');
+        </script>
         
         <br>
         
         <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="">
-            <div class="div_Menu_Noxe"  id="mnu_Feinstaub">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Feinstaub" title=""> 
-                <button class="btn_round_small bg_Feinstaub" onclick="Show_Noxe_Zeit('Feinstaub', 'K')" id="btn_Feinstaub">Feinstaub</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Ozon">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Ozon" title=""> 
-                <button class="btn_round_small bg_Ozon" onclick="Show_Noxe_Zeit('Ozon', 'K')" id="btn_Ozon">Ozon</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Stickstoffdioxid">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Stickstoffdioxid" title=""> 
-                <button class="btn_round_small bg_Stickstoffdioxid" onclick="Show_Noxe_Zeit('Stickstoffdioxid', 'K')" id="btn_Stickstoffdioxid">Stickstoffdioxid</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Schwefeldioxid">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Schwefeldioxid" title=""> 
-                <button class="btn_round_small bg_Schwefeldioxid"  id="btn_Schwefeldioxid" onclick="Show_Noxe_Zeit('Schwefeldioxid', 'K')">Schwefeldioxid</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Kohlenmonoxid">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Kohlenmonoxid" title=""> 
-                <button class="btn_round_small bg_Kohlenmonoxid"  id="btn_Kohlenmonoxid" onclick="Show_Noxe_Zeit('Kohlenmonoxid', 'K')">Kohlenmonoxid</button>
-            </div>
+
+            <script>           
+                Draw_BtnNoxe('Feinstaub', true);
+                Draw_BtnNoxe('Ozon', true);
+                Draw_BtnNoxe('Stickstoffdioxid', true);
+                Draw_BtnNoxe('Schwefeldioxid', true);
+                Draw_BtnNoxe('Kohlenmonoxid', true);
+            </script>
 
             <br>
             
-            <div class="div_Menu_Noxe" id="mnu_Atemwege">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Atemwege" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Atemwege')" id="btn_Atemwege">Atemwege</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Herz">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Herz" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Herz')" id="btn_Herz">Herz</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Nervensystem">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Nervensystem" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Nervensystem')" id="btn_Nervensystem">Nervensystem</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Stoffwechsel">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Stoffwechsel" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Stoffwechsel')" id="btn_Stoffwechsel">Stoffwechsel</button>
-            </div>
+            <script>
+                Draw_BtnOrgan('Atemwege', true);
+                Draw_BtnOrgan('Herz', true);
+                Draw_BtnOrgan('Nervensystem', true);
+                Draw_BtnOrgan('Stoffwechsel', true);
+                Draw_BtnOrgan('Sterblichkeit', true);
+                Draw_BtnOrgan('Notfaelle', true);
+            </script>
 
-            <div class="div_Menu_Noxe" id="mnu_Sterblichkeit">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Sterblichkeit" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Sterblichkeit')" id="btn_Sterblichkeit">Sterblichkeit</button>
-            </div>
-            <div class="div_Menu_Noxe" id="mnu_Notfälle">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Notfälle" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Notfälle')" id="btn_Notfälle">Notfälle</button>
-            </div>
         </div>
     
     </div> <!-- div_Menu -->
-    
-    
-    
-    <!--div class="div_Main"-->
-    
-        <!--span id="div_Mensch" style="display: inline-block; position: relative; margin-top: 80px;">
-            <img src="graph/mensch.png" height="800px" id="img_Mensch">    
-        </span-->
-    
-        <!--div class="div_Menu_Sterblichkeit hidden" id="div_Menu_Sterblichkeit">
-            <div class="div_Menu_Noxe">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Sterblichkeit" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Sterblichkeit')" id="btn_Sterblichkeit">Sterblich<br>keit</button>
-            </div>
-            <div class="div_Menu_Noxe">
-                <img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_Notfälle" title=""> 
-                <button class="btn_round_small bg_Zusatz" onclick="Show_Organ('Notfälle')" id="btn_Notfälle">Notfälle</button>
-            </div>
-        </div-->
-    
-    
-    <!--/div--> <!-- div_Main -->
+
     
     <div class="div_Results">
         
-        <div class="div_Intro margin_bottom" id="div_Intro">
-            <b>Auswirkungen der Luftverschmutzung auf die Gesundheit</b>
-            <br><br>
-            Wir haben für Sie die 
-            gesicherten und wahrscheinlichen Gesundheitsfolgen der wichtigsten Luftschadstoffe in der Aussenluft zusammengetragen 
-            und in einer interaktiven App aufbereitet. 
-            <br><br>
-            Wählen Sie zwischen Schadstoffen, den Auswirkungen kurz- oder langfristiger Belastung oder Wirkungen von Schadstoffen auf bestimmte Organe aus:
-            <ul>
-                <li>Wählen Sie zwischen Kurz- und Langzeit</li>
-                <li>Wählen Sie einen Schadstoff oder betroffenes Organ aus</li>
-            </ul>
-            Am Fussende finden Sie weitere Buttons zur Anzeige weiterführender Hintergrundinformationen.
+        <script>
+            Draw_IntroText();
+        </script>
+
+        <div class="center hidden" id="div_Mensch_mobile">
+            <img src="graph/mensch.png" height="400px" id="img_Mensch_mobile"></img><br>
         </div>
     
         <div class="margin_bottom" id="div_Results_Atemwege">
@@ -351,44 +298,16 @@
     
         <div class="margin_bottom" id="div_Results_Stoffwechsel">
         </div>
-    
-        <div class="margin_bottom" id="div_Results_Feinstaub_K">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Ozon_K">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Stickstoffdioxid_K">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Schwefeldioxid_K">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Kohlenmonoxid_K">
-        </div>
-    
+
         <div class="margin_bottom" id="div_Results_Sterblichkeit">
         </div>
     
-        <div class="margin_bottom" id="div_Results_Notfälle">
+        <div class="margin_bottom" id="div_Results_Notfaelle">
         </div>
     
-        <div class="margin_bottom" id="div_Results_Feinstaub_L">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Ozon_L">
-        </div>
-    
-        <div class="margin_bottom" id="div_Results_Stickstoffdioxid_L">
-        </div>
-    
-        <div class="div_Legend" id="div_Legend">
-            <img src="graph/ic_info.png" class="ic_info" id="i_causality_mobile" title="">&nbsp;Kausalität:<br>
-            <div style="margin-left: 50px">
-                <img src="graph/ic_C.png" width="14px">&nbsp;ursächlich<br>
-                <img src="graph/ic_L.png" width="14px">&nbsp;wahrscheinlich ursächlich
-            </div>
-        </div>
+        <script>
+            Draw_Legende();
+        </script>
     
         <div class="pad_10 margin_bottom" id="div_Results_Zusatzinfo">
         </div>
@@ -397,24 +316,19 @@
     <br><br>
 
     <!-- Untere Buttonleiste -->
-
-    <!--div class="div_Flex_Row">
-        <button class="btn_round" onclick="Show_Popup('Aktuelle Luftbelastung')">Aktuelle Belastung</button>
-        <div id="btn_Zusatz_Grenzwerte"><button class="btn_round" onclick="Show_Zusatzinfo('Grenzwerte')">Grenzwerte</button></div>
-        <div id="btn_Zusatz_Quellen"><button class="btn_round" onclick="Show_Zusatzinfo('Quellen')">Quellen Schadstoffe</button></div>
-        <div id="btn_Zusatz_Hintergrund"><button class="btn_round" onclick="Show_Zusatzinfo('Hintergrund')">Hintergrund</button></div>
-        <button class="btn_round" onclick="Show_Popup('Was ich tun kann')">Was ich tun kann</button>
-        <div id="btn_Zusatz_Referenzen"><button class="btn_round" onclick="Show_Zusatzinfo('Referenzen')">Referenzen</button></div>
-        <div id="btn_Zusatz_Impressum"><button class="btn_round" onclick="Show_Zusatzinfo('Impressum')">Impressum</button></div>
-    </div-->
     <div class="div_Flex_Row">
-        <button class="btn_round" onclick="Show_Popup('Aktuelle Luftbelastung')">Aktuelle Belastung</button>
-        <button class="btn_round" onclick="Show_Popup('Grenzwerte')">Grenzwerte</button>
-        <button class="btn_round" onclick="Show_Popup('Quellen')">Quellen Schadstoffe</button>
-        <button class="btn_round" onclick="Show_Popup('Hintergrund')">Hintergrund</button>
-        <button class="btn_round" onclick="Show_Popup('Was ich tun kann')">Was ich tun kann</button>
-        <button class="btn_round" onclick="Show_Popup('Referenzen')">Referenzen</button>
-        <button class="btn_round" onclick="Show_Popup('Impressum')">Impressum</button>
+        <script>
+            Draw_BtnHintergrundInfo('Luftbelastung', true);
+            Draw_BtnHintergrundInfo('Grenzwerte', true);
+            Draw_BtnHintergrundInfo('Quellen', true);
+            Draw_BtnHintergrundInfo('Hintergrund', true);
+            Draw_BtnHintergrundInfo('Beitrag', true);
+            Draw_BtnHintergrundInfo('Referenzen', true);
+            Draw_BtnHintergrundInfo('Impressum', true);
+        </script>
+
+        <div class="div_HintergrundInfo" id="div_HintergrundInfo">
+        </div>
     </div>
     <br><br>
 

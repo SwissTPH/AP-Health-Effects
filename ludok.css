@@ -1,7 +1,7 @@
 /* 
 	LUDOK Interaktive Grafik
 
-	Version 1.1, 5.9.2020
+	Version 1.5, 21.10.2020
 
 	Dr. Carl GmbH 2020 
 */
@@ -24,16 +24,18 @@ html {
 
 body {
 	background: #f5f5f5;
-	background-color: white;
+	/*background-color: red;*/
 	color: #474747;
 	
 	font-family: metanormal, Arial, sans-serif; 
 	font-size: 16px;
 	
-	height:100%;
+	/*height:100%;*/
 	
 	margin: 0px;
 	padding: 0px;
+
+	/*overflow: hidden;*/
 }
 
 a {
@@ -93,8 +95,8 @@ li {
 	box-shadow: 2px 2px 5px 0px #c3c3c3;
 	color: #474747;
 	font-family: metanormal, Arial, sans-serif; 
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 15px;
+	/*font-weight: bold;*/
 	height: 90px;
 	width: 90px;
 	padding: 0px;
@@ -124,8 +126,8 @@ li {
 	box-shadow: 2px 2px 5px 0px #c3c3c3;
 	color: #474747;
 	font-family: metanormal, Arial, sans-serif; 
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 15px;
+	/*font-weight: bold;*/
 	line-height: 16px;
 	height: 70px;
 	width: 70px;
@@ -133,6 +135,9 @@ li {
 	vertical-align: bottom;
 }
 
+.center {
+	text-align: center;
+}
 
 .cursorHand { 
 	cursor: pointer;
@@ -147,6 +152,15 @@ li {
 	padding-left: 40px;
 	padding-right: 40px;
 }
+
+
+.div_HintergrundInfo {
+	background-color: white;
+	display: none;
+	padding: 10px;
+	text-align: left;
+}
+
 
 .div_i_Container {
 	position: relative; 
@@ -174,7 +188,7 @@ li {
 	margin-top: 30px;
 	text-align: right;
 	width: 100%;
-	height: 1075px;
+	height: 1130px;
 }
 
 
@@ -205,6 +219,7 @@ li {
 	width: 70px;
 	position: relative;
 	vertical-align: top;
+	margin-right: 5px;
 }
 
 .div_Menu_Sterblichkeit{
@@ -229,7 +244,7 @@ li {
 	display: none;
 	padding: 0px;
 	width: 100%;
-	height: 1352px;
+	/*height: 1352px;*/
 	overflow: hidden;
 }
 
@@ -238,7 +253,7 @@ li {
 	left: 57px;
 	top: 150px;
 	width: 660px;
-	max-height: 1015px;
+	max-height: 1070px;
     overflow-y: hidden;
     overflow-x: hidden;
     scrollbar-width: thin;
@@ -288,6 +303,12 @@ li {
 	left: 24px;
 }
 
+.img_LogoTC {
+	width: 130px;
+	position: absolute; 
+	top: 55px; 
+	right: 20px;
+}
 
 .img_Organ {
 	display: none;
@@ -325,7 +346,10 @@ li {
 	padding-left: 100px;
 }
 
-  
+.small {
+	font-size: small;
+}
+
 table {
 	border: 0px;
 	border-collapse: collapse;
@@ -446,17 +470,49 @@ tr:last-of-type {
 
 
 
-/** RESPONSIVE ADAPTATIONS FOR TABLETS & SMARTPHONES (<= 1160 px) **/
+/** RESPONSIVE ADAPTATIONS FOR TABLETS & SMARTPHONES (<= 1160/1024 px) **/
 
-
+/* Tablets */
 @media (max-width: 1159px) {
-/*@media (max-width: 1023px) {
 
-	@viewport{
-		zoom: 1.0;
-		width: device-width;
+
+	.div_PageContent {
+		width: 1024px;
 	}
-*/
+	
+	.div_Intro {
+		max-width: 600px;
+	}
+
+	#div_Mensch {
+		z-index: 1;
+	}
+	
+	.div_Menu_Sterblichkeit {
+		right: 25px;
+	}
+  
+	.img_LogoTC {
+		width: 100px;
+		top: 5px;
+		right: unset;
+		left: 5px;
+	}
+  
+} /* @media (max-width: 1159px) */
+
+
+/* Smartphones */
+@media (max-width: 1023px) {
+
+	/*body {
+		overflow: hidden;
+	}*/
+  
+	.blocker {
+		overflow: hidden;
+	}
+  
 	.div_PageContent {
 		display: none;
 	}
@@ -497,6 +553,7 @@ tr:last-of-type {
 	.div_Intro {
 		padding: 20px;
 		padding-top: 0;
+		max-width: 100%;
 	}
   
 	.div_Legend {
@@ -537,10 +594,10 @@ tr:last-of-type {
 		width: 100%;
 		max-height: none;
 		padding-top: 20px;
-		background-image: url(graph/mensch_bg.png);
+		/*background-image: url(graph/mensch_bg.png);
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position-x: right;
+		background-position-x: right;*/
 	}
 
   
@@ -584,7 +641,7 @@ tr:last-of-type {
 		white-space: nowrap;
 	}
   
-}
+} /* @media (max-width: 1023px) */
 
 
   
