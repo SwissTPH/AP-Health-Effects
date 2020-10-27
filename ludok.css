@@ -1,7 +1,7 @@
 /* 
 	LUDOK Interaktive Grafik
 
-	Version 1.5, 21.10.2020
+	Version 1.6, 27.10.2020
 
 	Dr. Carl GmbH 2020 
 */
@@ -20,10 +20,12 @@
 
 html {
 	height: 100%;
+	/*overflow: hidden;*/
 }
 
 body {
-	background: #f5f5f5;
+	background: white;
+	/*background: #f5f5f5;*/
 	/*background-color: red;*/
 	color: #474747;
 	

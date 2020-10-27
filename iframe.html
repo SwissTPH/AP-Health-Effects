@@ -14,7 +14,7 @@
         function receiveMessage(event) {
         // Höhenanpassung des umgebenden div "div_iFrame" des LUDOK-iFrames
         // (Die ID des iFrames (ifr_LUDOK) wird in jsonData.id übergeben 
-        // und kann zur Identfizierung des Aufrufers genutzt werden)
+        // und kann zur Identifizierung des Aufrufers genutzt werden)
             
             var jsonData = JSON.parse(event.data);
             $('#div_iFrame').height(jsonData.docHeight);

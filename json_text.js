@@ -1,6 +1,6 @@
 // LUDOK UI-Elemente und Info-Texte
 //
-// Version 1.5, 21.10.2020
+// Version 1.6, 27.10.2020
 //
 // Dr. Carl GmbH 2020
 
@@ -350,11 +350,23 @@ arrPopups = [
                 "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
                 "of FOEN, Cercl'Air or the Canton of Berne." +
                 "<br><br>" +
-                "BAFU Broschüre <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
-                "«Luftverschmutzung und Gesundheit»</a> (German)<br>" +
-                "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Fine particulate matter</a> (German)<br>" + 
-                "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozone</a> (German)<br>" +
-                "Canton of Bern: <a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Tips on air pollution control</a> (German)<br>",
+                "BAFU Broschure «Air Pollution and Health» (" + 
+                "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
+                "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">French/</a>" +
+                "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">Italian</a>)<br>" +
+                "Cercl’Air: Fine particulate matter (" + 
+                "<a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">German</a>/" + 
+                "<a href=\"https:/feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" + 
+                "<a href=\"https:/feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" + 
+                "Cercl’Air: Ozone (" + 
+                "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
+                "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
+                "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
+                "Canton of Bern: Tips on air pollution control (" + 
+                "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">German</a>/" +
+                "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">French</a>/" +
+                "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Italian</a>)",
+
     "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
                 "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
                 "<br><br>" +
@@ -755,7 +767,7 @@ arrUI = [
     "bez": "btn_Langzeit",
     "text_de": "Langzeit",
     "text_en": "Long-term",
-    "text_fr": "Long terme",
+    "text_fr": "A long terme",
     "text_it": "A lungo termine",
     }, 				
     
