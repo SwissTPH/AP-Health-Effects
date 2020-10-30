@@ -1,6 +1,6 @@
 // LUDOK UI-Elemente und Info-Texte
 //
-// Version 1.6, 27.10.2020
+// Version 1.7, 29.10.2020
 //
 // Dr. Carl GmbH 2020
 
@@ -17,7 +17,7 @@ arrPopups = [
                "Mengen an ausgestossenen und freigesetzten Luftschadstoffen in der Schweiz und den Nachbarländern." +
                "<br><br>" +
                "Aktuelle Daten zur Luftqualität finden Sie auf der " +
-               "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">AirCHeck App</a>" +
+               "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
                ", in der MeteoSwiss App oder beim Bundesamt für Umwelt (BAFU) unter " +
                "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/zustand/daten/luftbelastung--aktuelle-daten.html\" target=\"_blank\">Luftbelastung: aktuelle Daten.</a>",
     "text_en": "<div class=\"i_header\">Current pollution</div>" +
@@ -30,7 +30,7 @@ arrPopups = [
                 "emitted and released in Switzerland and in neighboring countries." +
                 "<br><br>" +
                 "Current data on air quality can be found " +
-                "on the <a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">AirCHeck App</a>" +
+                "on the <a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
                 ", in the MeteoSwiss app (see App stores on your mobile devices) or at the Federal Office for the Environment (FOEN) at air pollution " +
                 "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>",
     "text_fr": "<div class=\"i_header\">Pollution actuel</div>" +
@@ -43,7 +43,7 @@ arrPopups = [
                 "Cela s'explique par les quantités encore excessives de polluants atmosphériques émis et rejetés en Suisse et dans les pays voisins. " +
                 "<br><br>" +
                 "Les données actuelles sur la qualité de l'air peuvent être consultées sur l'application " +
-                "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">AirCHeck App</a>" +
+                "<a href=\"https://cerclair.ch/fr/aircheck\" target=\"_blank\">airCHeck App</a>" +
                 ", sur l'application MeteoSwiss ou auprès de l'Office fédéral de l'environnement (OFEV) " +
                 "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/etat/donnees/pollution-atmospherique--donnees-actuelles.html\" target=\"_blank\">Pollution atmosphérique: données actuelles.</a>",
     "text_it": "<div class=\"i_header\">Esposizione attuale</div>" +
@@ -55,7 +55,7 @@ arrPopups = [
                 "Nonostante i miglioramenti degli ultimi anni, i valori limite d’immissione per il diossido di azoto (NO<sub>2</sub>) e le polveri sottili (PM10/PM2.5) sono ancora in parte superati. La ragione è da ricercarsi nei livelli ancora troppo elevati di inquinanti atmosferici emessi e rilasciati in Svizzera e nei paesi limitrofi. " +
                 "<br><br>" +
                 "I dati attuali sulla qualità dell'aria si trovano nell'app " +
-                "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">AirCHeck</a>" +
+                "<a href=\"https://cerclair.ch/it/aircheck\" target=\"_blank\">airCHeck</a>" +
                 ", nell'app MeteoSwiss o presso l'Ufficio federale dell'ambiente (UFAM) al link " +
                 "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/stato/dati/inquinamento-atmosferico--dati-attuali.html\" target=\"_blank\">Inquinamento dell'aria: dati attuali.</a>",
     },
@@ -111,7 +111,7 @@ arrPopups = [
                "DE</a> or  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
                "FR</a> download, 0.6 MB) of the Federal Office for the Environment.",
     "text_fr": "<div class=\"i_header\">Valeur limite</div>" +
-                "<b>Quelles sont les bases juridiques, autrement dit qui définit les lignes directrices?</b>" +
+                "<b>Quelles sont les bases juridiques, autrement dit et qui définit les lignes directrices?</b>" +
                 "<br><br>" +
                 "L'Organisation mondiale de la santé (OMS) définit dans ses " +
                 "<a href=\"https://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/fr/\" target=\"_blank\">lignes directrices sur la qualité de l’air</a>, " +
@@ -131,7 +131,7 @@ arrPopups = [
                 "mesurés en Suisse, combinés aux faibles risques, signifient un risque faible pour un individu par rapport aux facteurs liés au mode de vie tels que le tabagisme, l'alimentation ou le manque d'exercice." +
                 "<br><br>" +
                 "Vous trouverez de plus amples informations sur la signification des valeurs limites en vigueur en Suisse dans la fiche d'information " +
-                "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
+                "<a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf \" target=\"_blank\">" +
                 "«Les valeurs limites d'immission de l'ordonnance sur la protection de l'air (OPair)» </a> (téléchargement 0.6 MB) de l'Office fédéral de l'environnement.",
     "text_it": "<div class=\"i_header\">Valori limite</div>" +
                 "<b>Qual è la base giuridica o chi determina le linee guida?</b>" +
@@ -339,7 +339,7 @@ arrPopups = [
                "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
                "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder beim Kanton Bern:" +
                "<br><br>" +
-               "BAFU Broschüre <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
+               "BAFU Broschüre (S. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
                "«Luftverschmutzung und Gesundheit»</a><br>" +
                "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" + 
                "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
@@ -350,7 +350,7 @@ arrPopups = [
                 "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
                 "of FOEN, Cercl'Air or the Canton of Berne." +
                 "<br><br>" +
-                "BAFU Broschure «Air Pollution and Health» (" + 
+                "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" + 
                 "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
                 "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">French/</a>" +
                 "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">Italian</a>)<br>" +
@@ -373,7 +373,7 @@ arrPopups = [
                 "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
                 "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou du canton de Berne." +
                 "<br><br>" +
-                "Brochure de l'OFEV <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
+                "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
                 "«Pollution de l'air et santé»</a><br>" +
                 "Cercl’Air: <a href=\"https:/feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" + 
                 "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
@@ -384,7 +384,7 @@ arrPopups = [
                 "La qualità dell'aria fa parte dell'ambiente. Chi desidera fare qualcosa per proteggere la salute e l'ambiente, può trovare suggerimenti sui siti web dell'Ufficio federale dell'ambiente " +
                 "(UFAM), di Cercl'Air o del Cantone di Ticino." +
                 "<br><br>" +
-                "Opuscolo UFAM " +
+                "Opuscolo UFAM (p. 12-15) " +
                 "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">" +
                 "«Inquinamento atmosferico e salute»</a><br>" +
                 "Cercl’Air: <a href=\"https:/feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" + 
