@@ -356,8 +356,8 @@ arrPopups = [
                 "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">Italian</a>)<br>" +
                 "Cercl’Air: Fine particulate matter (" + 
                 "<a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">German</a>/" + 
-                "<a href=\"https:/feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" + 
-                "<a href=\"https:/feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" + 
+                "<a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" + 
+                "<a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" + 
                 "Cercl’Air: Ozone (" + 
                 "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
                 "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
@@ -375,7 +375,7 @@ arrPopups = [
                 "<br><br>" +
                 "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
                 "«Pollution de l'air et santé»</a><br>" +
-                "Cercl’Air: <a href=\"https:/feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" + 
+                "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" + 
                 "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
                 "Canton de Berne: <a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Astuces pour améliorer la qualité de l’air</a><br>",
     "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
@@ -387,7 +387,7 @@ arrPopups = [
                 "Opuscolo UFAM (p. 12-15) " +
                 "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">" +
                 "«Inquinamento atmosferico e salute»</a><br>" +
-                "Cercl’Air: <a href=\"https:/feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" + 
+                "Cercl’Air: <a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" + 
                 "Cercl’Air: <a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Ozono</a><br>" +
                 "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>"
     } ,
