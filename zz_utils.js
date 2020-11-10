@@ -1,6 +1,6 @@
 // LUDOK Interaktive Grafik
 //
-// Version 1.7, 29.10.2020
+// Version 1.8, 10.11.2020
 //
 // Dr. Carl GmbH 2020
 
