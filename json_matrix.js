@@ -486,6 +486,7 @@ arrMatrix = [
   "effekt": "Mehr Symptome bei Allergikern",
   "effekt_typ": "L"
   },
+  /*
   {"id": 2041,
   "noxe": "Ozon",
   "noxe_zeit": "L",
@@ -493,6 +494,7 @@ arrMatrix = [
   "effekt": "Zucker- und Fettstoffwechsel&shy;störungen/-erkrankungen (z.B. Diabetes)",
   "effekt_typ": "L"
   },
+   */
   {"id": 2051,
   "noxe": "Ozon",
   "noxe_zeit": "L",
