@@ -486,6 +486,7 @@ arrMatrix = [
   "effekt": "Mehr Symptome bei Allergikern",
   "effekt_typ": "L"
   },
+  /*
   {"id": 2041,
   "noxe": "Ozon",
   "noxe_zeit": "L",
@@ -500,7 +501,6 @@ arrMatrix = [
   "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
   "effekt_typ": "L"
   },
-  /*
   {"id": 2061,
   "noxe": "Ozon",
   "noxe_zeit": "L",
