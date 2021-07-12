@@ -494,7 +494,6 @@ arrMatrix = [
   "effekt": "Zucker- und Fettstoffwechsel&shy;störungen/-erkrankungen (z.B. Diabetes)",
   "effekt_typ": "L"
   },
-   */
   {"id": 2051,
   "noxe": "Ozon",
   "noxe_zeit": "L",
@@ -502,7 +501,6 @@ arrMatrix = [
   "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
   "effekt_typ": "L"
   },
-  /*
   {"id": 2061,
   "noxe": "Ozon",
   "noxe_zeit": "L",
