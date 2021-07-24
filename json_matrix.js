@@ -1,6 +1,6 @@
 // LUDOK Data
 //
-// Version 1.9, 12.07.2021
+// Version 1.10, 24.07.2021
 //
 // Dr. Carl GmbH 2020
 
@@ -153,6 +153,13 @@ arrEffekte = [
   "effekt_en": "Accelerated decline in lung function",
   "effekt_fr": "Accélération de la diminution de la fonction pulmonaire",
   "effekt_it": "Riduzione accelerata della funzione polmonare",
+  "organ": "Atemwege"  
+},
+{"id": 33,
+  "effekt_de": "Bronchitis",
+  "effekt_en": "bronchitis",
+  "effekt_fr": "Bronchite",
+  "effekt_it": "Bronchite",
   "organ": "Atemwege"  
 },
 {"id": 11,
@@ -339,6 +346,13 @@ arrMatrix = [
   "noxe_zeit": "L",
   "organ": "Atemwege",
   "effekt": "Beschleunigte Abnahme der Lungenfunktion",
+  "effekt_typ": "L"
+  },
+  {"id": 1019,
+  "noxe": "Feinstaub",
+  "noxe_zeit": "L",
+  "organ": "Atemwege",
+  "effekt": "Bronchitis",
   "effekt_typ": "L"
   },
   {"id": 1016,
