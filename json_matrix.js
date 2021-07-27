@@ -157,7 +157,7 @@ arrEffekte = [
 },
 {"id": 33,
   "effekt_de": "Bronchitis",
-  "effekt_en": "bronchitis",
+  "effekt_en": "Bronchitis",
   "effekt_fr": "Bronchite",
   "effekt_it": "Bronchite",
   "organ": "Atemwege"  
