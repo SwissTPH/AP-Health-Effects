@@ -33,4 +33,3 @@ The levels "causal" and "likely to be causal" are the two highest levels on this
 
 Further information on the causality assessment of the Integrated Science Assessments:
 Preamble to the https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244[Integrated Science Assessments (ISA)].
-
