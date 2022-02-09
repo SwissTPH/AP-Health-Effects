@@ -1,6 +1,6 @@
 // LUDOK UI-Elemente und Info-Texte
 //
-// Version 1.8, 10.11.2020
+// Version 1.8.1, 9.2.2022
 //
 // Dr. Carl GmbH 2020
 
@@ -66,12 +66,11 @@ arrPopups = [
                "<b>Welche gesetzlichen Grundlagen gibt es, bzw. wer bestimmt die Richtlinien?</b>" +
                "<br><br>" +
                "Die Weltgesundheitsorganisation (World Health Organisation, WHO) definiert in ihren " +
-               "<a href=\"https://www.who.int/airpollution/publications/aqg2005/en\" target=\"_blank\">Luftqualitätsrichtlinien</a> " +
+               "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/346506/9789289056069-ger.pdf?sequence=1&isAllowed=y\" target=\"_blank\">Luftqualitätsrichtlinien</a> " +
                "Werte, unterhalb welcher keine oder nur geringe Auswirkungen " +
                "auf die Gesundheit erwartet werden. Diese Werte werden auf Basis der vorhandenen wissenschaftlichen Studien definiert und sollen den nationalen Behörden als Richtlinie " +
                "für die Festlegung von Grenzwerten dienen. Für die Auswirkungen der langfristigen Luftbelastung geht die Wissenschaft heute davon aus, dass keine Wirkschwellen bestehen. " +
-               "Als «Wirkschwelle» bezeichnet man diejenige Konzentration eines Schadstoffes, ab der eine gesundheitsschädigende Auswirkung zu erwarten ist. Demzufolge überarbeitet die " +
-               "WHO derzeit ihre Richtlinien für die Luftqualität." +
+               "Als «Wirkschwelle» bezeichnet man diejenige Konzentration eines Schadstoffes, ab der eine gesundheitsschädigende Auswirkung zu erwarten ist." +
                "<br><br>" +
                "In der Schweiz hat der Bundesrat in der " +
                "<a href=\"https://www.admin.ch/opc/de/classified-compilation/19850321/index.html\" target=\"_blank\">Luftreinhalte-Verordnung (LRV)</a> " +
@@ -91,11 +90,10 @@ arrPopups = [
                "<b>What is the legal basis, or who determines the guidelines?</b>" +
                "<br><br>" +
                "In the " +
-               "<a href=\"https://www.who.int/airpollution/publications/aqg2005/en\" target=\"_blank\">air quality guidelines</a>, " +
+               "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">air quality guidelines</a>, " +
                "the World Health Organization (WHO) defines values below which no or only minor effects on health are expected. These values are defined based on existing scientific evidence, " +
                "and are intended to serve as a guideline for the national authorities when setting air quality standards. For the effects of long-term air pollution, the current scientific evidence " +
                "assumes that effect thresholds do not exist for most pollutants. An \"effect threshold\" is defined as the concentration of a pollutant below which a harmful effect on health is not expected. " +
-               "The WHO is currently revising its air quality guidelines." +
                "<br><br>" +
                "In Switzerland, the Federal Council has defined air quality standards (immission limit values) for various substances that are harmful to health in the " +
                "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinance on Air Pollution Control (OAPC)</a>. " +
@@ -114,17 +112,16 @@ arrPopups = [
                 "<b>Quelles sont les bases juridiques, autrement dit et qui définit les lignes directrices?</b>" +
                 "<br><br>" +
                 "L'Organisation mondiale de la santé (OMS) définit dans ses " +
-                "<a href=\"https://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/fr/\" target=\"_blank\">lignes directrices sur la qualité de l’air</a>, " +
+                "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/346555/9789240035423-fre.pdf?sequence=1&isAllowed=y\" target=\"_blank\">lignes directrices sur la qualité de l’air</a>, " +
                 "des valeurs en dessous desquelles les effets sur la santé sont nuls ou mineurs. Ces valeurs sont définies sur la base d'études scientifiques existantes et sont destinées à servir " +
                 "de ligne directrice aux autorités nationales pour la fixation de valeurs limites. En ce qui concerne les effets de la pollution atmosphérique à long terme, les scientifiques " +
                 "pensent aujourd'hui qu'il n'existe pas de seuils d'effet. Il faut entendre par «seuil d'effet» la concentration d'un polluant au-dessus de laquelle on peut s'attendre à un effet " +
-                "nocif sur la santé. En conséquence, l'OMS révise actuellement ses lignes directrices sur la qualité de l'air." +
+                "nocif sur la santé." +
                 "<br><br>" +
                 "En Suisse, le Conseil fédéral a défini dans  " +
                 "<a href=\"https://www.admin.ch/opc/fr/classified-compilation/19850321/index.html\" target=\"_blank\">l'ordonnance sur la protection de l'air (OPair)</a> " +
                 "des valeurs limites d'immission (VLI) pour différentes substances nocives pour la santé. Les VLI ont été définies selon les critères de la loi sur la protection de l'environnement " +
                 "de telle sorte que, si elles sont respectées, les humains, les animaux, les plantes, le sol, etc. sont en général protégés contre les pollutions atmosphériques nuisibles ou incommodantes. " +
-                "Les valeurs limites suisses sont conformes aux valeurs recommandées par l'OMS." +
                 "<br><br>" +
                 "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, si bien qu'aucun effet nocif ne devrait " +
                 "en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
@@ -137,11 +134,10 @@ arrPopups = [
                 "<b>Qual è la base giuridica o chi determina le linee guida?</b>" +
                 "<br><br>" +
                 "L'Organizzazione Mondiale della Sanità (OMS) definisce nelle sue " +
-                "<a href=\"https://www.who.int/airpollution/publications/aqg2005/en/\" target=\"_blank\">Linee guida sulla qualità dell'aria</a>, " +
+                "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">Linee guida sulla qualità dell'aria</a>, " +
                 "dei valori al di sotto dei quali non si prevedono effetti sulla salute o si prevedono solo effetti minori. Questi valori sono definiti sulla base di studi scientifici esistenti e fungono " +
                 "da linea guida per le autorità nazionali nella fissazione dei valori limite. Per gli effetti dell'inquinamento atmosferico a lungo termine, la scienza oggi presuppone che non ci siano soglie " +
-                "d’effetto. La \"soglia d’effetto\" è la concentrazione di un inquinante al di sopra della quale ci si aspetta un effetto nocivo sulla salute. Di conseguenza, l'OMS sta attualmente rivedendo " +
-                "le sue linee guida sulla qualità dell'aria." +
+                "d’effetto. La \"soglia d’effetto\" è la concentrazione di un inquinante al di sopra della quale ci si aspetta un effetto nocivo sulla salute." +
                 "<br><br>" +
                 "In Svizzera, il Consiglio federale ha stabilito dei valori limite (Valori limite d'immissione, VLI) per diverse sostanze nocive per la salute nell’" +
                 "<a href=\"https://www.admin.ch/opc/it/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinanza contro l’inquinamento atmosferico (OIAt)</a> " +
@@ -459,7 +455,7 @@ arrPopups = [
                "<li>LerNetz</li>" +
                "</ul>" +
                "Konzept und Umsetzung: LUDOK<br>" +
-               "Fachautoren: Meltem Kutlar Joss, Lara Stucki und Zoe Roth<br>" +
+               "Fachautoren: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                "Grafiker und Softwareentwickler: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                "<br><br>" +
                "Der Inhalt entspricht dem Wissensstand von 2020." +
@@ -484,7 +480,7 @@ arrPopups = [
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concept and implementation: LUDOK<br>" +
-                "Authors: Meltem Kutlar Joss, Lara Stucki und Zoe Roth<br>" +
+                "Authors: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Visual design and programming: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
                 "The content corresponds to the state of knowledge of 2020." +
@@ -507,7 +503,7 @@ arrPopups = [
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concept et réalisation: LUDOK<br>" +
-                "Rédacteurs: Meltem Kutlar Joss, Lara Stucki und Zoe Roth<br>" +
+                "Rédacteurs: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Graphiste et développeur du logiciel: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
                 "Le contenu correspond à l'état des connaissances en 2020." +
@@ -532,7 +528,7 @@ arrPopups = [
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concetto e realizzazione: LUDOK<br>" +
-                "Autori specialisti: Meltem Kutlar Joss, Lara Stucki und Zoe Roth<br>" +
+                "Autori specialisti: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Grafico e sviluppatore di software: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
                 "Il contenuto corrisponde allo stato delle conoscenze nel 2020." +
@@ -932,6 +928,17 @@ arrUI = [
                     "<li>Wählen Sie zwischen Kurzzeit- oder Langzeitbelastung aus</li>" +
                     "<li>Wählen Sie einen Schadstoff oder betroffenes Organ aus</li>" +
                 "</ul>" +
+		"<br><br>" +
+		"Die Grafik ist in verschiedenen Sprachen verfügbar:" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		" und" +		
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"." +
+		"<br><br>" +
                 "Am Fussende der Grafik finden Sie weitere Informationen.",
     "text_en": "<b>How do you use this interactive figure?</b>" +
                 "<br><br>" +
@@ -940,6 +947,17 @@ arrUI = [
                     "<li>Choose between short-term or long-term exposure</li>" +
                     "<li>Next, choose an air pollutant or an affected organ system</li>" +
                 "</ul>" +
+		"<br><br>" +
+		"The figureis available in different languages:" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		" and" +		
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"." +
+		"<br><br>" +
                 "Find further information at the bottom of the figure.",
     "text_fr": "<b>Comment utiliser cette infographie?</b>" +
                 "<br><br>" +
@@ -949,6 +967,17 @@ arrUI = [
                     "<li>Choisissez si vous voulez observer les effets à court ou à long terme</li>" +
                     "<li>Choisissez un polluant ou un organe cible</li>" +
                 "</ul>" +
+		"<br><br>" +
+		"Le graphique est disponible en plusieurs langues:" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		" et" +		
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"." +
+		"<br><br>" +
                 "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
     "text_it": "<b>Infografica interattiva sugli effetti dell’inquinamento dell’aria sulla salute</b>" +
                 "<br><br>" +
@@ -957,6 +986,17 @@ arrUI = [
                     "<li>Scegliete tra esposizione a breve o a lungo termine</li>" +
                     "<li>Scegliete l’inquinante o l’organo interessato</li>" +
                 "</ul>" +
+		"<br><br>" +
+		"La grafica è disponibile in diverse lingue:" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"," +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		" e" +		
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"." +
+		"<br><br>" +
                 "Ai piedi dell’immagine trovate troverete maggiori informazioni."
     }, 
 
