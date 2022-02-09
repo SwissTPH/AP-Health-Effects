@@ -948,7 +948,8 @@ arrUI = [
                     "<li>Next, choose an air pollutant or an affected organ system</li>" +
                 "</ul>" +
 		"<br><br>" +
-		"The figureis available in different languages:" +
+		"The figure is available in different languages:" +
+
 		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
 		"," +
 		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
