@@ -458,7 +458,7 @@ arrPopups = [
                "Fachautoren: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                "Grafiker und Softwareentwickler: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                "<br><br>" +
-               "Der Inhalt entspricht dem Wissensstand von 2020." +
+               "Der Inhalt entspricht dem Wissensstand von 2022." +
                "<br><br>" +
                "Der Quellcode für die interaktive Grafik ist unter " +
                "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a> " +
@@ -483,7 +483,7 @@ arrPopups = [
                 "Authors: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Visual design and programming: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
-                "The content corresponds to the state of knowledge of 2020." +
+                "The content corresponds to the state of knowledge of 2022." +
                 "<br><br>" +
                 "The source code for the interactive figure is available at " +
                 "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
@@ -506,7 +506,7 @@ arrPopups = [
                 "Rédacteurs: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Graphiste et développeur du logiciel: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
-                "Le contenu correspond à l'état des connaissances en 2020." +
+                "Le contenu correspond à l'état des connaissances en 2022." +
                 "<br><br>" +
                 "Le code source du graphique interactif est disponible à l'adresse suivante: " +
                 "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
@@ -531,7 +531,7 @@ arrPopups = [
                 "Autori specialisti: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
                 "Grafico e sviluppatore di software: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
                 "<br><br>" +
-                "Il contenuto corrisponde allo stato delle conoscenze nel 2020." +
+                "Il contenuto corrisponde allo stato delle conoscenze nel 2022." +
                 "<br><br>" +
                 "Il codice sorgente per la grafica interattiva è disponibile all'indirizzo " +
                 "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
