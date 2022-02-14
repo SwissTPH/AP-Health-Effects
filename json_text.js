@@ -1,6 +1,6 @@
 // LUDOK UI-Elemente und Info-Texte
 //
-// Version 1.8.1, 9.2.2022
+// Version 1.8.2, 14.02.2022
 //
 // Dr. Carl GmbH 2020
 
@@ -930,13 +930,13 @@ arrUI = [
                 "</ul>" +
 		"<br><br>" +
 		"Die Grafik ist in verschiedenen Sprachen verfügbar:" +
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
 		" und" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
 		"." +
 		"<br><br>" +
                 "Am Fussende der Grafik finden Sie weitere Informationen.",
@@ -948,15 +948,14 @@ arrUI = [
                     "<li>Next, choose an air pollutant or an affected organ system</li>" +
                 "</ul>" +
 		"<br><br>" +
-		"The figure is available in different languages:" +
-
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"The figureis available in different languages:" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
 		" and" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
 		"." +
 		"<br><br>" +
                 "Find further information at the bottom of the figure.",
@@ -970,13 +969,13 @@ arrUI = [
                 "</ul>" +
 		"<br><br>" +
 		"Le graphique est disponible en plusieurs langues:" +
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
 		" et" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
 		"." +
 		"<br><br>" +
                 "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -989,13 +988,13 @@ arrUI = [
                 "</ul>" +
 		"<br><br>" +
 		"La grafica è disponibile in diverse lingue:" +
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\"> DE</a>" +
+		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\"> FR</a>" +
+		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
 		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\"> IT</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
 		" e" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\"> EN</a>" +
+		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
 		"." +
 		"<br><br>" +
                 "Ai piedi dell’immagine trovate troverete maggiori informazioni."
