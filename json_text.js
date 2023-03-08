@@ -470,7 +470,7 @@ arrPopups = [
                "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> " +
                "gerne entgegen.",
     "text_en": "<div class=\"i_header\">Imprint</div>" +
-                "This interactive figure on health effects of ambient air pollution. It is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
+                "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
                 "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
                 "<ul>" + 
                 "<li>Bundesamt für Umwelt (Trägerorganisation)</li>" +
