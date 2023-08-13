@@ -1139,17 +1139,19 @@ arrUI = [
                     "<li>Choose between short-term or long-term exposure</li>" +
                     "<li>Next, choose an air pollutant or an affected organ system</li>" +
                 "</ul>" +
-		"<br><br>" +
-		"The figure is available in different languages:" +
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
-		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
-		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
-		" and" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-		"." +
-		"<br><br>" +
+                "<br><br>" +
+                "The figure is available in different languages:" +
+                "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
+                " and" +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                "." +
+                "<br><br>" +
                 "Find further information at the bottom of the figure.",
     "text_fr": "<b>Comment utiliser cette infographie?</b>" +
                 "<br><br>" +
@@ -1159,17 +1161,19 @@ arrUI = [
                     "<li>Choisissez si vous voulez observer les effets à court ou à long terme</li>" +
                     "<li>Choisissez un polluant ou un organe cible</li>" +
                 "</ul>" +
-		"<br><br>" +
-		"Le graphique est disponible en plusieurs langues:" +
-		"<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
-		"," +
-		"<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
-		"," +
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
-		" et" +		
-		"<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-		"." +
-		"<br><br>" +
+                "<br><br>" +
+                "Le graphique est disponible en plusieurs langues:" +
+                "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+	        "," +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
+                " et" +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                "." +
+                "<br><br>" +
                 "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
     "text_it": "<b>Infografica interattiva sugli effetti dell’inquinamento dell’aria sulla salute</b>" +
                 "<br><br>" +
@@ -1185,6 +1189,8 @@ arrUI = [
                 "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 " e" +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
                 "." +
@@ -1197,6 +1203,19 @@ arrUI = [
                     "<li>Choose between short-term or long-term exposure</li>" +
                     "<li>Next, choose an air pollutant or an affected organ system</li>" +
                 "</ul>" +
+                "<br><br>" +
+                "The figure is available in different languages:" +
+                "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+                "," +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+                 "," +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
+                " and" +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                "." +
+                "<br><br>" +
                 "Find further information at the bottom of the figure.",
     }, 
 
