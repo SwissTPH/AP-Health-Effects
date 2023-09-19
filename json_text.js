@@ -76,7 +76,8 @@ arrPopups = [
                "<a href=\"https://www.admin.ch/opc/de/classified-compilation/19850321/index.html\" target=\"_blank\">Luftreinhalte-Verordnung (LRV)</a> " +
                "für verschiedene gesundheitsschädigende Substanzen Grenzwerte (Immissionsgrenzwerte, IGW) definiert. " +
                "Die IGW wurden nach den Kriterien des Umweltschutzgesetzes so festgelegt, dass bei ihrer Einhaltung Menschen, Tiere, Pflanzen, Böden usw. im Allgemeinen vor schädlichen " +
-               "und lästigen Auswirkungen der Luftschadstoffe geschützt sind. Die schweizerischen Grenzwerte stehen im Einklang mit den Werten, die von der WHO empfohlen werden." +
+               "und lästigen Auswirkungen der Luftschadstoffe geschützt sind. Die schweizerischen Grenzwerte stehen im Einklang mit den Werten, die 2005 von der WHO empfohlen wurden. Die eidgenössische " +
+	    	"Kommission für Lufthygiene (EKL) berät derzeit über eine Empfehlung zur Anpassung der aktuellen WHO-Werte von 2021." +
                "<br><br>" +
                "Die Belastungswerte von Schwefeldioxid (SO<sub>2</sub>) und Kohlenmonoxid (CO) liegen in der Schweiz deutlich unter den Immissions&shy;grenzwerten, sodass bei diesen Belastungen " +
                "keine schädlichen Wirkungen erwartet werden. Dagegen werden beim Stickstoffdioxid (NO<sub>2</sub>), beim bodennahen Ozon (O<sub>3</sub>) und beim Feinstaub die festgelegten " +
@@ -98,7 +99,8 @@ arrPopups = [
                "In Switzerland, the Federal Council has defined air quality standards (immission limit values) for various substances that are harmful to health in the " +
                "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinance on Air Pollution Control (OAPC)</a>. " +
                "These standards have been defined according to the criteria of the Environmental Protection Act, in general offering protection from the harmful and annoying effects of air pollutants " +
-               "to humans, animals, plants, soil, etc. The Swiss limit values are in line with the values recommended by the WHO." +
+               "to humans, animals, plants, soil, etc. The Swiss limit values are in line with the values recommended by the WHO in 2005. The Federal Commission for Air Hygiene (FCAH) is currently discussing " +
+	    	"a recommendation to adjust the current WHO values of 2021." +
                "<br><br>" +
                "Today, the levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland are so low that harmful health effects are not expected from these pollutants. " +
                "The exposures measured in Switzerland combined with the associated small risks, translate into a low risk for an individual compared to harmful lifestyle factors such as smoking, " +
@@ -121,7 +123,8 @@ arrPopups = [
                 "En Suisse, le Conseil fédéral a défini dans  " +
                 "<a href=\"https://www.admin.ch/opc/fr/classified-compilation/19850321/index.html\" target=\"_blank\">l'ordonnance sur la protection de l'air (OPair)</a> " +
                 "des valeurs limites d'immission (VLI) pour différentes substances nocives pour la santé. Les VLI ont été définies selon les critères de la loi sur la protection de l'environnement " +
-                "de telle sorte que, si elles sont respectées, les humains, les animaux, les plantes, le sol, etc. sont en général protégés contre les pollutions atmosphériques nuisibles ou incommodantes. " +
+                "de telle sorte que, si elles sont respectées, les humains, les animaux, les plantes, le sol, etc. sont en général protégés contre les pollutions atmosphériques nuisibles ou incommodantes. Les valeurs " +
+	    	"limites suisses sont en accord avec les valeurs recommandées par l'OMS en 2005. La Commission fédérale de l'hygiène de l'air (CFHA) discute actuellement d'une recommandation visant à adapter les valeurs actuelles de l'OMS de 2021." +
                 "<br><br>" +
                 "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, si bien qu'aucun effet nocif ne devrait " +
                 "en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
@@ -142,7 +145,8 @@ arrPopups = [
                 "In Svizzera, il Consiglio federale ha stabilito dei valori limite (Valori limite d'immissione, VLI) per diverse sostanze nocive per la salute nell’" +
                 "<a href=\"https://www.admin.ch/opc/it/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinanza contro l’inquinamento atmosferico (OIAt)</a> " +
                 "I VLI sono stati stabiliti secondo i criteri della Legge sulla protezione dell'ambiente in modo tale che, se rispettati, le persone, gli animali, le piante, il suolo, ecc. sono generalmente " +
-                "protetti dagli effetti nocivi e fastidiosi degli inquinanti atmosferici. I valori limite svizzeri sono in linea con i valori raccomandati dall'OMS." +
+                "protetti dagli effetti nocivi e fastidiosi degli inquinanti atmosferici. I valori limite svizzeri sono in linea con quelli raccomandati dall'OMS nel 2005. La Commissione federale per l'igiene dell'aria "  +
+		"(FCAH) sta attualmente discutendo una raccomandazione per adeguare gli attuali valori dell'OMS al 2021." +
                 "<br><br>" +
                 "I livelli di diossido di zolfo (SO<sub>2</sub>) e di monossido di carbonio (CO) in Svizzera sono ben al di sotto dei valori limite d’immissione, per cui non si prevedono effetti nocivi derivanti " +
                 "da questi inquinanti. Al contrario, i limiti fissati per il diossido di azoto (NO<sub>2</sub>), l'ozono a livello del suolo (O<sub>3</sub>) e le polveri sottili vengono talvolta superati. " +
