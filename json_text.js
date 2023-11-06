@@ -659,15 +659,16 @@ arrPopups = [
                 "Ortam havası kirliliğinin sağlık üzerindeki etkilerine ilişkin olan bu interaktif figür, İsviçre Tropikal ve Halk Sağlığı Enstitüsü'ndeki (Swiss TPH) " +
                 "İsviçre Hava Kirliligi ve Sağlık Literatür Veritabanı ve Hizmetleri (LUDOK)'ne ait bir projedir. Aşağıdaki kuruluşlarla ortaklaşa geliştirilmiştir: " +
                 "<ul>" + 
-                "<li>Bundesamt für Umwelt (Trägerorganisation)</li>" +
-                "<li>Kantonale Behörden für Luftreinhaltung (Trägerorganisation)</li>" +
-                "<li>Krebsliga Schweiz (Trägerorganisation)</li>" +
-                "<li>LUNGE ZÜRICH (Trägerorganisation)</li>" +
+                "<li>Bundesamt für Umwelt</li>" +
+                "<li>Kantonale Behörden für Luftreinhaltung</li>" +
+                "<li>Krebsliga Schweiz</li>" +
+                "<li>LUNGE ZÜRICH</li>" +
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Konsept ve uygulama: LUDOK<br>" +
                 "Yazar: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler ve Zoe Roth<br>" +
                 "Görsel tasarım ve programlama: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
+                "Tercüme: Elif Tosun, Simge Duman<br>" +
                 "<br><br>" +
                 "İçerik 2020 bilgi durumuna uygundur. " +
                 "<br><br>" +
