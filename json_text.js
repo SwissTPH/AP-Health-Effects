@@ -477,10 +477,10 @@ arrPopups = [
                 "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
                 "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
                 "<ul>" + 
-                "<li>Bundesamt für Umwelt (Trägerorganisation)</li>" +
-                "<li>Kantonale Behörden für Luftreinhaltung (Trägerorganisation)</li>" +
-                "<li>Krebsliga Schweiz (Trägerorganisation)</li>" +
-                "<li>LUNGE ZÜRICH (Trägerorganisation)</li>" +
+                "<li>Bundesamt für Umwelt</li>" +
+                "<li>Kantonale Behörden für Luftreinhaltung</li>" +
+                "<li>Krebsliga Schweiz</li>" +
+                "<li>LUNGE ZÜRICH</li>" +
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concept and implementation: LUDOK<br>" +
@@ -500,10 +500,10 @@ arrPopups = [
                 "Ce graphique interactif est une plateforme d'information sur les effets de la pollution atmosphérique sur la santé. Il s'agit d'un projet du Centre de documentation sur l’air et la santé (LUDOK) " +
                 "de l'Institut Tropical et de Santé Publique Suisse (Swiss TPH), financé par l'Office fédéral de l'environnement (OFEV), qui a été développé en collaboration avec des organisations, à savoir:" +
                 "<ul>" + 
-                "<li>Office fédéral de l'environnement (organisation responsable)</li>" +
-                "<li>Autorités cantonales chargées de la lutte contre la pollution atmosphérique (organisation responsable)</li>" +
-                "<li>Ligue suisse contre le cancer (organisation responsable)</li>" +
-                "<li>LUNGE ZÜRICH (organisation responsable)</li>" +
+                "<li>Office fédéral de l'environnement</li>" +
+                "<li>Autorités cantonales chargées de la lutte contre la pollution atmosphérique</li>" +
+                "<li>Ligue suisse contre le cancer</li>" +
+                "<li>LUNGE ZÜRICH</li>" +
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concept et réalisation: LUDOK<br>" +
@@ -525,10 +525,10 @@ arrPopups = [
                 "dell'ambiente (BAFU) del Centro di documentazione e informazione (LUDOK) presso lo Swiss Tropical and Public Health Institute (Swiss TPH), che è stato sviluppato insieme alle " +
                 "organizzazioni, ovvero:" +
                 "<ul>" + 
-                "<li>Ufficio federale dell'ambiente (organizzazione promotrice)</li>" +
-                "<li>Autorità cantonali per la lotta contro l'inquinamento atmosferico (organizzazione promotrice)</li>" +
-                "<li>Lega svizzera contro il cancro (organizzazione promotrice)</li>" +
-                "<li>LUNGE ZÜRICH (organizzazione promotrice)</li>" +
+                "<li>Ufficio federale dell'ambiente</li>" +
+                "<li>Autorità cantonali per la lotta contro l'inquinamento atmosferico</li>" +
+                "<li>Lega svizzera contro il cancro</li>" +
+                "<li>LUNGE ZÜRICH</li>" +
                 "<li>LerNetz</li>" +
                 "</ul>" +
                 "Concetto e realizzazione: LUDOK<br>" +
