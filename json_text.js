@@ -113,7 +113,7 @@ arrPopups = [
                "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinance on Air Pollution Control (OAPC)</a>. " +
                "These standards have been defined according to the criteria of the Environmental Protection Act, in general offering protection from the harmful and annoying effects of air pollutants " +
                "to humans, animals, plants, soil, etc. The Swiss limit values are in line with the values recommended by the WHO in 2005. The Federal Commission for Air Hygiene (FCAH) is currently discussing " +
-               "a recommendation based on the current WHO values of 2021." +
+	    	"a recommendation based on the current WHO values of 2021." +
                "<br><br>" +
                "Today, the levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland are so low that harmful health effects are not expected from these pollutants. " +
                "The exposures measured in Switzerland combined with the associated small risks, translate into a low risk for an individual compared to harmful lifestyle factors such as smoking, " +
@@ -159,7 +159,7 @@ arrPopups = [
                 "<a href=\"https://www.admin.ch/opc/it/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinanza contro l’inquinamento atmosferico (OIAt)</a> " +
                 "I VLI sono stati stabiliti secondo i criteri della Legge sulla protezione dell'ambiente in modo tale che, se rispettati, le persone, gli animali, le piante, il suolo, ecc. sono generalmente " +
                 "protetti dagli effetti nocivi e fastidiosi degli inquinanti atmosferici. I valori limite svizzeri sono in linea con quelli raccomandati dall'OMS nel 2005. La Commissione federale per l'igiene dell'aria " +
-                "(FCAH) sta attualmente discutendo una raccomandazione basata sugli attuali valori OMS del 2021." +
+	    	"(FCAH) sta attualmente discutendo una raccomandazione basata sugli attuali valori OMS del 2021." +
                 "<br><br>" +
                 "I livelli di diossido di zolfo (SO<sub>2</sub>) e di monossido di carbonio (CO) in Svizzera sono ben al di sotto dei valori limite d’immissione, per cui non si prevedono effetti nocivi derivanti " +
                 "da questi inquinanti. Al contrario, i limiti fissati per il diossido di azoto (NO<sub>2</sub>), l'ozono a livello del suolo (O<sub>3</sub>) e le polveri sottili vengono talvolta superati. " +
@@ -937,7 +937,7 @@ arrUI = [
     "text_fr": "A long terme",
     "text_it": "A lungo termine",
     "text_tr": "Uzun dönem",
-    }, 
+    },
     
     {"id": 3,
     "bez": "btn_Feinstaub",
@@ -1027,7 +1027,7 @@ arrUI = [
     "text_fr": "Urgences",
     "text_it": "Emergenze",
     "text_tr": "Acil durumlar",
-    }, 
+    },
      
     {"id": 21,
     "bez": "btn_Luftbelastung",
