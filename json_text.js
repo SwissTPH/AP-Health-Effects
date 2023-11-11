@@ -1215,7 +1215,7 @@ arrUI = [
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
                  "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-                " and" +
+                " ve" +
                 "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
