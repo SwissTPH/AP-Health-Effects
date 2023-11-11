@@ -1150,9 +1150,9 @@ arrUI = [
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
                 "," +
-                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
-                " and" +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                ", and" +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
                 "Find further information at the bottom of the figure.",
@@ -1171,10 +1171,10 @@ arrUI = [
                 "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
-	        "," +
-                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
-                " et" +
+                "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                " et" +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
                 "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -1193,9 +1193,9 @@ arrUI = [
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
                 "," +
-                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
-                " e" +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                " e" +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
                 "Ai piedi dell’immagine trovate troverete maggiori informazioni.",
@@ -1214,9 +1214,9 @@ arrUI = [
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
                  "," +
-                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
-                " and" +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                " and" +
+                "<a href=\"https://www.swisstph.ch/tr/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
                 "Daha fazla bilgi figürün altında bulunabilir.",
