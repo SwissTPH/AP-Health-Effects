@@ -404,7 +404,7 @@ arrPopups = [
                "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
                "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
                "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
-               "<li><a href=\"https://www.who.int/airpollution/publications/aqg2005/en/\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2005</a></li>" +
+               "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
                "</ol>",
     "text_en": "<div class=\"i_header\">References</div>" +
                 "The data displayed in this interactive figure are based on the current Integrated Science Assessments by the US Environmental Protection Agency " + 
@@ -416,7 +416,7 @@ arrPopups = [
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
-                "<li><a href=\"https://www.who.int/airpollution/publications/aqg2005/en/\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2005</a></li>" +
+                "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
                 "</ol>",
     "text_fr": "<div class=\"i_header\">Références</div>" +
                 "L’infographie se fonde sur les analyses scientifiques intégrées actuelles de l'Agence américaine de protection de l'environnement concernant les polluants: " +
@@ -429,7 +429,7 @@ arrPopups = [
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
-                "<li><a href=\"https://www.who.int/airpollution/publications/aqg2005/en/\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2005</a></li>" +
+                "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
                 "</ol>",
     "text_it": "<div class=\"i_header\">Riferimenti</div>" +
                 "La base di dati per l'infografica è costituita dalle attuali analisi scientifiche integrate dell'Agenzia statunitense per la protezione dell'ambiente sulle sostanze inquinanti: " +
@@ -442,7 +442,7 @@ arrPopups = [
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
                 "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
-                "<li><a href=\"https://www.who.int/airpollution/publications/aqg2005/en/\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2005</a></li>" +
+                "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
                 "</ol>"
     } ,
     {"id": 7,
