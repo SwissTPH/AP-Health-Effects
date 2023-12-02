@@ -446,7 +446,7 @@ arrMatrix = [
   "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
   "effekt_typ": "C",
   "effekt_zusatz_de": "(kardiopulmonär)",
-  "effekt_zusatz_en": "(cardiopumonary)",
+  "effekt_zusatz_en": "(cardiopulmonary)",
   "effekt_zusatz_fr": "(cardiopulmonaire)",
   "effekt_zusatz_it": "(cardiopolmonare)",
   },
