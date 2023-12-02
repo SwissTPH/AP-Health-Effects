@@ -1,7 +1,5 @@
 // LUDOK UI-Elemente und Info-Texte
 //
-// Version 1.8.2, 14.02.2022
-//
 // Dr. Carl GmbH 2020
 
 arrPopups = [

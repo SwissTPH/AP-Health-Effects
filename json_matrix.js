@@ -1,7 +1,5 @@
 // LUDOK Data
 //
-// Version 1.10, 24.07.2021
-//
 // Dr. Carl GmbH 2020
 
 arrNoxen = [
