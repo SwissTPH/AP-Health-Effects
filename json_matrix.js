@@ -10,30 +10,35 @@ arrNoxen = [
   "noxe_en": "Particulate matter",
   "noxe_fr": "Poussières fines",
   "noxe_it": "Polveri sottili",
+  "noxe_tr": "Partikül Madde",
   },
   {"id": 2,
   "noxe_de": "Ozon",
   "noxe_en": "Ozone",
   "noxe_fr": "Ozone",
   "noxe_it": "Ozono",
+  "noxe_tr": "Ozon",
   },
   {"id": 3,
   "noxe_de": "Stickstoffdioxid",
   "noxe_en": "Nitrogen dioxide",
   "noxe_fr": "Dioxyde d'azote",
   "noxe_it": "Diossido di azoto",
+  "noxe_tr": "Azot dioksit",
   },
   {"id": 4,
   "noxe_de": "Schwefeldioxid",
   "noxe_en": "Sulphur dioxide",
   "noxe_fr": "Dioxyde de soufre",
   "noxe_it": "Anidride solforosa",
+  "noxe_tr": "Sülfür dioksit",
   },
   {"id": 5,
   "noxe_de": "Kohlenmonoxid",
   "noxe_en": "Carbon monoxide",
   "noxe_fr": "Monoxyde de carbone",
   "noxe_it": "Monossido di carbonio",
+  "noxe_tr": "Karbonmonoksit",
   }
 ];
 
@@ -45,6 +50,7 @@ arrOrgane = [
   "organ_en": "Respiratory system",
   "organ_fr": "Voies respiratoires",
   "organ_it": "Vie respiratorie",
+  "organ_tr": "Solunum sistemi",
   },
   {"id": 2,
   "organ": "Herz",
@@ -52,6 +58,7 @@ arrOrgane = [
   "organ_en": "Cardiovascular system",
   "organ_fr": "Système cardiovasculaire",
   "organ_it": "Sistema cardiovascolare",
+  "organ_tr": "Kardiyovasküler sistem",
   },
   {"id": 3,
   "organ": "Nervensystem",
@@ -59,6 +66,7 @@ arrOrgane = [
   "organ_en": "Nervous system",
   "organ_fr": "Système nerveux",
   "organ_it": "Sistema nervoso",
+  "organ_tr": "Sinir sistemi",
   },
   {"id": 4,
   "organ": "Stoffwechsel",
@@ -66,6 +74,7 @@ arrOrgane = [
   "organ_en": "Metabolism/Immune system",
   "organ_fr": "Métabolisme/système immunitaire",
   "organ_it": "Metabolismo/sistema immunitario",
+  "organ_tr": "Metabolizma/Bağışıklık sistemi",
   },
   {"id": 5,
   "organ": "Sterblichkeit",
@@ -73,6 +82,7 @@ arrOrgane = [
   "organ_en": "Mortality",
   "organ_fr": "Mortalité",
   "organ_it": "Mortalità",
+  "organ_tr": "Ölüm",
   },
   {"id": 6,
   "organ": "Notfaelle",
@@ -80,6 +90,7 @@ arrOrgane = [
   "organ_en": "Emergency",
   "organ_fr": "Urgences",
   "organ_it": "Emergenze",
+  "organ_tr": "Acil durumlar",
   }
 ];
 
@@ -90,6 +101,7 @@ arrEffekte = [
   "effekt_en": "Asthma",
   "effekt_fr": "Asthme",
   "effekt_it": "Asma",
+  "effekt_tr": "Astım",
   "organ": "Atemwege" 
 },
 {"id": 2,
@@ -97,6 +109,7 @@ arrEffekte = [
   "effekt_en": "Respiratory/airway symptoms e.g. wheeze",
   "effekt_fr": "Symptômes des voies respira&shy;toires, p. ex. respiration sifflante",
   "effekt_it": "Sintomi respiratori, ad es. respiro sibilante",
+  "effekt_tr": "Solunum/solunum yolu semptomları örn. Hırıltı",
   "organ": "Atemwege"
 },
 {"id": 3,
@@ -104,6 +117,7 @@ arrEffekte = [
   "effekt_en": "Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
   "effekt_fr": "Aggravation de la maladie, augmentation des symptômes ou du traitement chez les patients asthmatiques",
   "effekt_it": "Peggioramento della malattia, più sintomi o farmaci nei pazienti con asma",
+  "effekt_tr": "Astımlı hastalarda hastalığın alevlenmesi, semptomların artması veya ilaç tedavisi",
   "organ": "Atemwege"  
 },
 {"id": 4,
@@ -111,6 +125,7 @@ arrEffekte = [
   "effekt_en": "Lung function decline in patients with asthma",
   "effekt_fr": "Fonction pulmonaire réduite chez les patients asthmatiques",
   "effekt_it": "Funzione polmonare ridotta nei pazienti con asma",
+  "effekt_tr": "Astımlı hastalarda akciğer fonksiyonlarında azalma",
   "organ": "Atemwege"  
 },
 {"id": 5,
@@ -118,6 +133,7 @@ arrEffekte = [
   "effekt_en": "Worsening of the disease or increase in symptoms in patients with COPD",
   "effekt_fr": "Aggravation de la maladie ou aug&shy;mentation des symptômes chez les patients atteints de BPCO",
   "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
+  "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
   "organ": "Atemwege"  
 },
 {"id": 6,
@@ -125,6 +141,7 @@ arrEffekte = [
   "effekt_en": "Increase in symptoms for allergy patients",
   "effekt_fr": "Augmentation des symptômes chez les personnes allergiques",
   "effekt_it": "Più sintomi per chi soffre di allergie",
+  "effekt_tr": "Alerji hastalarında semptomlarda artış",
   "organ": "Atemwege"  
 },
 {"id": 7,
@@ -132,6 +149,7 @@ arrEffekte = [
   "effekt_en": "Chronic bronchitis",
   "effekt_fr": "Bronchite chronique",
   "effekt_it": "Bronchite cronica",
+  "effekt_tr": "Kronik bronşit",
   "organ": "Atemwege"  
 },
 {"id": 8,
@@ -139,6 +157,7 @@ arrEffekte = [
   "effekt_en": "Lung function decline",
   "effekt_fr": "Réduction de la fonction pulmonaire",
   "effekt_it": "Funzione polmonare ridotta",
+  "effekt_tr": "Akciğer fonksiyonunda azalma",
   "organ": "Atemwege"  
 },
 {"id": 9,
@@ -146,6 +165,7 @@ arrEffekte = [
   "effekt_en": "Impaired Lung growth",
   "effekt_fr": "Réduction de la croissance des poumons",
   "effekt_it": "Crescita polmonare ridotta",
+  "effekt_tr": "Uyumsuz akciğer büyümesi",
   "organ": "Atemwege"  
 },
 {"id": 10,
@@ -153,6 +173,7 @@ arrEffekte = [
   "effekt_en": "Accelerated decline in lung function",
   "effekt_fr": "Accélération de la diminution de la fonction pulmonaire",
   "effekt_it": "Riduzione accelerata della funzione polmonare",
+  "effekt_tr": "Akciğer fonksiyonunda hızlı düşüş",
   "organ": "Atemwege"  
 },
 {"id": 33,
@@ -160,6 +181,7 @@ arrEffekte = [
   "effekt_en": "Bronchitis",
   "effekt_fr": "Bronchite",
   "effekt_it": "Bronchite",
+  "effekt_tr": "Bronşit",
   "organ": "Atemwege"  
 },
 {"id": 11,
@@ -167,6 +189,7 @@ arrEffekte = [
   "effekt_en": "Airway/respiratory inflammation, inflammatory reaction",
   "effekt_fr": "Inflammation des voies respira&shy;toires, réaction inflammatoire",
   "effekt_it": "Infiammazione delle vie aeree, reazione infiammatoria",
+  "effekt_tr": "Hava yolu/solunum iltihabı, inflamatuar reaksiyon",
   "organ": "Atemwege"  
 },
 {"id": 12,
@@ -174,6 +197,7 @@ arrEffekte = [
 "effekt_en": "Development of lung cancer",
 "effekt_fr": "Développement d’un cancer du poumon",
 "effekt_it": "Sviluppo di cancro ai polmoni",
+"effekt_tr": "Akciğer kanseri gelişimi",
 "organ": "Atemwege"  
 },
 {"id": 13,
@@ -181,6 +205,7 @@ arrEffekte = [
 "effekt_en": "Atherosclerosis",
 "effekt_fr": "Artériosclérose",
 "effekt_it": "Arteriosclerosi",
+"effekt_tr": "Koroner arter hastalığı",
 "organ": "Herz" 
 },
 {"id": 14,
@@ -188,6 +213,7 @@ arrEffekte = [
 "effekt_en": "Hypertension",
 "effekt_fr": "Hypertension artérielle",
 "effekt_it": "Ipertensione arteriosa",
+"effekt_tr": "Kan basıncı, hipertansiyon",
 "organ": "Herz"  
 },
 {"id": 15,
@@ -195,6 +221,7 @@ arrEffekte = [
 "effekt_en": "Arrhythmia",
 "effekt_fr": "Arythmies cardiaques",
 "effekt_it": "Variabilità della frequenza cardiaca",
+"effekt_tr": "Aritmi",
 "organ": "Herz"  
 },
 {"id": 16,
@@ -202,6 +229,7 @@ arrEffekte = [
 "effekt_en": "Blood coagulation",
 "effekt_fr": "Coagulation du sang",
 "effekt_it": "Coagulazione del sangue",
+"effekt_tr": "Kan pıhtılaşması",
 "organ": "Herz"  
 },
 {"id": 17,
@@ -209,6 +237,7 @@ arrEffekte = [
 "effekt_en": "Sugar- and metabolic disorders/diseases (e.g. diabetes)",
 "effekt_fr": "Troubles/maladies du métabolisme des sucres et des graisses (p. ex., diabète)",
 "effekt_it": "Disturbi/malattie del metabolismo degli zuccheri e dei grassi (ad es. diabete)",
+"effekt_tr": "Şeker ve metabolik bozukluklar/hastalıklar (örn. Diyabet)",
 "organ": "Stoffwechsel"  
 },
 {"id": 19,
@@ -216,6 +245,7 @@ arrEffekte = [
 "effekt_en": "Decline in immune defence",
 "effekt_fr": "Réduction des défenses immunitaires",
 "effekt_it": "Difesa immunitaria ridotta",
+"effekt_tr": "Bağışıklık ve savunma sisteminde azalma",
 "organ": "Stoffwechsel"  
 },
 {"id": 20,
@@ -223,6 +253,7 @@ arrEffekte = [
 "effekt_en": "Brain volume (white matter) decline",
 "effekt_fr": "Réduction du volume du cerveau (masse blanche)",
 "effekt_it": "Volume del cervello (massa bianca) ridotto",
+"effekt_tr": "Beyin hacminde (beyaz madde) azalma",
 "organ": "Nervensystem"  
 },
 {"id": 21,
@@ -230,6 +261,7 @@ arrEffekte = [
 "effekt_en": "Cognitive performance decline (dementia)",
 "effekt_fr": "Diminution des performances cognitives (démence)",
 "effekt_it": "Diminuzione delle prestazioni cognitive (demenza)",
+"effekt_tr": "Bilişsel performans düşüşü (demans)",
 "organ": "Nervensystem"
 },
 {"id": 22,
@@ -237,6 +269,7 @@ arrEffekte = [
 "effekt_en": "Non-accidental mortality",
 "effekt_fr": "Mortalité due à la maladie",
 "effekt_it": "Mortalità dovuta a malattia ",
+"effekt_tr": "Kaza kaynaklı olmayan ölüm",
 "organ": "Sterblichkeit" 
 },
 {"id": 23,
@@ -244,6 +277,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to cardiovascular disease",
 "effekt_fr": "Mortalité due à des maladies cardiovasculaires",
 "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
+"effekt_tr": "Kardiyovasküler kaynaklı ölüm",
 "organ": "Sterblichkeit"
 },
 {"id": 24,
@@ -251,6 +285,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to respiratory diseases",
 "effekt_fr": "Mortalité due à des maladies des voies respiratoires",
 "effekt_it": "Mortalità a causa di malattie respiratorie",
+"effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
 "organ": "Sterblichkeit"
 },
 {"id": 25,
@@ -258,6 +293,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to asthma",
 "effekt_fr": "Mortalité due à l'asthme",
 "effekt_it": "Mortalità a causa di asma",
+"effekt_tr": "Ölüm: astım",
 "organ": "Sterblichkeit"
 },
 {"id": 26,
@@ -265,6 +301,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to COPD",
 "effekt_fr": "Mortalité due à la BPCO",
 "effekt_it": "Mortalità a causa di COPD",
+"effekt_tr": "Ölüm: KOAH",
 "organ": "Sterblichkeit"
 },
 {"id": 27,
@@ -272,6 +309,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to lung cancer",
 "effekt_fr": "Mortalité due au cancer du poumon",
 "effekt_it": "Mortalità a causa di cancro ai polmoni",
+"effekt_tr": "Ölüm: akciğer kanseri",
 "organ": "Sterblichkeit" 
 },
 {"id": 28,
@@ -279,6 +317,7 @@ arrEffekte = [
 "effekt_en": "Mortality due to respiratory (tract) infection",
 "effekt_fr": "Mortalité due aux infections des voies respiratoires",
 "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
+"effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
 "organ": "Sterblichkeit"
 },
 {"id": 29,
@@ -286,6 +325,7 @@ arrEffekte = [
 "effekt_en": "Emergency due to respiratory diseases",
 "effekt_fr": "Urgences dues à des maladies respiratoires",
 "effekt_it": "Emergenze a causa di malattie respiratorie",
+"effekt_tr": "Solunum hastalıkları kaynaklı acil durum",
 "organ": "Notfaelle"
 },
 {"id": 30,
@@ -293,6 +333,7 @@ arrEffekte = [
 "effekt_en": "Emergency due to asthma",
 "effekt_fr": "Urgences dues à l'asthme",
 "effekt_it": "Emergenze a causa di asma",
+"effekt_tr": "Astım kaynaklı acil durum",
 "organ": "Notfaelle"
 },
 {"id": 31,
@@ -300,6 +341,7 @@ arrEffekte = [
 "effekt_en": "Emergency due to COPD",
 "effekt_fr": "Urgences dues à la BPCO",
 "effekt_it": "Emergenze a causa di COPD",
+"effekt_tr": "KOAH kaynaklı acil durum",
 "organ": "Notfaelle"
 },
 {"id": 32,
@@ -307,6 +349,7 @@ arrEffekte = [
 "effekt_en": "Emergency due to cardiovascular diseases",
 "effekt_fr": "Urgences dues aux maladies cardiovasculaires",
 "effekt_it": "Emergenze a causa di malattie cardiovascolari",
+"effekt_tr": "Kardiyovasküler hastalıklar kaynaklı acil durum",
 "organ": "Notfaelle"
 }
 ];
@@ -364,7 +407,8 @@ arrMatrix = [
   "effekt_zusatz_de": "(Kinder)",
   "effekt_zusatz_en": "(children)",
   "effekt_zusatz_fr": "(l'enfant)",
-  "effekt_zusatz_it": "(bambini)"
+  "effekt_zusatz_it": "(bambini)",
+  "effekt_zusatz_tr": "(çocuklar)",
   },
   {"id": 1017,
   "noxe": "Feinstaub",
@@ -449,6 +493,7 @@ arrMatrix = [
   "effekt_zusatz_en": "(cardiopulmonary)",
   "effekt_zusatz_fr": "(cardiopulmonaire)",
   "effekt_zusatz_it": "(cardiopolmonare)",
+  "effekt_zusatz_tr": "(kardiyopulmoner)",
   },
   {"id": 1054,
   "noxe": "Feinstaub",
@@ -771,6 +816,7 @@ arrMatrix = [
   "effekt_zusatz_en": "(Susceptible persons)",
   "effekt_zusatz_fr": "(personnes sensibles)",
   "effekt_zusatz_it": "(persone sensibili)",
+  "effekt_zusatz_tr": "(duyarlı kişiler)",
   },
   {"id": 4151,
   "noxe": "Schwefeldioxid",
@@ -789,6 +835,7 @@ arrMatrix = [
   "effekt_zusatz_en": "(children, 65 years and older)",
   "effekt_zusatz_fr": "(enfants, 65+/personnes âgées)",
   "effekt_zusatz_it": "(bambini, 65+/gli anziani)",
+  "effekt_zusatz_tr": "(çocuk, 65+/yaşlı)",
   },
 
   {"id": 5161,
