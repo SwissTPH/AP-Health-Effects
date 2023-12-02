@@ -1072,7 +1072,7 @@ arrUI = [
         "text_en": "Current pollution",
         "text_fr": "Pollution actuel",
         "text_it": "Esposizione attuale",
-        "text_tr": "Mevcut kirlilik",
+        "text_tr": "Mevcut<br/>kirlilik",
     },
     {
         "id": 22,
@@ -1081,7 +1081,7 @@ arrUI = [
         "text_en": "Limit values",
         "text_fr": "Valeur limite",
         "text_it": "Valori limite",
-        "text_tr": "Limit değerler",
+        "text_tr": "Limit<br/>değerler",
     },
     {
         "id": 23,
