@@ -1130,8 +1130,10 @@ arrUI = [
                 "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
                 "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
-                " und" +
+                "," +
                 "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+                " und" +
+                "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> TR</a>" +
                 "." +
                 "<br><br>" +
                 "Am Fussende der Grafik finden Sie weitere Informationen.",
