@@ -4,8 +4,7 @@
 == Interactive figure of air pollutants and health effects
 
 This git-repository contains source-code for an interactive figure on health effects of ambient air pollution.
-It is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK
-at the Swiss Tropical and Public Health Institute (Swiss TPH).
+It is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK at the Swiss Tropical and Public Health Institute (Swiss TPH).
 
 It was developed jointly with partner organizations, namely:
 
@@ -14,7 +13,6 @@ It was developed jointly with partner organizations, namely:
     • https://www.krebsliga.ch/[Krebsliga Schweiz] (Trägerorganisation)
     • https://www.lunge-zuerich.ch/[Lunge Zürich] (Trägerorganisation)
     • https://www.lernetz.ch/home[LernNetz]
-
 
 The content corresponds to the state of knowledge of 2020.
 
@@ -26,8 +24,8 @@ Visual design and programing:: https://dr-carl.com/[Dr. Carl GmbH] (kontakt@dr-c
 
 The data displayed in this interactive figure is based on the current
 https://www.epa.gov/isa[Integrated Science Assessments] by the https://www.epa.gov/[US Environmental Protection Agency].
-A distinction is made between effects caused by short-term (over hours or days) and long-term (over months and years)
-exposure to air pollution. Notably, effects of long-term elevated exposures are more serious.
+A distinction is made between effects caused by short-term (over hours or days) and long-term (over months and years) exposure to air pollution.
+Notably, effects of long-term elevated exposures are more serious.
 
 The figure is limited to causal and likely to be causal effects as assessed by the US Environmental Protection Agency (EPA).
 The EPA assesses the relationship between pollutants and potential health effects using a five-point scale.

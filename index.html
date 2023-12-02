@@ -10,25 +10,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	<title>LUDOK</title>
-        
+    <title>LUDOK</title>
+
     <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
 
     <script src="jquery/jquery-ui.js"></script>
     <link rel="stylesheet" href="jquery/jquery-ui.css">
-    
+
     <script src="jquery/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="jquery/jquery.modal.css" />
+    <link rel="stylesheet" href="jquery/jquery.modal.css"/>
 
     <script type="text/javascript" src="jquery/jquery-ui-touch-punch.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="ludok.css">
 
-	<script type="text/javascript" src="zz_utils.js"></script>
+    <script type="text/javascript" src="zz_utils.js"></script>
     <script type="text/javascript" src="json_matrix.js"></script>
     <script type="text/javascript" src="json_text.js"></script>
 
-	<script>
+    <script>
 
 
         // Sprachauswahl
@@ -38,13 +38,13 @@
         Check_mobile();
 
 
-		$(document).ready(function() {
-			
+        $(document).ready(function () {
+
             // Init
             Tooltips_Init();
-        
+
             // Responsiveness
-            $(window).resize(function () { 
+            $(window).resize(function () {
                 var old_isMobile = glb_isMobile;
                 Check_mobile();
                 if (old_isMobile != glb_isMobile) {
@@ -59,12 +59,12 @@
 
 
             // Initiale Höhenanpassung iFrame
-            setTimeout(function(){
+            setTimeout(function () {
                 var ht = $('body').height();
                 var id = 'ifr_LUDOK'; //iframe id
-                parent.postMessage( JSON.stringify( {'docHeight': ht, 'id':id} ), '*' );
+                parent.postMessage(JSON.stringify({'docHeight': ht, 'id': id}), '*');
             }, 400);
-            
+
 
             // Sonderbehandlung fürs geliebte iPad
             if (navigator.userAgent.indexOf('iPad') == -1) { // NOT an iPad
@@ -75,14 +75,17 @@
                 Set_Organ_Mouseover('Atemwege');
             } else {
                 // Tooltip closing for iPad
-                $('.div_PageContent').on('click', function() {$('img[id^="i_"]').tooltip('close');});
-                $('.div_PageContent_mobile').on('click', function() {$('img[id^="i_"]').tooltip('close');});
+                $('.div_PageContent').on('click', function () {
+                    $('img[id^="i_"]').tooltip('close');
+                });
+                $('.div_PageContent_mobile').on('click', function () {
+                    $('img[id^="i_"]').tooltip('close');
+                });
             }
 
-		}); // $(document).ready 
-	
-	</script>
+        }); // $(document).ready
 
+    </script>
 
 
 </head>
@@ -105,155 +108,162 @@
 <div class="div_PageContent">
 
 
-<div class="div_Menu">
+    <div class="div_Menu">
 
-    <div class="div_Menu_Line">
-        <script>
-            echo('<div class="div_i_Container">');
+        <div class="div_Menu_Line">
+            <script>
+                echo('<div class="div_i_Container">');
                 echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title="">');
                 echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'K\')" id="btn_Zeit_K">' + Get_UI('btn_Kurzzeit', glb_Lang) + '</button>');
-            echo('</div>');
-            echo('&nbsp;');
-            echo('<div class="div_i_Container">');
+                echo('</div>');
+                echo('&nbsp;');
+                echo('<div class="div_i_Container">');
                 echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title="">');
                 echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'L\')" id="btn_Zeit_L">' + Get_UI('btn_Langzeit', glb_Lang) + '</button>');
-            echo('</div>');
-        </script>
-    </div>
+                echo('</div>');
+            </script>
+        </div>
 
-    
-    <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="left: 295px; top: 12px; text-align: left;">
-        
-        <script>           
-            Draw_BtnNoxe('Feinstaub');
-            Draw_BtnNoxe('Ozon');
-            Draw_BtnNoxe('Stickstoffdioxid');
-            Draw_BtnNoxe('Schwefeldioxid');
-            Draw_BtnNoxe('Kohlenmonoxid');
-        </script>
 
-    </div>
+        <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="left: 295px; top: 12px; text-align: left;">
 
-</div> <!-- div_Menu -->
+            <script>
+                Draw_BtnNoxe('Feinstaub');
+                Draw_BtnNoxe('Ozon');
+                Draw_BtnNoxe('Stickstoffdioxid');
+                Draw_BtnNoxe('Schwefeldioxid');
+                Draw_BtnNoxe('Kohlenmonoxid');
+            </script>
 
-<img src="graph/ic_tph.png" class="img_LogoTC cursorHand" onclick="window.location.reload()" title="Reset">
+        </div>
 
-<div class="div_Main">
+    </div> <!-- div_Menu -->
+
+    <img src="graph/ic_tph.png" class="img_LogoTC cursorHand" onclick="window.location.reload()" title="Reset">
+
+    <div class="div_Main">
 
     <span id="div_Mensch" style="display: inline-block; position: relative; margin-top: 80px;">
         <img src="graph/mensch.png" height="1000px" id="img_Mensch">
 
-        <img src="graph/sterblichkeit.png" id="img_Organ_Sterblichkeit" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
-        <img src="graph/notfaelle.png" id="img_Organ_Notfaelle" height="1000px" class="img_Organ" style="left: 0px; top: 0px">
+        <img src="graph/sterblichkeit.png" id="img_Organ_Sterblichkeit" height="1000px" class="img_Organ"
+             style="left: 0px; top: 0px">
+        <img src="graph/notfaelle.png" id="img_Organ_Notfaelle" height="1000px" class="img_Organ"
+             style="left: 0px; top: 0px">
 
-        <img src="graph/nerven.png" id="img_Organ_Nervensystem"  class="img_Organ" style="left: 0px; top: 0px">
-        <img src="graph/herz.png" id="img_Organ_Herz"  class="img_Organ" style="left: 1px; top: 0px">
+        <img src="graph/nerven.png" id="img_Organ_Nervensystem" class="img_Organ" style="left: 0px; top: 0px">
+        <img src="graph/herz.png" id="img_Organ_Herz" class="img_Organ" style="left: 1px; top: 0px">
 
-        <img src="graph/lunge.png" id="img_Organ_Atemwege"  class="img_Organ" style="left: 117px; top: 137px">
-        <img src="graph/leber.png" id="img_Organ_Stoffwechsel"  class="img_Organ" style="left: 123px; top: 327px">
+        <img src="graph/lunge.png" id="img_Organ_Atemwege" class="img_Organ" style="left: 117px; top: 137px">
+        <img src="graph/leber.png" id="img_Organ_Stoffwechsel" class="img_Organ" style="left: 123px; top: 327px">
 
-        <img src="graph/mensch_empty.png" style="position: absolute; top: 0; left: 0;" id="img_mensch_empty" usemap="(set in Choose_Zeit)">
+        <img src="graph/mensch_empty.png" style="position: absolute; top: 0; left: 0;" id="img_mensch_empty"
+             usemap="(set in Choose_Zeit)">
 
         <map name="image-map" id="image-map">
-            <area id="map_Stoffwechsel" shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('Stoffwechsel')" alt="" />
-            <area id="map_Nervensystem" shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Nervensystem')" alt="" />
-            <area id="map_Herz" shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" alt="" />
-            <area id="map_Atemwege" shape="rect" coords="119,139,278,341" href="#" onClick="Show_Organ('Atemwege')" alt="" />
-            <area id="map_Herz" shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" alt="" />
-            <area id="map_Nervensystem" shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('Nervensystem')" alt="" />
+            <area id="map_Stoffwechsel" shape="rect" coords="120,326,246,430" href="#"
+                  onClick="Show_Organ('Stoffwechsel')" alt=""/>
+            <area id="map_Nervensystem" shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Nervensystem')"
+                  alt=""/>
+            <area id="map_Herz" shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" alt=""/>
+            <area id="map_Atemwege" shape="rect" coords="119,139,278,341" href="#" onClick="Show_Organ('Atemwege')"
+                  alt=""/>
+            <area id="map_Herz" shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" alt=""/>
+            <area id="map_Nervensystem" shape="rect" coords="2,84,173,1005" href="#"
+                  onClick="Show_Organ('Nervensystem')" alt=""/>
         </map>
 
     </span>
 
-    <div class="div_Menu_Sterblichkeit hidden" id="div_Menu_Sterblichkeit">
+        <div class="div_Menu_Sterblichkeit hidden" id="div_Menu_Sterblichkeit">
+            <script>
+                Draw_BtnOrgan('Sterblichkeit');
+                Draw_BtnOrgan('Notfaelle');
+            </script>
+        </div>
+
+
+    </div> <!-- div_Main -->
+
+    <div class="div_Results">
+
         <script>
-            Draw_BtnOrgan('Sterblichkeit');
-            Draw_BtnOrgan('Notfaelle');
+            Draw_IntroText();
+        </script>
+
+        <div class="margin_bottom" id="div_Results_Atemwege">
+        </div>
+
+        <div class="margin_bottom" id="div_Results_Herz">
+        </div>
+
+        <div class="margin_bottom" id="div_Results_Nervensystem">
+        </div>
+
+        <div class="margin_bottom" id="div_Results_Stoffwechsel">
+        </div>
+
+        <div class="margin_bottom" id="div_Results_Sterblichkeit">
+        </div>
+
+        <div class="margin_bottom" id="div_Results_Notfaelle">
+        </div>
+
+        <script>
+            Draw_Legende();
+        </script>
+
+
+    </div> <!-- div_Results -->
+
+    <br><br>
+
+    <!-- Untere Buttonleiste -->
+
+    <div class="div_Flex_Row">
+        <script>
+            Draw_BtnHintergrundInfo('Luftbelastung');
+            Draw_BtnHintergrundInfo('Grenzwerte');
+            Draw_BtnHintergrundInfo('Quellen');
+            Draw_BtnHintergrundInfo('Hintergrund');
+            Draw_BtnHintergrundInfo('Beitrag');
+            Draw_BtnHintergrundInfo('Referenzen');
+            Draw_BtnHintergrundInfo('Impressum');
         </script>
     </div>
 
-
-</div> <!-- div_Main -->
-
-<div class="div_Results">
-    
-    <script>
-        Draw_IntroText();
-    </script>
-
-    <div class="margin_bottom" id="div_Results_Atemwege">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Herz">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Nervensystem">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Stoffwechsel">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Sterblichkeit">
-    </div>
-
-    <div class="margin_bottom" id="div_Results_Notfaelle">
-    </div>
-
-    <script>
-        Draw_Legende();
-    </script>
-
-
-</div> <!-- div_Results -->
-
-<br><br>
-
-<!-- Untere Buttonleiste -->
-
-<div class="div_Flex_Row">
-    <script>
-        Draw_BtnHintergrundInfo('Luftbelastung');
-        Draw_BtnHintergrundInfo('Grenzwerte');
-        Draw_BtnHintergrundInfo('Quellen');
-        Draw_BtnHintergrundInfo('Hintergrund');
-        Draw_BtnHintergrundInfo('Beitrag');
-        Draw_BtnHintergrundInfo('Referenzen');
-        Draw_BtnHintergrundInfo('Impressum');
-    </script>
-</div>
-
-<br><br>
+    <br><br>
 
 </div> <!-- div_PageContent -->
-
 
 
 <!-- Mobile Version -->
 
 <div class="div_PageContent_mobile">
 
-    <img src="graph/ic_tph.png" width="130px" class="cursorHand margin_10" onclick="window.location.reload()" title="Reset">
+    <img src="graph/ic_tph.png" width="130px" class="cursorHand margin_10" onclick="window.location.reload()"
+         title="Reset">
     <br><br>
 
     <div class="div_Menu">
 
         <script>
             echo('<div class="div_i_Container">');
-                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title="">');
-                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'K\')" id="btn_Zeit_K">' + Get_UI('btn_Kurzzeit', glb_Lang) + '</button>');
+            echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Kurzzeit" title="">');
+            echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'K\')" id="btn_Zeit_K">' + Get_UI('btn_Kurzzeit', glb_Lang) + '</button>');
             echo('</div>');
-            
+
             echo('<div class="div_i_Container">');
-                echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title="">');
-                echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'L\')" id="btn_Zeit_L">' + Get_UI('btn_Langzeit', glb_Lang) + '</button>');
+            echo('<img src="graph/ic_info.png" class="ic_info ic_info_top" id="i_Langzeit" title="">');
+            echo('<button class="btn_round btn_round_zeit" onclick="Choose_Zeit(\'L\')" id="btn_Zeit_L">' + Get_UI('btn_Langzeit', glb_Lang) + '</button>');
             echo('</div>');
         </script>
-        
+
         <br>
-        
+
         <div class="div_Menu_Line hidden" id="div_Menu_Noxen" style="">
 
-            <script>           
+            <script>
                 Draw_BtnNoxe('Feinstaub', true);
                 Draw_BtnNoxe('Ozon', true);
                 Draw_BtnNoxe('Stickstoffdioxid', true);
@@ -262,7 +272,7 @@
             </script>
 
             <br>
-            
+
             <script>
                 Draw_BtnOrgan('Atemwege', true);
                 Draw_BtnOrgan('Herz', true);
@@ -273,12 +283,12 @@
             </script>
 
         </div>
-    
+
     </div> <!-- div_Menu -->
 
-    
+
     <div class="div_Results">
-        
+
         <script>
             Draw_IntroText();
         </script>
@@ -286,33 +296,33 @@
         <div class="center hidden" id="div_Mensch_mobile">
             <img src="graph/mensch.png" height="400px" id="img_Mensch_mobile"></img><br>
         </div>
-    
+
         <div class="margin_bottom" id="div_Results_Atemwege">
         </div>
-    
+
         <div class="margin_bottom" id="div_Results_Herz">
         </div>
-    
+
         <div class="margin_bottom" id="div_Results_Nervensystem">
         </div>
-    
+
         <div class="margin_bottom" id="div_Results_Stoffwechsel">
         </div>
 
         <div class="margin_bottom" id="div_Results_Sterblichkeit">
         </div>
-    
+
         <div class="margin_bottom" id="div_Results_Notfaelle">
         </div>
-    
+
         <script>
             Draw_Legende();
         </script>
-    
+
         <div class="pad_10 margin_bottom" id="div_Results_Zusatzinfo">
         </div>
     </div> <!-- div_Results -->
-    
+
     <br><br>
 
     <!-- Untere Buttonleiste -->

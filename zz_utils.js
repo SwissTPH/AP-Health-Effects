@@ -2,7 +2,6 @@
 //
 // Dr. Carl GmbH 2020
 
-
 // Globale Variablen
 glb_Lang = "de";    // Anzeigesprache
 glb_Organ = "";     // Gewähltes Organ (leer für Noxe)
@@ -13,7 +12,6 @@ glb_HintergrundInfo = '';       // Angezeigte HintergrundInfo (mobile only)
 
 glb_isMobile = false;           // Bin ich mobile oder desktop?
 glb_PCID = '.div_PageContent '; // Page Content ID (für mobile/desktop)
-
 
 
 function Check_mobile() {
@@ -49,7 +47,7 @@ function Choose_Zeit(a_zeit, a_mobile) {
         $(glb_PCID + '#mnu_Schwefeldioxid').hide();
         $(glb_PCID + '#mnu_Kohlenmonoxid').hide();
     }
-    
+
     $(glb_PCID + '#div_Menu_Noxen').fadeIn();
     $(glb_PCID + '#div_Menu_Sterblichkeit').fadeIn();
 
@@ -59,8 +57,12 @@ function Choose_Zeit(a_zeit, a_mobile) {
 //console.log('Choose_Zeit glb_Noxe: ' + glb_Noxe)
 
     // Gleich Effekte anzeigen, falls Organ oder Noxe gewählt
-    if (glb_Organ != "") {Show_Organ(glb_Organ);}
-    if (glb_Noxe != "") {Show_Noxe_Zeit(glb_Noxe);}
+    if (glb_Organ != "") {
+        Show_Organ(glb_Organ);
+    }
+    if (glb_Noxe != "") {
+        Show_Noxe_Zeit(glb_Noxe);
+    }
 
     Msg_DocHeight();
 
@@ -70,7 +72,7 @@ function Choose_Zeit(a_zeit, a_mobile) {
 function Draw_BtnHintergrundInfo(a_topic, a_is_mobile) {
 // Button Menü unten - a_topic =  "Hintergrund", etc.
     var fkt = "Show_Popup";
-    var id ="";
+    var id = "";
     var txt = Get_UI('btn_' + a_topic, glb_Lang);
 
     if (a_is_mobile == true) {
@@ -78,7 +80,7 @@ function Draw_BtnHintergrundInfo(a_topic, a_is_mobile) {
         id = 'id="btn_Zusatz_' + a_topic + '"';
         txt = txt.replace('<br>', '');
     }
-    echo('<button class="btn_round" ' + id + ' onclick="' + fkt + '(\'' + a_topic + '\')">' + txt + '</button>'); 
+    echo('<button class="btn_round" ' + id + ' onclick="' + fkt + '(\'' + a_topic + '\')">' + txt + '</button>');
 
 } // Draw_BtnHintergrundInfo
 
@@ -92,10 +94,10 @@ function Draw_BtnNoxe(a_noxe, a_is_mobile) {
     }
 
     echo('<div class="div_Menu_Noxe" id="mnu_' + a_noxe + '">');
-        echo('<img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_' + a_noxe + '" title=""> ');
-        echo('<button class="btn_round_small bg_' + a_noxe + '" onclick="Show_Noxe(\'' + a_noxe + '\')" id="btn_' + a_noxe + '">' + txt + '</button>');
-    echo('</div>'); 
-     
+    echo('<img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_' + a_noxe + '" title=""> ');
+    echo('<button class="btn_round_small bg_' + a_noxe + '" onclick="Show_Noxe(\'' + a_noxe + '\')" id="btn_' + a_noxe + '">' + txt + '</button>');
+    echo('</div>');
+
 } // Draw_BtnNoxe
 
 
@@ -108,30 +110,30 @@ function Draw_BtnOrgan(a_organ, a_is_mobile) {
     }
 
     echo('<div class="div_Menu_Noxe" id="mnu_' + a_organ + '">');
-        echo('<img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_' + a_organ + '" title=""> ');
-        echo('<button class="btn_round_small bg_Zusatz" onclick="Show_Organ(\'' + a_organ + '\')" id="btn_' + a_organ + '">' + txt + '</button>');
-    echo('</div>'); 
-     
+    echo('<img src="graph/ic_info.png" class="ic_info ic_info_top_small" id="i_' + a_organ + '" title=""> ');
+    echo('<button class="btn_round_small bg_Zusatz" onclick="Show_Organ(\'' + a_organ + '\')" id="btn_' + a_organ + '">' + txt + '</button>');
+    echo('</div>');
+
 } // Draw_BtnNoxe
 
 
 function Draw_IntroText() {
 // Intro-Text
     echo('<div class="div_Intro margin_bottom" id="div_Intro">');
-        if (glb_isMobile == false) {
-            echo('<br><br>');
-        }
-        echo(Get_UI('txt_Intro', glb_Lang));
-    echo('</div>');    
+    if (glb_isMobile == false) {
+        echo('<br><br>');
+    }
+    echo(Get_UI('txt_Intro', glb_Lang));
+    echo('</div>');
 } // Draw_IntroText
 
 
 function Draw_Legende() {
 // Legende Kausalität
     echo('<div class="div_Legend" id="div_Legend">');
-        echo(Get_UI('leg_Kausalitaet', glb_Lang) + ': ');
-        echo('<img src="graph/ic_C.png" width="14px"> ' + Get_UI('leg_ursaechlich', glb_Lang) + ' <img src="graph/ic_info.png" class="ic_info" id="i_causally" title=""> &nbsp;');
-        echo('<img src="graph/ic_L.png" width="14px"> ' + Get_UI('leg_wahrscheinlich', glb_Lang) + ' <img src="graph/ic_info.png" class="ic_info" id="i_likely" title="">'); 
+    echo(Get_UI('leg_Kausalitaet', glb_Lang) + ': ');
+    echo('<img src="graph/ic_C.png" width="14px"> ' + Get_UI('leg_ursaechlich', glb_Lang) + ' <img src="graph/ic_info.png" class="ic_info" id="i_causally" title=""> &nbsp;');
+    echo('<img src="graph/ic_L.png" width="14px"> ' + Get_UI('leg_wahrscheinlich', glb_Lang) + ' <img src="graph/ic_info.png" class="ic_info" id="i_likely" title="">');
     echo('</div>');
 } // Draw_Legende
 
@@ -152,18 +154,18 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
 
         str += '<div class="div_Results_Header"><img src="graph/ic_info.png" class="ic_info" id="i_eff_' + a_organ + '" title=""> ' + Get_Organ(a_organ, glb_Lang) + '</div>';
 
-        str += '<table>';   
+        str += '<table>';
 
-        for (var i=0; i<a_data.length; i++) {
-            
+        for (var i = 0; i < a_data.length; i++) {
+
             str += '<tr>';
-                    //'<td>' + a_data[i].noxe + '</td>' +
-                    //'<td>' + a_data[i].noxe_zeit + '</td>' +
-                    //'<td>' + a_data[i].organ + '</td>' +
+            //'<td>' + a_data[i].noxe + '</td>' +
+            //'<td>' + a_data[i].noxe_zeit + '</td>' +
+            //'<td>' + a_data[i].organ + '</td>' +
             str += '<td class="td_effekt">' + Get_Effekt(a_data[i].effekt, glb_Lang) + '</td>';
-                    //'<td>' + a_data[i]["organ_"+glb_Lang] + '</td>' +
-                    //'<td>' + a_data[i]["effekt_"+glb_Lang] + '</td>' 
-         
+            //'<td>' + a_data[i]["organ_"+glb_Lang] + '</td>' +
+            //'<td>' + a_data[i]["effekt_"+glb_Lang] + '</td>'
+
             if (glb_isMobile == false) {
                 for (var j = 1; j < Get_Noxe_ID(a_noxe); j++) {
                     str += '<td class="td_effekt_typ"></td>';
@@ -171,9 +173,9 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
             }
 
             str += '<td class="td_effekt_typ"><img src="graph/ic_' + a_data[i].effekt_typ + '_' + a_noxe + '.png" width="14px"></td>';
-            
+
             if (glb_isMobile == false) {
-                for (var j =  Get_Noxe_ID(a_noxe); j < 5; j++) {
+                for (var j = Get_Noxe_ID(a_noxe); j < 5; j++) {
                     str += '<td class="td_effekt_typ"></td>';
                 }
             }
@@ -193,13 +195,13 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
         $(glb_PCID + '#div_Menu_Headline').fadeIn();
 
         //if ((a_organ != "Sterblichkeit") && (a_organ != "Notfaelle")) {
-            $('#img_Organ_' + a_organ).fadeIn();
+        $('#img_Organ_' + a_organ).fadeIn();
         //}
-        
+
         $("#i_eff_" + a_organ).tooltip({content: Get_Tooltip(a_organ, glb_Lang)});
-        
+
     } else {
-        
+
     }// if (a_data.length > 0)
 
     // mobile: div_Results unter Button schieben
@@ -213,7 +215,6 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
 
 
 } // Draw_Results
-
 
 
 function Draw_Results_Organ(a_data) {
@@ -230,11 +231,11 @@ function Draw_Results_Organ(a_data) {
     if (a_data.length > 0) {
 
         str += '<div class="div_Results_Header"><img src="graph/ic_info.png" class="ic_info" id="i_eff_' + a_data[0].organ + '" title=""> ' + Get_Organ(a_data[0].organ, glb_Lang) + '</div>';
-        
-        str += '<table>';   
 
-        for (var i=0; i<a_data.length; i++) {
- 
+        str += '<table>';
+
+        for (var i = 0; i < a_data.length; i++) {
+
             anzEffekte = 0;
 
             str_row = '<tr>';
@@ -242,9 +243,9 @@ function Draw_Results_Organ(a_data) {
             str_row += '<td class="td_effekt">' + Get_Effekt(a_data[i].effekt_de, glb_Lang) + '</td>';
             str_row += '<td class="td_effekt_typ left">';
 
-            for (var j=0; j<arrEffekte.length; j++) {
+            for (var j = 0; j < arrEffekte.length; j++) {
                 objEffekt = Get_Organ_Effekt_Noxe_Zeit(a_data[i].organ, a_data[i].effekt_de, arrEffekte[j], glb_Zeit);
-                
+
                 if (glb_isMobile == false) {
                     str_row += '<td class="td_effekt_typ">';
                 }
@@ -253,7 +254,7 @@ function Draw_Results_Organ(a_data) {
                     anzEffekte = anzEffekte + 1;
                     str_row += '<img src="graph/ic_' + objEffekt[0].effekt_typ + '_' + objEffekt[0].noxe + '.png" width="14px"></img>&nbsp;';
                 }
-                
+
                 if (glb_isMobile == false) {
                     str_row += '</td>';
                 }
@@ -270,7 +271,7 @@ function Draw_Results_Organ(a_data) {
         if (anzRows == 0) {
             str += '<tr><td class="td_effekt">(' + Get_UI('txt_no_effects', glb_Lang) + ')</td></tr>';
         }
-        
+
         str += '</table>';
 
         $(glb_PCID + '#div_Results_' + a_data[0].organ).html(str);
@@ -287,7 +288,7 @@ function Draw_Results_Organ(a_data) {
         }
 
     } else {
-        
+
     }// if (a_data.length > 0)
 
 } // Draw_Results_Organ
@@ -299,29 +300,30 @@ function echo(aText) {
 } // echo
 
 
-
 function Filter_Noxe(a_noxe) {
 // Alle Einträge aus json_matrix.arrMatrix mit noxe = a_noxe
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe==a_noxe});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe == a_noxe
+    });
 
     var str = '<table>';
 
-    for (var i=0; i<jsonData.length; i++) {
+    for (var i = 0; i < jsonData.length; i++) {
         //alert(as[i].name +"         "+as[i].website);
         str += '<tr>' +
-        '<td>' + jsonData[i].noxe + '</td>' +
-        '<td>' + jsonData[i].noxe_zeit + '</td>' +
-        '<td>' + jsonData[i].organ + '</td>' +
-        '<td>' + jsonData[i].effekt + '</td>' +
-        '<td>' + jsonData[i].effekt_typ;
-        
+            '<td>' + jsonData[i].noxe + '</td>' +
+            '<td>' + jsonData[i].noxe_zeit + '</td>' +
+            '<td>' + jsonData[i].organ + '</td>' +
+            '<td>' + jsonData[i].effekt + '</td>' +
+            '<td>' + jsonData[i].effekt_typ;
+
         if (jsonData[i].effekt_zusatz_de != "") {
             str += " " + jsonData[i].effekt_zusatz_de;
         }
 
         str += '</td>' +
-        '</tr>';
+            '</tr>';
     }
 
     str += '</table>';
@@ -335,8 +337,12 @@ function Filter_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 // Alle Einträge aus json_matrix.arrMatrix mit noxe = a_noxe und noxe_zeit = a_noxe_zeit
 //console.log("Filter_Noxe_Zeit: "+ a_noxe + " / " + a_noxe_zeit);
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe_zeit==a_noxe_zeit});
-    jsonData = $(jsonData).filter(function (i,n){return n.noxe==a_noxe});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe_zeit == a_noxe_zeit
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.noxe == a_noxe
+    });
 
     _Draw_Results(jsonData);
 
@@ -347,12 +353,18 @@ function Filter_Organ_Noxe_Zeit(a_organ, a_noxe, a_noxe_zeit) {
 // Alle Einträge aus json_matrix.arrMatrix mit organ = a_organ, noxe = a_noxe und noxe_zeit = a_noxe_zeit
 //console.log("Filter_Organ_Noxe_Zeit: "+ a_organ + " / " + a_noxe);
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe_zeit==a_noxe_zeit});
-    jsonData = $(jsonData).filter(function (i,n){return n.noxe==a_noxe});
-    jsonData = $(jsonData).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe_zeit == a_noxe_zeit
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.noxe == a_noxe
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 
     Draw_Results_Organ(jsonData, a_noxe, a_noxe_zeit, a_organ);
-    
+
 } // Filter_Organ_Noxe_Zeit
 
 
@@ -360,19 +372,27 @@ function Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, a_organ) {
 // Alle Einträge aus json_matrix.arrMatrix mit noxe = a_noxe und noxe_zeit = a_noxe_zeit
 //console.log("Filter_Noxe_Zeit_Organ: "+ a_noxe + " / " + a_noxe_zeit);
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe_zeit==a_noxe_zeit});
-    jsonData = $(jsonData).filter(function (i,n){return n.noxe==a_noxe});
-    jsonData = $(jsonData).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe_zeit == a_noxe_zeit
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.noxe == a_noxe
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 
     Draw_Results(jsonData, a_noxe, a_noxe_zeit, a_organ);
-    
+
 } // Filter_Noxe_Zeit_Organ
 
 
 function Filter_Organ(a_organ) {
 // Alle Einträge aus json_matrix.arrMatrix mit organ = a_organ
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 
     Draw_Results(jsonData);
 
@@ -382,26 +402,32 @@ function Filter_Organ(a_organ) {
 function Filter_Organ_Zeit(a_organ, a_noxe_zeit) {
 // Alle Einträge aus json_matrix.arrMatrix mit organ = a_organ und noxe_zeit = a_noxe_zeit
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe_zeit==a_noxe_zeit});
-    jsonData = $(jsonData).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe_zeit == a_noxe_zeit
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 
-console.log("Filter_Organ_Zeit: " + a_organ + ' - jsonData.length: ' + jsonData.length + ' - jsonData: ' + jsonData);
-console.log(jsonData);
+    console.log("Filter_Organ_Zeit: " + a_organ + ' - jsonData.length: ' + jsonData.length + ' - jsonData: ' + jsonData);
+    console.log(jsonData);
     Draw_Results_Organ(jsonData, 'Ozon', glb_Zeit, a_organ);
-    
+
 } // Filter_Organ_Zeit
 
 
 function Get_Effekt(a_effekt, a_lang) {
 // Effekt-Bezeichnung in Sprache a_lang
 
-    var jsonData = $(arrEffekte).filter(function (i,n){return n.effekt_de==a_effekt});
+    var jsonData = $(arrEffekte).filter(function (i, n) {
+        return n.effekt_de == a_effekt
+    });
 
     if (jsonData.length == 0) {
         console.log("Get_Effekt not found: " + a_lang + ', ' + a_effekt);
     }
 
-    return jsonData[0]["effekt_"+a_lang];
+    return jsonData[0]["effekt_" + a_lang];
 
 } // Get_Effekt
 
@@ -409,7 +435,9 @@ function Get_Effekt(a_effekt, a_lang) {
 function Get_Organ(a_organ, a_lang) {
 // Organ-Bezeichnung in Sprache a_lang
 
-    var jsonData = $(arrOrgane).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrOrgane).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 
 //console.log("Get_Organ: " + a_lang + ', ' + a_organ + ' - jsonData.length: ' + jsonData.length);
 
@@ -417,7 +445,7 @@ function Get_Organ(a_organ, a_lang) {
         console.log("Get_Organ not found: " + a_lang + ', ' + a_organ);
     }
 
-    return jsonData[0]["organ_"+a_lang];
+    return jsonData[0]["organ_" + a_lang];
 
 } // Get_Organ
 
@@ -425,7 +453,9 @@ function Get_Organ(a_organ, a_lang) {
 function Get_Organ_Effekte(a_organ) {
 // Alle Einträge aus json_matrix.arrEffekte mit organ = a_organ
 
-    var jsonData = $(arrEffekte).filter(function (i,n){return n.organ==a_organ});
+    var jsonData = $(arrEffekte).filter(function (i, n) {
+        return n.organ == a_organ
+    });
 //console.log(jsonData);
     Draw_Results_Organ(jsonData);
 
@@ -436,22 +466,32 @@ function Get_Organ_Effekt_Noxe_Zeit(a_organ, a_effekt, a_noxe, a_noxe_zeit) {
 // Alle passenden Einträge aus json_matrix.arrMatrix 
 //console.log("Filter_Noxe_Zeit_Organ: "+ a_noxe + " / " + a_noxe_zeit);
 
-    var jsonData = $(arrMatrix).filter(function (i,n){return n.noxe_zeit==a_noxe_zeit});
-    jsonData = $(jsonData).filter(function (i,n){return n.noxe==a_noxe});
-    jsonData = $(jsonData).filter(function (i,n){return n.effekt==a_effekt});
-    jsonData = $(jsonData).filter(function (i,n){return n.organ==a_organ});
-    
+    var jsonData = $(arrMatrix).filter(function (i, n) {
+        return n.noxe_zeit == a_noxe_zeit
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.noxe == a_noxe
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.effekt == a_effekt
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return n.organ == a_organ
+    });
+
 //console.log(jsonData);
 
     return jsonData;
-    
+
 } // Get_Organ_Effekt_Noxe_Zeit
 
 
 function Get_Noxe(a_noxe, a_lang) {
 // Noxen-Bezeichnung in Sprache a_lang
 
-    var jsonData = $(arrNoxen).filter(function (i,n){return n.noxe_de==a_noxe});
+    var jsonData = $(arrNoxen).filter(function (i, n) {
+        return n.noxe_de == a_noxe
+    });
 
 //console.log("Get_Noxe: " + a_lang + ', ' + a_noxe + ' - jsonData.length: ' + jsonData.length);
 
@@ -459,7 +499,7 @@ function Get_Noxe(a_noxe, a_lang) {
         console.log("Get_Noxe not found: " + a_lang + ', ' + a_noxe);
     }
 
-    return jsonData[0]["noxe_"+a_lang];
+    return jsonData[0]["noxe_" + a_lang];
 
 } // Get_Noxe
 
@@ -467,7 +507,9 @@ function Get_Noxe(a_noxe, a_lang) {
 function Get_Noxe_ID(a_noxe) {
 // Noxen-ID der a_noxe ermitteln
 
-    var jsonData = $(arrNoxen).filter(function (i,n){return n.noxe_de==a_noxe});
+    var jsonData = $(arrNoxen).filter(function (i, n) {
+        return n.noxe_de == a_noxe
+    });
 
 //console.log("Get_Noxe_ID: " +  a_noxe + ' - jsonData.length: ' + jsonData.length);
 
@@ -479,13 +521,15 @@ function Get_Noxe_ID(a_noxe) {
 function Get_Popuptext(a_parent, a_lang) {
 // Popup-Text zum Item a_parent in Sprache a_lang
 
-    var jsonData = $(arrPopups).filter(function (i,n){return n.parent==a_parent});
+    var jsonData = $(arrPopups).filter(function (i, n) {
+        return n.parent == a_parent
+    });
 
     if (jsonData.length == 0) {
         console.log("Get_Popuptext not found: " + a_lang + ', ' + a_parent);
     }
 
-    return jsonData[0]["text_"+a_lang];
+    return jsonData[0]["text_" + a_lang];
 
 } // Get_Popuptext
 
@@ -493,13 +537,15 @@ function Get_Popuptext(a_parent, a_lang) {
 function Get_Tooltip(a_parent, a_lang) {
 // Popup-Text zum Item a_parent in Sprache a_lang
 
-    var jsonData = $(arrInfos).filter(function (i,n){return n.parent==a_parent});
+    var jsonData = $(arrInfos).filter(function (i, n) {
+        return n.parent == a_parent
+    });
 
     if (jsonData.length == 0) {
         console.log("Get_Tooltip not found: " + a_lang + ', ' + a_parent);
     }
 
-    return jsonData[0]["text_"+a_lang];
+    return jsonData[0]["text_" + a_lang];
 
 } // Get_Tooltip
 
@@ -507,13 +553,15 @@ function Get_Tooltip(a_parent, a_lang) {
 function Get_UI(a_bez, a_lang) {
 // UI-Element a_bez in Sprache a_lang
 
-    var jsonData = $(arrUI).filter(function (i,n){return n.bez==a_bez});
+    var jsonData = $(arrUI).filter(function (i, n) {
+        return n.bez == a_bez
+    });
 
     if (jsonData.length == 0) {
         console.log("Get_Effekt not found: " + a_lang + ', ' + a_bez);
     }
 
-    return jsonData[0]["text_"+a_lang];
+    return jsonData[0]["text_" + a_lang];
 
     /*
     var txt = jsonData[0]["text_"+a_lang];
@@ -539,21 +587,21 @@ function Hide_imgOrgan(a_organ) {
 
 function Get_DocHeight(doc) {
     // Get height of document
-        doc = doc || document;
-        var body = doc.body;
-        var height = Math.max( body.scrollHeight, body.offsetHeight);
-        return height;
-    }
-    
-    
+    doc = doc || document;
+    var body = doc.body;
+    var height = Math.max(body.scrollHeight, body.offsetHeight);
+    return height;
+}
+
+
 function Msg_DocHeight() {
 // Send docHeight to parent (if mobile)
     if (glb_isMobile == true) {
-        setTimeout(function(){
+        setTimeout(function () {
             //var ht = Get_DocHeight();
             var ht = $('.div_PageContent_mobile').height();
             var id = 'ifr_LUDOK'; //iframe id
-            parent.postMessage( JSON.stringify( {'docHeight': ht, 'id':id} ), '*' );
+            parent.postMessage(JSON.stringify({'docHeight': ht, 'id': id}), '*');
         }, 400);
     }
 }
@@ -584,10 +632,14 @@ function ResetAll() {
 function Set_Organ_Mouseover(a_organ) {
 // Attach event handlers to image map areas
 
-    $('area#map_' + a_organ).each(function( index ) {
+    $('area#map_' + a_organ).each(function (index) {
         //console.log(a_organ + ': ' + index + ": " + $( this ).attr('id') );
-        $( this ).on('mouseover', function( event ) {$('#img_Organ_' + a_organ).show();});
-        $( this ).on('mouseleave', function( event ) {Hide_imgOrgan(a_organ);});
+        $(this).on('mouseover', function (event) {
+            $('#img_Organ_' + a_organ).show();
+        });
+        $(this).on('mouseleave', function (event) {
+            Hide_imgOrgan(a_organ);
+        });
     });
 
 }
@@ -599,7 +651,7 @@ function Show_Organ(a_organ) {
 //console.log('Show_Organ');
 
     if ((glb_Organ == a_organ) && (glb_isMobile == true)) {
-    // Zweiter Klick = Reset
+        // Zweiter Klick = Reset
         ResetAll();
         $(glb_PCID + '.div_Results').hide();
         glb_Organ = "";
@@ -608,7 +660,7 @@ function Show_Organ(a_organ) {
     }
 
     glb_Organ = a_organ;
-    glb_Noxe = ""; 
+    glb_Noxe = "";
 
     ResetAll();
     $(glb_PCID + '#div_Intro').hide();
@@ -640,7 +692,7 @@ function Show_Noxe(a_noxe) {
 // Zeige Einträge mit noxe = a_noxe (und noxe_zeit = glb_Zeit)
 
     if ((glb_Noxe == a_noxe) && (glb_isMobile == true)) {
-    // Zweiter Klick = Reset
+        // Zweiter Klick = Reset
         ResetAll();
         $(glb_PCID + '.div_Results').hide();
         glb_Noxe = "";
@@ -649,7 +701,7 @@ function Show_Noxe(a_noxe) {
     }
 
     glb_Organ = "";
-    glb_Noxe = a_noxe; 
+    glb_Noxe = a_noxe;
 
 //console.log("Show_Noxe: "+ a_noxe + " / " + glb_Zeit);
 
@@ -659,13 +711,13 @@ function Show_Noxe(a_noxe) {
 
     // mobile: Mensch-Grafik in div_Results_mobile richten (sonst ausblenden)
     if (glb_isMobile == true) {
-        $('#img_Mensch_mobile').attr('src', 'graph/mensch_'+a_noxe+'_'+glb_Zeit+'.png');
+        $('#img_Mensch_mobile').attr('src', 'graph/mensch_' + a_noxe + '_' + glb_Zeit + '.png');
         $('#div_Mensch_mobile').show();
     } else {
         $('#div_Mensch_mobile').hide();
     }
-    
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Atemwege'); 
+
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Atemwege');
     Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Herz');
     Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Nervensystem');
     Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Stoffwechsel');
@@ -682,7 +734,7 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 // Zeige Einträge mit noxe = a_noxe und noxe_zeit = a_noxe_zeit
 
     if ((glb_Noxe == a_noxe) && (glb_isMobile == true)) {
-    // Zweiter Klick = Reset
+        // Zweiter Klick = Reset
         ResetAll();
         $(glb_PCID + '.div_Results').hide();
         glb_Noxe = "";
@@ -692,7 +744,7 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 
     a_noxe_zeit = glb_Zeit;
     glb_Organ = "";
-    glb_Noxe = a_noxe; 
+    glb_Noxe = a_noxe;
 
 //console.log("Show_Noxe_Zeit: "+ a_noxe + " / " + a_noxe_zeit);
 
@@ -702,13 +754,13 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
 
     // mobile: Mensch-Grafik in div_Results_mobile richten (sonst ausblenden)
     if (glb_isMobile == true) {
-        $('#img_Mensch_mobile').attr('src', 'graph/mensch_'+a_noxe+'_'+a_noxe_zeit+'.png');
+        $('#img_Mensch_mobile').attr('src', 'graph/mensch_' + a_noxe + '_' + a_noxe_zeit + '.png');
         $('#div_Mensch_mobile').show();
     } else {
         $('#div_Mensch_mobile').hide();
     }
-    
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Atemwege'); 
+
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Atemwege');
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Herz');
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Nervensystem');
     Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'Stoffwechsel');
@@ -735,7 +787,7 @@ function Show_Popup_mobile(a_parent) {
         ResetAll();
         glb_HintergrundInfo = a_parent;
         $('#div_HintergrundInfo').html('<br>' + Get_Popuptext(a_parent, glb_Lang) + '<br><br>');
-        $('#div_HintergrundInfo').insertAfter("#btn_Zusatz_"+ a_parent);
+        $('#div_HintergrundInfo').insertAfter("#btn_Zusatz_" + a_parent);
         $('#div_HintergrundInfo').show();
         $(glb_PCID + ".div_Results").hide();
     } else {
@@ -756,7 +808,7 @@ function _Show_Zusatzinfo(a_parent) {
     $(glb_PCID + '#div_Intro').hide();
 
     $('#div_Results_Zusatzinfo').html(Get_Popuptext(a_parent, glb_Lang));
-    $(glb_PCID + ".div_Results").insertAfter("#btn_Zusatz_"+ a_parent);
+    $(glb_PCID + ".div_Results").insertAfter("#btn_Zusatz_" + a_parent);
     $('#div_Results_Zusatzinfo').show();
 }
 
@@ -764,12 +816,12 @@ function _Show_Zusatzinfo(a_parent) {
 function Tooltips_Init() {
 // Tooltips initialisieren
 
-    var i_elements = ["Kurzzeit", "Langzeit", 
-                      "causally", "likely", "causality_mobile",
-                      "Feinstaub", "Ozon", "Stickstoffdioxid", "Schwefeldioxid", "Kohlenmonoxid", 
-                      "Atemwege", "Herz", "Nervensystem", "Stoffwechsel", "Sterblichkeit", "Notfaelle"];
+    var i_elements = ["Kurzzeit", "Langzeit",
+        "causally", "likely", "causality_mobile",
+        "Feinstaub", "Ozon", "Stickstoffdioxid", "Schwefeldioxid", "Kohlenmonoxid",
+        "Atemwege", "Herz", "Nervensystem", "Stoffwechsel", "Sterblichkeit", "Notfaelle"];
 
-    i_elements.forEach(function(item, index, array) {
+    i_elements.forEach(function (item, index, array) {
         //console.log(item, index);
         $(".div_PageContent #i_" + item).tooltip({
             content: Get_Tooltip(item, glb_Lang) //+ "<div align=right'><a href='#' class='ipadTooltipHack'>close</a></div>"

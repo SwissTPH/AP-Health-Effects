@@ -2,20 +2,20 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
+
     <title>LUDOK iFrame</title>
 
     <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
-    
+
     <script>
 
         function receiveMessage(event) {
-        // Höhenanpassung des umgebenden div "div_iFrame" des LUDOK-iFrames
-        // (Die ID des iFrames (ifr_LUDOK) wird in jsonData.id übergeben 
-        // und kann zur Identifizierung des Aufrufers genutzt werden)
-            
+            // Höhenanpassung des umgebenden div "div_iFrame" des LUDOK-iFrames
+            // (Die ID des iFrames (ifr_LUDOK) wird in jsonData.id übergeben
+            // und kann zur Identifizierung des Aufrufers genutzt werden)
+
             var jsonData = JSON.parse(event.data);
             $('#div_iFrame').height(jsonData.docHeight);
 
@@ -32,6 +32,7 @@
             margin: 0;
             background-color: lightblue;
         }
+
         .div_iFrame {
             height: 500px;
         }
@@ -40,9 +41,9 @@
 
 <body>
 
-    <div class="div_iFrame" id="div_iFrame">
-        <iframe src="index.html" id="ifr_LUDOK" width="100%" height="100%">
-    </div>
+<div class="div_iFrame" id="div_iFrame">
+    <iframe src="index.html" id="ifr_LUDOK" width="100%" height="100%">
+</div>
 
 </body>
 
