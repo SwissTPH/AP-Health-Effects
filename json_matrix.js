@@ -332,7 +332,7 @@ arrEffekte = [
     },
     {
         "id": 26,
-        "effekt_de": "Sterblichkeit: COPD",
+        "effekt_de": "Sterblichkeit wegen COPD",
         "effekt_en": "Mortality due to COPD",
         "effekt_fr": "Mortalité due à la BPCO",
         "effekt_it": "Mortalità a causa di COPD",
@@ -341,7 +341,7 @@ arrEffekte = [
     },
     {
         "id": 27,
-        "effekt_de": "Sterblichkeit: Lungenkrebs",
+        "effekt_de": "Sterblichkeit wegen Lungenkrebs",
         "effekt_en": "Mortality due to lung cancer",
         "effekt_fr": "Mortalité due au cancer du poumon",
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
@@ -350,7 +350,7 @@ arrEffekte = [
     },
     {
         "id": 28,
-        "effekt_de": "Sterblichkeit: Atemwegsinfektionen",
+        "effekt_de": "Sterblichkeit wegen Atemwegsinfektionen",
         "effekt_en": "Mortality due to respiratory (tract) infection",
         "effekt_fr": "Mortalité due aux infections des voies respiratoires",
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
@@ -559,7 +559,7 @@ arrMatrix = [
         "noxe": "Feinstaub",
         "noxe_zeit": "L",
         "organ": "Sterblichkeit",
-        "effekt": "Sterblichkeit: Asthma",
+        "effekt": "Sterblichkeit wegen Asthma",
         "effekt_typ": "L"
     },
     {
@@ -567,7 +567,7 @@ arrMatrix = [
         "noxe": "Feinstaub",
         "noxe_zeit": "L",
         "organ": "Sterblichkeit",
-        "effekt": "Sterblichkeit: COPD",
+        "effekt": "Sterblichkeit wegen COPD",
         "effekt_typ": "L"
     },
     {
@@ -575,7 +575,7 @@ arrMatrix = [
         "noxe": "Feinstaub",
         "noxe_zeit": "L",
         "organ": "Sterblichkeit",
-        "effekt": "Sterblichkeit: Lungenkrebs",
+        "effekt": "Sterblichkeit wegen Lungenkrebs",
         "effekt_typ": "C"
     },
     {
@@ -583,7 +583,7 @@ arrMatrix = [
         "noxe": "Feinstaub",
         "noxe_zeit": "L",
         "organ": "Sterblichkeit",
-        "effekt": "Sterblichkeit: Atemwegsinfektionen",
+        "effekt": "Sterblichkeit wegen Atemwegsinfektionen",
         "effekt_typ": "L"
     },
 
