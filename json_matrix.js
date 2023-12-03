@@ -10,7 +10,7 @@ arrNoxen = [
         "noxe_fr": "Poussières fines",
         "noxe_it": "Polveri sottili",
         "noxe_tr": "Partikül Madde",
-        "noxe_sv": "TODO SV: Particulate matter",
+        "noxe_mn": "TODO MN: Particulate matter",
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@ arrNoxen = [
         "noxe_fr": "Ozone",
         "noxe_it": "Ozono",
         "noxe_tr": "Ozon",
-        "noxe_sv": "TODO SV: Ozone",
+        "noxe_mn": "TODO MN: Ozone",
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@ arrNoxen = [
         "noxe_fr": "Dioxyde d'azote",
         "noxe_it": "Diossido di azoto",
         "noxe_tr": "Azot dioksit",
-        "noxe_sv": "TODO SV: Nitrogen dioxide",
+        "noxe_mn": "TODO MN: Nitrogen dioxide",
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@ arrNoxen = [
         "noxe_fr": "Dioxyde de soufre",
         "noxe_it": "Anidride solforosa",
         "noxe_tr": "Sülfür dioksit",
-        "noxe_sv": "TODO SV: Sulphur dioxide",
+        "noxe_mn": "TODO MN: Sulphur dioxide",
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@ arrNoxen = [
         "noxe_fr": "Monoxyde de carbone",
         "noxe_it": "Monossido di carbonio",
         "noxe_tr": "Karbonmonoksit",
-        "noxe_sv": "TODO SV: Carbon monoxide",
+        "noxe_mn": "TODO MN: Carbon monoxide",
     }
 ];
 
@@ -60,7 +60,7 @@ arrOrgane = [
         "organ_fr": "Voies respiratoires",
         "organ_it": "Vie respiratorie",
         "organ_tr": "Solunum sistemi",
-        "organ_sv": "TODO SV: Respiratory system",
+        "organ_mn": "TODO MN: Respiratory system",
     },
     {
         "id": 2,
@@ -70,7 +70,7 @@ arrOrgane = [
         "organ_fr": "Système cardiovasculaire",
         "organ_it": "Sistema cardiovascolare",
         "organ_tr": "Kardiyovasküler sistem",
-        "organ_sv": "TODO SV: Cardiovascular system",
+        "organ_mn": "TODO MN: Cardiovascular system",
     },
     {
         "id": 3,
@@ -80,7 +80,7 @@ arrOrgane = [
         "organ_fr": "Système nerveux",
         "organ_it": "Sistema nervoso",
         "organ_tr": "Sinir sistemi",
-        "organ_sv": "TODO SV: Nervous system",
+        "organ_mn": "TODO MN: Nervous system",
     },
     {
         "id": 4,
@@ -90,7 +90,7 @@ arrOrgane = [
         "organ_fr": "Métabolisme/système immunitaire",
         "organ_it": "Metabolismo/sistema immunitario",
         "organ_tr": "Metabolizma/Bağışıklık sistemi",
-        "organ_sv": "TODO SV: Metabolism/Immune system",
+        "organ_mn": "TODO MN: Metabolism/Immune system",
     },
     {
         "id": 5,
@@ -100,7 +100,7 @@ arrOrgane = [
         "organ_fr": "Mortalité",
         "organ_it": "Mortalità",
         "organ_tr": "Ölüm",
-        "organ_sv": "TODO SV: Mortality",
+        "organ_mn": "TODO MN: Mortality",
     },
     {
         "id": 6,
@@ -110,7 +110,7 @@ arrOrgane = [
         "organ_fr": "Urgences",
         "organ_it": "Emergenze",
         "organ_tr": "Acil durumlar",
-        "organ_sv": "TODO SV: Emergency",
+        "organ_mn": "TODO MN: Emergency",
     }
 ];
 
@@ -123,7 +123,7 @@ arrEffekte = [
         "effekt_fr": "Asthme",
         "effekt_it": "Asma",
         "effekt_tr": "Astım",
-        "effekt_sv": "TODO SV: Asthma",
+        "effekt_mn": "TODO MN: Asthma",
         "organ": "Atemwege"
     },
     {
@@ -133,7 +133,7 @@ arrEffekte = [
         "effekt_fr": "Symptômes des voies respira&shy;toires, p. ex. respiration sifflante",
         "effekt_it": "Sintomi respiratori, ad es. respiro sibilante",
         "effekt_tr": "Solunum/solunum yolu semptomları örn. Hırıltı",
-        "effekt_sv": "TODO SV: Respiratory/airway symptoms e.g. wheeze",
+        "effekt_mn": "TODO MN: Respiratory/airway symptoms e.g. wheeze",
         "organ": "Atemwege"
     },
     {
@@ -143,7 +143,7 @@ arrEffekte = [
         "effekt_fr": "Aggravation de la maladie, augmentation des symptômes ou du traitement chez les patients asthmatiques",
         "effekt_it": "Peggioramento della malattia, più sintomi o farmaci nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda hastalığın alevlenmesi, semptomların artması veya ilaç tedavisi",
-        "effekt_sv": "TODO SV: Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
+        "effekt_mn": "TODO MN: Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
         "organ": "Atemwege"
     },
     {
@@ -153,7 +153,7 @@ arrEffekte = [
         "effekt_fr": "Fonction pulmonaire réduite chez les patients asthmatiques",
         "effekt_it": "Funzione polmonare ridotta nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda akciğer fonksiyonlarında azalma",
-        "effekt_sv": "TODO SV: Lung function decline in patients with asthma",
+        "effekt_mn": "TODO MN: Lung function decline in patients with asthma",
         "organ": "Atemwege"
     },
     {
@@ -163,7 +163,7 @@ arrEffekte = [
         "effekt_fr": "Aggravation de la maladie ou aug&shy;mentation des symptômes chez les patients atteints de BPCO",
         "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
         "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
-        "effekt_sv": "TODO SV: Worsening of the disease or increase in symptoms in patients with COPD",
+        "effekt_mn": "TODO MN: Worsening of the disease or increase in symptoms in patients with COPD",
         "organ": "Atemwege"
     },
     {
@@ -173,7 +173,7 @@ arrEffekte = [
         "effekt_fr": "Augmentation des symptômes chez les personnes allergiques",
         "effekt_it": "Più sintomi per chi soffre di allergie",
         "effekt_tr": "Alerji hastalarında semptomlarda artış",
-        "effekt_sv": "TODO SV: Increase in symptoms for allergy patients",
+        "effekt_mn": "TODO MN: Increase in symptoms for allergy patients",
         "organ": "Atemwege"
     },
     {
@@ -183,7 +183,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite chronique",
         "effekt_it": "Bronchite cronica",
         "effekt_tr": "Kronik bronşit",
-        "effekt_sv": "TODO SV: Chronic bronchitis",
+        "effekt_mn": "TODO MN: Chronic bronchitis",
         "organ": "Atemwege"
     },
     {
@@ -193,7 +193,7 @@ arrEffekte = [
         "effekt_fr": "Réduction de la fonction pulmonaire",
         "effekt_it": "Funzione polmonare ridotta",
         "effekt_tr": "Akciğer fonksiyonunda azalma",
-        "effekt_sv": "TODO SV: Lung function decline",
+        "effekt_mn": "TODO MN: Lung function decline",
         "organ": "Atemwege"
     },
     {
@@ -203,7 +203,7 @@ arrEffekte = [
         "effekt_fr": "Réduction de la croissance des poumons",
         "effekt_it": "Crescita polmonare ridotta",
         "effekt_tr": "Uyumsuz akciğer büyümesi",
-        "effekt_sv": "TODO SV: Impaired Lung growth",
+        "effekt_mn": "TODO MN: Impaired Lung growth",
         "organ": "Atemwege"
     },
     {
@@ -213,7 +213,7 @@ arrEffekte = [
         "effekt_fr": "Accélération de la diminution de la fonction pulmonaire",
         "effekt_it": "Riduzione accelerata della funzione polmonare",
         "effekt_tr": "Akciğer fonksiyonunda hızlı düşüş",
-        "effekt_sv": "TODO SV: Accelerated decline in lung function",
+        "effekt_mn": "TODO MN: Accelerated decline in lung function",
         "organ": "Atemwege"
     },
     {
@@ -223,7 +223,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite",
         "effekt_it": "Bronchite",
         "effekt_tr": "Bronşit",
-        "effekt_sv": "TODO SV: Bronchitis",
+        "effekt_mn": "TODO MN: Bronchitis",
         "organ": "Atemwege"
     },
     {
@@ -233,7 +233,7 @@ arrEffekte = [
         "effekt_fr": "Inflammation des voies respira&shy;toires, réaction inflammatoire",
         "effekt_it": "Infiammazione delle vie aeree, reazione infiammatoria",
         "effekt_tr": "Hava yolu/solunum iltihabı, inflamatuar reaksiyon",
-        "effekt_sv": "TODO SV: Airway/respiratory inflammation, inflammatory reaction",
+        "effekt_mn": "TODO MN: Airway/respiratory inflammation, inflammatory reaction",
         "organ": "Atemwege"
     },
     {
@@ -243,7 +243,7 @@ arrEffekte = [
         "effekt_fr": "Développement d’un cancer du poumon",
         "effekt_it": "Sviluppo di cancro ai polmoni",
         "effekt_tr": "Akciğer kanseri gelişimi",
-        "effekt_sv": "TODO SV: Development of lung cancer",
+        "effekt_mn": "TODO MN: Development of lung cancer",
         "organ": "Atemwege"
     },
     {
@@ -253,7 +253,7 @@ arrEffekte = [
         "effekt_fr": "Artériosclérose",
         "effekt_it": "Arteriosclerosi",
         "effekt_tr": "Koroner arter hastalığı",
-        "effekt_sv": "TODO SV: Atherosclerosis",
+        "effekt_mn": "TODO MN: Atherosclerosis",
         "organ": "Herz"
     },
     {
@@ -263,7 +263,7 @@ arrEffekte = [
         "effekt_fr": "Hypertension artérielle",
         "effekt_it": "Ipertensione arteriosa",
         "effekt_tr": "Kan basıncı, hipertansiyon",
-        "effekt_sv": "TODO SV: Hypertension",
+        "effekt_mn": "TODO MN: Hypertension",
         "organ": "Herz"
     },
     {
@@ -273,7 +273,7 @@ arrEffekte = [
         "effekt_fr": "Arythmies cardiaques",
         "effekt_it": "Variabilità della frequenza cardiaca",
         "effekt_tr": "Aritmi",
-        "effekt_sv": "TODO SV: Arrhythmia",
+        "effekt_mn": "TODO MN: Arrhythmia",
         "organ": "Herz"
     },
     {
@@ -283,7 +283,7 @@ arrEffekte = [
         "effekt_fr": "Coagulation du sang",
         "effekt_it": "Coagulazione del sangue",
         "effekt_tr": "Kan pıhtılaşması",
-        "effekt_sv": "TODO SV: Blood coagulation",
+        "effekt_mn": "TODO MN: Blood coagulation",
         "organ": "Herz"
     },
     {
@@ -293,7 +293,7 @@ arrEffekte = [
         "effekt_fr": "Troubles/maladies du métabolisme des sucres et des graisses (p. ex., diabète)",
         "effekt_it": "Disturbi/malattie del metabolismo degli zuccheri e dei grassi (ad es. diabete)",
         "effekt_tr": "Şeker ve metabolik bozukluklar/hastalıklar (örn. Diyabet)",
-        "effekt_sv": "TODO SV: Sugar- and metabolic disorders/diseases (e.g. diabetes)",
+        "effekt_mn": "TODO MN: Sugar- and metabolic disorders/diseases (e.g. diabetes)",
         "organ": "Stoffwechsel"
     },
     {
@@ -303,7 +303,7 @@ arrEffekte = [
         "effekt_fr": "Réduction des défenses immunitaires",
         "effekt_it": "Difesa immunitaria ridotta",
         "effekt_tr": "Bağışıklık ve savunma sisteminde azalma",
-        "effekt_sv": "TODO SV: Decline in immune defence",
+        "effekt_mn": "TODO MN: Decline in immune defence",
         "organ": "Stoffwechsel"
     },
     {
@@ -313,7 +313,7 @@ arrEffekte = [
         "effekt_fr": "Réduction du volume du cerveau (masse blanche)",
         "effekt_it": "Volume del cervello (massa bianca) ridotto",
         "effekt_tr": "Beyin hacminde (beyaz madde) azalma",
-        "effekt_sv": "TODO SV: Brain volume (white matter) decline",
+        "effekt_mn": "TODO MN: Brain volume (white matter) decline",
         "organ": "Nervensystem"
     },
     {
@@ -323,7 +323,7 @@ arrEffekte = [
         "effekt_fr": "Diminution des performances cognitives (démence)",
         "effekt_it": "Diminuzione delle prestazioni cognitive (demenza)",
         "effekt_tr": "Bilişsel performans düşüşü (demans)",
-        "effekt_sv": "TODO SV: Cognitive performance decline (dementia)",
+        "effekt_mn": "TODO MN: Cognitive performance decline (dementia)",
         "organ": "Nervensystem"
     },
     {
@@ -333,7 +333,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à la maladie",
         "effekt_it": "Mortalità dovuta a malattia ",
         "effekt_tr": "Kaza kaynaklı olmayan ölüm",
-        "effekt_sv": "TODO SV: Non-accidental mortality",
+        "effekt_mn": "TODO MN: Non-accidental mortality",
         "organ": "Sterblichkeit"
     },
     {
@@ -343,7 +343,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies cardiovasculaires",
         "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler kaynaklı ölüm",
-        "effekt_sv": "TODO SV: Mortality due to cardiovascular disease",
+        "effekt_mn": "TODO MN: Mortality due to cardiovascular disease",
         "organ": "Sterblichkeit"
     },
     {
@@ -353,7 +353,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies des voies respiratoires",
         "effekt_it": "Mortalità a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
-        "effekt_sv": "TODO SV: Mortality due to respiratory diseases",
+        "effekt_mn": "TODO MN: Mortality due to respiratory diseases",
         "organ": "Sterblichkeit"
     },
     {
@@ -363,7 +363,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à l'asthme",
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
-        "effekt_sv": "TODO SV: Mortality due to asthma",
+        "effekt_mn": "TODO MN: Mortality due to asthma",
         "organ": "Sterblichkeit"
     },
     {
@@ -373,7 +373,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à la BPCO",
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
-        "effekt_sv": "TODO SV: Mortality due to COPD",
+        "effekt_mn": "TODO MN: Mortality due to COPD",
         "organ": "Sterblichkeit"
     },
     {
@@ -383,7 +383,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due au cancer du poumon",
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
         "effekt_tr": "Ölüm: akciğer kanseri",
-        "effekt_sv": "TODO SV: Mortality due to lung cancer",
+        "effekt_mn": "TODO MN: Mortality due to lung cancer",
         "organ": "Sterblichkeit"
     },
     {
@@ -393,7 +393,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due aux infections des voies respiratoires",
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
-        "effekt_sv": "TODO SV: Mortality due to respiratory (tract) infection",
+        "effekt_mn": "TODO MN: Mortality due to respiratory (tract) infection",
         "organ": "Sterblichkeit"
     },
     {
@@ -403,7 +403,7 @@ arrEffekte = [
         "effekt_fr": "Urgences dues à des maladies respiratoires",
         "effekt_it": "Emergenze a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı acil durum",
-        "effekt_sv": "TODO SV: Emergency due to respiratory diseases",
+        "effekt_mn": "TODO MN: Emergency due to respiratory diseases",
         "organ": "Notfaelle"
     },
     {
@@ -413,7 +413,7 @@ arrEffekte = [
         "effekt_fr": "Urgences dues à l'asthme",
         "effekt_it": "Emergenze a causa di asma",
         "effekt_tr": "Astım kaynaklı acil durum",
-        "effekt_sv": "TODO SV: Emergency due to asthma",
+        "effekt_mn": "TODO MN: Emergency due to asthma",
         "organ": "Notfaelle"
     },
     {
@@ -423,7 +423,7 @@ arrEffekte = [
         "effekt_fr": "Urgences dues à la BPCO",
         "effekt_it": "Emergenze a causa di COPD",
         "effekt_tr": "KOAH kaynaklı acil durum",
-        "effekt_sv": "TODO SV: Emergency due to COPD",
+        "effekt_mn": "TODO MN: Emergency due to COPD",
         "organ": "Notfaelle"
     },
     {
@@ -433,7 +433,7 @@ arrEffekte = [
         "effekt_fr": "Urgences dues aux maladies cardiovasculaires",
         "effekt_it": "Emergenze a causa di malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler hastalıklar kaynaklı acil durum",
-        "effekt_sv": "TODO SV: Emergency due to cardiovascular diseases",
+        "effekt_mn": "TODO MN: Emergency due to cardiovascular diseases",
         "organ": "Notfaelle"
     }
 ];
@@ -500,7 +500,7 @@ arrMatrix = [
         "effekt_zusatz_fr": "(l'enfant)",
         "effekt_zusatz_it": "(bambini)",
         "effekt_zusatz_tr": "(çocuklar)",
-        "effekt_zusatz_sv": "TODO SV: (children)",
+        "effekt_zusatz_mn": "TODO MN: (children)",
     },
     {
         "id": 1017,
@@ -597,7 +597,7 @@ arrMatrix = [
         "effekt_zusatz_fr": "(cardiopulmonaire)",
         "effekt_zusatz_it": "(cardiopolmonare)",
         "effekt_zusatz_tr": "(kardiyopulmoner)",
-        "effekt_zusatz_sv": "TODO SV: (cardiopulmonary)",
+        "effekt_zusatz_mn": "TODO MN: (cardiopulmonary)",
     },
     {
         "id": 1054,
@@ -962,7 +962,7 @@ arrMatrix = [
         "effekt_zusatz_fr": "(personnes sensibles)",
         "effekt_zusatz_it": "(persone sensibili)",
         "effekt_zusatz_tr": "(duyarlı kişiler)",
-        "effekt_zusatz_sv": "TODO SV: (Susceptible persons)",
+        "effekt_zusatz_mn": "TODO MN: (Susceptible persons)",
     },
     {
         "id": 4151,
@@ -984,7 +984,7 @@ arrMatrix = [
         "effekt_zusatz_fr": "(enfants, 65+/personnes âgées)",
         "effekt_zusatz_it": "(bambini, 65+/gli anziani)",
         "effekt_zusatz_tr": "(çocuk, 65+/yaşlı)",
-        "effekt_zusatz_sv": "TODO SV: (children, 65 years and older)",
+        "effekt_zusatz_mn": "TODO MN: (children, 65 years and older)",
     },
 
     {

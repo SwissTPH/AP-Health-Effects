@@ -70,7 +70,7 @@ arrPopups = [
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck uygulamasında</a>" +
             ", MeteoSwiss uygulamasında (mobil cihazlarınızdaki uygulama mağazalarına bakın) veya Federal Çevre Dairesi'nde (FOEN) " +
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Current pollution</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Current pollution</div>" +
             "<b>What is the current level of air pollution in Switzerland?</b>" +
             "<br><br>" +
             "Switzerland's air quality has been steadily improving since the mid-1980s. Most areas in Switzerland, for most pollutants, are currently in compliance with the air quality standards. " +
@@ -205,7 +205,7 @@ arrPopups = [
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> veya  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
             "FR</a> indirilebilir 0,6MB) bilgi notunda mevcuttur.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Limit values</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Limit values</div>" +
             "<b>What is the legal basis, or who determines the guidelines?</b>" +
             "<br><br>" +
             "In the " +
@@ -267,7 +267,7 @@ arrPopups = [
             "<br><br>" +
             "Daha fazla bilgi Federal Çevre Dairesi'nin (FOEN) web sitesinde " +
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Hava: Özet</a> bulunabilir. ",
-        "text_sv": "<div class=\"i_header\">TODO SV: Sources of pollutants</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Sources of pollutants</div>" +
             "<b>What are the sources of air pollution?</b>" +
             "<br><br>" +
             "The sources of air pollution vary depending on the pollutant. The main sources include traffic, heating systems, industry, commerce and agriculture." +
@@ -451,7 +451,7 @@ arrPopups = [
             "Ayrıca, kişisel tıbbi öykü ve bireysel duyarlılık da önemli rol oynamaktadır. Daha duyarlı (savunmasız) bireyler genellikle daha yüksek olumsuz etki riskine sahiptir. " +
             "Örneğin, halihazırda zatürre hastası olan veya akciğerleri hala gelişmekte olan kişiler kirli havanın etkilerine karşı daha duyarlıdır. Bu, tüm nüfus gruplarının " +
             "hava kirleticilerine aynı şekilde tepki vermediği anlamına gelir: Çocuklar, hastalar ve yaşlılar ortalama olarak daha yüksek risk altındadır. ",
-        "text_sv": "<div class=\"i_header\">TODO SV: Background</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Background</div>" +
             "<b>How are associations between health effects and pollutants investigated and assessed?</b>" +
             "<br><br>" +
             "Every day, an adult breathes 12’000 – 15’000 litres of air. In addition to vital oxygen, pollutants also enter our lungs and airways through the nose and throat. " +
@@ -566,7 +566,7 @@ arrPopups = [
             "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Fransızca</a>/" +
             "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>)",
-        "text_sv": "<div class=\"i_header\">TODO SV: My Contribution</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
@@ -655,7 +655,7 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_sv": "<div class=\"i_header\">TODO SV: References</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: References</div>" +
             "The data displayed in this interactive figure are based on the current Integrated Science Assessments by the US Environmental Protection Agency " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
@@ -794,7 +794,7 @@ arrPopups = [
             "İnteraktif şeklin kullanımına ve uyarlanmasına, yazar olarak Swiss  TPH'ye atıfta bulunarak ve AGPL lisans koşullarına uygun olarak izin verilir. Geri bildirim ve katkılar " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> adresinden memnuniyetle karşılanacaktır.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Imprint</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Imprint</div>" +
             "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
             "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
             "<ul>" +
@@ -829,7 +829,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Voies aériennes</div>Poumon, trachée",
         "text_it": "<div class=\"i_header\">Vie respiratorie</div>Polmoni, trachea",
         "text_tr": "<div class=\"i_header\">Solunum sistemi</div>Akciğerler, nefes borusu (trake), hava yolları (bronşlar ve bronşiyoller), hava keseleri (alveoller)",
-        "text_sv": "<div class=\"i_header\">TODO SV: Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
+        "text_mn": "<div class=\"i_header\">TODO MN: Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
     },
     {
         "id": 2,
@@ -839,7 +839,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Système cardiovasculaire</div>Cœur, circulation sanguine",
         "text_it": "<div class=\"i_header\">Sistema cardiovascolare</div>Cuore, circolazione sanguigna",
         "text_tr": "<div class=\"i_header\">Kardiyovasküler sistem</div>Kalp, kan ve kan damarları",
-        "text_sv": "<div class=\"i_header\">TODO SV: Cardiovascular system</div>Heart, blood and blood vessels",
+        "text_mn": "<div class=\"i_header\">TODO MN: Cardiovascular system</div>Heart, blood and blood vessels",
     },
     {
         "id": 3,
@@ -849,7 +849,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Système nerveux</div>Cerveau, système nerveux",
         "text_it": "<div class=\"i_header\">Sistema nervoso</div>Cervello, sistema nervoso",
         "text_tr": "<div class=\"i_header\">Sinir sistemi</div>Beyin, sinir sistemi",
-        "text_sv": "<div class=\"i_header\">TODO SV: Nervous system</div>Brain, nervous system",
+        "text_mn": "<div class=\"i_header\">TODO MN: Nervous system</div>Brain, nervous system",
     },
     {
         "id": 4,
@@ -859,7 +859,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Métabolisme/système immunitaire</div>Foie, pancréas, défenses immunitaires",
         "text_it": "<div class=\"i_header\">Metabolismo/sistema immunitario</div>Fegato, pancreas, difesa immunitaria",
         "text_tr": "<div class=\"i_header\">Metabolizma/Bağışıklık sistemi</div>Karaciğer, pankreas, bağışıklık sistemi",
-        "text_sv": "<div class=\"i_header\">TODO SV: Metabolism/Immune system</div>Liver, pancreas, immune defence",
+        "text_mn": "<div class=\"i_header\">TODO MN: Metabolism/Immune system</div>Liver, pancreas, immune defence",
     },
     {
         "id": 5,
@@ -869,7 +869,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Mortalité</div>Décès, nombre de décès rapporté à la population",
         "text_it": "<div class=\"i_header\">Mortalità</div>Decessi, numero di decessi in rapporto alla popolazione",
         "text_tr": "<div class=\"i_header\">Ölüm</div>Ölümler, nüfusa göre ölüm sayısı",
-        "text_sv": "<div class=\"i_header\">TODO SV: Mortality</div>Deaths, number of deaths in relation to the population",
+        "text_mn": "<div class=\"i_header\">TODO MN: Mortality</div>Deaths, number of deaths in relation to the population",
     },
     {
         "id": 6,
@@ -879,7 +879,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Urgences</div>Consultations d'urgence dans les hôpitaux ou auprès du médecin de famille, admissions à l'hôpital pour cause d'urgence",
         "text_it": "<div class=\"i_header\">Emergenze</div>Consultazioni d’emergenza in ospedale o con il medico di famiglia, ricoveri ospedalieri per emergenze",
         "text_tr": "<div class=\"i_header\">Acil durumlar</div>Aile hekimi veya hastanelerdeki acil konsültasyonlar, acil durumlar nedeniyle hastaneye yatışlar",
-        "text_sv": "<div class=\"i_header\">TODO SV: Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
+        "text_mn": "<div class=\"i_header\">TODO MN: Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
     },
     {
         "id": 7,
@@ -906,7 +906,7 @@ arrInfos = [
             "Kirleticinin ilgili maruz kalma seviyelerinde sağlık veya refah etkilerine neden olduğu hücresel, hayvan, insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
             "<br><br>" +
             "Rastgele sonuçlar, karıştırıcılar ve diğer sapmalar makul durumlarda hariç tutulabilir.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Causal</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Causal</div>" +
             "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability.",
@@ -936,7 +936,7 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Likely causal</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Likely causal</div>" +
             "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
             "<br><br>" +
             "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
@@ -1011,7 +1011,7 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Causality</div>" +
+        "text_mn": "<div class=\"i_header\">TODO MN: Causality</div>" +
             "<b>Causal</b>" +
             "<br><br>" +
             "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
@@ -1033,7 +1033,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
         "text_it": "<div class=\"i_header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
         "text_tr": "<div class=\"i_header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
-        "text_sv": "<div class=\"i_header\">TODO SV: Short-term</div>Effects associated with short-term exposures (hours to days)",
+        "text_mn": "<div class=\"i_header\">TODO MN: Short-term</div>Effects associated with short-term exposures (hours to days)",
     },
     {
         "id": 11,
@@ -1044,7 +1044,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
         "text_it": "<div class=\"i_header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
         "text_tr": "<div class=\"i_header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
-        "text_sv": "<div class=\"i_header\">TODO SV: Long-term</div>Effects associated with long-term exposures (over months to years)",
+        "text_mn": "<div class=\"i_header\">TODO MN: Long-term</div>Effects associated with long-term exposures (over months to years)",
     },
     {
         "id": 12,
@@ -1060,7 +1060,7 @@ arrInfos = [
             "Particelle più piccole di 10 o 2,5 micrometri (PM10/PM2,5): emissioni derivanti principalmente dal traffico o dalle combustioni per il riscaldamento, incendi (forestali) e formazione " +
             "da precursori come gli ossidi di azoto e l'ammoniaca (per quest’ultime nella letteratura tecnica si usa il termine \“polveri sottili secondarie\")",
         "text_tr": "<div class=\"i_header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
-        "text_sv": "<div class=\"i_header\">TODO SV: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia (the term \"secondary particulate matter\" is used in the technical literature)",
+        "text_mn": "<div class=\"i_header\">TODO MN: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia (the term \"secondary particulate matter\" is used in the technical literature)",
     },
     {
         "id": 13,
@@ -1071,7 +1071,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Ozone (O<sub>3</sub>)</div>Formé par le rayonnement solaire à partir de précurseurs tels que le dioxyde d'azote et les composés organiques volatils (COV)",
         "text_it": "<div class=\"i_header\">Ozono (O<sub>3</sub>)</div>Formato da radiazioni solari provenienti da precursori come il biossido di azoto e composti organici volatili (COV)",
         "text_tr": "<div class=\"i_header\">Ozon (O<sub>3</sub>)</div>Azot dioksit ve uçucu organik bileşikler gibi öncüllerden güneş ışımasıyla oluşur (VOC)",
-        "text_sv": "<div class=\"i_header\">TODO SV: Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
+        "text_mn": "<div class=\"i_header\">TODO MN: Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
     },
     {
         "id": 14,
@@ -1082,7 +1082,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Dioxyde d'azote (NO<sub>2</sub>)</div>Émissions provenant principalement de la combustion dans les moteurs, les chauffages et l’industrie",
         "text_it": "<div class=\"i_header\">Diossido di azoto (NO<sub>2</sub>)</div>Emissioni derivanti principalmente dal traffico e dalle combustioni per il riscaldamento",
         "text_tr": "<div class=\"i_header\">Nitrojen dioksit (NO<sub>2</sub>)</div>Esas olarak karayolu trafiğinden ve ısıtma gibi diğer fosil yakıt yanma işlemlerinden kaynaklanan emisyonlar",
-        "text_sv": "<div class=\"i_header\">TODO SV: Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
+        "text_mn": "<div class=\"i_header\">TODO MN: Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
     },
     {
         "id": 15,
@@ -1093,7 +1093,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Dioxyde de soufre (SO<sub>2</sub>)</div>Émissions provenant de la combustion de charbon ou de produits pétroliers contenant du soufre",
         "text_it": "<div class=\"i_header\">Anidride solforosa (SO<sub>2</sub>)</div>Emissioni derivanti dalla combustione di carbone contenente zolfo o di petrolio",
         "text_tr": "<div class=\"i_header\">Sülfür dioksit (SO<sub>2</sub>)</div>Kükürt içeren kömür veya dizel yakıtların yanmasından kaynaklanan emisyonlar",
-        "text_sv": "<div class=\"i_header\">TODO SV: Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
+        "text_mn": "<div class=\"i_header\">TODO MN: Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
     },
     {
         "id": 16,
@@ -1104,7 +1104,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
         "text_it": "<div class=\"i_header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
         "text_tr": "<div class=\"i_header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
-        "text_sv": "<div class=\"i_header\">TODO SV: Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
+        "text_mn": "<div class=\"i_header\">TODO MN: Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
     },
 ];
 
@@ -1118,7 +1118,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
-        "text_sv": "TODO SV: Short-term",
+        "text_mn": "TODO MN: Short-term",
     },
     {
         "id": 2,
@@ -1128,7 +1128,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
-        "text_sv": "TODO SV: Long-term",
+        "text_mn": "TODO MN: Long-term",
     },
 
     {
@@ -1139,7 +1139,7 @@ arrUI = [
         "text_fr": "Poussières fines",
         "text_it": "Polveri sottili ",
         "text_tr": "Partikül Madde",
-        "text_sv": "TODO SV: Particulate Matter",
+        "text_mn": "TODO MN: Particulate Matter",
     },
     {
         "id": 4,
@@ -1149,7 +1149,7 @@ arrUI = [
         "text_fr": "Ozone",
         "text_it": "Ozono",
         "text_tr": "Ozon",
-        "text_sv": "TODO SV: Ozone",
+        "text_mn": "TODO MN: Ozone",
     },
     {
         "id": 5,
@@ -1159,7 +1159,7 @@ arrUI = [
         "text_fr": "Dioxyde d'azote",
         "text_it": "Diossido di azoto",
         "text_tr": "Nitrojen dioksit",
-        "text_sv": "TODO SV: Nitrogen dioxide",
+        "text_mn": "TODO MN: Nitrogen dioxide",
     },
     {
         "id": 6,
@@ -1169,7 +1169,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
-        "text_sv": "TODO SV: Sulphur dioxide",
+        "text_mn": "TODO MN: Sulphur dioxide",
     },
     {
         "id": 7,
@@ -1179,7 +1179,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
-        "text_sv": "TODO SV: Carbon monoxide",
+        "text_mn": "TODO MN: Carbon monoxide",
     },
 
     {
@@ -1190,7 +1190,7 @@ arrUI = [
         "text_fr": "Voies aériennes",
         "text_it": "Vie respiratorie",
         "text_tr": "Solunum sistemi",
-        "text_sv": "TODO SV: Respiratory system",
+        "text_mn": "TODO MN: Respiratory system",
     },
     {
         "id": 12,
@@ -1200,7 +1200,7 @@ arrUI = [
         "text_fr": "Système cardiovasculaire",
         "text_it": "Sistema cardiovascolare",
         "text_tr": "Kardiyovasküler sistem",
-        "text_sv": "TODO SV: Cardiovascular system",
+        "text_mn": "TODO MN: Cardiovascular system",
     },
     {
         "id": 13,
@@ -1210,7 +1210,7 @@ arrUI = [
         "text_fr": "Système nerveux",
         "text_it": "Sistema nervoso",
         "text_tr": "Sinir sistemi",
-        "text_sv": "TODO SV: Nervous system",
+        "text_mn": "TODO MN: Nervous system",
     },
     {
         "id": 14,
@@ -1220,7 +1220,7 @@ arrUI = [
         "text_fr": "Métabolisme/système immunitaire",
         "text_it": "Metabolismo/sistema immunitario",
         "text_tr": "Metabolizma/Bağışıklık sistemi",
-        "text_sv": "TODO SV: Metabolism/Immune system",
+        "text_mn": "TODO MN: Metabolism/Immune system",
     },
     {
         "id": 15,
@@ -1230,7 +1230,7 @@ arrUI = [
         "text_fr": "Mortalité",
         "text_it": "Mortalità",
         "text_tr": "Ölüm",
-        "text_sv": "TODO SV: Mortality",
+        "text_mn": "TODO MN: Mortality",
     },
     {
         "id": 16,
@@ -1240,7 +1240,7 @@ arrUI = [
         "text_fr": "Urgences",
         "text_it": "Emergenze",
         "text_tr": "Acil durumlar",
-        "text_sv": "TODO SV: Emergen<br>cies",
+        "text_mn": "TODO MN: Emergen<br>cies",
     },
 
     {
@@ -1251,7 +1251,7 @@ arrUI = [
         "text_fr": "Pollution actuel",
         "text_it": "Esposizione attuale",
         "text_tr": "Mevcut<br/>kirlilik",
-        "text_sv": "TODO SV: Current pollution",
+        "text_mn": "TODO MN: Current pollution",
     },
     {
         "id": 22,
@@ -1261,7 +1261,7 @@ arrUI = [
         "text_fr": "Valeur limite",
         "text_it": "Valori limite",
         "text_tr": "Limit<br/>değerler",
-        "text_sv": "TODO SV: Limit values",
+        "text_mn": "TODO MN: Limit values",
     },
     {
         "id": 23,
@@ -1271,7 +1271,7 @@ arrUI = [
         "text_fr": "Source polluants",
         "text_it": "Fonti inquinanti",
         "text_tr": "Kirletici kaynakları",
-        "text_sv": "TODO SV: Sources of pollutants",
+        "text_mn": "TODO MN: Sources of pollutants",
     },
     {
         "id": 24,
@@ -1281,7 +1281,7 @@ arrUI = [
         "text_fr": "Scénario",
         "text_it": "Scenario",
         "text_tr": "Arkaplan",
-        "text_sv": "TODO SV: Background",
+        "text_mn": "TODO MN: Background",
     },
     {
         "id": 25,
@@ -1291,7 +1291,7 @@ arrUI = [
         "text_fr": "Ma contribution",
         "text_it": "Cosa posso fare",
         "text_tr": "Katkınız",
-        "text_sv": "TODO SV: My Contribution",
+        "text_mn": "TODO MN: My Contribution",
     },
     {
         "id": 26,
@@ -1301,7 +1301,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
-        "text_sv": "TODO SV: References",
+        "text_mn": "TODO MN: References",
     },
     {
         "id": 27,
@@ -1311,7 +1311,7 @@ arrUI = [
         "text_fr": "Impressum",
         "text_it": "Impressum",
         "text_tr": "Baskı",
-        "text_sv": "TODO SV: Imprint",
+        "text_mn": "TODO MN: Imprint",
     },
 
     {
@@ -1322,7 +1322,7 @@ arrUI = [
         "text_fr": "Causalité",
         "text_it": "Causalità",
         "text_tr": "Nedensellik",
-        "text_sv": "TODO SV: Causality",
+        "text_mn": "TODO MN: Causality",
     },
     {
         "id": 32,
@@ -1332,7 +1332,7 @@ arrUI = [
         "text_fr": "cause",
         "text_it": "causale",
         "text_tr": "Neden",
-        "text_sv": "TODO SV: causal",
+        "text_mn": "TODO MN: causal",
     },
     {
         "id": 33,
@@ -1342,7 +1342,7 @@ arrUI = [
         "text_fr": "cause probable",
         "text_it": "probabilmente causale",
         "text_tr": "Muhtemel neden",
-        "text_sv": "TODO SV: likely causal",
+        "text_mn": "TODO MN: likely causal",
     },
 
     {
@@ -1368,7 +1368,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " und" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Am Fussende der Grafik finden Sie weitere Informationen.",
@@ -1391,7 +1391,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             ", and" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
@@ -1415,7 +1415,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " et" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -1438,7 +1438,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " e" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Ai piedi dell’immagine trovate troverete maggiori informazioni.",
@@ -1460,11 +1460,11 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " ve" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
-        "text_sv": "<b>TODO SV: How do you use this interactive figure?</b>" +
+        "text_mn": "<b>TODO MN: How do you use this interactive figure?</b>" +
             "<br><br>" +
             "We have compiled health effects of criteria pollutants in ambient air that are causal and likely to be causal in an interactive figure." +
             "<ul>" +
@@ -1483,7 +1483,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             ", and" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-swedish\" target=\"_blank\"> SV</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
@@ -1497,7 +1497,7 @@ arrUI = [
         "text_fr": "Pour l’instant, aucun effet n’a été mis en évidence",
         "text_it": "Nessun effetto è attualmente garantito",
         "text_tr": "Bilinen bir etki yok",
-        "text_sv": "TODO SV: No effects known",
+        "text_mn": "TODO MN: No effects known",
     },
 
 ]
