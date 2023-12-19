@@ -60,7 +60,9 @@ arrPopups = [
         "text_tr": "<div class=\"i_header\">Mevcut Kirlilik</div>" +
             "<b>İsviçre'deki mevcut hava kirliliği seviyesi nedir?</b>" +
             "<br><br>" +
-            "İsviçre'nin hava kalitesi 1980'lerin ortalarından bu yana istikrarlı bir şekilde iyileşiyor. İsviçre'deki çoğu bölge, çoğu kirletici madde açısından şu anda hava kalitesi standartlarına uygundur. " +
+
+//NEu Schweiz fett
+            "<b>İsviçre'nin<b> hava kalitesi 1980'lerin ortalarından bu yana istikrarlı bir şekilde iyileşiyor. İsviçre'deki çoğu bölge, çoğu kirletici madde açısından şu anda hava kalitesi standartlarına uygundur. " +
             "Bugün İsviçre'de kükürt dioksit (SO<sub>2</sub>) ve karbon monoksit (CO) kirliliği seviyeleri o kadar düşük ki, bu kirleticilerden zararlı etkiler beklenmiyor. Ancak, " +
             "ozon standartları sıklıkla ve bazen önemli ölçüde aşılmaktadır (geniş alanlarda). Son yıllardaki gelişmelere rağmen, bazı durumlarda " +
             "trafiğe maruz kalan alanlarda nitrojen dioksit (NO<sub>2</sub>) ve partikül madde (PM10/PM2.5) için hava kalitesi standartları hala aşılmaktadır. Bunun nedeni, İsviçre'de ve komşu ülkelerde yayılan ve salınan " +
@@ -69,7 +71,17 @@ arrPopups = [
             "Hava kalitesine ilişkin güncel veriler " +
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck uygulamasında</a>" +
             ", MeteoSwiss uygulamasında (mobil cihazlarınızdaki uygulama mağazalarına bakın) veya Federal Çevre Dairesi'nde (FOEN) " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir.",
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir."
+
+//NEU und Türkei fett geschrieben
+"<br><br>" +
+            "<b>Türkiye'de<b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan "Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği" ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO2, PM10, NOx vb.) için insan sağlığının ve çevrenin korunması amacıyla uyulması gereken sınır değerler belirlenmiştir. İnsan sağlığını ve çevreyi korumak amacıyla Türkiye'de hava kalitesi sınır değerleri her geçen yıl azalmakta ve bu nedenle mevcut hava kalitesinin iyileştirilmesine yönelik atılacak adımların önemi her geçen yıl artmaktadır. Sonuçta AB ülkelerinde hava kalitesi değerlerine ulaşılması hedefleniyor " +
+"<br><br>" +
+"Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
+            "<a href=\"https://www.havaizleme.gov.tr" target=\"_blank\">www.havaizleme.gov.tr</a>" +
+"ve cep telefonu uygulamasındaki ulaşabilirsiniz. "
+
+,
     },
 
     {
@@ -179,7 +191,10 @@ arrPopups = [
             "çoğu kirletici için etki eşik değerlerinin mevcut olmadığını varsaymaktadır. Bir \"etki eşiği\", bir kirleticinin sağlık üzerinde zararlı bir etkisi beklenmeyen konstanrasyonu olarak tanımlanır. " +
             "DSÖ şu anda hava kalitesi kurallarını revize ediyor." +
             "<br><br>" +
-            "İsviçre'de Federal Konsey, sağlığa zararlı çeşitli maddeler için hava kalitesi standartlarını (imisyon sınır değerleri) " +
+
+
+//NEU schweiz fett?
+            "<b>İsviçre'de<b> Federal Konsey, sağlığa zararlı çeşitli maddeler için hava kalitesi standartlarını (imisyon sınır değerleri) " +
             "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Hava Kirliliği Kontrolü Yönetmeliği'nde (OAPC)</a> tanımlamıştır. " +
             "Bu standartlar, Çevre Koruma Yasası kriterlerine göre tanımlanmış olup genel olarak hava kirleticilerin " +
             "insanlara, hayvanlara, bitkilere, toprağa vb. zararlı ve rahatsız edici etkilerinden koruma sağlar. İsviçre değerleri, DSÖ tarafından önerilen sınır değerlerle uyumludur. " +
@@ -191,7 +206,14 @@ arrPopups = [
             "İsviçre hava kalitesi standartlarına ilişkin daha fazla bilgi Federal Çevre Dairesi'nin «Hava Kirliliği Kontrolü Yönetmeliği'nin (OAPC) emisyon sınır değerleri» (" +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> veya  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
-            "FR</a> indirilebilir 0,6MB) bilgi notunda mevcuttur.",
+            "FR</a> indirilebilir 0,6MB) bilgi notunda mevcuttur." +
+
+//NEU Zusatz Türkei fett
+"<br><br>" +
+            "<b>Türkiye'de<b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan" +
+"<a href=\"https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12188&MevzuatTur=7&MevzuatTertip=5" target=\"_blank\">Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği</a>" +
+ "ile belirlenmektedir." 
+,
     },
     {
         "id": 3,
@@ -229,8 +251,16 @@ arrPopups = [
             "<br><br>" +
             "Hava kirliliğinin kaynakları kirleticiye bağlı olarak değişmektedir. Ana kaynaklar arasında trafik, ısıtma sistemleri, sanayi, ticaret ve tarım bulunmaktadır." +
             "<br><br>" +
-            "Daha fazla bilgi Federal Çevre Dairesi'nin (FOEN) web sitesinde " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Hava: Özet</a> bulunabilir. ",
+            "Daha fazla bilgi <b>İsviçre'nin<b> Federal Çevre Dairesi'nin (FOEN) web sitesinde " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Hava: Özet</a> bulunabilir." +
+
+//Neu
+"<br><br>" +
+"Tüm gelişmiş ülkelerde olduğu gibi <b>Türkiye'de<b> de hava kalitesinin iyileştirilmesine yönelik çeşitli yasal düzenlemeler yürürlüktedir. Bunlardan bazıları sanayi, ısınma ve trafik gibi kirletici kaynakların kontrolüyle, bazıları ise soluduğumuz havanın kalitesiyle ilgilidir. Kirlilik kontrolü düzenlemelerinin amacı, hava kirliliğinin insan sağlığı ve çevre üzerindeki zararlı etkilerini önlemek veya azaltmak için belirlenen hava kalitesi hedeflerine ulaşmaktır." +
+"Daha fazla bilgi web sitesinde" +
+"<a href=\"https://www.havaizleme.gov.tr" target=\"_blank\">https://www.havaizleme.gov.tr</a>" bulunabilir."
+
+,
     },
     {
         "id": 4,
@@ -401,13 +431,18 @@ arrPopups = [
             "<br><br>" +
             "Örneğin, partikül maddeye maruz kalma, daha yüksek ölüm oranıyla ilişkilidir, yani uzun süreli maruz kalma durumunda metreküpte 10 mikrogram partikül madde (PM2.5) başına riskte %6 artış. " +
             "Bireyler için hava kirleticilerinin riski, sigara içmek gibi yaşam tarzı faktörlerine kıyasla daha düşüktür. Ancak, nüfus düzeyinde, yani halk sağlığı açısından bakıldığında, ölüm oranındaki " +
-            "bu küçük artış önemlidir, çünkü sigara içmenin aksine, nüfusun tamamı hava kirleticilerinden etkilenmektedir. İsviçre nüfusu için ölçülen ve " +
+            "bu küçük artış önemlidir, çünkü sigara içmenin aksine, nüfusun tamamı hava kirleticilerinden etkilenmektedir. <b>İsviçre nüfusu için<b> ölçülen ve " +
             "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">Avrupa Çevre Ajansı</a>’na göre " +
             "riskteki bu küçük artış, 2016 yılında İsviçre'de 3.700 kişinin partikül maddeye (PM2.5) maruz kalma sonucu erken öldüğü anlamına geliyor. " +
             "<br><br>" +
             "Ayrıca, kişisel tıbbi öykü ve bireysel duyarlılık da önemli rol oynamaktadır. Daha duyarlı (savunmasız) bireyler genellikle daha yüksek olumsuz etki riskine sahiptir. " +
             "Örneğin, halihazırda zatürre hastası olan veya akciğerleri hala gelişmekte olan kişiler kirli havanın etkilerine karşı daha duyarlıdır. Bu, tüm nüfus gruplarının " +
-            "hava kirleticilerine aynı şekilde tepki vermediği anlamına gelir: Çocuklar, hastalar ve yaşlılar ortalama olarak daha yüksek risk altındadır. ",
+            "hava kirleticilerine aynı şekilde tepki vermediği anlamına gelir: Çocuklar, hastalar ve yaşlılar ortalama olarak daha yüksek risk altındadır. " +
+
+//Neu Türkischer GBD Hinweis und vorher Schweiz fett gemacht
+"<br><br>" +
+"Küresel Hastalık Yükü (GBD) çalışması, ülkeler, zaman, yaş ve cinsiyete göre ölüm ve sakatlıkların kapsamlı bir resmini sunuyor. Yüzlerce hastalık, yaralanma ve risk faktöründen kaynaklanan sağlık kayıplarını ölçerek sağlık sistemlerinin iyileştirilmesini ve eşitsizliklerin ortadan kaldırılmasını sağlar. Hava kirliliği, küresel sağlığa yönelik en büyük tehditlerden biridir; dolayısıyla Küresel Hastalık Yükü (GBD) çalışması ülkelerin, bölgelerin ve dünyanın karşılaştırmalı olarak hava kirliliğinin sağlık üzerindeki etkilerini göstermeye yardımcı olmaktadır." +
+"<a href=\"https://vizhub.healthdata.org/gbd-results/" target=\"_blank\">GBD Results</a> ",
     },
     {
         "id": 5,
