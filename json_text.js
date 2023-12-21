@@ -183,8 +183,10 @@ arrPopups = [
             "o la mancanza di esercizio fisico." +
             "<br><br>" +
             "Ulteriori informazioni sull'importanza dei valori limite applicabili in Svizzera si trovano nel foglio informativo " +
+	    "«Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)» (" +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
-            "Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)</a> (Tedesco Download 0.6 MB) dell'Ufficio federale dell'ambiente.",
+            "DE</a> or <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
+            "FR</a> download 0.6 MB) dell'Ufficio federale dell'ambiente.",
         "text_tr": "<div class=\"i_header\">Limit değerler</div>" +
             "<b>Yasal dayanak nedir veya yönergeleri kim belirliyor?</b>" +
             "<br><br>" +
