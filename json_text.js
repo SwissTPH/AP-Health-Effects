@@ -498,11 +498,14 @@ arrPopups = [
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
             "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
-           //new
             "İnsanların temiz enerjiyi tercih etmesi gerekiyor. " +
             "Herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
             "veya ABD Çevre Koruma Ajansı'nın " +
             "web sayfalarında öneriler bulacaktır. " +
+            "<br><br>" +
+            "Ayrıca hava koşullarının açık hava sporları/piknik/yürüyüş/bisiklet için uygun olup olmadığına karar vermek için hassas gruplar " +
+            "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a>" +
+            "adresindeki hava kalitesi limitlerini takip edebilirler. " +
             "<br><br>" +
             "BAFU Broşür «Hava kirliliği ve sağlık» (syf. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">Almanca</a>/" +
