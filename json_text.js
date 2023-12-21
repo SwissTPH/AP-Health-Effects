@@ -497,7 +497,11 @@ arrPopups = [
         "text_tr": "<div class=\"i_header\">Katkınız</div>" +
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
-            "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
+            "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
+           //new
+            "İnsanların temiz enerjiyi tercih etmesi gerekiyor. " +
+            "Herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
+            "veya ABD Çevre Koruma Ajansı'nın " +
             "web sayfalarında öneriler bulacaktır. " +
             "<br><br>" +
             "BAFU Broşür «Hava kirliliği ve sağlık» (syf. 12-15) (" +
@@ -515,7 +519,9 @@ arrPopups = [
             "Bern Kantonu: Hava kirliliği kontrolüne ilişkin ipuçları (" +
             "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Fransızca</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>)",
+            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>)" +
+            "ABD Çevre Koruma Ajansı web sayfa «Actions You Can Take to Reduce Air Pollution» (" +
+            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)",
     },
     {
         "id": 6,
