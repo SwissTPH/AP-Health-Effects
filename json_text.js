@@ -83,7 +83,6 @@ arrPopups = [
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
             "ve cep telefonu uygulamasındaki ulaşabilirsiniz.",
     },
-
     {
         "id": 2,
         "parent": "Grenzwerte",
@@ -281,7 +280,25 @@ arrPopups = [
             "<br><br>" +
             "Weitere Informationen zur Kausalitätsbeurteilung der Integrated Science Assessments (Englisch): " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "Es gibt weitere, <b>neuere Evidenzsynthesen</b>, die wahrscheinlich nicht so umfassend sind wie die Bewertungen der US EPA. " +
+            "Daher haben wir auf eine Berücksichtigung in der Grafik verzichtet. Diese Synthesen weisen jedoch auf weitreichendere Gesundheitseffekte " +
+            "durch die Luftverschmutzung hin, wie z. B. ein geringeres Geburtsgewicht, Entwicklungsstörungen bei Kindern, Diabetes, Krebs und weitere." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI Übersicht zu Gesundheitsfolgen langfristiger Belastung mit verkehrsbedingter Luftverschmutzung</a> (Englisch), " +
+            "welche zusätzliche Evidenz liefert für Diabetes Typ 2, ischämische Herzkrankheiten und tiefes Geburtsgewicht.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" " +
+            "target=\"_blank\">ETC umbrella Übersichtsarbeit</a> (Englisch) zu den gesundheitlichen Folgen der Aussen- und Raumluftbelastung auf Kinder und Jugendliche, " +
+            "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
+            "<li>Global Burden of Disease Studie 2019, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
+            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (Englisch) S. 24 and S. 78 ff.)</li>" +
+            "</ul>" +
             "<b>Wie relevant sind die beschriebenen gesundheitlichen Auswirkungen für Sie?</b>" +
             "<br><br>" +
             "Eine Gefahr kann potentiell einen Schaden verursachen. Ein Risiko ist hingegen die Wahrscheinlichkeit, mit der eine Gefahr tatsächlich einen Schaden anrichten kann." +
@@ -320,7 +337,7 @@ arrPopups = [
             "<br><br>" +
             "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
             "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
-            "lower birth weight, stillbirth, neurodevelopmental effects, cancers and others." +
+            "lower birth weight, neurodevelopmental effects, diabetes, cancers and others." +
             "<ul>" +
             "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
             "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
@@ -329,7 +346,7 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
             "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
             "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
-            "<li>GBD 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
+            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
             "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
             "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
             "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
@@ -370,7 +387,29 @@ arrPopups = [
             "<br><br>" +
             "L’on trouvera plus d'informations sur l'évaluation de la causalité des Integrated Science Assessments ici: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)» (anglais)</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "<i>(Traduit par DeepL)</i> Il existe d'autres synthèses de données plus récentes, qui ne sont probablement pas aussi approfondies que les évaluations de US EPA. " +
+            "C'est pourquoi nous ne les avons pas incluses dans la figure. " +
+            "Cependant, elles pourraient indiquer que la pollution de l'air ambiant présente encore plus de risques pour la santé, par exemple : " +
+            "un poids inférieur à la naissance, des effets sur le développement neurologique, le diabète, les cancers et autres." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "Étude du HEI sur les effets de la pollution atmosphérique liée au trafic sur la santé</a>, (anglais) " +
+            "avec des preuves supplémentaires des effets de la pollution atmosphérique liée au trafic à long terme sur la santé en ce qui concerne le diabète de type II, " +
+            "les cardiopathies ischémiques et l'insuffisance pondérale à la naissance.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Étude de l'ETC</a> " +
+            "(anglais) sur les effets de la pollution atmosphérique (extérieure et intérieure) sur la santé des enfants et des adolescents, " +
+            "avec des preuves supplémentaires des effets sur la santé des enfants en ce qui concerne la mortalité, le faible poids à la naissance, les naissances prématurées, " +
+            "les retards de développement, l'autisme, la leucémie et les infections.</li>" +
+            "<li>Global burden of disease 2019 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux particules pour les cardiopathies ischémiques, " +
+            "les accidents vasculaires cérébraux, les bronchopneumopathies chroniques obstructives (BPCO), le cancer du poumon, " +
+            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 sqq)</li>" +
+            "</ul>" +
             "<b>Dans quelle mesure les effets sur la santé décrits vous concernent-ils?</b>" +
             "<br><br>" +
             "Un danger peut potentiellement causer un dommage. Un risque, en revanche, est la probabilité qu’un danger puisse effectivement causer un dommage." +
@@ -405,7 +444,26 @@ arrPopups = [
             "<br><br>" +
             "Ulteriori informazioni sulla valutazione della causalità degli Integrated Science Assessments (inglese): " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "<i>(Tradotto con DeepL)</i> Esistono altre sintesi di prove più recenti, che probabilmente non sono così approfondite come le valutazioni dell'EPA. " +
+            "Pertanto, non le abbiamo incluse nella figura. Tuttavia, potrebbero indicare ancora più rischi per la salute derivanti dall'inquinamento dell'aria ambiente, " +
+            "ad esempio: peso inferiore alla nascita, effetti sullo sviluppo neurologico, diabete, tumori e altro." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "Revisione HEI sugli effetti dell'inquinamento atmosferico legato al traffico sulla salute</a> (inglese), " +
+            "con ulteriori prove di effetti sulla salute dovuti all'inquinamento atmosferico legato al traffico a lungo termine per quanto riguarda il diabete di tipo II, " +
+            "le cardiopatie ischemiche e il basso peso alla nascita.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Revisione dell'ETC</a> " +
+            "sugli effetti dell'inquinamento atmosferico (esterno e interno) sulla salute dei bambini e degli adolescenti con ulteriori evidenze di effetti sulla salute dei bambini " +
+            "per quanto riguarda mortalità, basso peso alla nascita, nascita pretermine, ritardi nello sviluppo neurologico, autismo, leucemia, infezioni.</li>" +
+            "<li>Global burden of disease 2019 con ulteriori evidenze di effetti sulla salute legati all'esposizione al particolato per cardiopatia ischemica, ictus, " +
+            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 e segg.)</li>" +
+            "</ul>" +
             "<b>Quanto sono rilevanti per voi gli effetti sulla salute descritti?</b>" +
             "<br><br>" +
             "Un pericolo può potenzialmente causare danni. Un rischio, invece, è la probabilità che un pericolo possa effettivamente causare danni." +
@@ -473,18 +531,18 @@ arrPopups = [
             "<b>Was können Sie persönlich zu einer guten Luftqualität beitragen?</b>" +
             "<br><br>" +
             "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
-            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder beim Kanton Bern:" +
+            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder der US-amerikanischen Umweltbehörde (EPA):" +
             "<br><br>" +
             "BAFU Broschüre (S. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
             "«Luftverschmutzung und Gesundheit»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
-            "Kanton Bern: <a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Tipps zur Luftreinhaltung</a><br>",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (Englisch)",
         "text_en": "<div class=\"i_header\">My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air or the Canton of Berne." +
+            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
             "<br><br>" +
             "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
@@ -498,42 +556,37 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "Canton of Bern: Tips on air pollution control (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Italian</a>)",
-
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
         "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
             "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
             "<br><br>" +
             "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
-            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou du canton de Berne." +
+            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou l'Agence américaine de protection de l'environnement (EPA):" +
             "<br><br>" +
             "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
             "«Pollution de l'air et santé»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
-            "Canton de Berne: <a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Astuces pour améliorer la qualité de l’air</a><br>",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (anglais)",
         "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
             "<b>Come potete contribuire personalmente a una buona qualità dell'aria?</b>" +
             "<br><br>" +
             "La qualità dell'aria fa parte dell'ambiente. Chi desidera fare qualcosa per proteggere la salute e l'ambiente, può trovare suggerimenti sui siti web dell'Ufficio federale dell'ambiente " +
-            "(UFAM), di Cercl'Air o del Cantone di Ticino." +
+            "(UFAM), di Cercl'Air, del Cantone di Ticino o dell'Agenzia statunitense per la protezione dell'ambiente (EPA)." +
             "<br><br>" +
             "Opuscolo UFAM (p. 12-15) " +
             "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">" +
             "«Inquinamento atmosferico e salute»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Ozono</a><br>" +
-            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>",
+            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (inglese)",
         "text_tr": "<div class=\"i_header\">Katkınız</div>" +
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
             "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
-            "insanların temiz enerjiyi tercih etmesi gerekiyor. " +
-            "Herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
-            "veya ABD Çevre Koruma Ajansı'nın " +
-            "web sayfalarında öneriler bulacaktır. " +
+            "insanların temiz enerjiyi tercih etmesi gerekiyor. Herkes FOEN, Cercl'Air veya ABD Çevre Koruma Ajansı'nın " +
+            "web sayfalarında öneriler bulacaktır." +
             "<br><br>" +
             "Ayrıca hava koşullarının açık hava sporları/piknik/yürüyüş/bisiklet için uygun olup olmadığına karar vermek için hassas gruplar " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> " +
@@ -551,12 +604,8 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Fransızca</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
-            "Bern Kantonu: Hava kirliliği kontrolüne ilişkin ipuçları (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Almanca</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Fransızca</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>) " +
-            "ABD Çevre Koruma Ajansı web sayfa «Actions You Can Take to Reduce Air Pollution» (" +
-            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)",
+            "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
+            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
     },
     {
         "id": 6,
