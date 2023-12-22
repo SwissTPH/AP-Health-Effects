@@ -473,18 +473,17 @@ arrPopups = [
             "<b>Was können Sie persönlich zu einer guten Luftqualität beitragen?</b>" +
             "<br><br>" +
             "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
-            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder beim Kanton Bern:" +
+            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air:" +
             "<br><br>" +
             "BAFU Broschüre (S. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
             "«Luftverschmutzung und Gesundheit»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" +
-            "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
-            "Kanton Bern: <a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Tipps zur Luftreinhaltung</a><br>",
+            "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>",
         "text_en": "<div class=\"i_header\">My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air or the Canton of Berne." +
+            "of FOEN, Cercl'Air." +
             "<br><br>" +
             "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
@@ -497,23 +496,17 @@ arrPopups = [
             "Cercl’Air: Ozone (" +
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "Canton of Bern: Tips on air pollution control (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Italian</a>)",
-
+            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>",
         "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
             "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
             "<br><br>" +
             "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
-            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou du canton de Berne." +
+            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air:" +
             "<br><br>" +
             "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
             "«Pollution de l'air et santé»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" +
-            "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
-            "Canton de Berne: <a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Astuces pour améliorer la qualité de l’air</a><br>",
+            "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>",
         "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
             "<b>Come potete contribuire personalmente a una buona qualità dell'aria?</b>" +
             "<br><br>" +
@@ -530,10 +523,8 @@ arrPopups = [
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
             "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
-            "insanların temiz enerjiyi tercih etmesi gerekiyor. " +
-            "Herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
-            "veya ABD Çevre Koruma Ajansı'nın " +
-            "web sayfalarında öneriler bulacaktır. " +
+            "insanların temiz enerjiyi tercih etmesi gerekiyor. Herkes FOEN, Cercl'Air veya ABD Çevre Koruma Ajansı'nın " +
+            "web sayfalarında öneriler bulacaktır." +
             "<br><br>" +
             "Ayrıca hava koşullarının açık hava sporları/piknik/yürüyüş/bisiklet için uygun olup olmadığına karar vermek için hassas gruplar " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> " +
@@ -551,12 +542,8 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Fransızca</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
-            "Bern Kantonu: Hava kirliliği kontrolüne ilişkin ipuçları (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Almanca</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Fransızca</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>) " +
             "ABD Çevre Koruma Ajansı web sayfa «Actions You Can Take to Reduce Air Pollution» (" +
-            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)",
+            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
     },
     {
         "id": 6,
