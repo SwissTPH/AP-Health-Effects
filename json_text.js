@@ -183,7 +183,7 @@ arrPopups = [
             "o la mancanza di esercizio fisico." +
             "<br><br>" +
             "Ulteriori informazioni sull'importanza dei valori limite applicabili in Svizzera si trovano nel foglio informativo " +
-	    "«Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)» (" +
+            "«Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)» (" +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> or <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
             "FR</a> download 0.6 MB) dell'Ufficio federale dell'ambiente.",
@@ -317,7 +317,25 @@ arrPopups = [
             "<br><br>" +
             "Further information on the causality assessment of the Integrated Science Assessments: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
+            "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
+            "lower birth weight, stillbirth, neurodevelopmental effects, cancers and others." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
+            "regarding type II diabetes, ischemic heart disease, low birth weight</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
+            "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
+            "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
+            "<li>GBD 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
+            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "</ul>" +
             "<b>How relevant are the described health effects for you?</b>" +
             "<br><br>" +
             "A hazard can potentially cause damage. A risk, on the other hand, is the probability with which a hazard can actually cause damage. It is the result of the hazard combined with the actual exposure." +
