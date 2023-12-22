@@ -546,7 +546,7 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Fransızca</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
-            "ABD Çevre Koruma Ajansı web sayfa «Actions You Can Take to Reduce Air Pollution» (" +
+            "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
             "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
     },
     {
