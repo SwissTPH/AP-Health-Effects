@@ -473,17 +473,18 @@ arrPopups = [
             "<b>Was können Sie persönlich zu einer guten Luftqualität beitragen?</b>" +
             "<br><br>" +
             "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
-            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air:" +
+            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder der US-amerikanischen Umweltbehörde (EPA):" +
             "<br><br>" +
             "BAFU Broschüre (S. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
             "«Luftverschmutzung und Gesundheit»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" +
-            "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>",
+            "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (Englisch)",
         "text_en": "<div class=\"i_header\">My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air." +
+            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
             "<br><br>" +
             "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
@@ -496,29 +497,32 @@ arrPopups = [
             "Cercl’Air: Ozone (" +
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>",
+            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
         "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
             "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
             "<br><br>" +
             "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
-            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air:" +
+            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou l'Agence américaine de protection de l'environnement (EPA):" +
             "<br><br>" +
             "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
             "«Pollution de l'air et santé»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" +
-            "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>",
+            "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (anglais)",
         "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
             "<b>Come potete contribuire personalmente a una buona qualità dell'aria?</b>" +
             "<br><br>" +
             "La qualità dell'aria fa parte dell'ambiente. Chi desidera fare qualcosa per proteggere la salute e l'ambiente, può trovare suggerimenti sui siti web dell'Ufficio federale dell'ambiente " +
-            "(UFAM), di Cercl'Air o del Cantone di Ticino." +
+            "(UFAM), di Cercl'Air, del Cantone di Ticino o dell'Agenzia statunitense per la protezione dell'ambiente (EPA)." +
             "<br><br>" +
             "Opuscolo UFAM (p. 12-15) " +
             "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">" +
             "«Inquinamento atmosferico e salute»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Ozono</a><br>" +
-            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>",
+            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (inglese)",
         "text_tr": "<div class=\"i_header\">Katkınız</div>" +
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
