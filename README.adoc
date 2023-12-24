@@ -5,7 +5,7 @@
 
 This git-repository contains source-code for an interactive figure on health effects of ambient air pollution.
 It is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK at the Swiss Tropical and Public Health Institute (Swiss TPH).
-You can explore the deployed version on the LUDOK https://www.swisstph.ch/de/projects/ludok/healtheffects[website].
+You can explore the deployed version on the LUDOK https://www.swisstph.ch/en/projects/ludok/healtheffects[website].
 
 It was developed jointly with partner organizations, namely:
 
