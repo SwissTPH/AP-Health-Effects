@@ -394,6 +394,12 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
         "effekt_mn": "TODO MN: Mortality due to respiratory (tract) infection",
+        "organ": "Sterblichkeit",
+    },
+    {
+        "id": 33,
+        "effekt_de": "Totgeburt",
+        "effekt_mn": "TODO MN: Mortality due to stillbirth",
         "organ": "Sterblichkeit"
     },
     {
@@ -630,6 +636,15 @@ arrMatrix = [
         "organ": "Sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegsinfektionen",
         "effekt_typ": "L"
+    },
+    {
+        "id": 1058,
+        "noxe": "Feinstaub",
+        "noxe_zeit": "L",
+        "organ": "Sterblichkeit",
+        "effekt": "Totgeburt",
+        "effekt_typ": "L",
+        "nur_in": [ "mn" ],
     },
 
     {
