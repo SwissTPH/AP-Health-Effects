@@ -244,7 +244,7 @@ function Draw_Results_Organ(a_data) {
             str_row += '<td class="td_effekt_typ left">';
 
             for (var j = 0; j < arrEffekte.length; j++) {
-                objEffekt = Get_Organ_Effekt_Noxe_Zeit(a_data[i].organ, a_data[i].effekt_de, arrEffekte[j], glb_Zeit);
+                objEffekt = Get_Organ_Effekt_Noxe_Zeit(a_data[i].organ, a_data[i].effekt_de, arrEffekte[j], glb_Zeit, glb_Lang);
 
                 if (glb_isMobile == false) {
                     str_row += '<td class="td_effekt_typ">';
@@ -368,7 +368,7 @@ function Filter_Organ_Noxe_Zeit(a_organ, a_noxe, a_noxe_zeit) {
 } // Filter_Organ_Noxe_Zeit
 
 
-function Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, a_organ) {
+function Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, a_lang, a_organ) {
 // Alle Einträge aus json_matrix.arrMatrix mit noxe = a_noxe und noxe_zeit = a_noxe_zeit
 //console.log("Filter_Noxe_Zeit_Organ: "+ a_noxe + " / " + a_noxe_zeit);
 
@@ -381,11 +381,17 @@ function Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, a_organ) {
     jsonData = $(jsonData).filter(function (i, n) {
         return n.organ == a_organ
     });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return Filter_Language(n, a_lang)
+    });
 
     Draw_Results(jsonData, a_noxe, a_noxe_zeit, a_organ);
 
 } // Filter_Noxe_Zeit_Organ
 
+function Filter_Language(json, a_lang) {
+    return !Object.prototype.hasOwnProperty.call(json, "nur_in") || json.nur_in.indexOf(a_lang) > -1
+}
 
 function Filter_Organ(a_organ) {
 // Alle Einträge aus json_matrix.arrMatrix mit organ = a_organ
@@ -462,7 +468,7 @@ function Get_Organ_Effekte(a_organ) {
 } // Get_Organ_Effekte
 
 
-function Get_Organ_Effekt_Noxe_Zeit(a_organ, a_effekt, a_noxe, a_noxe_zeit) {
+function Get_Organ_Effekt_Noxe_Zeit(a_organ, a_effekt, a_noxe, a_noxe_zeit, a_lang) {
 // Alle passenden Einträge aus json_matrix.arrMatrix 
 //console.log("Filter_Noxe_Zeit_Organ: "+ a_noxe + " / " + a_noxe_zeit);
 
@@ -477,6 +483,9 @@ function Get_Organ_Effekt_Noxe_Zeit(a_organ, a_effekt, a_noxe, a_noxe_zeit) {
     });
     jsonData = $(jsonData).filter(function (i, n) {
         return n.organ == a_organ
+    });
+    jsonData = $(jsonData).filter(function (i, n) {
+        return Filter_Language(n, a_lang)
     });
 
 //console.log(jsonData);
@@ -717,13 +726,13 @@ function Show_Noxe(a_noxe) {
         $('#div_Mensch_mobile').hide();
     }
 
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Atemwege');
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Herz');
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Nervensystem');
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Stoffwechsel');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Atemwege');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Herz');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Nervensystem');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Stoffwechsel');
 
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Sterblichkeit');
-    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, 'Notfaelle');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Sterblichkeit');
+    Filter_Noxe_Zeit_Organ(a_noxe, glb_Zeit, glb_Lang, 'Notfaelle');
 
     Msg_DocHeight();
 
