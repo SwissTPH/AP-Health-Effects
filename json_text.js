@@ -51,7 +51,8 @@ arrPopups = [
             "La qualità dell'aria in Svizzera è in costante miglioramento dalla metà degli anni '80. Per molte sostanze inquinanti e in molti luoghi della Svizzera, la maggior parte dei valori " +
             "limite d’immissione sono ora rispettati. I livelli di diossido di zolfo (SO<sub>2</sub>) e di monossido di carbonio (CO) in Svizzera sono attualmente così bassi che non si prevedono " +
             "effetti nocivi da questi inquinanti. Al contrario, i valori limite d’immissione dell'ozono sono spesso e talvolta notevolmente superati (su grandi superfici). " +
-            "Nonostante i miglioramenti degli ultimi anni, i valori limite d’immissione per il diossido di azoto (NO<sub>2</sub>) e le polveri sottili (PM10/PM2.5) sono ancora in parte superati. La ragione è da ricercarsi nei livelli ancora troppo elevati di inquinanti atmosferici emessi e rilasciati in Svizzera e nei paesi limitrofi. " +
+            "Nonostante i miglioramenti degli ultimi anni, i valori limite d’immissione per il diossido di azoto (NO<sub>2</sub>) e le polveri sottili (PM10/PM2.5) sono ancora in parte superati. " +
+            "La ragione è da ricercarsi nei livelli ancora troppo elevati di inquinanti atmosferici emessi e rilasciati in Svizzera e nei paesi limitrofi. " +
             "<br><br>" +
             "I dati attuali sulla qualità dell'aria si trovano nell'app " +
             "<a href=\"https://cerclair.ch/it/aircheck\" target=\"_blank\">airCHeck</a>" +
@@ -60,16 +61,27 @@ arrPopups = [
         "text_tr": "<div class=\"i_header\">Mevcut Kirlilik</div>" +
             "<b>İsviçre'deki mevcut hava kirliliği seviyesi nedir?</b>" +
             "<br><br>" +
-            "İsviçre'nin hava kalitesi 1980'lerin ortalarından bu yana istikrarlı bir şekilde iyileşiyor. İsviçre'deki çoğu bölge, çoğu kirletici madde açısından şu anda hava kalitesi standartlarına uygundur. " +
+            "<b>İsviçre'nin</b> hava kalitesi 1980'lerin ortalarından bu yana istikrarlı bir şekilde iyileşiyor. " +
+            "İsviçre'deki çoğu bölge, çoğu kirletici madde açısından şu anda hava kalitesi standartlarına uygundur. " +
             "Bugün İsviçre'de kükürt dioksit (SO<sub>2</sub>) ve karbon monoksit (CO) kirliliği seviyeleri o kadar düşük ki, bu kirleticilerden zararlı etkiler beklenmiyor. Ancak, " +
             "ozon standartları sıklıkla ve bazen önemli ölçüde aşılmaktadır (geniş alanlarda). Son yıllardaki gelişmelere rağmen, bazı durumlarda " +
-            "trafiğe maruz kalan alanlarda nitrojen dioksit (NO<sub>2</sub>) ve partikül madde (PM10/PM2.5) için hava kalitesi standartları hala aşılmaktadır. Bunun nedeni, İsviçre'de ve komşu ülkelerde yayılan ve salınan " +
-            "bu hava kirleticilerin büyük miktarlarda devam etmesidir." +
+            "trafiğe maruz kalan alanlarda nitrojen dioksit (NO<sub>2</sub>) ve partikül madde (PM10/PM2.5) için hava kalitesi standartları hala aşılmaktadır. " +
+            "Bunun nedeni, İsviçre'de ve komşu ülkelerde yayılan ve salınan bu hava kirleticilerin büyük miktarlarda devam etmesidir." +
             "<br><br>" +
             "Hava kalitesine ilişkin güncel veriler " +
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck uygulamasında</a>" +
             ", MeteoSwiss uygulamasında (mobil cihazlarınızdaki uygulama mağazalarına bakın) veya Federal Çevre Dairesi'nde (FOEN) " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir.",
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir." +
+            "<br><br>" +
+            "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan \"Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği\" " +
+            "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM<sub>10</sub>, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
+            "uyulması gereken sınır değerler belirlenmiştir. " +
+            "İnsan sağlığını ve çevreyi korumak amacıyla Türkiye'de hava kalitesi sınır değerleri her geçen yıl azalmakta ve bu nedenle mevcut hava kalitesinin iyileştirilmesine yönelik " +
+            "atılacak adımların önemi her geçen yıl artmaktadır. Sonuçta AB ülkelerinde hava kalitesi değerlerine ulaşılması hedefleniyor " +
+            "<br><br>" +
+            "Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
+            "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
+            "ve cep telefonu uygulamasındaki ulaşabilirsiniz.",
         "text_mn": "<div class=\"i_header\">TODO MN: Current pollution</div>" +
             "<b>What is the current level of air pollution in Switzerland?</b>" +
             "<br><br>" +
@@ -84,7 +96,6 @@ arrPopups = [
             ", in the MeteoSwiss app (see App stores on your mobile devices) or at the Federal Office for the Environment (FOEN) at air pollution " +
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>",
     },
-
     {
         "id": 2,
         "parent": "Grenzwerte",
@@ -112,7 +123,7 @@ arrPopups = [
             "<br><br>" +
             "Weitere Informationen zur Bedeutung der in der Schweiz gültigen Grenzwerte finden Sie im Faktenblatt " +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
-            "«Immissionsgrenzwerte der Luftreinhalte-Verordnung (LRV)»</a> (Download 0.6MB) des Bundesamts für Umwelt.",
+            "«Immissionsgrenzwerte der Luftreinhalte-Verordnung (LRV)»</a> (Download 0.6 MB) des Bundesamts für Umwelt.",
         "text_en": "<div class=\"i_header\">Limit values</div>" +
             "<b>What is the legal basis, or who determines the guidelines?</b>" +
             "<br><br>" +
@@ -150,11 +161,14 @@ arrPopups = [
             "<a href=\"https://www.admin.ch/opc/fr/classified-compilation/19850321/index.html\" target=\"_blank\">l'ordonnance sur la protection de l'air (OPair)</a> " +
             "des valeurs limites d'immission (VLI) pour différentes substances nocives pour la santé. Les VLI ont été définies selon les critères de la loi sur la protection de l'environnement " +
             "de telle sorte que, si elles sont respectées, les humains, les animaux, les plantes, le sol, etc. sont en général protégés contre les pollutions atmosphériques nuisibles ou incommodantes. Les valeurs " +
-            "limites suisses sont en accord avec les valeurs recommandées par l'OMS en 2005. La Commission fédérale de l'hygiène de l'air (CFHA) discute actuellement d'une recommandation basée sur les valeurs actuelles de l'OMS pour 2021." +
+            "limites suisses sont en accord avec les valeurs recommandées par l'OMS en 2005. " +
+            "La Commission fédérale de l'hygiène de l'air (CFHA) discute actuellement d'une recommandation basée sur les valeurs actuelles de l'OMS pour 2021." +
             "<br><br>" +
-            "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, si bien qu'aucun effet nocif ne devrait " +
-            "en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
-            "mesurés en Suisse, combinés aux faibles risques, signifient un risque faible pour un individu par rapport aux facteurs liés au mode de vie tels que le tabagisme, l'alimentation ou le manque d'exercice." +
+            "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, " +
+            "si bien qu'aucun effet nocif ne devrait en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), " +
+            "l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
+            "mesurés en Suisse, combinés aux faibles risques, signifient un risque faible pour un individu par rapport aux facteurs liés au mode de vie tels que le tabagisme, " +
+            "l'alimentation ou le manque d'exercice." +
             "<br><br>" +
             "Vous trouverez de plus amples informations sur la signification des valeurs limites en vigueur en Suisse dans la fiche d'information " +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf \" target=\"_blank\">" +
@@ -171,7 +185,8 @@ arrPopups = [
             "In Svizzera, il Consiglio federale ha stabilito dei valori limite (Valori limite d'immissione, VLI) per diverse sostanze nocive per la salute nell’" +
             "<a href=\"https://www.admin.ch/opc/it/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinanza contro l’inquinamento atmosferico (OIAt)</a> " +
             "I VLI sono stati stabiliti secondo i criteri della Legge sulla protezione dell'ambiente in modo tale che, se rispettati, le persone, gli animali, le piante, il suolo, ecc. sono generalmente " +
-            "protetti dagli effetti nocivi e fastidiosi degli inquinanti atmosferici. I valori limite svizzeri sono in linea con quelli raccomandati dall'OMS nel 2005. La Commissione federale per l'igiene dell'aria " +
+            "protetti dagli effetti nocivi e fastidiosi degli inquinanti atmosferici. I valori limite svizzeri sono in linea con quelli raccomandati dall'OMS nel 2005. " +
+            "La Commissione federale per l'igiene dell'aria " +
             "(FCAH) sta attualmente discutendo una raccomandazione basata sugli attuali valori OMS del 2021." +
             "<br><br>" +
             "I livelli di diossido di zolfo (SO<sub>2</sub>) e di monossido di carbonio (CO) in Svizzera sono ben al di sotto dei valori limite d’immissione, per cui non si prevedono effetti nocivi derivanti " +
@@ -180,8 +195,10 @@ arrPopups = [
             "o la mancanza di esercizio fisico." +
             "<br><br>" +
             "Ulteriori informazioni sull'importanza dei valori limite applicabili in Svizzera si trovano nel foglio informativo " +
+            "«Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)» (" +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
-            "Valori limite d’immissione previsti dall’ordinanza contro l’inquinamento atmosferico (OIAt)</a> (Tedesco Download 0.6 MB) dell'Ufficio federale dell'ambiente.",
+            "DE</a> or <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
+            "FR</a> download 0.6 MB) dell'Ufficio federale dell'ambiente.",
         "text_tr": "<div class=\"i_header\">Limit değerler</div>" +
             "<b>Yasal dayanak nedir veya yönergeleri kim belirliyor?</b>" +
             "<br><br>" +
@@ -192,7 +209,7 @@ arrPopups = [
             "çoğu kirletici için etki eşik değerlerinin mevcut olmadığını varsaymaktadır. Bir \"etki eşiği\", bir kirleticinin sağlık üzerinde zararlı bir etkisi beklenmeyen konstanrasyonu olarak tanımlanır. " +
             "DSÖ şu anda hava kalitesi kurallarını revize ediyor." +
             "<br><br>" +
-            "İsviçre'de Federal Konsey, sağlığa zararlı çeşitli maddeler için hava kalitesi standartlarını (imisyon sınır değerleri) " +
+            "<b>İsviçre'de</b> Federal Konsey, sağlığa zararlı çeşitli maddeler için hava kalitesi standartlarını (imisyon sınır değerleri) " +
             "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Hava Kirliliği Kontrolü Yönetmeliği'nde (OAPC)</a> tanımlamıştır. " +
             "Bu standartlar, Çevre Koruma Yasası kriterlerine göre tanımlanmış olup genel olarak hava kirleticilerin " +
             "insanlara, hayvanlara, bitkilere, toprağa vb. zararlı ve rahatsız edici etkilerinden koruma sağlar. İsviçre değerleri, DSÖ tarafından önerilen sınır değerlerle uyumludur. " +
@@ -204,7 +221,11 @@ arrPopups = [
             "İsviçre hava kalitesi standartlarına ilişkin daha fazla bilgi Federal Çevre Dairesi'nin «Hava Kirliliği Kontrolü Yönetmeliği'nin (OAPC) emisyon sınır değerleri» (" +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> veya  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
-            "FR</a> indirilebilir 0,6MB) bilgi notunda mevcuttur.",
+            "FR</a> indirilebilir 0.6 MB) bilgi notunda mevcuttur." +
+            "<br><br>" +
+            "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan " +
+            "<a href=\"https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12188&MevzuatTur=7&MevzuatTertip=5\" target=\"_blank\">Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği</a> " +
+            "ile belirlenmektedir.",
         "text_mn": "<div class=\"i_header\">TODO MN: Limit values</div>" +
             "<b>What is the legal basis, or who determines the guidelines?</b>" +
             "<br><br>" +
@@ -265,8 +286,14 @@ arrPopups = [
             "<br><br>" +
             "Hava kirliliğinin kaynakları kirleticiye bağlı olarak değişmektedir. Ana kaynaklar arasında trafik, ısıtma sistemleri, sanayi, ticaret ve tarım bulunmaktadır." +
             "<br><br>" +
-            "Daha fazla bilgi Federal Çevre Dairesi'nin (FOEN) web sitesinde " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Hava: Özet</a> bulunabilir. ",
+            "Daha fazla bilgi <b>İsviçre'nin</b> Federal Çevre Dairesi'nin (FOEN) web sitesinde " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Hava: Özet</a> bulunabilir." +
+            "<br><br>" +
+            "Tüm gelişmiş ülkelerde olduğu gibi <b>Türkiye'de</b> de hava kalitesinin iyileştirilmesine yönelik çeşitli yasal düzenlemeler yürürlüktedir. " +
+            "Bunlardan bazıları sanayi, ısınma ve trafik gibi kirletici kaynakların kontrolüyle, bazıları ise soluduğumuz havanın kalitesiyle ilgilidir. " +
+            "Kirlilik kontrolü düzenlemelerinin amacı, hava kirliliğinin insan sağlığı ve çevre üzerindeki zararlı etkilerini önlemek veya azaltmak için belirlenen hava kalitesi hedeflerine ulaşmaktır. " +
+            "Daha fazla bilgi web sitesinde " +
+            "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> bulunabilir.",
         "text_mn": "<div class=\"i_header\">TODO MN: Sources of pollutants</div>" +
             "<b>What are the sources of air pollution?</b>" +
             "<br><br>" +
@@ -296,7 +323,25 @@ arrPopups = [
             "<br><br>" +
             "Weitere Informationen zur Kausalitätsbeurteilung der Integrated Science Assessments (Englisch): " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "Es gibt weitere, <b>neuere Evidenzsynthesen</b>, die wahrscheinlich nicht so umfassend sind wie die Bewertungen der US EPA. " +
+            "Daher haben wir auf eine Berücksichtigung in der Grafik verzichtet. Diese Synthesen weisen jedoch auf weitreichendere Gesundheitseffekte " +
+            "durch die Luftverschmutzung hin, wie z. B. ein geringeres Geburtsgewicht, Entwicklungsstörungen bei Kindern, Diabetes, Krebs und weitere." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI Übersicht zu Gesundheitsfolgen langfristiger Belastung mit verkehrsbedingter Luftverschmutzung</a> (Englisch), " +
+            "welche zusätzliche Evidenz liefert für Diabetes Typ 2, ischämische Herzkrankheiten und tiefes Geburtsgewicht.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" " +
+            "target=\"_blank\">ETC umbrella Übersichtsarbeit</a> (Englisch) zu den gesundheitlichen Folgen der Aussen- und Raumluftbelastung auf Kinder und Jugendliche, " +
+            "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
+            "<li>Global Burden of Disease Studie 2019, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
+            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (Englisch) S. 24 and S. 78 ff.)</li>" +
+            "</ul>" +
             "<b>Wie relevant sind die beschriebenen gesundheitlichen Auswirkungen für Sie?</b>" +
             "<br><br>" +
             "Eine Gefahr kann potentiell einen Schaden verursachen. Ein Risiko ist hingegen die Wahrscheinlichkeit, mit der eine Gefahr tatsächlich einen Schaden anrichten kann." +
@@ -332,14 +377,33 @@ arrPopups = [
             "<br><br>" +
             "Further information on the causality assessment of the Integrated Science Assessments: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
+            "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
+            "lower birth weight, neurodevelopmental effects, diabetes, cancers and others." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
+            "regarding type II diabetes, ischemic heart disease, low birth weight</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
+            "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
+            "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
+            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
+            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "</ul>" +
             "<b>How relevant are the described health effects for you?</b>" +
             "<br><br>" +
             "A hazard can potentially cause damage. A risk, on the other hand, is the probability with which a hazard can actually cause damage. It is the result of the hazard combined with the actual exposure." +
             "<br><br>" +
             "The risks associated with exposure to air pollution often range in the lower one to two-digit percentages (0.2-15%) per exposure difference of 10 micrograms per cubic meter pollutant concentration." +
             "<br><br>" +
-            "For example, exposure to particulate matter is associated with higher mortality, i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
+            "For example, exposure to particulate matter is associated with higher mortality, " +
+            "i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
             "The risk of air pollutants for individuals is lower compared to lifestyle factors such as smoking. However, at the population level - i.e. from a public health perspective - this small increase " +
             "in mortality is significant because, unlike smoking, the entire population is affected by air pollutants. Quantified for the Swiss population, and according to the " +
             "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">European Environment Agency</a> " +
@@ -366,7 +430,29 @@ arrPopups = [
             "<br><br>" +
             "L’on trouvera plus d'informations sur l'évaluation de la causalité des Integrated Science Assessments ici: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)» (anglais)</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "<i>(Traduit par DeepL)</i> Il existe d'autres synthèses de données plus récentes, qui ne sont probablement pas aussi approfondies que les évaluations de US EPA. " +
+            "C'est pourquoi nous ne les avons pas incluses dans la figure. " +
+            "Cependant, elles pourraient indiquer que la pollution de l'air ambiant présente encore plus de risques pour la santé, par exemple : " +
+            "un poids inférieur à la naissance, des effets sur le développement neurologique, le diabète, les cancers et autres." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "Étude du HEI sur les effets de la pollution atmosphérique liée au trafic sur la santé</a>, (anglais) " +
+            "avec des preuves supplémentaires des effets de la pollution atmosphérique liée au trafic à long terme sur la santé en ce qui concerne le diabète de type II, " +
+            "les cardiopathies ischémiques et l'insuffisance pondérale à la naissance.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Étude de l'ETC</a> " +
+            "(anglais) sur les effets de la pollution atmosphérique (extérieure et intérieure) sur la santé des enfants et des adolescents, " +
+            "avec des preuves supplémentaires des effets sur la santé des enfants en ce qui concerne la mortalité, le faible poids à la naissance, les naissances prématurées, " +
+            "les retards de développement, l'autisme, la leucémie et les infections.</li>" +
+            "<li>Global burden of disease 2019 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux particules pour les cardiopathies ischémiques, " +
+            "les accidents vasculaires cérébraux, les bronchopneumopathies chroniques obstructives (BPCO), le cancer du poumon, " +
+            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 sqq)</li>" +
+            "</ul>" +
             "<b>Dans quelle mesure les effets sur la santé décrits vous concernent-ils?</b>" +
             "<br><br>" +
             "Un danger peut potentiellement causer un dommage. Un risque, en revanche, est la probabilité qu’un danger puisse effectivement causer un dommage." +
@@ -393,14 +479,34 @@ arrPopups = [
             "Le conoscenze qui presentate si basano su un gran numero di studi che hanno esaminato gli effetti degli inquinanti atmosferici sulla salute umana nella popolazione (epidemiologia). " +
             "Per la valutazione degli effetti causali degli inquinanti atmosferici vengono utilizzati anche studi sperimentali su esseri umani, animali e cellule." +
             "<br><br>" +
-            "Si distingue tra gli effetti causati dall'aumento dell'inquinamento a breve termine (in ore o giorni) e a lungo termine (in mesi e anni). Gli effetti dell'esposizione a lungo termine sono più gravi." +
+            "Si distingue tra gli effetti causati dall'aumento dell'inquinamento a breve termine (in ore o giorni) e a lungo termine (in mesi e anni). " +
+            "Gli effetti dell'esposizione a lungo termine sono più gravi." +
             "<br><br>" +
             "La grafica si limita agli effetti causali e probabilmente causali, come stimato dall'Agenzia statunitense per la protezione dell'ambiente (EPA). L'EPA valuta la relazione tra un inquinante e i " +
             "potenziali effetti sulla salute utilizzando una scala a cinque livelli. I livelli \"causale\" e \"probabilmente causale\" sono i due livelli più alti di questa scala di causalità." +
             "<br><br>" +
             "Ulteriori informazioni sulla valutazione della causalità degli Integrated Science Assessments (inglese): " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "<i>(Tradotto con DeepL)</i> Esistono altre sintesi di prove più recenti, che probabilmente non sono così approfondite come le valutazioni dell'EPA. " +
+            "Pertanto, non le abbiamo incluse nella figura. Tuttavia, potrebbero indicare ancora più rischi per la salute derivanti dall'inquinamento dell'aria ambiente, " +
+            "ad esempio: peso inferiore alla nascita, effetti sullo sviluppo neurologico, diabete, tumori e altro." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "Revisione HEI sugli effetti dell'inquinamento atmosferico legato al traffico sulla salute</a> (inglese), " +
+            "con ulteriori prove di effetti sulla salute dovuti all'inquinamento atmosferico legato al traffico a lungo termine per quanto riguarda il diabete di tipo II, " +
+            "le cardiopatie ischemiche e il basso peso alla nascita.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Revisione dell'ETC</a> " +
+            "sugli effetti dell'inquinamento atmosferico (esterno e interno) sulla salute dei bambini e degli adolescenti con ulteriori evidenze di effetti sulla salute dei bambini " +
+            "per quanto riguarda mortalità, basso peso alla nascita, nascita pretermine, ritardi nello sviluppo neurologico, autismo, leucemia, infezioni.</li>" +
+            "<li>Global burden of disease 2019 con ulteriori evidenze di effetti sulla salute legati all'esposizione al particolato per cardiopatia ischemica, ictus, " +
+            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita.<br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 e segg.)</li>" +
+            "</ul>" +
             "<b>Quanto sono rilevanti per voi gli effetti sulla salute descritti?</b>" +
             "<br><br>" +
             "Un pericolo può potenzialmente causare danni. Un rischio, invece, è la probabilità che un pericolo possa effettivamente causare danni." +
@@ -408,7 +514,8 @@ arrPopups = [
             "Gli effetti o i rischi per la salute attribuiti all'inquinamento dell'aria si situano solitamente nell’ordine di una singola cifra percentuale, o poco superiore, ogni 10 microgrammi per metro " +
             "cubo di concentrazione di inquinanti." +
             "<br><br>" +
-            "Ad esempio, l'aumento dell'esposizione a lungo termine alle polveri sottili è associato ad una maggiore mortalità, che è del 6% in più ogni 10 microgrammi per metro cubo di polveri sottili (PM2.5). " +
+            "Ad esempio, l'aumento dell'esposizione a lungo termine alle polveri sottili è associato ad una maggiore mortalità, " +
+            "che è del 6% in più ogni 10 microgrammi per metro cubo di polveri sottili (PM2.5). " +
             "Nonostante il rischio per il singolo individuo è inferiore rispetto ad altri fattori legati allo stile di vita, come per esempio il fumo, a livello di popolazione - cioè dal punto di vista della " +
             "salute pubblica - questo aumento della mortalità è significativo poiché, a differenza del fumo, l'intera popolazione è colpita dall'inquinamento. Questo piccolo aumento del rischio, se applicato " +
             "alla popolazione svizzera, secondo la " +
@@ -431,7 +538,8 @@ arrPopups = [
             "Özellikle, ortam havasına uzun süreli yüksek düzeyde maruz kalmanın etkileri daha ciddidir. " +
             "<br><br>" +
             "Figür, ABD Çevre Koruma Ajansı (EPA) tarafından değerlendirildiği şekliyle nedeni ve olması muhtemel nedeni olarak belirlenen etkilerle sınırlıdır. EPA, kirleticiler ile " +
-            "potansiyel sağlık etkileri arasındaki ilişkiyi beş puanlık bir ölçek kullanarak değerlendirir. \"Nedeni\" ve \"olması muhtemel nedeni\" seviyeleri bu nedensellik ölçeğindeki en yüksek iki seviyedir. " +
+            "potansiyel sağlık etkileri arasındaki ilişkiyi beş puanlık bir ölçek kullanarak değerlendirir. " +
+            "\"Nedeni\" ve \"olması muhtemel nedeni\" seviyeleri bu nedensellik ölçeğindeki en yüksek iki seviyedir. " +
             "<br><br>" +
             "Entegre Bilimsel Değerlendirmeler'de nedensellik değerlendirmesine ilişkin daha fazla bilgi: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Entegre Bilimsel Değerlendirmelere Giriş (ISA)»</a>. " +
@@ -440,17 +548,24 @@ arrPopups = [
             "<br><br>" +
             "Bir tehlike potansiyel olarak hasara neden olabilir. Öte yandan risk, bir tehlikenin gerçekten hasara neden olma olasılığıdır. Bu durum, tehlikenin gerçek maruz kalmayla birlikte oluşan sonucudur. " +
             "<br><br>" +
-            "Hava kirliliğine maruz kalmayla ilişkili riskler genellikle metreküp kirletici konsantrasyonu başına 10 mikrogramlık maruz kalma farkı başına bir ila iki basamaklı daha düşük yüzdelerde (0.2-15%) değişir. " +
+            "Hava kirliliğine maruz kalmayla ilişkili riskler genellikle metreküp kirletici konsantrasyonu başına 10 mikrogramlık " +
+            "maruz kalma farkı başına bir ila iki basamaklı daha düşük yüzdelerde (0.2-15%) değişir. " +
             "<br><br>" +
             "Örneğin, partikül maddeye maruz kalma, daha yüksek ölüm oranıyla ilişkilidir, yani uzun süreli maruz kalma durumunda metreküpte 10 mikrogram partikül madde (PM2.5) başına riskte %6 artış. " +
             "Bireyler için hava kirleticilerinin riski, sigara içmek gibi yaşam tarzı faktörlerine kıyasla daha düşüktür. Ancak, nüfus düzeyinde, yani halk sağlığı açısından bakıldığında, ölüm oranındaki " +
-            "bu küçük artış önemlidir, çünkü sigara içmenin aksine, nüfusun tamamı hava kirleticilerinden etkilenmektedir. İsviçre nüfusu için ölçülen ve " +
+            "bu küçük artış önemlidir, çünkü sigara içmenin aksine, nüfusun tamamı hava kirleticilerinden etkilenmektedir. <b>İsviçre nüfusu için</b> ölçülen ve " +
             "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">Avrupa Çevre Ajansı</a>’na göre " +
             "riskteki bu küçük artış, 2016 yılında İsviçre'de 3.700 kişinin partikül maddeye (PM2.5) maruz kalma sonucu erken öldüğü anlamına geliyor. " +
             "<br><br>" +
             "Ayrıca, kişisel tıbbi öykü ve bireysel duyarlılık da önemli rol oynamaktadır. Daha duyarlı (savunmasız) bireyler genellikle daha yüksek olumsuz etki riskine sahiptir. " +
             "Örneğin, halihazırda zatürre hastası olan veya akciğerleri hala gelişmekte olan kişiler kirli havanın etkilerine karşı daha duyarlıdır. Bu, tüm nüfus gruplarının " +
-            "hava kirleticilerine aynı şekilde tepki vermediği anlamına gelir: Çocuklar, hastalar ve yaşlılar ortalama olarak daha yüksek risk altındadır. ",
+            "hava kirleticilerine aynı şekilde tepki vermediği anlamına gelir: Çocuklar, hastalar ve yaşlılar ortalama olarak daha yüksek risk altındadır. " +
+            "<br><br>" +
+            "Küresel Hastalık Yükü (GBD) çalışması, ülkeler, zaman, yaş ve cinsiyete göre ölüm ve sakatlıkların kapsamlı bir resmini sunuyor. " +
+            "Yüzlerce hastalık, yaralanma ve risk faktöründen kaynaklanan sağlık kayıplarını ölçerek sağlık sistemlerinin iyileştirilmesini ve eşitsizliklerin ortadan kaldırılmasını sağlar. " +
+            "Hava kirliliği, küresel sağlığa yönelik en büyük tehditlerden biridir; dolayısıyla Küresel Hastalık Yükü (GBD) çalışması ülkelerin, " +
+            "bölgelerin ve dünyanın karşılaştırmalı olarak hava kirliliğinin sağlık üzerindeki etkilerini göstermeye yardımcı olmaktadır. " +
+            "<a href=\"https://vizhub.healthdata.org/gbd-results/\" target=\"_blank\">GBD Results</a> ",
         "text_mn": "<div class=\"i_header\">TODO MN: Background</div>" +
             "<b>How are associations between health effects and pollutants investigated and assessed?</b>" +
             "<br><br>" +
@@ -468,14 +583,33 @@ arrPopups = [
             "<br><br>" +
             "Further information on the causality assessment of the Integrated Science Assessments: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
-            "<br><br><br>" +
+            "<br><br>" +
+            "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
+            "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
+            "lower birth weight, neurodevelopmental effects, diabetes, cancers and others." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
+            "regarding type II diabetes, ischemic heart disease, low birth weight</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
+            "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
+            "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
+            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
+            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "</ul>" +
             "<b>How relevant are the described health effects for you?</b>" +
             "<br><br>" +
             "A hazard can potentially cause damage. A risk, on the other hand, is the probability with which a hazard can actually cause damage. It is the result of the hazard combined with the actual exposure." +
             "<br><br>" +
             "The risks associated with exposure to air pollution often range in the lower one to two-digit percentages (0.2-15%) per exposure difference of 10 micrograms per cubic meter pollutant concentration." +
             "<br><br>" +
-            "For example, exposure to particulate matter is associated with higher mortality, i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
+            "For example, exposure to particulate matter is associated with higher mortality, " +
+            "i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
             "The risk of air pollutants for individuals is lower compared to lifestyle factors such as smoking. However, at the population level - i.e. from a public health perspective - this small increase " +
             "in mortality is significant because, unlike smoking, the entire population is affected by air pollutants. Quantified for the Swiss population, and according to the " +
             "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">European Environment Agency</a> " +
@@ -492,18 +626,18 @@ arrPopups = [
             "<b>Was können Sie persönlich zu einer guten Luftqualität beitragen?</b>" +
             "<br><br>" +
             "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
-            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder beim Kanton Bern:" +
+            "Internetseiten des Bundesamts für Umwelt (BAFU), Cercl’Air oder der US-amerikanischen Umweltbehörde (EPA):" +
             "<br><br>" +
             "BAFU Broschüre (S. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">" +
             "«Luftverschmutzung und Gesundheit»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
-            "Kanton Bern: <a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Tipps zur Luftreinhaltung</a><br>",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (Englisch)",
         "text_en": "<div class=\"i_header\">My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air or the Canton of Berne." +
+            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
             "<br><br>" +
             "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
@@ -517,38 +651,41 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "Canton of Bern: Tips on air pollution control (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Italian</a>)",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
         "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
             "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
             "<br><br>" +
             "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
-            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou du canton de Berne." +
+            "sur les sites de l'Office fédéral de l'environnement (OFEV), de Cercl'Air ou l'Agence américaine de protection de l'environnement (EPA):" +
             "<br><br>" +
             "Brochure de l'OFEV (p. 12-15) <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">" +
             "«Pollution de l'air et santé»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
-            "Canton de Berne: <a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Astuces pour améliorer la qualité de l’air</a><br>",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (anglais)",
         "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
             "<b>Come potete contribuire personalmente a una buona qualità dell'aria?</b>" +
             "<br><br>" +
             "La qualità dell'aria fa parte dell'ambiente. Chi desidera fare qualcosa per proteggere la salute e l'ambiente, può trovare suggerimenti sui siti web dell'Ufficio federale dell'ambiente " +
-            "(UFAM), di Cercl'Air o del Cantone di Ticino." +
+            "(UFAM), di Cercl'Air, del Cantone di Ticino o dell'Agenzia statunitense per la protezione dell'ambiente (EPA)." +
             "<br><br>" +
             "Opuscolo UFAM (p. 12-15) " +
             "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">" +
             "«Inquinamento atmosferico e salute»</a><br>" +
             "Cercl’Air: <a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Polveri sottili</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Ozono</a><br>" +
-            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>",
+            "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (inglese)",
         "text_tr": "<div class=\"i_header\">Katkınız</div>" +
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
-            "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen herkes FOEN, Cercl'Air veya Bern Kantonu'nun " +
-            "web sayfalarında öneriler bulacaktır. " +
+            "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
+            "insanların temiz enerjiyi tercih etmesi gerekiyor. Herkes FOEN, Cercl'Air veya ABD Çevre Koruma Ajansı'nın " +
+            "web sayfalarında öneriler bulacaktır." +
+            "<br><br>" +
+            "Ayrıca hava koşullarının açık hava sporları/piknik/yürüyüş/bisiklet için uygun olup olmadığına karar vermek için hassas gruplar " +
+            "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> " +
+            "adresindeki hava kalitesi limitlerini takip edebilirler." +
             "<br><br>" +
             "BAFU Broşür «Hava kirliliği ve sağlık» (syf. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">Almanca</a>/" +
@@ -562,15 +699,13 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Almanca</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Fransızca</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
-            "Bern Kantonu: Hava kirliliği kontrolüne ilişkin ipuçları (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Almanca</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">Fransızca</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">İtalyanca</a>)",
+            "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
+            "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
         "text_mn": "<div class=\"i_header\">TODO MN: My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air or the Canton of Berne." +
+            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
             "<br><br>" +
             "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
@@ -584,10 +719,7 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "Canton of Bern: Tips on air pollution control (" +
-            "<a href=\"https://www.vol.be.ch/vol/de/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://www.vol.be.ch/vol/fr/index/umwelt/luftreinhaltung/tipps_zur_luftreinhaltung.html\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Italian</a>)",
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
     },
     {
         "id": 6,
@@ -885,29 +1017,35 @@ arrInfos = [
         "id": 7,
         "parent": "causally",
         "text_de": "<div class=\"i_header\">Ursächlich</div>" +
-            "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, und zwar auf der Grundlage von Studien, die mehrere Beweislinien (Zell-, Tier-, Human- und epidemiologischen Studien) umfassen." +
+            "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, " +
+            "und zwar auf der Grundlage von Studien, die mehrere Beweislinien (Zell-, Tier-, Human- und epidemiologischen Studien) umfassen." +
             "<br><br>" +
             "Zufallsergebnisse, Störfaktoren und andere Verzerrungen können mit angemessener Wahrscheinlichkeit ausgeschlossen werden." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «kausal» verwendet.)",
         "text_en": "<div class=\"i_header\">Causal</div>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability.",
         "text_fr": "<div class=\"i_header\">Cause</div>" +
-            "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, et ce sur la base d'études comprenant plusieurs types de preuves (études cellulaires, animales, humaines et épidémiologiques)." +
+            "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, " +
+            "et ce sur la base d'études comprenant plusieurs types de preuves (études cellulaires, animales, humaines et épidémiologiques)." +
             "<br><br>" +
             "Les résultats aléatoires, les facteurs perturbateurs et autres biais peuvent être exclus avec une probabilité raisonnable.",
         "text_it": "<div class=\"i_header\">Causale</div>" +
-            "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
+            "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), " +
+            "è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
             "<br><br>" +
             "Risultati casuali, fattori di disturbo e altre distorsioni possono essere esclusi con un ragionevole grado di probabilità.",
         "text_tr": "<div class=\"i_header\">Neden</div>" +
-            "Kirleticinin ilgili maruz kalma seviyelerinde sağlık veya refah etkilerine neden olduğu hücresel, hayvan, insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
+            "Kirleticinin ilgili maruz kalma seviyelerinde sağlık veya refah etkilerine neden olduğu hücresel, hayvan, " +
+            "insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
             "<br><br>" +
             "Rastgele sonuçlar, karıştırıcılar ve diğer sapmalar makul durumlarda hariç tutulabilir.",
         "text_mn": "<div class=\"i_header\">TODO MN: Causal</div>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability.",
     },
@@ -915,9 +1053,11 @@ arrInfos = [
         "id": 8,
         "parent": "likely",
         "text_de": "<div class=\"i_header\">Wahrscheinlich ursächlich</div>" +
-            "Es gibt Studien, in denen die Ergebnisse nicht durch Zufallsergebnisse, Störfaktoren oder andere Verzerrungen erklärt werden, aber es bleiben Unsicherheiten in der Evidenz für Gesundheitseffekte insgesamt." +
+            "Es gibt Studien, in denen die Ergebnisse nicht durch Zufallsergebnisse, Störfaktoren oder andere Verzerrungen erklärt werden, " +
+            "aber es bleiben Unsicherheiten in der Evidenz für Gesundheitseffekte insgesamt." +
             "<br><br>" +
-            "So ist z.B. der Einfluss von gleichzeitig auftretenden Schadstoffen schwer zu erfassen, oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
+            "So ist z.B. der Einfluss von gleichzeitig auftretenden Schadstoffen schwer zu erfassen, " +
+            "oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «wahrscheinlich kausal» verwendet.)",
         "text_en": "<div class=\"i_header\">Likely causal</div>" +
@@ -925,11 +1065,13 @@ arrInfos = [
             "<br><br>" +
             "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
         "text_fr": "<div class=\"i_header\">Cause probable</div>" +
-            "Il existe des études dont les résultats ne peuvent être expliqués par des résultats aléatoires, des facteurs perturbateurs ou d'autres biais, mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
+            "Il existe des études dont les résultats ne peuvent être expliqués par des résultats aléatoires, des facteurs perturbateurs ou d'autres biais, " +
+            "mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
             "<br><br>" +
             "Par exemple, l'influence de polluants présents simultanément est difficile à évaluer, ou les preuves dans différentes disciplines scientifiques peuvent être limitées ou contradictoires.",
         "text_it": "<div class=\"i_header\">Probabilmente causale</div>" +
-            "Ci sono studi in cui i risultati non possono essere spiegati da risultati casuali, fattori di disturbo o altre distorsioni, ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
+            "Ci sono studi in cui i risultati non possono essere spiegati da risultati casuali, fattori di disturbo o altre distorsioni, " +
+            "ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
             "<br><br>" +
             "Ad esempio, l'influenza di inquinanti che si riscontrano simultaneamente è difficile da rilevare, o le prove nelle varie discipline scientifiche possono essere limitate o contraddittorie.",
         "text_tr": "<div class=\"i_header\">Muhtemel neden</div>" +
@@ -947,7 +1089,8 @@ arrInfos = [
         "text_de": "<div class=\"i_header\">Kausalität</div>" +
             "<b>Ursächlich</b>" +
             "<br><br>" +
-            "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, und zwar auf der Grundlage von Studien, die mehrere Beweislinien (Zell-, Tier-, Human- und epidemiologischen Studien) umfassen." +
+            "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, " +
+            "und zwar auf der Grundlage von Studien, die mehrere Beweislinien (Zell-, Tier-, Human- und epidemiologischen Studien) umfassen." +
             "<br><br>" +
             "Zufallsergebnisse, Störfaktoren und andere Verzerrungen können mit angemessener Wahrscheinlichkeit ausgeschlossen werden." +
             "<br><br>" +
@@ -955,15 +1098,18 @@ arrInfos = [
             "<br><br><br>" +
             "<b>Wahrscheinlich ursächlich</b>" +
             "<br><br>" +
-            "Es gibt Studien, in denen die Ergebnisse nicht durch Zufallsergebnisse, Störfaktoren oder andere Verzerrungen erklärt werden, aber es bleiben Unsicherheiten in der Evidenz für Gesundheitseffekte insgesamt." +
+            "Es gibt Studien, in denen die Ergebnisse nicht durch Zufallsergebnisse, Störfaktoren oder andere Verzerrungen erklärt werden, " +
+            "aber es bleiben Unsicherheiten in der Evidenz für Gesundheitseffekte insgesamt." +
             "<br><br>" +
-            "So ist z.B. der Einfluss von gleichzeitig auftretenden Schadstoffen schwer zu erfassen, oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
+            "So ist z.B. der Einfluss von gleichzeitig auftretenden Schadstoffen schwer zu erfassen, " +
+            "oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «wahrscheinlich kausal» verwendet.)",
         "text_en": "<div class=\"i_header\">Causality</div>" +
             "<b>Causal</b>" +
             "<br><br>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability." +
             "<br><br><br>" +
@@ -975,7 +1121,8 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Causalité</div>" +
             "<b>Cause</b>" +
             "<br><br>" +
-            "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, et ce sur la base d'études comprenant plusieurs types de preuves (études cellulaires, animales, humaines et épidémiologiques)." +
+            "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, " +
+            "et ce sur la base d'études comprenant plusieurs types de preuves (études cellulaires, animales, humaines et épidémiologiques)." +
             "<br><br>" +
             "Les résultats aléatoires, les facteurs perturbateurs et autres biais peuvent être exclus avec une probabilité raisonnable." +
             "<br><br>" +
@@ -983,12 +1130,14 @@ arrInfos = [
             "<br><br><br>" +
             "<b>Cause probable</b>" +
             "<br><br>" +
-            "Il existe des études dont les résultats ne peuvent être expliqués par des résultats aléatoires, des facteurs perturbateurs ou d'autres biais, mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
+            "Il existe des études dont les résultats ne peuvent être expliqués par des résultats aléatoires, des facteurs perturbateurs ou d'autres biais, " +
+            "mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
             "<br><br>" +
             "Par exemple, l'influence de polluants présents simultanément est difficile à évaluer, ou les preuves dans différentes disciplines scientifiques peuvent être limitées ou contradictoires.",
         "text_it": "<div class=\"i_header\">Causalità</div>" +
             "<b>Causale</b>" +
-            "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
+            "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), " +
+            "è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
             "<br><br>" +
             "Risultati casuali, fattori di disturbo e altre distorsioni possono essere esclusi con un ragionevole grado di probabilità." +
             "<br><br>" +
@@ -996,7 +1145,8 @@ arrInfos = [
             "<br><br><br>" +
             "<b>Probabilmente causale</b>" +
             "<br><br>" +
-            "Ci sono studi in cui i risultati non possono essere spiegati da risultati casuali, fattori di disturbo o altre distorsioni, ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
+            "Ci sono studi in cui i risultati non possono essere spiegati da risultati casuali, fattori di disturbo o altre distorsioni, " +
+            "ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
             "<br><br>" +
             "Ad esempio, l'influenza di inquinanti che si riscontrano simultaneamente è difficile da rilevare, o le prove nelle varie discipline scientifiche possono essere limitate o contraddittorie.",
         "text_tr": "<div class=\"i_header\">Nedensellik</div>" +
@@ -1014,7 +1164,8 @@ arrInfos = [
         "text_mn": "<div class=\"i_header\">TODO MN: Causality</div>" +
             "<b>Causal</b>" +
             "<br><br>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability." +
             "<br><br><br>" +
@@ -1027,8 +1178,7 @@ arrInfos = [
     {
         "id": 10,
         "parent": "Kurzzeit",
-        "text_de": "<div class=\"i_header\">Kurzzeit</div>" +
-            "Effekte, welche mit kurzfristig erhöhter Belastung in Zusammenhang stehen<br>(über Stunden oder Tage)",
+        "text_de": "<div class=\"i_header\">Kurzzeit</div>Effekte, welche mit kurzfristig erhöhter Belastung in Zusammenhang stehen<br>(über Stunden oder Tage)",
         "text_en": "<div class=\"i_header\">Short-term</div>Effects associated with short-term exposures (hours to days)",
         "text_fr": "<div class=\"i_header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
         "text_it": "<div class=\"i_header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
@@ -1038,8 +1188,7 @@ arrInfos = [
     {
         "id": 11,
         "parent": "Langzeit",
-        "text_de": "<div class=\"i_header\">Langzeit</div>" +
-            "Effekte, welche mit langfristig erhöhter Belastung in Zusammenhang stehen<br>(über Monate oder Jahre)",
+        "text_de": "<div class=\"i_header\">Langzeit</div>Effekte, welche mit langfristig erhöhter Belastung in Zusammenhang stehen<br>(über Monate oder Jahre)",
         "text_en": "<div class=\"i_header\">Long-term</div>Effects associated with long-term exposures (over months to years)",
         "text_fr": "<div class=\"i_header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
         "text_it": "<div class=\"i_header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
@@ -1052,15 +1201,21 @@ arrInfos = [
         "text_de": "<div class=\"i_header\">Feinstaub</div>" +
             "Partikel kleiner als 10 bzw. 2.5 Mikrometer (PM10/PM2.5). Emissionen vor allem durch Verkehr oder Holzfeuerungen, (Wald-) Brände und sekundäre Bildung aus Vorläuferstoffen " +
             "(in der Fachliteratur wird dafür der Begriff «sekundärer Feinstaub» verwendet)",
-        "text_en": "<div class=\"i_header\">Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia (the term \"secondary particulate matter\" is used in the technical literature)",
+        "text_en": "<div class=\"i_header\">Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
+            "Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia " +
+            "(the term \"secondary particulate matter\" is used in the technical literature)",
         "text_fr": "<div class=\"i_header\">Poussières fines</div>" +
             "Particules de moins de 10 ou de 2,5 micromètres (PM10/PM2,5) : émissions provenant principalement des moteurs, des chauffages, notamment des feux de bois, de l’industrie et à partir " +
             "de précurseurs tels que les oxydes d'azote, le soufre et l'ammoniac (dans la littérature technique, le terme de «poussières fines secondaires» est utilisé)",
         "text_it": "<div class=\"i_header\">Polveri sottili</div>" +
             "Particelle più piccole di 10 o 2,5 micrometri (PM10/PM2,5): emissioni derivanti principalmente dal traffico o dalle combustioni per il riscaldamento, incendi (forestali) e formazione " +
             "da precursori come gli ossidi di azoto e l'ammoniaca (per quest’ultime nella letteratura tecnica si usa il termine \“polveri sottili secondarie\")",
-        "text_tr": "<div class=\"i_header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia (the term \"secondary particulate matter\" is used in the technical literature)",
+        "text_tr": "<div class=\"i_header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
+            "Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) " +
+            "gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
+        "text_mn": "<div class=\"i_header\">TODO MN: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
+            "Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia " +
+            "(the term \"secondary particulate matter\" is used in the technical literature)",
     },
     {
         "id": 13,
@@ -1458,6 +1613,7 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " ve" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
