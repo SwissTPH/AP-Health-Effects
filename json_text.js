@@ -81,7 +81,7 @@ arrPopups = [
             "<br><br>" +
             "Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
-            "ve cep telefonu uygulamasındaki ulaşabilirsiniz.",
+            "ve cep telefonu uygulamasından ulaşabilirsiniz.",
         "text_mn": "<div class=\"i_header\">TODO MN: Current pollution</div>" +
             "<b>What is the current level of air pollution in Switzerland?</b>" +
             "<br><br>" +
