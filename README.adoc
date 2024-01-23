@@ -1,6 +1,7 @@
-[![Super-Linter](https://github.com/SwissTPH/AP-Health-Effects/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+image:https://github.com/SwissTPH/AP-Health-Effects/actions/workflows/linter.yml/badge.svg?branch=main&event=push[Super-Linter, link=https://github.com/marketplace/actions/super-linter]
 
 [[ap-health-effects]]
+
 = AP-Health-Effects
 
 == Interactive figure of air pollutants and health effects
