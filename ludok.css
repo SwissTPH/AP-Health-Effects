@@ -5,7 +5,7 @@
 */
 
 @font-face {
-    font-family: 'metanormal';
+    font-family: metanormal;
     src: url('fonts/meta-normal-webfont.woff2') format('woff2'),
     url('fonts/meta-normal-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,24 +15,15 @@
 
 html {
     height: 100%;
-    /*overflow: hidden;*/
 }
 
 body {
     background: white;
-    /*background: #f5f5f5;*/
-    /*background-color: red;*/
     color: #474747;
-
     font-family: metanormal, Arial, sans-serif;
     font-size: 16px;
-
-    /*height:100%;*/
-
-    margin: 0px;
-    padding: 0px;
-
-    /*overflow: hidden;*/
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -45,20 +36,13 @@ a:hover {
     text-decoration: none;
 }
 
-
 button {
     outline: 0;
     cursor: pointer;
 }
 
-li {
-    margin-bottom: 20px;
-}
-
 .btn {
     background-color: #97BE0D;
-    /*border: 1px solid white;
-    border-radius: 5px;*/
     box-sizing: border-box;
     color: white;
     cursor: pointer;
@@ -73,65 +57,55 @@ li {
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 3px rgba(255 255 255 / 100%);
 }
 
 .btn:active {
     border-width: 2px;
 }
 
-.btn_chosen {
-    box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 1);
+.btn-chosen {
+    box-shadow: 0 0 5px 3px rgba(255 255 255 / 100%);
     border-width: 2px;
-    /*filter: brightness(1.75);*/
 }
 
-
-.btn_round {
+.btn-round {
     background-color: white;
     border-radius: 45px;
     border: none;
-    box-shadow: 2px 2px 5px 0px #c3c3c3;
+    box-shadow: 2px 2px 5px 0 #c3c3c3;
     color: #474747;
     font-family: metanormal, Arial, sans-serif;
     font-size: 15px;
-    /*font-weight: bold;*/
     height: 90px;
     width: 90px;
-    padding: 0px;
-    /* text-align: center;
-    vertical-align: middle;
-    display: table-cell; */
+    padding: 0;
 }
 
-.btn_round_zeit {
+.btn-round-zeit {
     background-color: white;
     border-radius: 50%;
     color: #90B9D1;
     font-size: 22px;
-    /*opacity: 0.5;*/
 }
 
-.btn_round_zeit_inv {
+.btn-round-zeit-inv {
     background-color: #90B9D1;
     color: white;
-    /*opacity: 1;*/
 }
 
-
-.btn_round_small {
+.btn-round-small {
     background-color: white;
     border-radius: 33px;
     border: none;
-    box-shadow: 2px 2px 5px 0px #c3c3c3;
+    box-shadow: 2px 2px 5px 0 #c3c3c3;
     color: #474747;
     font-family: metanormal, Arial, sans-serif;
     font-size: 15px;
-    /*font-weight: bold;*/
     line-height: 16px;
     height: 70px;
     width: 70px;
-    padding: 0px;
+    padding: 0;
     vertical-align: bottom;
 }
 
@@ -139,50 +113,42 @@ li {
     text-align: center;
 }
 
-.cursorHand {
+.cursor-hand {
     cursor: pointer;
 }
 
-
-.div_Flex_Row {
+.div-flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 100%; */
     padding-left: 40px;
     padding-right: 40px;
 }
 
-
-.div_HintergrundInfo {
+.div-hintergrund-info {
     background-color: white;
     display: none;
     padding: 10px;
     text-align: left;
 }
 
-
-.div_i_Container {
+.div-i-container {
     position: relative;
     display: inline-block;
 }
 
-
-.div_Intro {
+.div-intro {
     color: #468AB2;
     font-size: 20px;
 }
 
-.div_Legend {
+.div-legend {
     display: none;
-    /*margin-top: 10px;
-    padding-top: 10px;*/
     padding-left: 60px;
     text-align: left;
 }
 
-
-.div_Main {
+.div-main {
     background-color: #EDEDED;
     margin-top: 30px;
     text-align: right;
@@ -190,29 +156,27 @@ li {
     height: 1130px;
 }
 
-
-.div_Menu {
+.div-menu {
     display: inline-block;
     position: absolute;
     left: 57px;
-    /*top: 90px;*/
     width: 660px;
 }
 
-.div_Menu_Left {
+.div-menu-left {
     display: inline-block;
     position: absolute;
     top: 133px;
     font-size: 20px;
 }
 
-.div_Menu_Line {
+.div-menu-line {
     position: absolute;
     left: 30px;
     width: 375px;
 }
 
-.div_Menu_Noxe {
+.div-menu-noxe {
     display: inline-block;
     text-align: center;
     width: 70px;
@@ -221,14 +185,14 @@ li {
     margin-right: 5px;
 }
 
-.div_Menu_Sterblichkeit {
+.div-menu-sterblichkeit {
     position: absolute;
     top: 52px;
     right: 177px;
 }
 
 
-.div_PageContent {
+.div-pagecontent {
     box-sizing: border-box;
     padding-top: 40px;
     background-color: #EDEDED;
@@ -237,17 +201,15 @@ li {
     margin: auto;
 }
 
-.div_PageContent_mobile {
+.div-pagecontent-mobile {
     background-color: #EDEDED;
-    /*background-color: #ADADFF;*/
     display: none;
-    padding: 0px;
+    padding: 0;
     width: 100%;
-    /*height: 1352px;*/
     overflow: hidden;
 }
 
-.div_Results {
+.div-results {
     position: absolute;
     left: 57px;
     top: 150px;
@@ -258,58 +220,50 @@ li {
     scrollbar-width: thin;
 }
 
-/*
-.div_Results::-webkit-scrollbar {
-	width: 5px;
-}
-*/
-
-
-.div_Results_right {
+.div-results-right {
     left: unset;
     right: 15px;
 }
 
-.div_Results_Header {
+.div-results-header {
     font-size: 20px;
 }
-
 
 .hidden {
     display: none;
 }
 
-.i_header {
+.i-header {
     color: #BF3227;
     margin-bottom: 10px;
 }
 
-.ic_info {
+.ic-info {
     cursor: pointer;
     vertical-align: bottom;
     width: 25px;
 }
 
-.ic_info_top {
+.ic-info-top {
     position: absolute;
     top: -11px;
     left: 32px;
 }
 
-.ic_info_top_small {
+.ic-info-top-small {
     position: absolute;
     top: -17px;
     left: 24px;
 }
 
-.img_LogoTC {
+.img-logo-tc {
     width: 130px;
     position: absolute;
     top: 55px;
     right: 20px;
 }
 
-.img_Organ {
+.img-organ {
     display: none;
     position: absolute;
     top: 10px;
@@ -328,20 +282,19 @@ li {
     padding-bottom: 5px;
 }
 
-
-.margin_bottom {
+.margin-bottom {
     margin-bottom: 10px;
 }
 
-.margin_10 {
+.margin-10 {
     margin: 10px;
 }
 
-.pad_10 {
+.pad-10 {
     padding: 10px;
 }
 
-.pad_100 {
+.pad-100 {
     padding-left: 100px;
 }
 
@@ -350,7 +303,7 @@ li {
 }
 
 table {
-    border: 0px;
+    border: 0;
     border-collapse: collapse;
     border-spacing: 0;
     margin-left: 55px;
@@ -358,21 +311,19 @@ table {
     width: 609px;
 }
 
-
 td {
     background-color: transparent;
     padding: 5px;
 }
 
-.td_effekt {
+.td-effekt {
     text-align: left;
 }
 
-.td_effekt_typ {
+.td-effekt-typ {
     text-align: center;
     width: 65px;
 }
-
 
 tr {
     border-bottom: 1px solid #d9d9d9;
@@ -382,15 +333,13 @@ tr:last-of-type {
     _border: none;
 }
 
-
 .ui-tooltip {
     padding: 10px 20px;
-    color: #222222;
+    color: #222;
     border-radius: 2px;
     font-size: 16px !important;
     border: none;
     box-shadow: none;
-    /*box-shadow: 0 0 7px #222222;*/
 }
 
 .ui-tooltip-content {
@@ -399,234 +348,199 @@ tr:last-of-type {
 
 /****************************** COLORS ***************************************************************************************************************************************/
 
-
-.bg_Feinstaub {
+.bg-feinstaub {
     color: #868686;
     background-color: white;
     border-color: #868686;
 }
 
-.bg_Ozon {
+.bg-ozon {
     color: #468AB2;
     background-color: white;
     border-color: #468AB2;
 }
 
-.bg_Stickstoffdioxid {
+.bg-stickstoffdioxid {
     color: #BF3227;
     background-color: white;
     border-color: #BF3227;
 }
 
-.bg_Schwefeldioxid {
+.bg-schwefeldioxid {
     color: #DDBA4A;
     background-color: white;
     border-color: #EDCD64;
 }
 
-.bg_Kohlenmonoxid {
+.bg-kohlenmonoxid {
     color: #A4B645;
     background-color: white;
     border-color: #B5C752;
 }
 
-.bg_Zusatz {
+.bg-zusatz {
     color: #D9847E;
     background-color: white;
     border-color: #9e9e9e;
 }
 
-
-.bg_Feinstaub_invert {
+.bg-feinstaub-invert {
     background-color: #868686;
     color: white;
 }
 
-.bg_Ozon_invert {
+.bg-ozon-invert {
     background-color: #468AB2;
     color: white;
 }
 
-.bg_Stickstoffdioxid_invert {
+.bg-stickstoffdioxid-invert {
     background-color: #BF3227;
     color: white;
 }
 
-.bg_Schwefeldioxid_invert {
+.bg-schwefeldioxid-invert {
     background-color: #EDCD64;
     color: white;
 }
 
-.bg_Kohlenmonoxid_invert {
+.bg-kohlenmonoxid-invert {
     background-color: #B5C752;
     color: white;
 }
 
-.bg_Zusatz_invert {
+.bg-zusatz-invert {
     color: white;
     background-color: #D9847E;
 }
-
 
 /** RESPONSIVE ADAPTATIONS FOR TABLETS & SMARTPHONES (<= 1160/1024 px) **/
 
 /* Tablets */
 @media (max-width: 1159px) {
-
-
-    .div_PageContent {
+    .div-pagecontent {
         width: 1024px;
     }
 
-    .div_Intro {
+    .div-intro {
         max-width: 600px;
     }
 
-    #div_Mensch {
+    #div-mensch {
         z-index: 1;
     }
 
-    .div_Menu_Sterblichkeit {
+    .div-menu-sterblichkeit {
         right: 25px;
     }
 
-    .img_LogoTC {
+    .img-logo-tc {
         width: 100px;
         top: 5px;
         right: unset;
         left: 5px;
     }
-
 }
-
-/* @media (max-width: 1159px) */
-
 
 /* Smartphones */
 @media (max-width: 1023px) {
-
-    /*body {
-        overflow: hidden;
-    }*/
     .blocker {
         overflow: hidden;
     }
 
-    .div_PageContent {
+    .div-pagecontent {
         display: none;
     }
 
-    .div_PageContent_mobile {
+    .div-pagecontent-mobile {
         display: block;
     }
 
-
-    .btn_round {
+    .btn-round {
         border-radius: 0;
         width: 100%;
         height: 45px;
     }
 
-    .btn_round_zeit {
+    .btn-round-zeit {
         border-radius: 0;
         width: 100%;
     }
 
-    .btn_round_small {
+    .btn-round-small {
         border-radius: 0;
         height: 45px;
         width: 100%;
     }
 
-
-    .div_Flex_Row {
+    .div-flex-row {
         display: block;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .div_i_Container {
+    .div-i-container {
         display: block;
     }
 
-    .div_Intro {
+    .div-intro {
         padding: 20px;
         padding-top: 0;
         max-width: 100%;
     }
 
-    .div_Legend {
+    .div-legend {
         padding-left: 5px;
         padding-bottom: 20px;
     }
 
-
-    .div_Menu {
+    .div-menu {
         display: block;
         position: relative;
         left: 0;
         width: 100%;
     }
 
-    .div_Menu_Line {
+    .div-menu-line {
         left: 0;
         top: 0;
         position: relative;
         width: 100%;
     }
 
-    .div_Menu_Noxe {
+    .div-menu-noxe {
         display: block;
         text-align: left;
         width: 100%;
     }
 
-    .div_Main {
-        margin: 0px;
+    .div-main {
+        margin: 0;
         height: 100%;
     }
 
-    .div_Results {
+    .div-results {
         position: relative;
         left: 0;
         top: 0;
         width: 100%;
         max-height: none;
         padding-top: 20px;
-        /*background-image: url(graph/mensch_bg.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-x: right;*/
     }
 
-
-    .div_Results_Header {
+    .div-results-header {
         padding-left: 5px;
     }
 
-    .ic_info_top {
+    .ic-info-top {
         top: 10px;
         left: 24px;
     }
 
-    .ic_info_top_small {
+    .ic-info-top-small {
         top: 10px;
     }
 
-    /*
-    .ic_info {
-        width: 35px;
-    }
-
-    .ic_info_top {
-        top: 7px;
-        left: 24px;
-    }
-
-    .ic_info_top_small {
-        top: 7px;
-    }
-    */
     table {
         margin-left: 34px;
         width: 90%;
@@ -636,10 +550,8 @@ tr:last-of-type {
         padding: 4px;
     }
 
-    .td_effekt_typ {
+    .td-effekt-typ {
         white-space: nowrap;
     }
-
 }
 
-/* @media (max-width: 1023px) */
