@@ -29,7 +29,7 @@ function Check_mobile() {
 }
 
 
-function Choose_Zeit(a_zeit, a_mobile) {
+function Choose_Zeit(a_zeit) {
 // Auswahl a_zeit = k - Kurzzeit / l - Langzeit
     glb_Zeit = a_zeit;
 
