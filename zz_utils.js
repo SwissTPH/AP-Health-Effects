@@ -146,12 +146,13 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
 // Array a_data ausgeben
     var str = "";
     var strNoxe_Zeit = "langzeit";
+    var resultsTag = getResultsTag()
 
     if (a_noxe_zeit == "k") {
         strNoxe_Zeit = "kurzzeit";
     }
 
-    $(glb_PCID + '#div-results-' + a_organ + getResultsTag()).hide();
+    $(glb_PCID + '#div-results-' + a_organ + resultsTag).hide();
     $('#img-organ-' + a_organ).hide();
 
     if (a_data.length > 0) {
@@ -192,7 +193,6 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
 
 //console.log('Draw_Results Organ: ' + a_organ);
 
-        var resultsTag = getResultsTag()
         $(glb_PCID + '#div-results-' + a_organ + resultsTag).html(str);
         $(glb_PCID + '#div-results-' + a_organ + resultsTag).fadeIn();
         $(glb_PCID + '#div-legend').fadeIn();
@@ -231,6 +231,7 @@ function Draw_Results_Organ(a_data) {
     var arrEffekte = ["feinstaub", "ozon", "stickstoffdioxid", "schwefeldioxid", "kohlenmonoxid"];
     var anzEffekte = 0;
     var anzRows = 0;
+    var resultsTag = getResultsTag()
 
     if (a_data.length > 0) {
 
@@ -278,7 +279,6 @@ function Draw_Results_Organ(a_data) {
 
         str += '</table>';
 
-        var resultsTag = getResultsTag()
         $(glb_PCID + '#div-results-' + a_data[0].organ + resultsTag).html(str);
         $(glb_PCID + '#div-results-' + a_data[0].organ + resultsTag).fadeIn();
         //$(glb_PCID + '#div-results-' + a_noxe + '-' + a_noxe_zeit).html(str);
