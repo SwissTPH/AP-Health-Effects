@@ -215,8 +215,7 @@ button {
     top: 150px;
     width: 660px;
     max-height: 1070px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     scrollbar-width: thin;
 }
 
