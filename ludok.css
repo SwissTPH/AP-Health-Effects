@@ -417,7 +417,7 @@ tr:last-of-type {
 /** RESPONSIVE ADAPTATIONS FOR TABLETS & SMARTPHONES (<= 1160/1024 px) **/
 
 /* Tablets */
-@media (max-width: 1159px) {
+@media (width <= 1159px) {
     .div-pagecontent {
         width: 1024px;
     }
@@ -443,7 +443,7 @@ tr:last-of-type {
 }
 
 /* Smartphones */
-@media (max-width: 1023px) {
+@media (width <= 1023px) {
     .blocker {
         overflow: hidden;
     }
