@@ -82,6 +82,19 @@ arrPopups = [
             "Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
             "ve cep telefonu uygulamasından ulaşabilirsiniz.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Current pollution</div>" +
+            "<b>What is the current level of air pollution in Switzerland?</b>" +
+            "<br><br>" +
+            "Switzerland's air quality has been steadily improving since the mid-1980s. Most areas in Switzerland, for most pollutants, are currently in compliance with the air quality standards. " +
+            "The levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland today are so low that harmful effects are not expected from these pollutants. However, " +
+            "the standards for ozone are frequently, and sometimes considerably, exceeded (over large areas). Despite improvements in recent years, in some situations air quality standards " +
+            "for nitrogen dioxide (NO<sub>2</sub>) and particulate matter (PM10/PM2.5) are still exceeded in areas exposed to traffic. This is due to the continued large quantities of these air pollutants " +
+            "emitted and released in Switzerland and in neighboring countries." +
+            "<br><br>" +
+            "Current data on air quality can be found " +
+            "on the <a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
+            ", in the MeteoSwiss app (see App stores on your mobile devices) or at the Federal Office for the Environment (FOEN) at air pollution " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>",
     },
     {
         "id": 2,
@@ -213,6 +226,29 @@ arrPopups = [
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan " +
             "<a href=\"https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12188&MevzuatTur=7&MevzuatTertip=5\" target=\"_blank\">Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği</a> " +
             "ile belirlenmektedir.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Limit values</div>" +
+            "<b>What is the legal basis, or who determines the guidelines?</b>" +
+            "<br><br>" +
+            "In the " +
+            "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">air quality guidelines</a>, " +
+            "the World Health Organization (WHO) defines values below which no or only minor effects on health are expected. These values are defined based on existing scientific evidence, " +
+            "and are intended to serve as a guideline for the national authorities when setting air quality standards. For the effects of long-term air pollution, the current scientific evidence " +
+            "assumes that effect thresholds do not exist for most pollutants. An \"effect threshold\" is defined as the concentration of a pollutant below which a harmful effect on health is not expected. " +
+            "<br><br>" +
+            "In Switzerland, the Federal Council has defined air quality standards (immission limit values) for various substances that are harmful to health in the " +
+            "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinance on Air Pollution Control (OAPC)</a>. " +
+            "These standards have been defined according to the criteria of the Environmental Protection Act, in general offering protection from the harmful and annoying effects of air pollutants " +
+            "to humans, animals, plants, soil, etc. The Swiss limit values are in line with the values recommended by the WHO in 2005. The Federal Commission for Air Hygiene (FCAH) is currently discussing " +
+            "a recommendation based on the current WHO values of 2021." +
+            "<br><br>" +
+            "Today, the levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland are so low that harmful health effects are not expected from these pollutants. " +
+            "The exposures measured in Switzerland combined with the associated small risks, translate into a low risk for an individual compared to harmful lifestyle factors such as smoking, " +
+            "malnutrition or lack of exercise." +
+            "<br><br>" +
+            "Further information on Swiss air quality standards can be found in the fact sheet «Immission limit values of the Ordinance on Air Pollution Control (OAPC)» (" +
+            "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
+            "DE</a> or  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
+            "FR</a> download, 0.6 MB) of the Federal Office for the Environment.",
     },
     {
         "id": 3,
@@ -258,6 +294,13 @@ arrPopups = [
             "Kirlilik kontrolü düzenlemelerinin amacı, hava kirliliğinin insan sağlığı ve çevre üzerindeki zararlı etkilerini önlemek veya azaltmak için belirlenen hava kalitesi hedeflerine ulaşmaktır. " +
             "Daha fazla bilgi web sitesinde " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> bulunabilir.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Sources of pollutants</div>" +
+            "<b>What are the sources of air pollution?</b>" +
+            "<br><br>" +
+            "The sources of air pollution vary depending on the pollutant. The main sources include traffic, heating systems, industry, commerce and agriculture." +
+            "<br><br>" +
+            "Further information can be found at the Federal Office for the Environment (FOEN) website under " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Air: In brief.</a>",
     },
     {
         "id": 4,
@@ -523,6 +566,58 @@ arrPopups = [
             "Hava kirliliği, küresel sağlığa yönelik en büyük tehditlerden biridir; dolayısıyla Küresel Hastalık Yükü (GBD) çalışması ülkelerin, " +
             "bölgelerin ve dünyanın karşılaştırmalı olarak hava kirliliğinin sağlık üzerindeki etkilerini göstermeye yardımcı olmaktadır. " +
             "<a href=\"https://vizhub.healthdata.org/gbd-results/\" target=\"_blank\">GBD Results</a> ",
+        "text_uk": "<div class=\"i-header\">TODO UK: Background</div>" +
+            "<b>How are associations between health effects and pollutants investigated and assessed?</b>" +
+            "<br><br>" +
+            "Every day, an adult breathes 12’000 – 15’000 litres of air. In addition to vital oxygen, pollutants also enter our lungs and airways through the nose and throat. " +
+            "This has been shown to be harmful for health." +
+            "<br><br>" +
+            "The knowledge presented here is based on a large number of studies that have examined the effects of air pollutants on human health at the population level (epidemiology). " +
+            "Experimental studies in humans, animals and cells are also used to assess the causal effects of air pollutants." +
+            "<br><br>" +
+            "A distinction is made between effects linked to short-term (over hours to days) and long-term (over months to years) exposure to air pollution. " +
+            "Notably, effects of long-term elevated exposures to ambient air are more serious." +
+            "<br><br>" +
+            "The figure is limited to effects determined to be causal and likely to be causal as assessed by the US Environmental Protection Agency (EPA). The EPA assesses the relationship " +
+            "between pollutants and potential health effects using a five-point scale. The levels \"causal\" and \"likely to be causal\" are the two highest levels on this causality scale." +
+            "<br><br>" +
+            "Further information on the causality assessment of the Integrated Science Assessments: " +
+            "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
+            "<br><br>" +
+            "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
+            "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
+            "lower birth weight, neurodevelopmental effects, diabetes, cancers and others." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
+            "regarding type II diabetes, ischemic heart disease, low birth weight</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
+            "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
+            "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
+            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
+            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
+            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
+            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "</ul>" +
+            "<b>How relevant are the described health effects for you?</b>" +
+            "<br><br>" +
+            "A hazard can potentially cause damage. A risk, on the other hand, is the probability with which a hazard can actually cause damage. It is the result of the hazard combined with the actual exposure." +
+            "<br><br>" +
+            "The risks associated with exposure to air pollution often range in the lower one to two-digit percentages (0.2-15%) per exposure difference of 10 micrograms per cubic meter pollutant concentration." +
+            "<br><br>" +
+            "For example, exposure to particulate matter is associated with higher mortality, " +
+            "i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
+            "The risk of air pollutants for individuals is lower compared to lifestyle factors such as smoking. However, at the population level - i.e. from a public health perspective - this small increase " +
+            "in mortality is significant because, unlike smoking, the entire population is affected by air pollutants. Quantified for the Swiss population, and according to the " +
+            "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">European Environment Agency</a> " +
+            "this small increase in risk means that 3’700 people in Switzerland died prematurely in 2016 as a result of exposure to particulate matter (PM2.5)." +
+            "<br><br>" +
+            "In addition, the personal medical history and individual sensitivity also play a major role. More susceptible (vulnerable) individuals typically have a higher risk of adverse effects. " +
+            "People who already have pneumonia or whose lungs are still growing, for example, are more susceptible to the effects of polluted air. This means that not all population groups react " +
+            "in the same way to air pollutants: children, sick people and elderly have, on average, a higher risk.",
     },
     {
         "id": 5,
@@ -606,6 +701,25 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
             "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
             "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
+        "text_uk": "<div class=\"i-header\">TODO UK: My Contribution</div>" +
+            "<b>How you can contribute to good air quality</b>" +
+            "<br><br>" +
+            "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
+            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
+            "<br><br>" +
+            "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
+            "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
+            "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">French/</a>" +
+            "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">Italian</a>)<br>" +
+            "Cercl’Air: Fine particulate matter (" +
+            "<a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
+            "<a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
+            "<a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
+            "Cercl’Air: Ozone (" +
+            "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
+            "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
+            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
     },
     {
         "id": 6,
@@ -663,6 +777,18 @@ arrPopups = [
             "</ol>",
         "text_tr": "<div class=\"i-header\">Kaynaklar</div>" +
             "İnteraktif şekilde görüntülenen bu veriler, ABD Çevre Koruma Ajansı'nın mevcut Entegre Bilimsel Değerlendirmesi'ne dayanmaktadır " +
+            "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
+            "<br><br>" +
+            "<ol>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Particulate (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-19/188, 2019.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Oxides of Nitrogen – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-15/068, 2016.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
+            "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
+            "</ol>",
+        "text_uk": "<div class=\"i-header\">TODO UK: References</div>" +
+            "The data displayed in this interactive figure are based on the current Integrated Science Assessments by the US Environmental Protection Agency " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
             "<ol>" +
@@ -800,6 +926,29 @@ arrPopups = [
             "İnteraktif şeklin kullanımına ve uyarlanmasına, yazar olarak Swiss  TPH'ye atıfta bulunarak ve AGPL lisans koşullarına uygun olarak izin verilir. Geri bildirim ve katkılar " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> adresinden memnuniyetle karşılanacaktır.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Imprint</div>" +
+            "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
+            "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
+            "<ul>" +
+            "<li>Bundesamt für Umwelt</li>" +
+            "<li>Kantonale Behörden für Luftreinhaltung</li>" +
+            "<li>Krebsliga Schweiz</li>" +
+            "<li>LUNGE ZÜRICH</li>" +
+            "<li>LerNetz</li>" +
+            "</ul>" +
+            "Concept and implementation: LUDOK<br>" +
+            "Authors: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
+            "Visual design and programming: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
+            "<br><br>" +
+            "The content corresponds to the state of knowledge of 2022." +
+            "<br><br>" +
+            "The source code for the interactive figure is available at " +
+            "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
+            "The interactive figure is licensed under the " +
+            "<a href=\"https://www.gnu.org/licenses/agpl-3.0\" target=\"_blank\">GNU Affero General Public License (AGPL)</a>. " +
+            "The use and adaptation of the interactive figure is allowed with reference to Swiss TPH as the author and under compliance to the AGPL license conditions. Feedback and input are welcome at " +
+            "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
+            "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
     }
 ];
 
@@ -812,6 +961,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Voies aériennes</div>Poumon, trachée",
         "text_it": "<div class=\"i-header\">Vie respiratorie</div>Polmoni, trachea",
         "text_tr": "<div class=\"i-header\">Solunum sistemi</div>Akciğerler, nefes borusu (trake), hava yolları (bronşlar ve bronşiyoller), hava keseleri (alveoller)",
+        "text_uk": "<div class=\"i-header\">TODO UK: Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
     },
     {
         "id": 2,
@@ -821,6 +971,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Système cardiovasculaire</div>Cœur, circulation sanguine",
         "text_it": "<div class=\"i-header\">Sistema cardiovascolare</div>Cuore, circolazione sanguigna",
         "text_tr": "<div class=\"i-header\">Kardiyovasküler sistem</div>Kalp, kan ve kan damarları",
+        "text_uk": "<div class=\"i-header\">TODO UK: Cardiovascular system</div>Heart, blood and blood vessels",
     },
     {
         "id": 3,
@@ -830,6 +981,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Système nerveux</div>Cerveau, système nerveux",
         "text_it": "<div class=\"i-header\">Sistema nervoso</div>Cervello, sistema nervoso",
         "text_tr": "<div class=\"i-header\">Sinir sistemi</div>Beyin, sinir sistemi",
+        "text_uk": "<div class=\"i-header\">TODO UK: Nervous system</div>Brain, nervous system",
     },
     {
         "id": 4,
@@ -839,6 +991,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Métabolisme/système immunitaire</div>Foie, pancréas, défenses immunitaires",
         "text_it": "<div class=\"i-header\">Metabolismo/sistema immunitario</div>Fegato, pancreas, difesa immunitaria",
         "text_tr": "<div class=\"i-header\">Metabolizma/Bağışıklık sistemi</div>Karaciğer, pankreas, bağışıklık sistemi",
+        "text_uk": "<div class=\"i-header\">TODO UK: Metabolism/Immune system</div>Liver, pancreas, immune defence",
     },
     {
         "id": 5,
@@ -848,6 +1001,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Mortalité</div>Décès, nombre de décès rapporté à la population",
         "text_it": "<div class=\"i-header\">Mortalità</div>Decessi, numero di decessi in rapporto alla popolazione",
         "text_tr": "<div class=\"i-header\">Ölüm</div>Ölümler, nüfusa göre ölüm sayısı",
+        "text_uk": "<div class=\"i-header\">TODO UK: Mortality</div>Deaths, number of deaths in relation to the population",
     },
     {
         "id": 6,
@@ -857,6 +1011,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Urgences</div>Consultations d'urgence dans les hôpitaux ou auprès du médecin de famille, admissions à l'hôpital pour cause d'urgence",
         "text_it": "<div class=\"i-header\">Emergenze</div>Consultazioni d’emergenza in ospedale o con il medico di famiglia, ricoveri ospedalieri per emergenze",
         "text_tr": "<div class=\"i-header\">Acil durumlar</div>Aile hekimi veya hastanelerdeki acil konsültasyonlar, acil durumlar nedeniyle hastaneye yatışlar",
+        "text_uk": "<div class=\"i-header\">TODO UK: Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
     },
     {
         "id": 7,
@@ -888,6 +1043,11 @@ arrInfos = [
             "insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
             "<br><br>" +
             "Rastgele sonuçlar, karıştırıcılar ve diğer sapmalar makul durumlarda hariç tutulabilir.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Causal</div>" +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "<br><br>" +
+            "Random results, confounders and other biases can be excluded with reasonable probability.",
     },
     {
         "id": 8,
@@ -918,6 +1078,10 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Likely causal</div>" +
+            "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
+            "<br><br>" +
+            "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
     },
     {
         "id": 9,
@@ -997,6 +1161,19 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Causality</div>" +
+            "<b>Causal</b>" +
+            "<br><br>" +
+            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
+            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "<br><br>" +
+            "Random results, confounders and other biases can be excluded with reasonable probability." +
+            "<br><br><br>" +
+            "<b>Likely causal</b>" +
+            "<br><br>" +
+            "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
+            "<br><br>" +
+            "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
     },
     {
         "id": 10,
@@ -1006,6 +1183,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
         "text_it": "<div class=\"i-header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
         "text_tr": "<div class=\"i-header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
+        "text_uk": "<div class=\"i-header\">TODO UK: Short-term</div>Effects associated with short-term exposures (hours to days)",
     },
     {
         "id": 11,
@@ -1015,6 +1193,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
         "text_it": "<div class=\"i-header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
         "text_tr": "<div class=\"i-header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
+        "text_uk": "<div class=\"i-header\">TODO UK: Long-term</div>Effects associated with long-term exposures (over months to years)",
     },
     {
         "id": 12,
@@ -1034,6 +1213,9 @@ arrInfos = [
         "text_tr": "<div class=\"i-header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
             "Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) " +
             "gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
+        "text_uk": "<div class=\"i-header\">TODO UK: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
+            "Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia " +
+            "(the term \"secondary particulate matter\" is used in the technical literature)",
     },
     {
         "id": 13,
@@ -1044,6 +1226,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Ozone (O<sub>3</sub>)</div>Formé par le rayonnement solaire à partir de précurseurs tels que le dioxyde d'azote et les composés organiques volatils (COV)",
         "text_it": "<div class=\"i-header\">Ozono (O<sub>3</sub>)</div>Formato da radiazioni solari provenienti da precursori come il biossido di azoto e composti organici volatili (COV)",
         "text_tr": "<div class=\"i-header\">Ozon (O<sub>3</sub>)</div>Azot dioksit ve uçucu organik bileşikler gibi öncüllerden güneş ışımasıyla oluşur (VOC)",
+        "text_uk": "<div class=\"i-header\">TODO UK: Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
     },
     {
         "id": 14,
@@ -1054,6 +1237,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Dioxyde d'azote (NO<sub>2</sub>)</div>Émissions provenant principalement de la combustion dans les moteurs, les chauffages et l’industrie",
         "text_it": "<div class=\"i-header\">Diossido di azoto (NO<sub>2</sub>)</div>Emissioni derivanti principalmente dal traffico e dalle combustioni per il riscaldamento",
         "text_tr": "<div class=\"i-header\">Nitrojen dioksit (NO<sub>2</sub>)</div>Esas olarak karayolu trafiğinden ve ısıtma gibi diğer fosil yakıt yanma işlemlerinden kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">TODO UK: Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
     },
     {
         "id": 15,
@@ -1064,6 +1248,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Dioxyde de soufre (SO<sub>2</sub>)</div>Émissions provenant de la combustion de charbon ou de produits pétroliers contenant du soufre",
         "text_it": "<div class=\"i-header\">Anidride solforosa (SO<sub>2</sub>)</div>Emissioni derivanti dalla combustione di carbone contenente zolfo o di petrolio",
         "text_tr": "<div class=\"i-header\">Sülfür dioksit (SO<sub>2</sub>)</div>Kükürt içeren kömür veya dizel yakıtların yanmasından kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">TODO UK: Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
     },
     {
         "id": 16,
@@ -1074,6 +1259,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
         "text_it": "<div class=\"i-header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
         "text_tr": "<div class=\"i-header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">TODO UK: Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
     },
 ];
 
@@ -1087,6 +1273,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
+        "text_uk": "TODO UK: Short-term",
     },
     {
         "id": 2,
@@ -1096,6 +1283,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
+        "text_uk": "TODO UK: Long-term",
     },
 
     {
@@ -1106,6 +1294,7 @@ arrUI = [
         "text_fr": "Poussières fines",
         "text_it": "Polveri sottili ",
         "text_tr": "Partikül Madde",
+        "text_uk": "TODO UK: Particulate Matter",
     },
     {
         "id": 4,
@@ -1115,6 +1304,7 @@ arrUI = [
         "text_fr": "Ozone",
         "text_it": "Ozono",
         "text_tr": "Ozon",
+        "text_uk": "TODO UK: Ozone",
     },
     {
         "id": 5,
@@ -1124,6 +1314,7 @@ arrUI = [
         "text_fr": "Dioxyde d'azote",
         "text_it": "Diossido di azoto",
         "text_tr": "Nitrojen dioksit",
+        "text_uk": "TODO UK: Nitrogen dioxide",
     },
     {
         "id": 6,
@@ -1133,6 +1324,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
+        "text_uk": "TODO UK: Sulphur dioxide",
     },
     {
         "id": 7,
@@ -1142,6 +1334,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
+        "text_uk": "TODO UK: Carbon monoxide",
     },
 
     {
@@ -1152,6 +1345,7 @@ arrUI = [
         "text_fr": "Voies aériennes",
         "text_it": "Vie respiratorie",
         "text_tr": "Solunum sistemi",
+        "text_uk": "TODO UK: Respiratory system",
     },
     {
         "id": 12,
@@ -1161,6 +1355,7 @@ arrUI = [
         "text_fr": "Système cardiovasculaire",
         "text_it": "Sistema cardiovascolare",
         "text_tr": "Kardiyovasküler sistem",
+        "text_uk": "TODO UK: Cardiovascular system",
     },
     {
         "id": 13,
@@ -1170,6 +1365,7 @@ arrUI = [
         "text_fr": "Système nerveux",
         "text_it": "Sistema nervoso",
         "text_tr": "Sinir sistemi",
+        "text_uk": "TODO UK: Nervous system",
     },
     {
         "id": 14,
@@ -1179,6 +1375,7 @@ arrUI = [
         "text_fr": "Métabolisme/système immunitaire",
         "text_it": "Metabolismo/sistema immunitario",
         "text_tr": "Metabolizma/Bağışıklık sistemi",
+        "text_uk": "TODO UK: Metabolism/Immune system",
     },
     {
         "id": 15,
@@ -1188,6 +1385,7 @@ arrUI = [
         "text_fr": "Mortalité",
         "text_it": "Mortalità",
         "text_tr": "Ölüm",
+        "text_uk": "TODO UK: Mortality",
     },
     {
         "id": 16,
@@ -1197,6 +1395,7 @@ arrUI = [
         "text_fr": "Urgences",
         "text_it": "Emergenze",
         "text_tr": "Acil durumlar",
+        "text_uk": "TODO UK: Emergen<br>cies",
     },
 
     {
@@ -1207,6 +1406,7 @@ arrUI = [
         "text_fr": "Pollution actuel",
         "text_it": "Esposizione attuale",
         "text_tr": "Mevcut<br/>kirlilik",
+        "text_uk": "TODO UK: Current pollution",
     },
     {
         "id": 22,
@@ -1216,6 +1416,7 @@ arrUI = [
         "text_fr": "Valeur limite",
         "text_it": "Valori limite",
         "text_tr": "Limit<br/>değerler",
+        "text_uk": "TODO UK: Limit values",
     },
     {
         "id": 23,
@@ -1225,6 +1426,7 @@ arrUI = [
         "text_fr": "Source polluants",
         "text_it": "Fonti inquinanti",
         "text_tr": "Kirletici kaynakları",
+        "text_uk": "TODO UK: Sources of pollutants",
     },
     {
         "id": 24,
@@ -1234,6 +1436,7 @@ arrUI = [
         "text_fr": "Scénario",
         "text_it": "Scenario",
         "text_tr": "Arkaplan",
+        "text_uk": "TODO UK: Background",
     },
     {
         "id": 25,
@@ -1243,6 +1446,7 @@ arrUI = [
         "text_fr": "Ma contribution",
         "text_it": "Cosa posso fare",
         "text_tr": "Katkınız",
+        "text_uk": "TODO UK: My Contribution",
     },
     {
         "id": 26,
@@ -1252,6 +1456,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
+        "text_uk": "TODO UK: References",
     },
     {
         "id": 27,
@@ -1261,6 +1466,7 @@ arrUI = [
         "text_fr": "Impressum",
         "text_it": "Impressum",
         "text_tr": "Baskı",
+        "text_uk": "TODO UK: Imprint",
     },
 
     {
@@ -1271,6 +1477,7 @@ arrUI = [
         "text_fr": "Causalité",
         "text_it": "Causalità",
         "text_tr": "Nedensellik",
+        "text_uk": "TODO UK: Causality",
     },
     {
         "id": 32,
@@ -1280,6 +1487,7 @@ arrUI = [
         "text_fr": "cause",
         "text_it": "causale",
         "text_tr": "Neden",
+        "text_uk": "TODO UK: causal",
     },
     {
         "id": 33,
@@ -1289,6 +1497,7 @@ arrUI = [
         "text_fr": "cause probable",
         "text_it": "probabilmente causale",
         "text_tr": "Muhtemel neden",
+        "text_uk": "TODO UK: likely causal",
     },
 
     {
@@ -1311,8 +1520,10 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-            " und" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            " und" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Am Fussende der Grafik finden Sie weitere Informationen.",
@@ -1332,8 +1543,10 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-            ", and" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            ", and" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
@@ -1354,8 +1567,10 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-            " et" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            " et" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -1375,8 +1590,10 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-            " e" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            " e" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Ai piedi dell’immagine trovate troverete maggiori informazioni.",
@@ -1396,11 +1613,36 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
-            " ve" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            " ve" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
+        "text_uk": "<b>TODO UK: How do you use this interactive figure?</b>" +
+            "<br><br>" +
+            "We have compiled health effects of criteria pollutants in ambient air that are causal and likely to be causal in an interactive figure." +
+            "<ul>" +
+            "<li>Choose between short-term or long-term exposure</li>" +
+            "<li>Next, choose an air pollutant or an affected organ system</li>" +
+            "</ul>" +
+            "<br><br>" +
+            "The figure is available in different languages:" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            ", and" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "." +
+            "<br><br>" +
+            "Find further information at the bottom of the figure.",
     },
 
     {
@@ -1411,6 +1653,7 @@ arrUI = [
         "text_fr": "Pour l’instant, aucun effet n’a été mis en évidence",
         "text_it": "Nessun effetto è attualmente garantito",
         "text_tr": "Bilinen bir etki yok",
+        "text_uk": "TODO UK: No effects known",
     },
 
 ]
