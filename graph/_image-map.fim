@@ -1,10 +1,10 @@
 "fim200","",""
 <map name="ludok" id="ludok">
- <area shape="rect" coords="118,138,277,340" href="#" onClick="Show_Organ('Atemwege')" onMouseover="$(&quot;#img_Organ_Atemwege&quot;).show();" onMouseout="$(&quot;#img_Organ_Atemwege&quot;).hide();" alt="" fimcolor="0" fimcontrast="1" />
- <area shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show();" onMouseout="$('#img_Organ_Herz').hide();" alt="" fimcolor="0" fimcontrast="1" />
- <area shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('Nervensystem')" onMouseover="$('#img_Organ_Nervensystem').show()" onMouseout="$('#img_Organ_Nervensystem').hide()" alt="" fimcolor="0" fimcontrast="1" />
- <area shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('Hirn')" onMouseover="$('#img_Organ_Hirn').show()" onMouseout="$('#img_Organ_Hirn').hide()" alt="" fimcolor="0" fimcontrast="1" />
- <area shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('Stoffwechsel')" onMouseover="$('#img_Organ_Stoffwechsel').show()" onMouseout="$('#img_Organ_Stoffwechsel').hide()" alt="" fimcolor="0" fimcontrast="1" />
- <area shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('Herz')" onMouseover="$('#img_Organ_Herz').show()" onMouseout="$('#img_Organ_Herz').hide()" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="118,138,277,340" href="#" onClick="Show_Organ('atemwege')" onMouseover="$(&quot;#img-organ-atemwege&quot;).show();" onMouseout="$(&quot;#img-organ-atemwege&quot;).hide();" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="176,84,383,997" href="#" onClick="Show_Organ('herz')" onMouseover="$('#img-organ-herz').show();" onMouseout="$('#img-organ-herz').hide();" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="2,84,173,1005" href="#" onClick="Show_Organ('nervensystem')" onMouseover="$('#img-organ-nervensystem').show()" onMouseout="$('#img-organ-nervensystem').hide()" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="145,9,247,85" href="#" onClick="Show_Organ('hirn')" onMouseover="$('#img-organ-hirn').show()" onMouseout="$('#img-organ-hirn').hide()" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="120,326,246,430" href="#" onClick="Show_Organ('stoffwechsel')" onMouseover="$('#img-organ-stoffwechsel').show()" onMouseout="$('#img-organ-stoffwechsel').hide()" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="176,242,226,307" href="#" onClick="Show_Organ('herz')" onMouseover="$('#img-organ-herz').show()" onMouseout="$('#img-organ-herz').hide()" alt="" fimcolor="0" fimcontrast="1" />
 </map>
 <img src="c:\_php\ludok\graph\_mensch_1000.png" width="407" height="1000" border="0" alt="" title="" usemap="#ludok" />
