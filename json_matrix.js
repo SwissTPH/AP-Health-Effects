@@ -5,6 +5,7 @@
 arrNoxen = [
     {
         "id": 1,
+        "noxe": "feinstaub",
         "noxe_de": "Feinstaub",
         "noxe_en": "Particulate matter",
         "noxe_fr": "Poussières fines",
@@ -14,6 +15,7 @@ arrNoxen = [
     },
     {
         "id": 2,
+        "noxe": "ozon",
         "noxe_de": "Ozon",
         "noxe_en": "Ozone",
         "noxe_fr": "Ozone",
@@ -23,6 +25,7 @@ arrNoxen = [
     },
     {
         "id": 3,
+        "noxe": "stickstoffdioxid",
         "noxe_de": "Stickstoffdioxid",
         "noxe_en": "Nitrogen dioxide",
         "noxe_fr": "Dioxyde d'azote",
@@ -32,6 +35,7 @@ arrNoxen = [
     },
     {
         "id": 4,
+        "noxe": "schwefeldioxid",
         "noxe_de": "Schwefeldioxid",
         "noxe_en": "Sulphur dioxide",
         "noxe_fr": "Dioxyde de soufre",
@@ -41,6 +45,7 @@ arrNoxen = [
     },
     {
         "id": 5,
+        "noxe": "kohlenmonoxid",
         "noxe_de": "Kohlenmonoxid",
         "noxe_en": "Carbon monoxide",
         "noxe_fr": "Monoxyde de carbone",
@@ -54,7 +59,7 @@ arrNoxen = [
 arrOrgane = [
     {
         "id": 1,
-        "organ": "Atemwege",
+        "organ": "atemwege",
         "organ_de": "Atemwege",
         "organ_en": "Respiratory system",
         "organ_fr": "Voies respiratoires",
@@ -64,7 +69,7 @@ arrOrgane = [
     },
     {
         "id": 2,
-        "organ": "Herz",
+        "organ": "herz",
         "organ_de": "Herz-/Kreislaufsystem",
         "organ_en": "Cardiovascular system",
         "organ_fr": "Système cardiovasculaire",
@@ -74,7 +79,7 @@ arrOrgane = [
     },
     {
         "id": 3,
-        "organ": "Nervensystem",
+        "organ": "nervensystem",
         "organ_de": "Nervensystem",
         "organ_en": "Nervous system",
         "organ_fr": "Système nerveux",
@@ -84,7 +89,7 @@ arrOrgane = [
     },
     {
         "id": 4,
-        "organ": "Stoffwechsel",
+        "organ": "stoffwechsel",
         "organ_de": "Stoffwechsel/Immunsystem",
         "organ_en": "Metabolism/Immune system",
         "organ_fr": "Métabolisme/système immunitaire",
@@ -94,7 +99,7 @@ arrOrgane = [
     },
     {
         "id": 5,
-        "organ": "Sterblichkeit",
+        "organ": "sterblichkeit",
         "organ_de": "Sterblichkeit",
         "organ_en": "Mortality",
         "organ_fr": "Mortalité",
@@ -104,7 +109,7 @@ arrOrgane = [
     },
     {
         "id": 6,
-        "organ": "Notfaelle",
+        "organ": "notfaelle",
         "organ_de": "Notfälle",
         "organ_en": "Emergency",
         "organ_fr": "Urgences",
@@ -124,7 +129,7 @@ arrEffekte = [
         "effekt_it": "Asma",
         "effekt_tr": "Astım",
         "effekt_mn": "TODO MN: Asthma",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 2,
@@ -134,7 +139,7 @@ arrEffekte = [
         "effekt_it": "Sintomi respiratori, ad es. respiro sibilante",
         "effekt_tr": "Solunum/solunum yolu semptomları örn. Hırıltı",
         "effekt_mn": "TODO MN: Respiratory/airway symptoms e.g. wheeze",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 3,
@@ -144,7 +149,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia, più sintomi o farmaci nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda hastalığın alevlenmesi, semptomların artması veya ilaç tedavisi",
         "effekt_mn": "TODO MN: Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 4,
@@ -154,7 +159,7 @@ arrEffekte = [
         "effekt_it": "Funzione polmonare ridotta nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda akciğer fonksiyonlarında azalma",
         "effekt_mn": "TODO MN: Lung function decline in patients with asthma",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 5,
@@ -164,7 +169,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
         "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
         "effekt_mn": "TODO MN: Worsening of the disease or increase in symptoms in patients with COPD",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 6,
@@ -174,7 +179,7 @@ arrEffekte = [
         "effekt_it": "Più sintomi per chi soffre di allergie",
         "effekt_tr": "Alerji hastalarında semptomlarda artış",
         "effekt_mn": "TODO MN: Increase in symptoms for allergy patients",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 7,
@@ -184,7 +189,7 @@ arrEffekte = [
         "effekt_it": "Bronchite cronica",
         "effekt_tr": "Kronik bronşit",
         "effekt_mn": "TODO MN: Chronic bronchitis",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 8,
@@ -194,7 +199,7 @@ arrEffekte = [
         "effekt_it": "Funzione polmonare ridotta",
         "effekt_tr": "Akciğer fonksiyonunda azalma",
         "effekt_mn": "TODO MN: Lung function decline",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 9,
@@ -204,7 +209,7 @@ arrEffekte = [
         "effekt_it": "Crescita polmonare ridotta",
         "effekt_tr": "Uyumsuz akciğer büyümesi",
         "effekt_mn": "TODO MN: Impaired Lung growth",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 10,
@@ -214,7 +219,7 @@ arrEffekte = [
         "effekt_it": "Riduzione accelerata della funzione polmonare",
         "effekt_tr": "Akciğer fonksiyonunda hızlı düşüş",
         "effekt_mn": "TODO MN: Accelerated decline in lung function",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 33,
@@ -224,7 +229,7 @@ arrEffekte = [
         "effekt_it": "Bronchite",
         "effekt_tr": "Bronşit",
         "effekt_mn": "TODO MN: Bronchitis",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 11,
@@ -234,7 +239,7 @@ arrEffekte = [
         "effekt_it": "Infiammazione delle vie aeree, reazione infiammatoria",
         "effekt_tr": "Hava yolu/solunum iltihabı, inflamatuar reaksiyon",
         "effekt_mn": "TODO MN: Airway/respiratory inflammation, inflammatory reaction",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 12,
@@ -244,7 +249,7 @@ arrEffekte = [
         "effekt_it": "Sviluppo di cancro ai polmoni",
         "effekt_tr": "Akciğer kanseri gelişimi",
         "effekt_mn": "TODO MN: Development of lung cancer",
-        "organ": "Atemwege"
+        "organ": "atemwege"
     },
     {
         "id": 13,
@@ -254,7 +259,7 @@ arrEffekte = [
         "effekt_it": "Arteriosclerosi",
         "effekt_tr": "Koroner arter hastalığı",
         "effekt_mn": "TODO MN: Atherosclerosis",
-        "organ": "Herz"
+        "organ": "herz"
     },
     {
         "id": 14,
@@ -264,7 +269,7 @@ arrEffekte = [
         "effekt_it": "Ipertensione arteriosa",
         "effekt_tr": "Kan basıncı, hipertansiyon",
         "effekt_mn": "TODO MN: Hypertension",
-        "organ": "Herz"
+        "organ": "herz"
     },
     {
         "id": 15,
@@ -274,7 +279,7 @@ arrEffekte = [
         "effekt_it": "Variabilità della frequenza cardiaca",
         "effekt_tr": "Aritmi",
         "effekt_mn": "TODO MN: Arrhythmia",
-        "organ": "Herz"
+        "organ": "herz"
     },
     {
         "id": 16,
@@ -284,7 +289,7 @@ arrEffekte = [
         "effekt_it": "Coagulazione del sangue",
         "effekt_tr": "Kan pıhtılaşması",
         "effekt_mn": "TODO MN: Blood coagulation",
-        "organ": "Herz"
+        "organ": "herz"
     },
     {
         "id": 17,
@@ -294,7 +299,7 @@ arrEffekte = [
         "effekt_it": "Disturbi/malattie del metabolismo degli zuccheri e dei grassi (ad es. diabete)",
         "effekt_tr": "Şeker ve metabolik bozukluklar/hastalıklar (örn. Diyabet)",
         "effekt_mn": "TODO MN: Sugar- and metabolic disorders/diseases (e.g. diabetes)",
-        "organ": "Stoffwechsel"
+        "organ": "stoffwechsel"
     },
     {
         "id": 19,
@@ -304,7 +309,7 @@ arrEffekte = [
         "effekt_it": "Difesa immunitaria ridotta",
         "effekt_tr": "Bağışıklık ve savunma sisteminde azalma",
         "effekt_mn": "TODO MN: Decline in immune defence",
-        "organ": "Stoffwechsel"
+        "organ": "stoffwechsel"
     },
     {
         "id": 20,
@@ -314,7 +319,7 @@ arrEffekte = [
         "effekt_it": "Volume del cervello (massa bianca) ridotto",
         "effekt_tr": "Beyin hacminde (beyaz madde) azalma",
         "effekt_mn": "TODO MN: Brain volume (white matter) decline",
-        "organ": "Nervensystem"
+        "organ": "nervensystem"
     },
     {
         "id": 21,
@@ -324,7 +329,7 @@ arrEffekte = [
         "effekt_it": "Diminuzione delle prestazioni cognitive (demenza)",
         "effekt_tr": "Bilişsel performans düşüşü (demans)",
         "effekt_mn": "TODO MN: Cognitive performance decline (dementia)",
-        "organ": "Nervensystem"
+        "organ": "nervensystem"
     },
     {
         "id": 22,
@@ -334,7 +339,7 @@ arrEffekte = [
         "effekt_it": "Mortalità dovuta a malattia ",
         "effekt_tr": "Kaza kaynaklı olmayan ölüm",
         "effekt_mn": "TODO MN: Non-accidental mortality",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 23,
@@ -344,7 +349,7 @@ arrEffekte = [
         "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler kaynaklı ölüm",
         "effekt_mn": "TODO MN: Mortality due to cardiovascular disease",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 24,
@@ -354,7 +359,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
         "effekt_mn": "TODO MN: Mortality due to respiratory diseases",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 25,
@@ -364,7 +369,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
         "effekt_mn": "TODO MN: Mortality due to asthma",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 26,
@@ -374,7 +379,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
         "effekt_mn": "TODO MN: Mortality due to COPD",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 27,
@@ -384,7 +389,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
         "effekt_tr": "Ölüm: akciğer kanseri",
         "effekt_mn": "TODO MN: Mortality due to lung cancer",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 28,
@@ -394,13 +399,13 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
         "effekt_mn": "TODO MN: Mortality due to respiratory (tract) infection",
-        "organ": "Sterblichkeit",
+        "organ": "sterblichkeit",
     },
     {
         "id": 33,
         "effekt_de": "Totgeburt",
         "effekt_mn": "TODO MN: Mortality due to stillbirth",
-        "organ": "Sterblichkeit"
+        "organ": "sterblichkeit"
     },
     {
         "id": 29,
@@ -410,7 +415,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı acil durum",
         "effekt_mn": "TODO MN: Emergency due to respiratory diseases",
-        "organ": "Notfaelle"
+        "organ": "notfaelle"
     },
     {
         "id": 30,
@@ -420,7 +425,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di asma",
         "effekt_tr": "Astım kaynaklı acil durum",
         "effekt_mn": "TODO MN: Emergency due to asthma",
-        "organ": "Notfaelle"
+        "organ": "notfaelle"
     },
     {
         "id": 31,
@@ -430,7 +435,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di COPD",
         "effekt_tr": "KOAH kaynaklı acil durum",
         "effekt_mn": "TODO MN: Emergency due to COPD",
-        "organ": "Notfaelle"
+        "organ": "notfaelle"
     },
     {
         "id": 32,
@@ -440,7 +445,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler hastalıklar kaynaklı acil durum",
         "effekt_mn": "TODO MN: Emergency due to cardiovascular diseases",
-        "organ": "Notfaelle"
+        "organ": "notfaelle"
     }
 ];
 
@@ -448,59 +453,59 @@ arrEffekte = [
 arrMatrix = [
     {
         "id": 1011,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1012,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Atemwegssymptome, z.B. pfeifende Atmung",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1013,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1014,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Lungenwachstum verringert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1015,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Beschleunigte Abnahme der Lungenfunktion",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1019,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Bronchitis",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1016,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Entzündung der Atemwege, entzündliche Reaktion",
-        "effekt_typ": "L",
+        "effekt_typ": "l",
         "effekt_zusatz_de": "(Kinder)",
         "effekt_zusatz_en": "(children)",
         "effekt_zusatz_fr": "(l'enfant)",
@@ -510,94 +515,94 @@ arrMatrix = [
     },
     {
         "id": 1017,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Entstehung von Lungenkrebs",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1018,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
 
     {
         "id": 1021,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "herz",
         "effekt": "Arteriosklerose",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1022,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "herz",
         "effekt": "Bluthochdruck",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1023,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "herz",
         "effekt": "Herzrhythmusvariabilität",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1024,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "herz",
         "effekt": "Blutgerinnung",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
 
     {
         "id": 1031,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Nervensystem",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "nervensystem",
         "effekt": "Gehirnvolumen (Weisse Masse) reduziert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1032,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Nervensystem",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "nervensystem",
         "effekt": "Abnahme der kognitiven Leistung (Demenz)",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
 
     {
         "id": 1051,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Krankheitsbedingte Sterblichkeit",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1052,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Herz-/Kreislaufkrankheiten",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1053,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
-        "effekt_typ": "C",
+        "effekt_typ": "c",
         "effekt_zusatz_de": "(kardiopulmonär)",
         "effekt_zusatz_en": "(cardiopulmonary)",
         "effekt_zusatz_fr": "(cardiopulmonaire)",
@@ -607,35 +612,35 @@ arrMatrix = [
     },
     {
         "id": 1054,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1055,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen COPD",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1056,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Lungenkrebs",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1057,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegsinfektionen",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1058,
@@ -649,329 +654,329 @@ arrMatrix = [
 
     {
         "id": 2011,
-        "noxe": "Ozon",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 2012,
-        "noxe": "Ozon",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 2013,
-        "noxe": "Ozon",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Mehr Symptome bei Allergikern",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     /*
     {"id": 2041,
-    "noxe": "Ozon",
-    "noxe_zeit": "L",
-    "organ": "Stoffwechsel",
+    "noxe": "ozon",
+    "noxe_zeit": "l",
+    "organ": "stoffwechsel",
     "effekt": "Zucker- und Fettstoffwechsel&shy;störungen/-erkrankungen (z.B. Diabetes)",
-    "effekt_typ": "L"
+    "effekt_typ": "l"
     },
     {"id": 2051,
-    "noxe": "Ozon",
-    "noxe_zeit": "L",
-    "organ": "Sterblichkeit",
+    "noxe": "ozon",
+    "noxe_zeit": "l",
+    "organ": "sterblichkeit",
     "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
-    "effekt_typ": "L"
+    "effekt_typ": "l"
     },
     {"id": 2061,
-    "noxe": "Ozon",
-    "noxe_zeit": "L",
-    "organ": "Notfaelle",
+    "noxe": "ozon",
+    "noxe_zeit": "l",
+    "organ": "notfaelle",
     "effekt": "Notfälle wegen Asthma",
-    "effekt_typ": "L"
+    "effekt_typ": "l"
     },
   */
 
     {
         "id": 3011,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 3012,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 3013,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Chronische Bronchitis",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 3014,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 3015,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "L",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "l",
+        "organ": "atemwege",
         "effekt": "Lungenwachstum verringert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
 
 // Kurzzeit
 
     {
         "id": 1111,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1112,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung oder mehr Symptome bei Patienten mit COPD",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1113,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1114,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Entzündung der Atemwege, entzündliche Reaktion",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1121,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "herz",
         "effekt": "Bluthochdruck",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1122,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Herz",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "herz",
         "effekt": "Herzrhythmusvariabilität",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1141,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Stoffwechsel",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "stoffwechsel",
         "effekt": "Verringerte Immunabwehr",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1151,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "sterblichkeit",
         "effekt": "Krankheitsbedingte Sterblichkeit",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1152,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Herz-/Kreislaufkrankheiten",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 1153,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1161,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Atemwegserkrankungen",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1162,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen COPD",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 1163,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "feinstaub",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Herz-/Kreislaufkrankheiten",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
 
     {
         "id": 2111,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Atemwegssymptome, z.B. pfeifende Atmung",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2112,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2113,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2114,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Entzündung der Atemwege, entzündliche Reaktion",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2141,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Stoffwechsel",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "stoffwechsel",
         "effekt": "Zucker- und Fettstoffwechsel&shy;störungen/-erkrankungen (z.B. Diabetes)",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     },
     {
         "id": 2161,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Atemwegserkrankungen",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2162,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 2163,
-        "noxe": "Ozon",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "ozon",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen COPD",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
 
     {
         "id": 3111,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Atemwegssymptome, z.B. pfeifende Atmung",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 3112,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 3113,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert bei Patienten mit Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 3151,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "K",
-        "organ": "Sterblichkeit",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "k",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 3161,
-        "noxe": "Stickstoffdioxid",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "stickstoffdioxid",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
 
     {
         "id": 4111,
-        "noxe": "Schwefeldioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "schwefeldioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Verschlechterung der Erkrankung, mehr Symptome oder Medikation bei Patienten mit Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 4112,
-        "noxe": "Schwefeldioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "schwefeldioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert bei Patienten mit Asthma",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 4113,
-        "noxe": "Schwefeldioxid",
-        "noxe_zeit": "K",
-        "organ": "Atemwege",
+        "noxe": "schwefeldioxid",
+        "noxe_zeit": "k",
+        "organ": "atemwege",
         "effekt": "Lungenfunktion verringert",
-        "effekt_typ": "C",
+        "effekt_typ": "c",
         "effekt_zusatz_de": "(Empfindliche Personen)",
         "effekt_zusatz_en": "(Susceptible persons)",
         "effekt_zusatz_fr": "(personnes sensibles)",
@@ -981,19 +986,19 @@ arrMatrix = [
     },
     {
         "id": 4151,
-        "noxe": "Schwefeldioxid",
-        "noxe_zeit": "K",
-        "organ": "Sterblichkeit",
+        "noxe": "schwefeldioxid",
+        "noxe_zeit": "k",
+        "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegserkrankungen",
-        "effekt_typ": "C"
+        "effekt_typ": "c"
     },
     {
         "id": 4161,
-        "noxe": "Schwefeldioxid",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "schwefeldioxid",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Asthma",
-        "effekt_typ": "C",
+        "effekt_typ": "c",
         "effekt_zusatz_de": "(Kinder, 65+)",
         "effekt_zusatz_en": "(children, 65 years and older)",
         "effekt_zusatz_fr": "(enfants, 65+/personnes âgées)",
@@ -1004,11 +1009,11 @@ arrMatrix = [
 
     {
         "id": 5161,
-        "noxe": "Kohlenmonoxid",
-        "noxe_zeit": "K",
-        "organ": "Notfaelle",
+        "noxe": "kohlenmonoxid",
+        "noxe_zeit": "k",
+        "organ": "notfaelle",
         "effekt": "Notfälle wegen Herz-/Kreislaufkrankheiten",
-        "effekt_typ": "L"
+        "effekt_typ": "l"
     }
 
 ];
