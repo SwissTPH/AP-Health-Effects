@@ -62,7 +62,7 @@ function Choose_Zeit(a_zeit) {
         Show_Organ(glb_Organ);
     }
     if (glb_Noxe != "") {
-        Show_Noxe_Zeit(glb_Noxe);
+        Show_Noxe_Zeit(glb_Noxe, glb_Zeit);
     }
 
     Msg_DocHeight();
@@ -630,11 +630,10 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
         return;
     }
 
-    a_noxe_zeit = glb_Zeit;
     glb_Organ = "";
     glb_Noxe = a_noxe;
 
-//console.log("Show_Noxe_Zeit: "+ a_noxe + " / " + a_noxe_zeit);
+console.log("Show_Noxe_Zeit: "+ a_noxe + " / " + a_noxe_zeit);
 
     ResetAll();
     $(glb_PCID + '#div-intro').hide();
@@ -648,13 +647,13 @@ function Show_Noxe_Zeit(a_noxe, a_noxe_zeit) {
         $('#div-mensch-mobile').hide();
     }
 
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'atemwege');
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'herz');
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'nervensystem');
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'stoffwechsel');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'atemwege');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'herz');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'nervensystem');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'stoffwechsel');
 
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'sterblichkeit');
-    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, 'notfaelle');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'sterblichkeit');
+    Filter_Noxe_Zeit_Organ(a_noxe, a_noxe_zeit, glb_Lang, 'notfaelle');
 
     Msg_DocHeight();
 
