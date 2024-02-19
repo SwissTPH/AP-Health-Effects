@@ -1531,7 +1531,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " und" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Am Fussende der Grafik finden Sie weitere Informationen.",
@@ -1554,7 +1554,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             ", and" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
@@ -1578,7 +1578,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " et" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -1601,7 +1601,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " e" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Ai piedi dell’immagine trovate troverete maggiori informazioni.",
@@ -1624,7 +1624,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             " ve" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
@@ -1648,7 +1648,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> турецькою</a>" +
             ", та" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffets-ukrainian\" target=\"_blank\"> українська</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українська</a>" +
             "." +
             "<br><br>" +
             "Додаткова довідкова інформація наведена в нижній частині малюнка.",
