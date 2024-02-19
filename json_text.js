@@ -1332,7 +1332,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
-        "text_uk": "ДДвоокис сірки ",
+        "text_uk": "ДДвоокис сірки",
     },
     {
         "id": 7,
