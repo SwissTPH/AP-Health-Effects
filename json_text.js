@@ -1464,7 +1464,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
-        "text_uk": "Література/список джерел",
+        "text_uk": "Література",
     },
     {
         "id": 27,
