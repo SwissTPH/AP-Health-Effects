@@ -348,7 +348,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies cardiovasculaires",
         "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler kaynaklı ölüm",
-        "effekt_uk": "Смертність через серцево-судинні захворювання",
+        "effekt_uk": "Смертність: серцево-судинні захворювання",
         "organ": "sterblichkeit"
     },
     {
@@ -358,7 +358,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies des voies respiratoires",
         "effekt_it": "Mortalità a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
-        "effekt_uk": "Смертність через respiratory diseases",
+        "effekt_uk": "Смертність: захворювання дихальних шляхів",
         "organ": "sterblichkeit"
     },
     {
@@ -368,7 +368,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à l'asthme",
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
-        "effekt_uk": "Смертність через астму",
+        "effekt_uk": "Смертність: астму",
         "organ": "sterblichkeit"
     },
     {
@@ -378,7 +378,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à la BPCO",
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
-        "effekt_uk": "Смертність через ХОЗЛ",
+        "effekt_uk": "Смертність: ХОЗЛ",
         "organ": "sterblichkeit"
     },
     {
@@ -388,7 +388,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due au cancer du poumon",
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
         "effekt_tr": "Ölüm: akciğer kanseri",
-        "effekt_uk": "Смертність через рак легень",
+        "effekt_uk": "Смертність: рак легень",
         "organ": "sterblichkeit"
     },
     {
@@ -398,7 +398,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due aux infections des voies respiratoires",
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
-        "effekt_uk": "Смертність через інфекцію дихальних шляхів",
+        "effekt_uk": "Смертність: інфекцію дихальних шляхів",
         "organ": "sterblichkeit"
     },
     {
