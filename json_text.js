@@ -1281,7 +1281,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
-        "text_uk": "Коротко<br>строковий",
+        "text_uk": "Коротко<br>стро<br>ковий",
     },
     {
         "id": 2,
@@ -1291,7 +1291,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
-        "text_uk": "Довго<br>строковий",
+        "text_uk": "Довго<br>стро<br>ковий",
     },
 
     {
@@ -1464,7 +1464,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
-        "text_uk": "Література/список джерел",
+        "text_uk": "Література",
     },
     {
         "id": 27,
