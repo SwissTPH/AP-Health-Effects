@@ -368,7 +368,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à l'asthme",
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
-        "effekt_uk": "Смертність: астму",
+        "effekt_uk": "Смертність: астма",
         "organ": "sterblichkeit"
     },
     {
@@ -398,7 +398,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due aux infections des voies respiratoires",
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
-        "effekt_uk": "Смертність: інфекцію дихальних шляхів",
+        "effekt_uk": "Смертність: інфекції дихальних шляхів",
         "organ": "sterblichkeit"
     },
     {
