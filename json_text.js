@@ -1281,7 +1281,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
-        "text_uk": "Коротко<br>стро<br>ковий",
+        "text_uk": "Коротко-<br>стро-<br>ковий",
     },
     {
         "id": 2,
@@ -1291,7 +1291,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
-        "text_uk": "Довго<br>стро<br>ковий",
+        "text_uk": "Довго-<br>стро-<br>ковий",
     },
 
     {
@@ -1332,7 +1332,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
-        "text_uk": "ДДвоокис сірки",
+        "text_uk": "Двоокис сірки",
     },
     {
         "id": 7,
@@ -1342,7 +1342,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
-        "text_uk": "TОкис вуглецю",
+        "text_uk": "Окис вуглецю",
     },
 
     {
@@ -1648,7 +1648,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> турецькою</a>" +
             ", та" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українська</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українською</a>" +
             "." +
             "<br><br>" +
             "Додаткова довідкова інформація наведена в нижній частині малюнка.",

@@ -188,7 +188,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite chronique",
         "effekt_it": "Bronchite cronica",
         "effekt_tr": "Kronik bronşit",
-        "effekt_uk": "Хронічний бронхіт",
+        "effekt_uk": "Хронічний Бронхіт",
         "organ": "atemwege"
     },
     {
@@ -228,7 +228,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite",
         "effekt_it": "Bronchite",
         "effekt_tr": "Bronşit",
-        "effekt_uk": "бронхіт",
+        "effekt_uk": "Бронхіт",
         "organ": "atemwege"
     },
     {
