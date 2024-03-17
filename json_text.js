@@ -1467,7 +1467,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
-        "text_uk": "Коротко<br>строковий",
+        "text_uk": "Коротко-<br>стро-<br>ковий",
         "text_mn": "TODO MN: Short-term",
     },
     {
@@ -1478,7 +1478,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
-        "text_uk": "Довго<br>строковий",
+        "text_uk": "Довго-<br>стро-<br>ковий",
         "text_mn": "TODO MN: Long-term",
     },
 
@@ -1523,7 +1523,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
-        "text_uk": "ДДвоокис сірки",
+        "text_uk": "Двоокис сірки",
         "text_mn": "TODO MN: Sulphur dioxide",
     },
     {
@@ -1534,7 +1534,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
-        "text_uk": "TОкис вуглецю",
+        "text_uk": "Окис вуглецю",
         "text_mn": "TODO MN: Carbon monoxide",
     },
 
@@ -1668,7 +1668,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
-        "text_uk": "Література/список джерел",
+        "text_uk": "Література",
         "text_mn": "TODO MN: References",
     },
     {
@@ -1892,7 +1892,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> турецькою</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українська</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українською</a>" +
             ", та" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +

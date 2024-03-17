@@ -205,7 +205,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite chronique",
         "effekt_it": "Bronchite cronica",
         "effekt_tr": "Kronik bronşit",
-        "effekt_uk": "Хронічний бронхіт",
+        "effekt_uk": "Хронічний Бронхіт",
         "effekt_mn": "TODO MN: Chronic bronchitis",
         "organ": "atemwege"
     },
@@ -249,7 +249,7 @@ arrEffekte = [
         "effekt_fr": "Bronchite",
         "effekt_it": "Bronchite",
         "effekt_tr": "Bronşit",
-        "effekt_uk": "бронхіт",
+        "effekt_uk": "Бронхіт",
         "effekt_mn": "TODO MN: Bronchitis",
         "organ": "atemwege"
     },
@@ -381,7 +381,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies cardiovasculaires",
         "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler kaynaklı ölüm",
-        "effekt_uk": "Смертність через серцево-судинні захворювання",
+        "effekt_uk": "Смертність: серцево-судинні захворювання",
         "effekt_mn": "TODO MN: Mortality due to cardiovascular disease",
         "organ": "sterblichkeit"
     },
@@ -392,7 +392,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à des maladies des voies respiratoires",
         "effekt_it": "Mortalità a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
-        "effekt_uk": "Смертність через respiratory diseases",
+        "effekt_uk": "Смертність: захворювання дихальних шляхів",
         "effekt_mn": "TODO MN: Mortality due to respiratory diseases",
         "organ": "sterblichkeit"
     },
@@ -403,7 +403,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à l'asthme",
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
-        "effekt_uk": "Смертність через астму",
+        "effekt_uk": "Смертність: астма",
         "effekt_mn": "TODO MN: Mortality due to asthma",
         "organ": "sterblichkeit"
     },
@@ -414,7 +414,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due à la BPCO",
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
-        "effekt_uk": "Смертність через ХОЗЛ",
+        "effekt_uk": "Смертність: ХОЗЛ",
         "effekt_mn": "TODO MN: Mortality due to COPD",
         "organ": "sterblichkeit"
     },
@@ -425,7 +425,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due au cancer du poumon",
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
         "effekt_tr": "Ölüm: akciğer kanseri",
-        "effekt_uk": "Смертність через рак легень",
+        "effekt_uk": "Смертність: рак легень",
         "effekt_mn": "TODO MN: Mortality due to lung cancer",
         "organ": "sterblichkeit"
     },
@@ -436,7 +436,7 @@ arrEffekte = [
         "effekt_fr": "Mortalité due aux infections des voies respiratoires",
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
-        "effekt_uk": "Смертність через інфекцію дихальних шляхів",
+        "effekt_uk": "Смертність: інфекції дихальних шляхів",
         "effekt_mn": "TODO MN: Mortality due to respiratory (tract) infection",
         "organ": "sterblichkeit",
     },
