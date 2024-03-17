@@ -12,6 +12,7 @@ arrNoxen = [
         "noxe_it": "Polveri sottili",
         "noxe_tr": "Partikül Madde",
         "noxe_uk": "Зважені (тверді) частинки",
+        "noxe_mn": "TODO MN: Particulate matter",
     },
     {
         "id": 2,
@@ -22,6 +23,7 @@ arrNoxen = [
         "noxe_it": "Ozono",
         "noxe_tr": "Ozon",
         "noxe_uk": "Озон",
+        "noxe_mn": "TODO MN: Ozone",
     },
     {
         "id": 3,
@@ -32,6 +34,7 @@ arrNoxen = [
         "noxe_it": "Diossido di azoto",
         "noxe_tr": "Azot dioksit",
         "noxe_uk": "Двоокис азоту",
+        "noxe_mn": "TODO MN: Nitrogen dioxide",
     },
     {
         "id": 4,
@@ -42,6 +45,7 @@ arrNoxen = [
         "noxe_it": "Anidride solforosa",
         "noxe_tr": "Sülfür dioksit",
         "noxe_uk": "Двоокис сірки",
+        "noxe_mn": "TODO MN: Sulphur dioxide",
     },
     {
         "id": 5,
@@ -52,6 +56,7 @@ arrNoxen = [
         "noxe_it": "Monossido di carbonio",
         "noxe_tr": "Karbonmonoksit",
         "noxe_uk": "Окис вуглецю",
+        "noxe_mn": "TODO MN: Carbon monoxide",
     }
 ];
 
@@ -66,6 +71,7 @@ arrOrgane = [
         "organ_it": "Vie respiratorie",
         "organ_tr": "Solunum sistemi",
         "organ_uk": "Респіраторна система",
+        "organ_mn": "TODO MN: Respiratory system",
     },
     {
         "id": 2,
@@ -76,6 +82,7 @@ arrOrgane = [
         "organ_it": "Sistema cardiovascolare",
         "organ_tr": "Kardiyovasküler sistem",
         "organ_uk": "Серцево-судинна система",
+        "organ_mn": "TODO MN: Cardiovascular system",
     },
     {
         "id": 3,
@@ -86,6 +93,7 @@ arrOrgane = [
         "organ_it": "Sistema nervoso",
         "organ_tr": "Sinir sistemi",
         "organ_uk": "Нервова система",
+        "organ_mn": "TODO MN: Nervous system",
     },
     {
         "id": 4,
@@ -96,6 +104,7 @@ arrOrgane = [
         "organ_it": "Metabolismo/sistema immunitario",
         "organ_tr": "Metabolizma/Bağışıklık sistemi",
         "organ_uk": "Метаболізм/імунна система",
+        "organ_mn": "TODO MN: Metabolism/Immune system",
     },
     {
         "id": 5,
@@ -106,6 +115,7 @@ arrOrgane = [
         "organ_it": "Mortalità",
         "organ_tr": "Ölüm",
         "organ_uk": "Смертність",
+        "organ_mn": "TODO MN: Mortality",
     },
     {
         "id": 6,
@@ -116,6 +126,7 @@ arrOrgane = [
         "organ_it": "Emergenze",
         "organ_tr": "Acil durumlar",
         "organ_uk": "Надзвичайні ситуації",
+        "organ_mn": "TODO MN: Emergency",
     }
 ];
 
@@ -129,6 +140,7 @@ arrEffekte = [
         "effekt_it": "Asma",
         "effekt_tr": "Astım",
         "effekt_uk": "Астма",
+        "effekt_mn": "TODO MN: Asthma",
         "organ": "atemwege"
     },
     {
@@ -139,6 +151,7 @@ arrEffekte = [
         "effekt_it": "Sintomi respiratori, ad es. respiro sibilante",
         "effekt_tr": "Solunum/solunum yolu semptomları örn. Hırıltı",
         "effekt_uk": "Респіраторні/дихальні симптоми, наприклад хрипіння",
+        "effekt_mn": "TODO MN: Respiratory/airway symptoms e.g. wheeze",
         "organ": "atemwege"
     },
     {
@@ -149,6 +162,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia, più sintomi o farmaci nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda hastalığın alevlenmesi, semptomların artması veya ilaç tedavisi",
         "effekt_uk": "Загострення хвороби, посилення симптомів або лікування хворих на астму",
+        "effekt_mn": "TODO MN: Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
         "organ": "atemwege"
     },
     {
@@ -159,6 +173,7 @@ arrEffekte = [
         "effekt_it": "Funzione polmonare ridotta nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda akciğer fonksiyonlarında azalma",
         "effekt_uk": "Зниження функції легень у хворих на астму",
+        "effekt_mn": "TODO MN: Lung function decline in patients with asthma",
         "organ": "atemwege"
     },
     {
@@ -169,6 +184,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
         "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
         "effekt_uk": "Погіршення хвороби або посилення симптомів у хворих на ХОЗЛ",
+        "effekt_mn": "TODO MN: Worsening of the disease or increase in symptoms in patients with COPD",
         "organ": "atemwege"
     },
     {
@@ -179,6 +195,7 @@ arrEffekte = [
         "effekt_it": "Più sintomi per chi soffre di allergie",
         "effekt_tr": "Alerji hastalarında semptomlarda artış",
         "effekt_uk": "Посилення симптомів у хворих на алергію",
+        "effekt_mn": "TODO MN: Increase in symptoms for allergy patients",
         "organ": "atemwege"
     },
     {
@@ -189,6 +206,7 @@ arrEffekte = [
         "effekt_it": "Bronchite cronica",
         "effekt_tr": "Kronik bronşit",
         "effekt_uk": "Хронічний Бронхіт",
+        "effekt_mn": "TODO MN: Chronic bronchitis",
         "organ": "atemwege"
     },
     {
@@ -199,6 +217,7 @@ arrEffekte = [
         "effekt_it": "Funzione polmonare ridotta",
         "effekt_tr": "Akciğer fonksiyonunda azalma",
         "effekt_uk": "Зниження функції легень",
+        "effekt_mn": "TODO MN: Lung function decline",
         "organ": "atemwege"
     },
     {
@@ -209,6 +228,7 @@ arrEffekte = [
         "effekt_it": "Crescita polmonare ridotta",
         "effekt_tr": "Uyumsuz akciğer büyümesi",
         "effekt_uk": "Порушення зростання легень",
+        "effekt_mn": "TODO MN: Impaired Lung growth",
         "organ": "atemwege"
     },
     {
@@ -219,6 +239,7 @@ arrEffekte = [
         "effekt_it": "Riduzione accelerata della funzione polmonare",
         "effekt_tr": "Akciğer fonksiyonunda hızlı düşüş",
         "effekt_uk": "Прискорене зниження функції легень",
+        "effekt_mn": "TODO MN: Accelerated decline in lung function",
         "organ": "atemwege"
     },
     {
@@ -229,6 +250,7 @@ arrEffekte = [
         "effekt_it": "Bronchite",
         "effekt_tr": "Bronşit",
         "effekt_uk": "Бронхіт",
+        "effekt_mn": "TODO MN: Bronchitis",
         "organ": "atemwege"
     },
     {
@@ -239,6 +261,7 @@ arrEffekte = [
         "effekt_it": "Infiammazione delle vie aeree, reazione infiammatoria",
         "effekt_tr": "Hava yolu/solunum iltihabı, inflamatuar reaksiyon",
         "effekt_uk": "Запалення дихальних шляхів/респіраторної системи, запальна реакція",
+        "effekt_mn": "TODO MN: Airway/respiratory inflammation, inflammatory reaction",
         "organ": "atemwege"
     },
     {
@@ -249,6 +272,7 @@ arrEffekte = [
         "effekt_it": "Sviluppo di cancro ai polmoni",
         "effekt_tr": "Akciğer kanseri gelişimi",
         "effekt_uk": "Розвиток раку легень",
+        "effekt_mn": "TODO MN: Development of lung cancer",
         "organ": "atemwege"
     },
     {
@@ -259,6 +283,7 @@ arrEffekte = [
         "effekt_it": "Arteriosclerosi",
         "effekt_tr": "Koroner arter hastalığı",
         "effekt_uk": "Атеросклероз",
+        "effekt_mn": "TODO MN: Atherosclerosis",
         "organ": "herz"
     },
     {
@@ -269,6 +294,7 @@ arrEffekte = [
         "effekt_it": "Ipertensione arteriosa",
         "effekt_tr": "Kan basıncı, hipertansiyon",
         "effekt_uk": "Підвищення артеріального тиску",
+        "effekt_mn": "TODO MN: Hypertension",
         "organ": "herz"
     },
     {
@@ -279,6 +305,7 @@ arrEffekte = [
         "effekt_it": "Variabilità della frequenza cardiaca",
         "effekt_tr": "Aritmi",
         "effekt_uk": "Аритмія",
+        "effekt_mn": "TODO MN: Arrhythmia",
         "organ": "herz"
     },
     {
@@ -289,6 +316,7 @@ arrEffekte = [
         "effekt_it": "Coagulazione del sangue",
         "effekt_tr": "Kan pıhtılaşması",
         "effekt_uk": "Коагуляція крові",
+        "effekt_mn": "TODO MN: Blood coagulation",
         "organ": "herz"
     },
     {
@@ -299,6 +327,7 @@ arrEffekte = [
         "effekt_it": "Disturbi/malattie del metabolismo degli zuccheri e dei grassi (ad es. diabete)",
         "effekt_tr": "Şeker ve metabolik bozukluklar/hastalıklar (örn. Diyabet)",
         "effekt_uk": "Розлади/захворювання, пов’язані з рівнем глюкози та метаболізмом (наприклад, діабет)",
+        "effekt_mn": "TODO MN: Sugar- and metabolic disorders/diseases (e.g. diabetes)",
         "organ": "stoffwechsel"
     },
     {
@@ -309,6 +338,7 @@ arrEffekte = [
         "effekt_it": "Difesa immunitaria ridotta",
         "effekt_tr": "Bağışıklık ve savunma sisteminde azalma",
         "effekt_uk": "Зниження імунного захисту",
+        "effekt_mn": "TODO MN: Decline in immune defence",
         "organ": "stoffwechsel"
     },
     {
@@ -319,6 +349,7 @@ arrEffekte = [
         "effekt_it": "Volume del cervello (massa bianca) ridotto",
         "effekt_tr": "Beyin hacminde (beyaz madde) azalma",
         "effekt_uk": "Зменшення об'єму мозку (білої речовини)",
+        "effekt_mn": "TODO MN: Brain volume (white matter) decline",
         "organ": "nervensystem"
     },
     {
@@ -329,6 +360,7 @@ arrEffekte = [
         "effekt_it": "Diminuzione delle prestazioni cognitive (demenza)",
         "effekt_tr": "Bilişsel performans düşüşü (demans)",
         "effekt_uk": "Зниження когнітивних функцій (деменція)",
+        "effekt_mn": "TODO MN: Cognitive performance decline (dementia)",
         "organ": "nervensystem"
     },
     {
@@ -339,6 +371,7 @@ arrEffekte = [
         "effekt_it": "Mortalità dovuta a malattia ",
         "effekt_tr": "Kaza kaynaklı olmayan ölüm",
         "effekt_uk": "Смертність (не включаючи нещасні випадки)",
+        "effekt_mn": "TODO MN: Non-accidental mortality",
         "organ": "sterblichkeit"
     },
     {
@@ -349,6 +382,7 @@ arrEffekte = [
         "effekt_it": "Mortalità dovuta a malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler kaynaklı ölüm",
         "effekt_uk": "Смертність: серцево-судинні захворювання",
+        "effekt_mn": "TODO MN: Mortality due to cardiovascular disease",
         "organ": "sterblichkeit"
     },
     {
@@ -359,6 +393,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı ölüm",
         "effekt_uk": "Смертність: захворювання дихальних шляхів",
+        "effekt_mn": "TODO MN: Mortality due to respiratory diseases",
         "organ": "sterblichkeit"
     },
     {
@@ -369,6 +404,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
         "effekt_uk": "Смертність: астма",
+        "effekt_mn": "TODO MN: Mortality due to asthma",
         "organ": "sterblichkeit"
     },
     {
@@ -379,6 +415,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
         "effekt_uk": "Смертність: ХОЗЛ",
+        "effekt_mn": "TODO MN: Mortality due to COPD",
         "organ": "sterblichkeit"
     },
     {
@@ -389,6 +426,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di cancro ai polmoni",
         "effekt_tr": "Ölüm: akciğer kanseri",
         "effekt_uk": "Смертність: рак легень",
+        "effekt_mn": "TODO MN: Mortality due to lung cancer",
         "organ": "sterblichkeit"
     },
     {
@@ -399,6 +437,13 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di infezioni delle vie respiratorie",
         "effekt_tr": "Ölüm: solunum yolu enfeksiyonu",
         "effekt_uk": "Смертність: інфекції дихальних шляхів",
+        "effekt_mn": "TODO MN: Mortality due to respiratory (tract) infection",
+        "organ": "sterblichkeit",
+    },
+    {
+        "id": 33,
+        "effekt_de": "Totgeburt",
+        "effekt_mn": "TODO MN: Mortality due to stillbirth",
         "organ": "sterblichkeit"
     },
     {
@@ -409,6 +454,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di malattie respiratorie",
         "effekt_tr": "Solunum hastalıkları kaynaklı acil durum",
         "effekt_uk": "Надзвичайна ситуація через респіраторні захворювання",
+        "effekt_mn": "TODO MN: Emergency due to respiratory diseases",
         "organ": "notfaelle"
     },
     {
@@ -419,6 +465,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di asma",
         "effekt_tr": "Astım kaynaklı acil durum",
         "effekt_uk": "Надзвичайна ситуація через астму",
+        "effekt_mn": "TODO MN: Emergency due to asthma",
         "organ": "notfaelle"
     },
     {
@@ -429,6 +476,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di COPD",
         "effekt_tr": "KOAH kaynaklı acil durum",
         "effekt_uk": "Надзвичайна ситуація через ХОЗЛ",
+        "effekt_mn": "TODO MN: Emergency due to COPD",
         "organ": "notfaelle"
     },
     {
@@ -439,6 +487,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di malattie cardiovascolari",
         "effekt_tr": "Kardiyovasküler hastalıklar kaynaklı acil durum",
         "effekt_uk": "Надзвичайна ситуація через серцево-судинні захворювання",
+        "effekt_mn": "TODO MN: Emergency due to cardiovascular diseases",
         "organ": "notfaelle"
     }
 ];
@@ -506,6 +555,7 @@ arrMatrix = [
         "effekt_zusatz_it": "(bambini)",
         "effekt_zusatz_tr": "(çocuklar)",
         "effekt_zusatz_uk": "(діти)",
+        "effekt_zusatz_mn": "TODO MN: (children)",
     },
     {
         "id": 1017,
@@ -603,6 +653,7 @@ arrMatrix = [
         "effekt_zusatz_it": "(cardiopolmonare)",
         "effekt_zusatz_tr": "(kardiyopulmoner)",
         "effekt_zusatz_uk": "(серцево-легеневі)",
+        "effekt_zusatz_mn": "TODO MN: (cardiopulmonary)",
     },
     {
         "id": 1054,
@@ -635,6 +686,15 @@ arrMatrix = [
         "organ": "sterblichkeit",
         "effekt": "Sterblichkeit wegen Atemwegsinfektionen",
         "effekt_typ": "l"
+    },
+    {
+        "id": 1058,
+        "noxe": "Feinstaub",
+        "noxe_zeit": "L",
+        "organ": "Sterblichkeit",
+        "effekt": "Totgeburt",
+        "effekt_typ": "L",
+        "nur_in": [ "mn" ],
     },
 
     {
@@ -968,6 +1028,7 @@ arrMatrix = [
         "effekt_zusatz_it": "(persone sensibili)",
         "effekt_zusatz_tr": "(duyarlı kişiler)",
         "effekt_zusatz_uk": "(сприйнятливі особи)",
+        "effekt_zusatz_mn": "TODO MN: (Susceptible persons)",
     },
     {
         "id": 4151,
@@ -990,6 +1051,7 @@ arrMatrix = [
         "effekt_zusatz_it": "(bambini, 65+/gli anziani)",
         "effekt_zusatz_tr": "(çocuk, 65+/yaşlı)",
         "effekt_zusatz_uk": "(діти, 65 років і старше)",
+        "effekt_zusatz_mn": "TODO MN: (children, 65 years and older)",
     },
 
     {
