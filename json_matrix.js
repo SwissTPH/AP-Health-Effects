@@ -689,11 +689,11 @@ arrMatrix = [
     },
     {
         "id": 1058,
-        "noxe": "Feinstaub",
-        "noxe_zeit": "L",
-        "organ": "Sterblichkeit",
+        "noxe": "feinstaub",
+        "noxe_zeit": "l",
+        "organ": "sterblichkeit",
         "effekt": "Totgeburt",
-        "effekt_typ": "L",
+        "effekt_typ": "l",
         "nur_in": [ "mn" ],
     },
 
