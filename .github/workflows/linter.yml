@@ -1,0 +1,34 @@
+name: Lint Code Base
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
+    steps:
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # entire history needed
+          fetch-depth: 0
+      
+      - name: Lint Code Base
+        uses: super-linter/super-linter@v5.7.2
+        env:
+          DEFAULT_BRANCH: main
+          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_CSS: true
+          VALIDATE_HTML: true
+          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_JSON: true
+          FILTER_REGEX_EXCLUDE: jquery/*
+          # For reporting status
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -5,8 +5,8 @@
 arrPopups = [
     {
         "id": 1,
-        "parent": "Luftbelastung",
-        "text_de": "<div class=\"i_header\">Aktuelle Luftbelastung</div>" +
+        "parent": "luftbelastung",
+        "text_de": "<div class=\"i-header\">Aktuelle Luftbelastung</div>" +
             "<b>Wie ist die aktuelle Schadstoffbelastung der Luft in der Schweiz?</b>" +
             "<br><br>" +
             "Die Luftqualität der Schweiz wird seit Mitte der 1980er-Jahre stetig besser. Für viele Schadstoffe und an vielen Orten in der Schweiz werden die meisten Immissionsgrenzwerte " +
@@ -19,7 +19,7 @@ arrPopups = [
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
             ", in der MeteoSwiss App oder beim Bundesamt für Umwelt (BAFU) unter " +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/zustand/daten/luftbelastung--aktuelle-daten.html\" target=\"_blank\">Luftbelastung: aktuelle Daten.</a>",
-        "text_en": "<div class=\"i_header\">Current pollution</div>" +
+        "text_en": "<div class=\"i-header\">Current pollution</div>" +
             "<b>What is the current level of air pollution in Switzerland?</b>" +
             "<br><br>" +
             "Switzerland's air quality has been steadily improving since the mid-1980s. Most areas in Switzerland, for most pollutants, are currently in compliance with the air quality standards. " +
@@ -32,7 +32,7 @@ arrPopups = [
             "on the <a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
             ", in the MeteoSwiss app (see App stores on your mobile devices) or at the Federal Office for the Environment (FOEN) at air pollution " +
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>",
-        "text_fr": "<div class=\"i_header\">Pollution actuel</div>" +
+        "text_fr": "<div class=\"i-header\">Pollution actuel</div>" +
             "<b>Quel est le niveau actuel de la pollution de l'air en Suisse?</b>" +
             "<br><br>" +
             "La qualité de l'air en Suisse ne cesse de s'améliorer depuis le milieu des années 1980. Pour de nombreux polluants et en de nombreux endroits en Suisse, la plupart des valeurs limites " +
@@ -45,7 +45,7 @@ arrPopups = [
             "<a href=\"https://cerclair.ch/fr/aircheck\" target=\"_blank\">airCHeck App</a>" +
             ", sur l'application MeteoSwiss ou auprès de l'Office fédéral de l'environnement (OFEV) " +
             "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/etat/donnees/pollution-atmospherique--donnees-actuelles.html\" target=\"_blank\">Pollution atmosphérique: données actuelles.</a>",
-        "text_it": "<div class=\"i_header\">Esposizione attuale</div>" +
+        "text_it": "<div class=\"i-header\">Esposizione attuale</div>" +
             "<b>Qual è l'attuale livello di inquinamento atmosferico in Svizzera?</b>" +
             "<br><br>" +
             "La qualità dell'aria in Svizzera è in costante miglioramento dalla metà degli anni '80. Per molte sostanze inquinanti e in molti luoghi della Svizzera, la maggior parte dei valori " +
@@ -58,7 +58,7 @@ arrPopups = [
             "<a href=\"https://cerclair.ch/it/aircheck\" target=\"_blank\">airCHeck</a>" +
             ", nell'app MeteoSwiss o presso l'Ufficio federale dell'ambiente (UFAM) al link " +
             "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/stato/dati/inquinamento-atmosferico--dati-attuali.html\" target=\"_blank\">Inquinamento dell'aria: dati attuali.</a>",
-        "text_tr": "<div class=\"i_header\">Mevcut Kirlilik</div>" +
+        "text_tr": "<div class=\"i-header\">Mevcut Kirlilik</div>" +
             "<b>İsviçre'deki mevcut hava kirliliği seviyesi nedir?</b>" +
             "<br><br>" +
             "<b>İsviçre'nin</b> hava kalitesi 1980'lerin ortalarından bu yana istikrarlı bir şekilde iyileşiyor. " +
@@ -81,8 +81,25 @@ arrPopups = [
             "<br><br>" +
             "Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
-            "ve cep telefonu uygulamasındaki ulaşabilirsiniz.",
-        "text_mn": "<div class=\"i_header\">Өнөөгийн байдал</div>" +
+            "ve cep telefonu uygulamasından ulaşabilirsiniz.",
+        "text_uk": "<div class=\"i-header\">Поточний рівень забрудненості</div>" +
+            "<b>Який зараз рівень забрудненості повітря у Швейцарії?</b>" +
+            "<br><br>" +
+            "Якість повітря у Швейцарії неухильно покращується з середини 1980-х років. " +
+            "Більшість регіонів Швейцарії зараз відповідає нормам якості повітря за більшістю забруднювачів. " +
+            "Рівні забрудненості двоокисом сірки (SO2) та окисом вуглецю (СО) у Швейцарії є настільки низькими, що шкідливих наслідків для здоров’я від цих забруднювачів не очікується. " +
+            "Проте норми щодо озону часто перевищуються, причому значно (на великих територіях). " +
+            "Попри покращення, що має місце останніми роками, у деяких випадках у районах зі значним трафіком досі перевищуються норми якості повітря за двоокисом азоту (NO2) " +
+            "і зваженими частинками (PM10/PM2,5). Це пояснюється тим, що великі кількості цих забруднювачів повітря продовжують викидатися та випускатися у повітря Швейцарії та сусідніх країн." +
+            "<br><br>" +
+            "Актуальні дані про якість повітря можна знайти у застосунку " +
+            "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>, " +
+            "у застосунку MeteoSwiss (див. магазини застосунків на своїх мобільних пристроях) або у Федеральному міністерстві навколишнього середовища (FOEN) за посиланням " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>" +
+            "<br><br>" +
+            "Інформацію щодо рівнів різних забруднювачів атмосферного повітря можна знайти на сайті Міністерства захисту довкілля та природних ресурсів України " +
+            "<a href=\"https://mepr.gov.ua/diyalnist/napryamky/ekologichnyj-monitoryng/stan-atmosfernogo-povitrya/\" target=\"_blank\">https://mepr.gov.ua/diyalnist/napryamky/ekologichnyj-monitoryng/stan-atmosfernogo-povitrya/</a>",
+        "text_mn": "<div class=\"i-header\">Өнөөгийн байдал</div>" +
             "<b>Монгол орны агаарын бохирдол өнөөгийн байдлаар ямар байгаа вэ?</b>" +
             "<br><br>" +
             "Өнгөрсөн 10 жилийн хугацаанд авч үзвэл Улаанбаатар хотын хувьд РМ2.5, SO2, NO2 бохирдуулагчид хүйтний улиралд үргэлж стандартыг давсан үзүүлэлттэй буюу өндөр бохирдолтой байсан " + 
@@ -97,8 +114,8 @@ arrPopups = [
     },
     {
         "id": 2,
-        "parent": "Grenzwerte",
-        "text_de": "<div class=\"i_header\">Wirkschwellen und Grenzwerte</div>" +
+        "parent": "grenzwerte",
+        "text_de": "<div class=\"i-header\">Wirkschwellen und Grenzwerte</div>" +
             "<b>Welche gesetzlichen Grundlagen gibt es, bzw. wer bestimmt die Richtlinien?</b>" +
             "<br><br>" +
             "Die Weltgesundheitsorganisation (World Health Organisation, WHO) definiert in ihren " +
@@ -123,7 +140,7 @@ arrPopups = [
             "Weitere Informationen zur Bedeutung der in der Schweiz gültigen Grenzwerte finden Sie im Faktenblatt " +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "«Immissionsgrenzwerte der Luftreinhalte-Verordnung (LRV)»</a> (Download 0.6 MB) des Bundesamts für Umwelt.",
-        "text_en": "<div class=\"i_header\">Limit values</div>" +
+        "text_en": "<div class=\"i-header\">Limit values</div>" +
             "<b>What is the legal basis, or who determines the guidelines?</b>" +
             "<br><br>" +
             "In the " +
@@ -146,7 +163,7 @@ arrPopups = [
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> or  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
             "FR</a> download, 0.6 MB) of the Federal Office for the Environment.",
-        "text_fr": "<div class=\"i_header\">Valeur limite</div>" +
+        "text_fr": "<div class=\"i-header\">Valeur limite</div>" +
             "<b>Quelles sont les bases juridiques, autrement dit et qui définit les lignes directrices?</b>" +
             "<br><br>" +
             "L'Organisation mondiale de la santé (OMS) définit dans ses " +
@@ -172,7 +189,7 @@ arrPopups = [
             "Vous trouverez de plus amples informations sur la signification des valeurs limites en vigueur en Suisse dans la fiche d'information " +
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf \" target=\"_blank\">" +
             "«Les valeurs limites d'immission de l'ordonnance sur la protection de l'air (OPair)» </a> (téléchargement 0.6 MB) de l'Office fédéral de l'environnement.",
-        "text_it": "<div class=\"i_header\">Valori limite</div>" +
+        "text_it": "<div class=\"i-header\">Valori limite</div>" +
             "<b>Qual è la base giuridica o chi determina le linee guida?</b>" +
             "<br><br>" +
             "L'Organizzazione Mondiale della Sanità (OMS) definisce nelle sue " +
@@ -198,7 +215,7 @@ arrPopups = [
             "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
             "DE</a> or <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
             "FR</a> download 0.6 MB) dell'Ufficio federale dell'ambiente.",
-        "text_tr": "<div class=\"i_header\">Limit değerler</div>" +
+        "text_tr": "<div class=\"i-header\">Limit değerler</div>" +
             "<b>Yasal dayanak nedir veya yönergeleri kim belirliyor?</b>" +
             "<br><br>" +
             "Dünya Sağlık Örgütü (DSÖ)" +
@@ -225,7 +242,21 @@ arrPopups = [
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan " +
             "<a href=\"https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12188&MevzuatTur=7&MevzuatTertip=5\" target=\"_blank\">Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği</a> " +
             "ile belirlenmektedir.",
-        "text_mn": "<div class=\"i_header\">Хязгаарлалт</div>" +
+        "text_uk": "<div class=\"i-header\">Граничні величини</div>" +
+            "<b>Якою є правова база, або хто визначає керівні принципи?</b>" +
+            "<br><br>" +
+            "У " +
+            "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">рекомендаціях із якості повітря</a>, " +
+            "Всесвітня організація охорони здоров’я (ВООЗ) визначає величини, нижче котрих очікувані наслідки для здоров’я або відсутні, або є лише незначними. " +
+            "Ці величини визначаються на основі наявних наукових доказів і покликані слугувати для національних органів влади орієнтиром у встановленні норм якості повітря. " +
+            "Що стосується впливу довгострокового забруднення повітря, наявні наукові докази свідчать про те, що для більшості забруднювачів порогів впливу не існує. " +
+            "\"Поріг впливу\" визначається як концентрація забруднювача, нижче якої шкідливих наслідків для здоров’я не очікується. " +
+            "<br><br>" +
+            "В Україні, Міністерство охорони здоров’я визначає та затверджує гранично допустимі рівні для різних речовин в атмосферному повітрі, що потенційно становлять ризики для здоров’я. " +
+            "Зокрема, поточні цифри визначені наказом МОЗ України №52 від 14.01.2020 Про затвердження гігієнічних регламентів допустимого вмісту хімічних і біологічних речовин " +
+            "в атмосферному повітрі населених місць (Зареєстровано в Міністерстві юстиції України 10 лютого 2020 р. за № 156/34439). " +
+            "<a href=\"https://zakon.rada.gov.ua/laws/show/z0156-20#Text\" target=\"_blank\">https://zakon.rada.gov.ua/laws/show/z0156-20#Text</a>. ",
+        "text_mn": "<div class=\"i-header\">Хязгаарлалт</div>" +
             "<b>Хууль эрх зүйн үндэслэл болон Удирдамжийг хэн боловсруулдаг вэ?</b>" +
             "<br><br>" +
             "Дэлхийн эрүүл мэндийн байгууллагаас (ДЭМБ) эрүүл мэндэд нөлөөгүй  эсвэл бага зэргийн нөлөө үзүүлэх агууламжийг тодорхойлсон ба энэ талаар " + 
@@ -246,36 +277,36 @@ arrPopups = [
     },
     {
         "id": 3,
-        "parent": "Quellen",
-        "text_de": "<div class=\"i_header\">Quellen der Luftbelastung</div>" +
+        "parent": "quellen",
+        "text_de": "<div class=\"i-header\">Quellen der Luftbelastung</div>" +
             "<b>Welche Quellen für die Schadstoffbelastung der Luft gibt es?</b>" +
             "<br><br>" +
             "Die Quellen der Luftbelastung sind je nach Schadstoff verschieden. Zu den Hauptverursachern zählen Verkehr, Feuerungen zu Heizzwecken, Industrie, Gewerbe und Landwirtschaft." +
             "<br><br>" +
             "Weitere Informationen finden Sie beim Bundesamt für Umwelt (BAFU) unter " +
             "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/inkuerze.html#1537492315\" target=\"_blank\">Luft: Das Wichtigste in Kürze.</a>",
-        "text_en": "<div class=\"i_header\">Sources of pollutants</div>" +
+        "text_en": "<div class=\"i-header\">Sources of pollutants</div>" +
             "<b>What are the sources of air pollution?</b>" +
             "<br><br>" +
             "The sources of air pollution vary depending on the pollutant. The main sources include traffic, heating systems, industry, commerce and agriculture." +
             "<br><br>" +
             "Further information can be found at the Federal Office for the Environment (FOEN) website under " +
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Air: In brief.</a>",
-        "text_fr": "<div class=\"i_header\">Source polluants</div>" +
+        "text_fr": "<div class=\"i-header\">Source polluants</div>" +
             "<b>Quelles sont les sources de pollution de l'air?</b>" +
             "<br><br>" +
             "Les sources de pollution de l'air sont différentes selon le polluant. Les principales sources sont la trafic motorisé, les systèmes de chauffage, l'industrie, le commerce et l'agriculture. " +
             "<br><br>" +
             "Vous trouverez plus d’informations sur ce thème auprès de l'Office fédéral de l'environnement (OFEV) à l'adresse suivante: " +
             "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/en-bref.html\" target=\"_blank\">Air: En bref.</a>",
-        "text_it": "<div class=\"i_header\">Fonti inquinanti</div>" +
+        "text_it": "<div class=\"i-header\">Fonti inquinanti</div>" +
             "<b>Quali sono le fonti di inquinamento dell’aria?</b>" +
             "<br><br>" +
             "Le fonti di inquinamento dell'aria sono diverse a seconda dell'inquinante. Le cause principali sono il traffico, i sistemi di riscaldamento, l'industria, il commercio e l'agricoltura. " +
             "<br><br>" +
             "Ulteriori informazioni possono essere richieste all'Ufficio federale dell'ambiente (UFAM) al link " +
             "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/in-breve.html\" target=\"_blank\">Aria: i fatti più importanti in breve.</a>",
-        "text_tr": "<div class=\"i_header\">Kirletici kaynakları</div>" +
+        "text_tr": "<div class=\"i-header\">Kirletici kaynakları</div>" +
             "<b>Hava kirliliğinin kaynakları nelerdir?</b>" +
             "<br><br>" +
             "Hava kirliliğinin kaynakları kirleticiye bağlı olarak değişmektedir. Ana kaynaklar arasında trafik, ısıtma sistemleri, sanayi, ticaret ve tarım bulunmaktadır." +
@@ -288,7 +319,14 @@ arrPopups = [
             "Kirlilik kontrolü düzenlemelerinin amacı, hava kirliliğinin insan sağlığı ve çevre üzerindeki zararlı etkilerini önlemek veya azaltmak için belirlenen hava kalitesi hedeflerine ulaşmaktır. " +
             "Daha fazla bilgi web sitesinde " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> bulunabilir.",
-        "text_mn": "<div class=\"i_header\">Бохирдуулагч эх үүсвэрүүд</div>" +
+        "text_uk": "<div class=\"i-header\">Джерела забруднювачів</div>" +
+            "<b>Які джерела забруднення повітря?</b>" +
+            "<br><br>" +
+            "Джерела забруднення повітря різняться залежно від забруднювача. " +
+            "Основними джерелами є дорожній рух, системи опалення, промисловість, торгівля і сільське господарство. " +
+            "За даними State of Global Air, найбільший внесок у забруднення PM2.5 робить енергетичний сектор, за ним йдуть сільське господарство та опалення житлових будинків. " +
+            "<a href=\"https://www.stateofglobalair.org/resources/countryprofiles?country-choice=Ukraine\" target=\"_blank\">State of Global Air - Ukraine</a>",
+        "text_mn": "<div class=\"i-header\">Бохирдуулагч эх үүсвэрүүд</div>" +
             "<b>Агаар бохирдуулагч ямар эх үүсвэрүүд байна вэ?</b>" +
             "<br><br>" +
             "Монгол орны агаарын бохирдлын эх үүсвэр нь хүйтний улиралд гэр хорооллын утаа, машинаас ялгарах утаа, цахилгааны дэд станцуудаас ялгарах утаа дийлэнх " +
@@ -303,8 +341,8 @@ arrPopups = [
     },
     {
         "id": 4,
-        "parent": "Hintergrund",
-        "text_de": "<div class=\"i_header\">Hintergrund</div>" +
+        "parent": "hintergrund",
+        "text_de": "<div class=\"i-header\">Hintergrund</div>" +
             "<b>Wie werden Zusammenhänge zwischen Schadstoffen und gesundheitlichen Auswirkungen untersucht und beurteilt?</b>" +
             "<br><br>" +
             "Pro Tag atmet ein erwachsener Mensch 12'000 – 15’000 Liter Luft ein und aus. Durch Nase, Rachen und Luftröhre gelangen dabei neben dem lebenswichtigen Sauerstoff " +
@@ -359,7 +397,7 @@ arrPopups = [
             "Je anfälliger (vulnerabler) eine Person ist, desto höher das Risiko, von den Auswirkungen betroffen zu sein. Wer bereits eine Lungenentzündung hat oder wessen Lunge noch " +
             "im Wachstum ist, ist anfälliger für die Auswirkungen schlechter Luft. Nicht alle Bevölkerungsgruppen reagieren also gleich auf Luftschadstoffe: Kinder, Kranke und Alte haben, " +
             "im Durchschnitt betrachtet, ein höheres Risiko.",
-        "text_en": "<div class=\"i_header\">Background</div>" +
+        "text_en": "<div class=\"i-header\">Background</div>" +
             "<b>How are associations between health effects and pollutants investigated and assessed?</b>" +
             "<br><br>" +
             "Every day, an adult breathes 12’000 – 15’000 litres of air. In addition to vital oxygen, pollutants also enter our lungs and airways through the nose and throat. " +
@@ -411,7 +449,7 @@ arrPopups = [
             "In addition, the personal medical history and individual sensitivity also play a major role. More susceptible (vulnerable) individuals typically have a higher risk of adverse effects. " +
             "People who already have pneumonia or whose lungs are still growing, for example, are more susceptible to the effects of polluted air. This means that not all population groups react " +
             "in the same way to air pollutants: children, sick people and elderly have, on average, a higher risk.",
-        "text_fr": "<div class=\"i_header\">Scénario</div>" +
+        "text_fr": "<div class=\"i-header\">Scénario</div>" +
             "<b>Comment les relations entre les polluants et les effets sur la santé sont-elles étudiées et évaluées?</b>" +
             "<br><br>" +
             "Chaque jour, une personne adulte inspire et expire 12’000 à 15’000 litres d'air. C’est ainsi que, en plus de l'oxygène nécessaire à la vie, des polluants présentant un risque avéré " +
@@ -469,7 +507,7 @@ arrPopups = [
             "Plus une personne est sensible (vulnérable), plus le risque qu’elle soit concernée par les effets est important. Les personnes déjà atteintes d’une pneumonie ou dont les poumons " +
             "sont encore en développement sont plus sensibles aux effets d’un air de mauvaise qualité. Cela signifie que tous les groupes de population ne réagissent pas de la même manière aux " +
             "polluants atmosphériques: les enfants, les malades et les personnes âgées sont, en moyenne, plus vulnérables.",
-        "text_it": "<div class=\"i_header\">Scenario</div>" +
+        "text_it": "<div class=\"i-header\">Scenario</div>" +
             "<b>Come vengono studiati e valutati i rapporti tra sostanze inquinanti ed effetti sulla salute?</b>" +
             "<br><br>" +
             "Ogni giorno, una persona adulta inspira ed espira 12’000 - 15’000 litri d'aria. Attraverso il naso, la gola e la trachea, oltre all'ossigeno vitale, entrano nei nostri polmoni anche " +
@@ -524,7 +562,7 @@ arrPopups = [
             "Inoltre, giocano un ruolo importante anche la storia clinica personale e la sensibilità individuale: più una persona è suscettibile (vulnerabile), maggiore è il rischio di essere colpita " +
             "dagli effetti dell’inquinamento atmosferico. Ade esempio, le persone che hanno già la polmonite o i cui polmoni sono ancora in crescita sono più sensibili agli effetti dell'aria malsana. " +
             "Non tutti i gruppi di popolazione reagiscono infatti agli inquinanti atmosferici allo stesso modo: i bambini, i malati e gli anziani hanno, in media, un rischio maggiore.",
-        "text_tr": "<div class=\"i_header\">Arka plan</div>" +
+        "text_tr": "<div class=\"i-header\">Arka plan</div>" +
             "<b>Sağlık etkileri ile kirleticiler arasındaki ilişkiler nasıl araştırılıyor ve değerlendiriliyor?</b>" +
             "<br><br>" +
             "Bir yetişkin her gün 12.000 – 15.000 litre hava solur. Hayati olan oksijenin yanı sıra kirleticiler de burun ve boğaz yoluyla akciğerlerimize ve solunum yollarımıza girer. " +
@@ -565,7 +603,69 @@ arrPopups = [
             "Hava kirliliği, küresel sağlığa yönelik en büyük tehditlerden biridir; dolayısıyla Küresel Hastalık Yükü (GBD) çalışması ülkelerin, " +
             "bölgelerin ve dünyanın karşılaştırmalı olarak hava kirliliğinin sağlık üzerindeki etkilerini göstermeye yardımcı olmaktadır. " +
             "<a href=\"https://vizhub.healthdata.org/gbd-results/\" target=\"_blank\">GBD Results</a> ",
-        "text_mn": "<div class=\"i_header\">Оршил</div>" +
+        "text_uk": "<div class=\"i-header\">Довідкова інформація</div>" +
+            "<b>Як досліджуються та оцінюються зв’язки між наслідками для здоров’я та забруднювачами повітря?</b>" +
+            "<br><br>" +
+            "Щодня доросла людина вдихає 12-15 тис. літрів повітря. Крім життєво важливого кисню, до наших легень і дихальних шляхів через ніс і горло також потрапляють забруднювачі повітря. Доведено, що це є шкідливим для здоров’я." +
+            "<br><br>" +
+            "Представлені тут знання основані на значній кількості досліджень, у яких вивчався вплив забруднювачів повітря на здоров’я людини на популяційному рівні (епідеміологія). Експериментальні дослідження людей, тварин і клітин використовувалися також для оцінювання причинно-наслідкового характеру забруднювачів повітря." +
+            "<br><br>" +
+            "Розрізнюються наслідки, пов’язані з короткостроковим (від кількох годин до кількох днів) та довгостроковим (від кількох місяців до кількох років) контактом із забрудненим повітрям. " +
+            "Примітно, що наслідки довгострокового інтенсивного контакту з атмосферним повітрям є більш серйозними." +
+            "<br><br>" +
+            "Зміст малюнку обмежується впливом, який Агентство з охорони навколишнього середовища США (US ЕРА) визначило як причинно-наслідковий або ймовірно причинно-наслідковий." +
+            "ЕРА оцінює залежність між забруднювачами та потенційними наслідками для здоров’я за п’ятибальною шкалою." +
+            "Двома найвищими рівнями цієї шкали причинно-наслідкових зв’язків є рівні" +
+            "\"причинно-наслідковий\" та \"ймовірно причинно-наслідковий\". " +
+            "<br><br>" +
+            "Подальша інформація про оцінювання причинно-наслідкових зв’язків у рамках комплексних наукових оцінок: " +
+            "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)- Вступ до комплексних наукових оцінок»</a>." +
+            "<br><br>" +
+            "Є й інші, <b>новіші дослідження з синтезом доказів</b>, які, ймовірно, не такі ретельні, як оцінки US ЕРА. " +
+            "З цієї причини ми не включили їх у малюнок. Проте, вони все одне можуть указувати на ще більші небезпеки для здоров’я від забруднення атмосферного повітря, як, наприклад: " +
+            "нижча маса тіла при народженні, вплив на нервово-психічний розвиток, діабет, рак тощо." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
+            "Підготовлений організацією НEI огляд наслідків для здоров’я забруднення повітря, спричиненого дорожнім рухом</a>, з додатковими доказами впливу на здоров’я довгострокового " +
+            "забруднення повітря через дорожній рух, зокрема щодо діабету 2 типу, ішемічної хвороби серця, низької маси тіла при народженні</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">" +
+            "Підготовлений консорціумом ЕTC систематичний огляд</a> " +
+            "наслідків забруднення повітря (зовнішнього та у приміщеннях) на дітей та підлітків, із додатковими доказами впливу на здоров’я дітей, зокрема смертності, " +
+            "низької маси тіла при народженні, передчасних пологів, затримок нервово-психічного розвитку, аутизму, лейкемії, інфекцій.</li>" +
+            "<li>Дослідження глобального тягаря хвороб (ГТХ) за 2019 рік із додатковими доказами наслідків для здоров’я через дію зважених частинок, зокрема ішемічної хвороби серця, " +
+            "інсульту, хронічного обструктивного захворювання легень (ХОЗЛ), раку легень, гострої респіраторної інфекції нижніх дихальних шляхів, діабету 2 типу, " +
+            "передчасних пологів та низької маси тіла при народженні.<br/>" +
+            "[Дослідження ГТХ за 2019 рік, співавтори з факторів ризику. Глобальний тягар 87 факторів ризику у 204 країнах і територіях, 1990-2019 рр.: " +
+            "систематичний аналіз Дослідження глобального тягаря хвороб за 2019 р.]. Lancet 2020; 396: 1223–49. " +
+            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
+            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "</ul>" +
+            "<b>Наскільки актуальні для вас вищезазначені наслідки для здоров’я?</b>" +
+            "<br><br>" +
+            "Небезпека потенційно може спричинити шкоду. Ризик, з одного боку, - це вірогідність, з якою небезпека може фактично спричинити шкоду. Він є результатом поєднання небезпеки з фактичною дією." +
+            "<br><br>" +
+            "Ризики, пов’язані з дією забрудненого повітря, часто варіюються від менш ніж однозначної до двозначної відсоткової частки (0,2-15)% на різницю експозиції, " +
+            "що дорівнює концентрації забруднювача у 10 мікрограмів на кубічний метр." +
+            "<br><br>" +
+            "Наприклад, дія зважених (твердих) частинок сприяє підвищенню смертності, а саме збільшення довготривалого контакту з концентрацією зважених (твердих) " +
+            "частинок (РМ2,5) у 10 мікрограмів спричиняє зростання ризику на 6%. " +
+            "Ризик із боку забруднювачів повітря для людей є нижчим у порівнянні з такими факторами способу життя, як тютюнопаління. " +
+            "Проте, на популяційному рівні – тобто з точки зору громадського здоров’я – це незначне підвищення смертності є значущим, " +
+            "тому що на відміну від тютюнопаління забруднювачі повітря впливають на всю популяцію. " +
+            "У кількісному виразі для <b>населення Швейцарії</b>, за даними " +
+            "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">Європейського агентства з охорони навколишнього середовища</a> " +
+            "це невелике збільшення ризику означає, що у 2016 році у Швейцарії 3700 осіб померли передчасно внаслідок дії зважених частинок (PM2,5)." +
+            "<br><br>" +
+            "В <b>Україні</b>, відповідно до даних дослідження Глобального тягаря захворювань, 43’000 померло внаслідок забруднення атмосферного повітря PM2.5 в 2019 році. " +
+            "Ця цифра знизилася з більш ніж 61’000 померлих у 2008 році. " +
+            "<a href=\"https://vizhub.healthdata.org/gbd-compare\" target=\"_blank\">https://vizhub.healthdata.org/gbd-compare</a> " +
+            "<br><br>" +
+            "Крім цього, важливу роль грають медичний анамнез особи та її індивідуальна чутливість. " +
+            "Для більш сприйнятливих (уразливих) людей ризик негативних наслідків зазвичай вище. " +
+            "Люди, які вже хворіють на пневмонію або в яких легені ще ростуть, наприклад, більш сприйнятливі до впливу забрудненого повітря. " +
+            "Це означає, що не всі групи населення реагують на забруднювачі повітря однаково: для дітей, хворих і літніх людей ризик у середньому більш високий.",
+        "text_mn": "<div class=\"i-header\">Оршил</div>" +
             "<b>Эрүүл мэндэд үзүүлэх нөлөө болон бохирдуулагчийн хоорондын хамаарлыг хэрхэн судалж, үнэлдэг вэ?</b>" +
             "<br><br>" +
             "Насанд хүрсэн хүн өдөр бүр 12'000-15'000 литр агаараар амьсгалдаг. Бидний уушги, амьсгалын зам руу амин чухал шаардлагатай хүчилтөрөгчөөс гадна эрүүл мэндэд хортой болох нь батлагдсан " +
@@ -596,8 +696,8 @@ arrPopups = [
     },
     {
         "id": 5,
-        "parent": "Beitrag",
-        "text_de": "<div class=\"i_header\">Was kann ich für eine gesunde Luft und Umwelt tun?</div>" +
+        "parent": "beitrag",
+        "text_de": "<div class=\"i-header\">Was kann ich für eine gesunde Luft und Umwelt tun?</div>" +
             "<b>Was können Sie persönlich zu einer guten Luftqualität beitragen?</b>" +
             "<br><br>" +
             "Die Luftqualität ist ein Teil der Umwelt. Wer gerne etwas gegen die Luftbelastung tun möchte, um der Gesundheit und der Umwelt Sorge zu tragen, findet Anregungen auf den " +
@@ -608,7 +708,7 @@ arrPopups = [
             "Cercl’Air: <a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">Feinstaub</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">Ozon</a><br>" +
             "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (Englisch)",
-        "text_en": "<div class=\"i_header\">My Contribution</div>" +
+        "text_en": "<div class=\"i-header\">My Contribution</div>" +
             "<b>How you can contribute to good air quality</b>" +
             "<br><br>" +
             "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
@@ -627,7 +727,7 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
             "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
-        "text_fr": "<div class=\"i_header\">Ma contribution</div>" +
+        "text_fr": "<div class=\"i-header\">Ma contribution</div>" +
             "<b>Comment pouvez-vous contribuer personnellement à une bonne qualité de l'air?</b>" +
             "<br><br>" +
             "La qualité de l'air fait partie de l'environnement. Toute personne souhaitant agir contre la pollution atmosphérique pour protéger la santé et l'environnement trouvera des suggestions " +
@@ -638,7 +738,7 @@ arrPopups = [
             "Cercl’Air: <a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">Poussières fines</a><br>" +
             "Cercl’Air: <a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">Ozone</a><br>" +
             "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (anglais)",
-        "text_it": "<div class=\"i_header\">Cosa posso fare</div>" +
+        "text_it": "<div class=\"i-header\">Cosa posso fare</div>" +
             "<b>Come potete contribuire personalmente a una buona qualità dell'aria?</b>" +
             "<br><br>" +
             "La qualità dell'aria fa parte dell'ambiente. Chi desidera fare qualcosa per proteggere la salute e l'ambiente, può trovare suggerimenti sui siti web dell'Ufficio federale dell'ambiente " +
@@ -651,7 +751,7 @@ arrPopups = [
             "Cercl’Air: <a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Ozono</a><br>" +
             "Cantone Ticino: <a href=\"https://www4.ti.ch/dt/da/spaas/uacer/temi/aria/aria/aria/\" target=\"_blank\">Consigli per il controllo dell'inquinamento atmosferico</a><br>" +
             "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a> (inglese)",
-        "text_tr": "<div class=\"i_header\">Katkınız</div>" +
+        "text_tr": "<div class=\"i-header\">Katkınız</div>" +
             "<b>İyi hava kalitesine nasıl katkıda bulunabilirsiniz:</b>" +
             "<br><br>" +
             "Hava kalitesi sağlıklı bir ortamın parçasıdır. Sağlığı ve çevreyi korumak için hava kirliliği konusunda bir şey yapmak isteyen " +
@@ -676,7 +776,23 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
             "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
             "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
-        "text_mn": "<div class=\"i_header\">Таны оролцоо</div>" +
+        "text_uk": "<div class=\"i-header\">Мій внесок</div>" +
+            "<b>Як ви можете сприяти високій якості повітря</b>" +
+            "<br><br>" +
+            "Якість повітря – це складова здорового навколишнього середовища. Кожний, хто хотів би щось зробити стосовно забруднення повітря для захисту здоров’я й навколишнього середовища, " +
+            "знайде пропозиції на веб-сайті Агентства з охорони навколишнього середовища США." +
+            "<br><br>" +
+            "Серед іншого, вони пропонують: " +
+            "<ul>" +
+            "<li>Берегти енергію - вдома, на роботі, скрізь.</li>" +
+            "<li>Спільне користування автомобілем, користування громадським транспортом, велосипедом або пішки, коли це можливо.</li>" +
+            "<li>Переконайтеся, що ваші шини правильно накачані.</li>" +
+            "<li>По можливості використовуйте екологічно безпечні фарби та засоби для чищення.</li>" +
+            "<li>Мульча або компост листя і дворові відходи.</li>" +
+            "</ul>" +
+            "<br><br>" +
+            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Дії, які ви можете вжити для зменшення забруднення повітря»</a>",
+        "text_mn": "<div class=\"i-header\">Таны оролцоо</div>" +
             "<b>Агаарын чанарыг сайжруулахад та хэрхэн хувь нэмэр оруулах вэ?</b>" +
             "<br><br>" +
             "Агаарын чанарыг сайжруулах нь зөвхөн шийдвэр гаргагч нарын хүлээх үүрэг биш бөгөөд бид бүгд дор бүрнээ арга хэмжээ авах хэрэгтэй. Хэрэв та агаарын бохирдлоо бууруулахын тулд " +
@@ -684,8 +800,8 @@ arrPopups = [
     },
     {
         "id": 6,
-        "parent": "Referenzen",
-        "text_de": "<div class=\"i_header\">Referenzen</div>" +
+        "parent": "referenzen",
+        "text_de": "<div class=\"i-header\">Referenzen</div>" +
             "Als Datengrundlage für die Infografik dienten die aktuellen integrierten Wissenschaftsanalysen der US-amerikanischen Umweltbehörde zu den Schadstoffen " +
             "Feinstaub PM10/PM2.5, Stickstoffdioxid NO<sub>2</sub>, Ozon O<sub>3</sub>, Schwefeldioxid SO<sub>2</sub> und Kohlenmonoxid CO " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
@@ -698,7 +814,7 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_en": "<div class=\"i_header\">References</div>" +
+        "text_en": "<div class=\"i-header\">References</div>" +
             "The data displayed in this interactive figure are based on the current Integrated Science Assessments by the US Environmental Protection Agency " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
@@ -710,7 +826,7 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_fr": "<div class=\"i_header\">Références</div>" +
+        "text_fr": "<div class=\"i-header\">Références</div>" +
             "L’infographie se fonde sur les analyses scientifiques intégrées actuelles de l'Agence américaine de protection de l'environnement concernant les polluants: " +
             "poussières fines PM10/PM2,5, dioxyde d'azote NO<sub>2</sub>, ozone O<sub>3</sub>, dioxyde de soufre SO<sub>2</sub> et monoxyde de carbone CO " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
@@ -723,7 +839,7 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_it": "<div class=\"i_header\">Riferimenti</div>" +
+        "text_it": "<div class=\"i-header\">Riferimenti</div>" +
             "La base di dati per l'infografica è costituita dalle attuali analisi scientifiche integrate dell'Agenzia statunitense per la protezione dell'ambiente sulle sostanze inquinanti: " +
             "polveri sottili PM10/PM2.5, diossido di azoto NO<sub>2</sub>, ozono O<sub>3</sub>, biossido di zolfo SO<sub>2</sub> e monossido di carbonio CO " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
@@ -736,7 +852,7 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_tr": "<div class=\"i_header\">Kaynaklar</div>" +
+        "text_tr": "<div class=\"i-header\">Kaynaklar</div>" +
             "İnteraktif şekilde görüntülenen bu veriler, ABD Çevre Koruma Ajansı'nın mevcut Entegre Bilimsel Değerlendirmesi'ne dayanmaktadır " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
@@ -748,7 +864,19 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_mn": "<div class=\"i_header\">Ном зүй</div>" +
+        "text_uk": "<div class=\"i-header\">Література</div>" +
+            "Дані, наведені на цьому інтерактивному малюнку, основані на поточних комплексних наукових оцінках Агентства з охорони навколишнього середовища США. " +
+            "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
+            "<br><br>" +
+            "<ol>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Particulate (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-19/188, 2019.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Oxides of Nitrogen – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-15/068, 2016.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-20/012, 2020.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Sulfur Oxides – Health Criteria (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-17/451, 2017.</li>" +
+            "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
+            "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
+            "</ol>",
+        "text_mn": "<div class=\"i-header\">Ном зүй</div>" +
             "Энэхүү интерактив зурагт харуулсан өгөгдөл нь АНУ-ын Байгаль орчныг хамгаалах агентлагийн одоогийн шинжлэх ухааны нэгдсэн үнэлгээнд үндэслэсэн болно. " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
@@ -763,8 +891,8 @@ arrPopups = [
     },
     {
         "id": 7,
-        "parent": "Impressum",
-        "text_de": "<div class=\"i_header\">Impressum</div>" +
+        "parent": "impressum",
+        "text_de": "<div class=\"i-header\">Impressum</div>" +
             "Diese interaktive Grafik ist eine Plattform mit Informationen zu den Gesundheitsfolgen von Luftverschmutzung. Es handelt sich um ein Projekt der vom Bundesamt für Umwelt (BAFU) " +
             "finanzierten Dokumentationsstelle Luft und Gesundheit (LUDOK) am Schweizerischen Tropen- und Public Health-Institut (Swiss TPH), welches zusammen mit Organisationen erarbeitet " +
             "wurde, namentlich:" +
@@ -790,7 +918,7 @@ arrPopups = [
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> " +
             "gerne entgegen.",
-        "text_en": "<div class=\"i_header\">Imprint</div>" +
+        "text_en": "<div class=\"i-header\">Imprint</div>" +
             "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
             "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
             "<ul>" +
@@ -813,7 +941,7 @@ arrPopups = [
             "The use and adaptation of the interactive figure is allowed with reference to Swiss TPH as the author and under compliance to the AGPL license conditions. Feedback and input are welcome at " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
-        "text_fr": "<div class=\"i_header\">Impressum</div>" +
+        "text_fr": "<div class=\"i-header\">Impressum</div>" +
             "Ce graphique interactif est une plateforme d'information sur les effets de la pollution atmosphérique sur la santé. Il s'agit d'un projet du Centre de documentation sur l’air et la santé (LUDOK) " +
             "de l'Institut Tropical et de Santé Publique Suisse (Swiss TPH), financé par l'Office fédéral de l'environnement (OFEV), qui a été développé en collaboration avec des organisations, à savoir:" +
             "<ul>" +
@@ -837,7 +965,7 @@ arrPopups = [
             "Les contributions au contenu du graphique sont les bienvenues à l'adresse suivante: " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
-        "text_it": "<div class=\"i_header\">Impressum</div>" +
+        "text_it": "<div class=\"i-header\">Impressum</div>" +
             "Questo grafico interattivo è una piattaforma con informazioni sugli effetti dell'inquinamento atmosferico sulla salute. Si tratta di un progetto finanziato dall'Ufficio federale " +
             "dell'ambiente (BAFU) del Centro di documentazione e informazione (LUDOK) presso lo Swiss Tropical and Public Health Institute (Swiss TPH), che è stato sviluppato insieme alle " +
             "organizzazioni, ovvero:" +
@@ -862,7 +990,7 @@ arrPopups = [
             "Per inviare contributi ai contenuti della grafica: " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
-        "text_tr": "<div class=\"i_header\">Baskı</div>" +
+        "text_tr": "<div class=\"i-header\">Baskı</div>" +
             "Ortam havası kirliliğinin sağlık üzerindeki etkilerine ilişkin olan bu interaktif figür, İsviçre Tropikal ve Halk Sağlığı Enstitüsü'ndeki (Swiss TPH) " +
             "İsviçre Hava Kirliligi ve Sağlık Literatür Veritabanı ve Hizmetleri (LUDOK)'ne ait bir projedir. Aşağıdaki kuruluşlarla ortaklaşa geliştirilmiştir: " +
             "<ul>" +
@@ -887,7 +1015,33 @@ arrPopups = [
             "İnteraktif şeklin kullanımına ve uyarlanmasına, yazar olarak Swiss  TPH'ye atıfta bulunarak ve AGPL lisans koşullarına uygun olarak izin verilir. Geri bildirim ve katkılar " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> adresinden memnuniyetle karşılanacaktır.",
-        "text_mn": "<div class=\"i_header\">Дардас</div>" +
+        "text_uk": "<div class=\"i-header\">Вихідні дані</div>" +
+            "На цьому інтерактивному малюнку показано наслідки забруднення навколишнього повітря для здоров’я людини. " +
+            "Це – проєкт Бази даних швейцарської літератури та Служби з наслідків забруднення навколишнього середовища для здоров’я людини (LUDOR) " +
+            "Швейцарського інституту тропічної медицини та громадського здоров’я (Swiss TPH). Він був спільно розроблений нижчезазначеними організаціями-партнерами: " +
+            "<ul>" +
+            "<li>Bundesamt für Umwelt</li>" +
+            "<li>Kantonale Behörden für Luftreinhaltung</li>" +
+            "<li>Krebsliga Schweiz</li>" +
+            "<li>LUNGE ZÜRICH</li>" +
+            "<li>LerNetz</li>" +
+            "</ul>" +
+            "Концепція та реалізація: LUDOK<br>" +
+            "Автори: Мелтем Кутлар Йосс (ludok@swisstph.ch), Лара Стуккі, Рон Каппелер, Зое Рот<br>" +
+            "Внесок в українську версію: Анастасія Думчева<br>" +
+            "Переклад українською мовою: Сергій Тімачов<br>" +
+            "Візуальний дизайн і програмування: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
+            "<br><br>" +
+            "Зміст цього матеріалу відповідає актуальним відомостям станом на 2022 рік." +
+            "<br><br>" +
+            "Вихідний код інтерактивного малюнку доступний за посиланням " +
+            "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
+            "На малюнок поширюється ліцензія " +
+            "<a href=\"https://www.gnu.org/licenses/agpl-3.0\" target=\"_blank\">GNU Affero General Public License (AGPL)</a>. " +
+            "Використання і адаптація цього малюнка дозволяється за умови зазначення авторства Swiss TPH і дотримання умов ліцензії AGPL. Відгуки та повідомлення можна надсилати на адресу  " +
+            "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
+            "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
+         "text_mn": "<div class=\"i-header\">Дардас</div>" +
             "Энэхүү интерактив зурагаар  хүрээлэн буй орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллий харуулсан ба Swiss Tropical ба Нийгмийн эрүүл мэндийн хүрээлэнгийн (Швейцарийн TPH) " +
             "Швейцарийн уран зохиолын мэдээллийн сан ба Орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллийн үйлчилгээ LUDOK-ийн төслийн хүрээнд боловсруулав. " +
             "Дараах түнш байгууллагуудтай хамтран боловсрууллаа:" +
@@ -917,95 +1071,106 @@ arrPopups = [
 arrInfos = [
     {
         "id": 1,
-        "parent": "Atemwege",
-        "text_de": "<div class=\"i_header\">Atemwege</div>Lunge, Luftröhre",
-        "text_en": "<div class=\"i_header\">Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
-        "text_fr": "<div class=\"i_header\">Voies aériennes</div>Poumon, trachée",
-        "text_it": "<div class=\"i_header\">Vie respiratorie</div>Polmoni, trachea",
-        "text_tr": "<div class=\"i_header\">Solunum sistemi</div>Akciğerler, nefes borusu (trake), hava yolları (bronşlar ve bronşiyoller), hava keseleri (alveoller)",
-        "text_mn": "<div class=\"i_header\">Амьсгалын систем</div>Уушги, амьсгалын хоолой (цагаан хоолой), амьсгалын зам (гуурсан хоолой ба гуурсанцар), агаарын уут (цулцан)",
+        "parent": "atemwege",
+        "text_de": "<div class=\"i-header\">Atemwege</div>Lunge, Luftröhre",
+        "text_en": "<div class=\"i-header\">Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
+        "text_fr": "<div class=\"i-header\">Voies aériennes</div>Poumon, trachée",
+        "text_it": "<div class=\"i-header\">Vie respiratorie</div>Polmoni, trachea",
+        "text_tr": "<div class=\"i-header\">Solunum sistemi</div>Akciğerler, nefes borusu (trake), hava yolları (bronşlar ve bronşiyoller), hava keseleri (alveoller)",
+        "text_uk": "<div class=\"i-header\">Респіраторна система</div>Легені, дихальна трубка (трахея), дихальні шляхи (бронхи та бронхіоли), альвеолярні мішечки (альвеоли)",
+        "text_mn": "<div class=\"i-header\">Амьсгалын систем</div>Уушги, амьсгалын хоолой (цагаан хоолой), амьсгалын зам (гуурсан хоолой ба гуурсанцар), агаарын уут (цулцан)",
     },
     {
         "id": 2,
-        "parent": "Herz",
-        "text_de": "<div class=\"i_header\">Herz/Kreislauf</div>Herz, Blutkreislauf",
-        "text_en": "<div class=\"i_header\">Cardiovascular system</div>Heart, blood and blood vessels",
-        "text_fr": "<div class=\"i_header\">Système cardiovasculaire</div>Cœur, circulation sanguine",
-        "text_it": "<div class=\"i_header\">Sistema cardiovascolare</div>Cuore, circolazione sanguigna",
-        "text_tr": "<div class=\"i_header\">Kardiyovasküler sistem</div>Kalp, kan ve kan damarları",
-        "text_mn": "<div class=\"i_header\">Зүрх судасны систем</div>Зүрх, цус болон судас",
+        "parent": "herz",
+        "text_de": "<div class=\"i-header\">Herz/Kreislauf</div>Herz, Blutkreislauf",
+        "text_en": "<div class=\"i-header\">Cardiovascular system</div>Heart, blood and blood vessels",
+        "text_fr": "<div class=\"i-header\">Système cardiovasculaire</div>Cœur, circulation sanguine",
+        "text_it": "<div class=\"i-header\">Sistema cardiovascolare</div>Cuore, circolazione sanguigna",
+        "text_tr": "<div class=\"i-header\">Kardiyovasküler sistem</div>Kalp, kan ve kan damarları",
+        "text_uk": "<div class=\"i-header\">Серцево-судинна система</div>Серце, кров і кровоносні судини",
+        "text_mn": "<div class=\"i-header\">Зүрх судасны систем</div>Зүрх, цус болон судас",
     },
     {
         "id": 3,
-        "parent": "Nervensystem",
-        "text_de": "<div class=\"i_header\">Nervensystem</div>Gehirn, Nervensystem",
-        "text_en": "<div class=\"i_header\">Nervous system</div>Brain, nervous system",
-        "text_fr": "<div class=\"i_header\">Système nerveux</div>Cerveau, système nerveux",
-        "text_it": "<div class=\"i_header\">Sistema nervoso</div>Cervello, sistema nervoso",
-        "text_tr": "<div class=\"i_header\">Sinir sistemi</div>Beyin, sinir sistemi",
-        "text_mn": "<div class=\"i_header\">Мэдрэлийн систем</div>Тархи, мэдрэлийн систем",
+        "parent": "nervensystem",
+        "text_de": "<div class=\"i-header\">Nervensystem</div>Gehirn, Nervensystem",
+        "text_en": "<div class=\"i-header\">Nervous system</div>Brain, nervous system",
+        "text_fr": "<div class=\"i-header\">Système nerveux</div>Cerveau, système nerveux",
+        "text_it": "<div class=\"i-header\">Sistema nervoso</div>Cervello, sistema nervoso",
+        "text_tr": "<div class=\"i-header\">Sinir sistemi</div>Beyin, sinir sistemi",
+        "text_uk": "<div class=\"i-header\">Нервова система</div>Мозок, нервова система",
+        "text_mn": "<div class=\"i-header\">Мэдрэлийн систем</div>Тархи, мэдрэлийн систем",
     },
     {
         "id": 4,
-        "parent": "Stoffwechsel",
-        "text_de": "<div class=\"i_header\">Stoffwechsel/Immunsystem</div>Leber, Bauchspeicheldrüse, Immunabwehr",
-        "text_en": "<div class=\"i_header\">Metabolism/Immune system</div>Liver, pancreas, immune defence",
-        "text_fr": "<div class=\"i_header\">Métabolisme/système immunitaire</div>Foie, pancréas, défenses immunitaires",
-        "text_it": "<div class=\"i_header\">Metabolismo/sistema immunitario</div>Fegato, pancreas, difesa immunitaria",
-        "text_tr": "<div class=\"i_header\">Metabolizma/Bağışıklık sistemi</div>Karaciğer, pankreas, bağışıklık sistemi",
-        "text_mn": "<div class=\"i_header\">Бодисын солилцоо/дархлааны систем</div>Элэг, нойр булчирхай, дархлааны хамгаалалт",
+        "parent": "stoffwechsel",
+        "text_de": "<div class=\"i-header\">Stoffwechsel/Immunsystem</div>Leber, Bauchspeicheldrüse, Immunabwehr",
+        "text_en": "<div class=\"i-header\">Metabolism/Immune system</div>Liver, pancreas, immune defence",
+        "text_fr": "<div class=\"i-header\">Métabolisme/système immunitaire</div>Foie, pancréas, défenses immunitaires",
+        "text_it": "<div class=\"i-header\">Metabolismo/sistema immunitario</div>Fegato, pancreas, difesa immunitaria",
+        "text_tr": "<div class=\"i-header\">Metabolizma/Bağışıklık sistemi</div>Karaciğer, pankreas, bağışıklık sistemi",
+        "text_uk": "<div class=\"i-header\">Метаболізм/імунна система</div>Печінка, підшлункова залоза, імунний захист",
+        "text_mn": "<div class=\"i-header\">Бодисын солилцоо/дархлааны систем</div>Элэг, нойр булчирхай, дархлааны хамгаалалт",
     },
     {
         "id": 5,
-        "parent": "Sterblichkeit",
-        "text_de": "<div class=\"i_header\">Sterblichkeit</div>Sterbefälle, Anzahl der Todesfälle im Verhältnis zur Bevölkerung",
-        "text_en": "<div class=\"i_header\">Mortality</div>Deaths, number of deaths in relation to the population",
-        "text_fr": "<div class=\"i_header\">Mortalité</div>Décès, nombre de décès rapporté à la population",
-        "text_it": "<div class=\"i_header\">Mortalità</div>Decessi, numero di decessi in rapporto alla popolazione",
-        "text_tr": "<div class=\"i_header\">Ölüm</div>Ölümler, nüfusa göre ölüm sayısı",
-        "text_mn": "<div class=\"i_header\">Нас баралт</div>Хүн амтай харьцууласан нас баралтын тоо",
+        "parent": "sterblichkeit",
+        "text_de": "<div class=\"i-header\">Sterblichkeit</div>Sterbefälle, Anzahl der Todesfälle im Verhältnis zur Bevölkerung",
+        "text_en": "<div class=\"i-header\">Mortality</div>Deaths, number of deaths in relation to the population",
+        "text_fr": "<div class=\"i-header\">Mortalité</div>Décès, nombre de décès rapporté à la population",
+        "text_it": "<div class=\"i-header\">Mortalità</div>Decessi, numero di decessi in rapporto alla popolazione",
+        "text_tr": "<div class=\"i-header\">Ölüm</div>Ölümler, nüfusa göre ölüm sayısı",
+        "text_uk": "<div class=\"i-header\">Смертність</div>Кількість померлих, кількість померлих по відношенню до чисельності населення",
+        "text_mn": "<div class=\"i-header\">Нас баралт</div>Хүн амтай харьцууласан нас баралтын тоо",
     },
     {
         "id": 6,
-        "parent": "Notfaelle",
-        "text_de": "<div class=\"i_header\">Notfälle</div>Notfallkonsultationen in Spitälern oder beim Hausarzt, Spitaleintritte aufgrund von Notfällen",
-        "text_en": "<div class=\"i_header\">Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
-        "text_fr": "<div class=\"i_header\">Urgences</div>Consultations d'urgence dans les hôpitaux ou auprès du médecin de famille, admissions à l'hôpital pour cause d'urgence",
-        "text_it": "<div class=\"i_header\">Emergenze</div>Consultazioni d’emergenza in ospedale o con il medico di famiglia, ricoveri ospedalieri per emergenze",
-        "text_tr": "<div class=\"i_header\">Acil durumlar</div>Aile hekimi veya hastanelerdeki acil konsültasyonlar, acil durumlar nedeniyle hastaneye yatışlar",
-        "text_mn": "<div class=\"i_header\">Амь тэнсэх тохиолдол</div>Амь тэнсэх үед түргэн тусламж дуудан эмнэлэгт хүргэгдэх болон эмчид хандах тохиолдол",
+        "parent": "notfaelle",
+        "text_de": "<div class=\"i-header\">Notfälle</div>Notfallkonsultationen in Spitälern oder beim Hausarzt, Spitaleintritte aufgrund von Notfällen",
+        "text_en": "<div class=\"i-header\">Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
+        "text_fr": "<div class=\"i-header\">Urgences</div>Consultations d'urgence dans les hôpitaux ou auprès du médecin de famille, admissions à l'hôpital pour cause d'urgence",
+        "text_it": "<div class=\"i-header\">Emergenze</div>Consultazioni d’emergenza in ospedale o con il medico di famiglia, ricoveri ospedalieri per emergenze",
+        "text_tr": "<div class=\"i-header\">Acil durumlar</div>Aile hekimi veya hastanelerdeki acil konsültasyonlar, acil durumlar nedeniyle hastaneye yatışlar",
+        "text_uk": "<div class=\"i-header\">Надзвичайні ситуації</div>Екстрені консультації в лікарнях або з сімейним лікарем, госпіталізація через надзвичайні ситуації",
+        "text_mn": "<div class=\"i-header\">Амь тэнсэх тохиолдол</div>Амь тэнсэх үед түргэн тусламж дуудан эмнэлэгт хүргэгдэх болон эмчид хандах тохиолдол",
     },
     {
         "id": 7,
         "parent": "causally",
-        "text_de": "<div class=\"i_header\">Ursächlich</div>" +
+        "text_de": "<div class=\"i-header\">Ursächlich</div>" +
             "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, " +
             "und zwar auf der Grundlage von Studien, die mehrere Beweislinien (Zell-, Tier-, Human- und epidemiologischen Studien) umfassen." +
             "<br><br>" +
             "Zufallsergebnisse, Störfaktoren und andere Verzerrungen können mit angemessener Wahrscheinlichkeit ausgeschlossen werden." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «kausal» verwendet.)",
-        "text_en": "<div class=\"i_header\">Causal</div>" +
+        "text_en": "<div class=\"i-header\">Causal</div>" +
             "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
             "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
             "<br><br>" +
             "Random results, confounders and other biases can be excluded with reasonable probability.",
-        "text_fr": "<div class=\"i_header\">Cause</div>" +
+        "text_fr": "<div class=\"i-header\">Cause</div>" +
             "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, " +
             "et ce sur la base d'études comprenant plusieurs types de preuves (études cellulaires, animales, humaines et épidémiologiques)." +
             "<br><br>" +
             "Les résultats aléatoires, les facteurs perturbateurs et autres biais peuvent être exclus avec une probabilité raisonnable.",
-        "text_it": "<div class=\"i_header\">Causale</div>" +
+        "text_it": "<div class=\"i-header\">Causale</div>" +
             "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), " +
             "è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
             "<br><br>" +
             "Risultati casuali, fattori di disturbo e altre distorsioni possono essere esclusi con un ragionevole grado di probabilità.",
-        "text_tr": "<div class=\"i_header\">Neden</div>" +
+        "text_tr": "<div class=\"i-header\">Neden</div>" +
             "Kirleticinin ilgili maruz kalma seviyelerinde sağlık veya refah etkilerine neden olduğu hücresel, hayvan, " +
             "insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
             "<br><br>" +
             "Rastgele sonuçlar, karıştırıcılar ve diğer sapmalar makul durumlarda hariç tutulabilir.",
-        "text_mn": "<div class=\"i_header\">Шалтгаант</div>" +
+        "text_uk": "<div class=\"i-header\">Причинно-наслідковий</div>" +
+            "За результатами досліджень, що охоплюють декілька наборів даних (клітинних досліджень, " +
+            "досліджень на тваринах і людях, епідеміологічних досліджень), доведено, що забруднювач спричиняє вплив на здоров’я чи благополуччя на відповідних рівнях експозиції. " +
+            "<br><br>" +
+            "Випадкові результати, фактори, що викривлюють результати, та інші систематичні помилки можна виключити з достатньою ймовірністю. ",
+        "text_mn": "<div class=\"i-header\">Шалтгаант</div>" +
             "Агаарт агуулагдах хорт бодисууд нь эс, амьтан, хүн, эпидемиологийн бүх судалгаагаар хүний эрүүл мэнд " +
             "болон амьдралын чанарын бүх түвшинд сөрөг нөлөө үзүүлдэг болох нь нотлогдсон." +
             "<br><br>" +
@@ -1014,7 +1179,7 @@ arrInfos = [
     {
         "id": 8,
         "parent": "likely",
-        "text_de": "<div class=\"i_header\">Wahrscheinlich ursächlich</div>" +
+        "text_de": "<div class=\"i-header\">Wahrscheinlich ursächlich</div>" +
             "Es gibt Studien, in denen die Ergebnisse nicht durch Zufallsergebnisse, Störfaktoren oder andere Verzerrungen erklärt werden, " +
             "aber es bleiben Unsicherheiten in der Evidenz für Gesundheitseffekte insgesamt." +
             "<br><br>" +
@@ -1022,25 +1187,30 @@ arrInfos = [
             "oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «wahrscheinlich kausal» verwendet.)",
-        "text_en": "<div class=\"i_header\">Likely causal</div>" +
+        "text_en": "<div class=\"i-header\">Likely causal</div>" +
             "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
             "<br><br>" +
             "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
-        "text_fr": "<div class=\"i_header\">Cause probable</div>" +
+        "text_fr": "<div class=\"i-header\">Cause probable</div>" +
             "Il existe des études dont les résultats ne peuvent être expliqués par des résultats aléatoires, des facteurs perturbateurs ou d'autres biais, " +
             "mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
             "<br><br>" +
             "Par exemple, l'influence de polluants présents simultanément est difficile à évaluer, ou les preuves dans différentes disciplines scientifiques peuvent être limitées ou contradictoires.",
-        "text_it": "<div class=\"i_header\">Probabilmente causale</div>" +
+        "text_it": "<div class=\"i-header\">Probabilmente causale</div>" +
             "Ci sono studi in cui i risultati non possono essere spiegati da risultati casuali, fattori di disturbo o altre distorsioni, " +
             "ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
             "<br><br>" +
             "Ad esempio, l'influenza di inquinanti che si riscontrano simultaneamente è difficile da rilevare, o le prove nelle varie discipline scientifiche possono essere limitate o contraddittorie.",
-        "text_tr": "<div class=\"i_header\">Muhtemel neden</div>" +
+        "text_tr": "<div class=\"i-header\">Muhtemel neden</div>" +
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_mn": "<div class=\"i_header\">Болзошгүй шалтгаант</div>" +
+        "text_uk": "<div class=\"i-header\">Ймовірно причинно-наслідковий</div>" +
+            "Наявні дослідження, в яких результати неможливо пояснити випадковістю, факторами, що викривлюють результати, або іншими систематичними помилками, " +
+            "але у цілому в доказах наслідків для здоров’я залишається невизначеність. " +
+            "<br><br>" +
+            "Наприклад, важко встановити вплив забруднювачів, які діють одночасно, або доказові дані у різних наукових дисциплінах можуть бути обмеженими чи суперечливими.",
+        "text_mn": "<div class=\"i-header\">Болзошгүй шалтгаант</div>" +
             "Хэдийгээр эрүүл мэндийн судалгааны үр дүнг гадны нөлөөгүй, тодорхой тайлбарлах шаардлага байдаг ч тодорхойгүй байдлын нөлөө ямагт байдаг." +
             "<br><br>" +
             "Тухайлбал, агаар бохируулагч бодисуудын нийлмэл нөлөөг нарийвчлан тогтоох, эсвэл тухайн шинжлэх ухааны салбарын үүднээс авч үзэхэд баримт нотолгоо хязгаарлагдмал, хоорондоо зөрчилтэй байж болно.",
@@ -1048,7 +1218,7 @@ arrInfos = [
     {
         "id": 9,
         "parent": "causality_mobile",
-        "text_de": "<div class=\"i_header\">Kausalität</div>" +
+        "text_de": "<div class=\"i-header\">Kausalität</div>" +
             "<b>Ursächlich</b>" +
             "<br><br>" +
             "Es hat sich gezeigt, dass der Schadstoff bei relevanten Expositionen zu Auswirkungen auf die Gesundheit oder das Wohlergehen führt, " +
@@ -1067,7 +1237,7 @@ arrInfos = [
             "oder die Evidenz in den verschiedenen wissenschaftlichen Disziplinen ist möglicherweise begrenzt oder inkonsistent." +
             "<br><br>" +
             "(In der Fachliteratur wird dafür der Begriff «wahrscheinlich kausal» verwendet.)",
-        "text_en": "<div class=\"i_header\">Causality</div>" +
+        "text_en": "<div class=\"i-header\">Causality</div>" +
             "<b>Causal</b>" +
             "<br><br>" +
             "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
@@ -1080,7 +1250,7 @@ arrInfos = [
             "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
             "<br><br>" +
             "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
-        "text_fr": "<div class=\"i_header\">Causalité</div>" +
+        "text_fr": "<div class=\"i-header\">Causalité</div>" +
             "<b>Cause</b>" +
             "<br><br>" +
             "Il a été prouvé que le polluant a des effets sur la santé ou le bien-être en cas d'expositions au niveau concerné, " +
@@ -1096,7 +1266,7 @@ arrInfos = [
             "mais il demeure des incertitudes quant aux preuves des effets sur la santé en général." +
             "<br><br>" +
             "Par exemple, l'influence de polluants présents simultanément est difficile à évaluer, ou les preuves dans différentes disciplines scientifiques peuvent être limitées ou contradictoires.",
-        "text_it": "<div class=\"i_header\">Causalità</div>" +
+        "text_it": "<div class=\"i-header\">Causalità</div>" +
             "<b>Causale</b>" +
             "Sulla base di studi che coprono diverse linee di evidenza (studi cellulari, animali, umani ed epidemiologici), " +
             "è stato dimostrato che l'inquinante provoca effetti sulla salute o sul benessere a livelli di esposizione rilevanti." +
@@ -1111,7 +1281,7 @@ arrInfos = [
             "ma rimangono incertezze nell'evidenza degli effetti sulla salute in generale." +
             "<br><br>" +
             "Ad esempio, l'influenza di inquinanti che si riscontrano simultaneamente è difficile da rilevare, o le prove nelle varie discipline scientifiche possono essere limitate o contraddittorie.",
-        "text_tr": "<div class=\"i_header\">Nedensellik</div>" +
+        "text_tr": "<div class=\"i-header\">Nedensellik</div>" +
             "<b>Neden</b>" +
             "<br><br>" +
             "Kirleticinin ilgili maruz kalma seviyelerinde sağlık veya refah etkilerine neden olduğu hücresel, hayvan, insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
@@ -1123,7 +1293,22 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_mn": "<div class=\"i_header\">Учир шалтгааны үнэлгээ</div>" +
+        "text_uk": "<div class=\"i-header\">Причинно-наслідковий</div>" +
+            "<b>Причинно-наслідковий</b>" +
+            "<br><br>" +
+            "За результатами досліджень, що охоплюють декілька наборів даних " +
+            "(клітинних досліджень, досліджень на тваринах і людях, епідеміологічних досліджень), " +
+            "доведено, що забруднювач спричиняє вплив на здоров’я чи благополуччя на відповідних рівнях експозиції." +
+            "<br><br>" +
+            "Випадкові результати, фактори, що викривлюють результати, та інші систематичні помилки можна виключити з достатньою ймовірністю." +
+            "<br><br><br>" +
+            "<b>Ймовірно причинно-наслідковий</b>" +
+            "<br><br>" +
+            "Наявні дослідження, в яких результати неможливо пояснити випадковістю, факторами, що викривлюють результати, або іншими систематичними помилками, " +
+            "але у цілому в доказах наслідків для здоров’я залишається невизначеність." +
+            "<br><br>" +
+            "Наприклад, важко встановити вплив забруднювачів, які діють одночасно, або доказові дані у різних наукових дисциплінах можуть бути обмеженими чи суперечливими.",
+        "text_mn": "<div class=\"i-header\">Учир шалтгааны үнэлгээ</div>" +
             "<b>Шалтгаант</b>" +
             "<br><br>" +
             "Агаарт агуулагдах хорт бодисууд нь эс, амьтан, хүн, эпидемиологийн бүх судалгаагаар хүний эрүүл мэнд " +
@@ -1139,89 +1324,98 @@ arrInfos = [
     },
     {
         "id": 10,
-        "parent": "Kurzzeit",
-        "text_de": "<div class=\"i_header\">Kurzzeit</div>Effekte, welche mit kurzfristig erhöhter Belastung in Zusammenhang stehen<br>(über Stunden oder Tage)",
-        "text_en": "<div class=\"i_header\">Short-term</div>Effects associated with short-term exposures (hours to days)",
-        "text_fr": "<div class=\"i_header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
-        "text_it": "<div class=\"i_header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
-        "text_tr": "<div class=\"i_header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
-        "text_mn": "<div class=\"i_header\">Богино хугацааны</div>Богино хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн цагаас хэдэн өдөр)",
+        "parent": "kurzzeit",
+        "text_de": "<div class=\"i-header\">Kurzzeit</div>Effekte, welche mit kurzfristig erhöhter Belastung in Zusammenhang stehen<br>(über Stunden oder Tage)",
+        "text_en": "<div class=\"i-header\">Short-term</div>Effects associated with short-term exposures (hours to days)",
+        "text_fr": "<div class=\"i-header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
+        "text_it": "<div class=\"i-header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
+        "text_tr": "<div class=\"i-header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
+        "text_uk": "<div class=\"i-header\">Короткостроковий</div>Стосується наслідків, пов’язаних із короткостроковою дією (від кількох годин до кількох днів)",
+        "text_mn": "<div class=\"i-header\">Богино хугацааны</div>Богино хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн цагаас хэдэн өдөр)",
     },
     {
         "id": 11,
-        "parent": "Langzeit",
-        "text_de": "<div class=\"i_header\">Langzeit</div>Effekte, welche mit langfristig erhöhter Belastung in Zusammenhang stehen<br>(über Monate oder Jahre)",
-        "text_en": "<div class=\"i_header\">Long-term</div>Effects associated with long-term exposures (over months to years)",
-        "text_fr": "<div class=\"i_header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
-        "text_it": "<div class=\"i_header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
-        "text_tr": "<div class=\"i_header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
-        "text_mn": "<div class=\"i_header\">Урт хугацааны</div>Урт хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн сараас хэдэн жил хүртэл)",
+        "parent": "langzeit",
+        "text_de": "<div class=\"i-header\">Langzeit</div>Effekte, welche mit langfristig erhöhter Belastung in Zusammenhang stehen<br>(über Monate oder Jahre)",
+        "text_en": "<div class=\"i-header\">Long-term</div>Effects associated with long-term exposures (over months to years)",
+        "text_fr": "<div class=\"i-header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
+        "text_it": "<div class=\"i-header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
+        "text_tr": "<div class=\"i-header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
+        "text_uk": "<div class=\"i-header\">Довгостроковий</div>Стосується наслідків, пов’язаних із довгостроковою дією (від кількох місяців до кількох років)",
+        "text_mn": "<div class=\"i-header\">Урт хугацааны</div>Урт хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн сараас хэдэн жил хүртэл)",
     },
     {
         "id": 12,
-        "parent": "Feinstaub",
-        "text_de": "<div class=\"i_header\">Feinstaub</div>" +
+        "parent": "feinstaub",
+        "text_de": "<div class=\"i-header\">Feinstaub</div>" +
             "Partikel kleiner als 10 bzw. 2.5 Mikrometer (PM10/PM2.5). Emissionen vor allem durch Verkehr oder Holzfeuerungen, (Wald-) Brände und sekundäre Bildung aus Vorläuferstoffen " +
             "(in der Fachliteratur wird dafür der Begriff «sekundärer Feinstaub» verwendet)",
-        "text_en": "<div class=\"i_header\">Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
+        "text_en": "<div class=\"i-header\">Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
             "Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia " +
             "(the term \"secondary particulate matter\" is used in the technical literature)",
-        "text_fr": "<div class=\"i_header\">Poussières fines</div>" +
+        "text_fr": "<div class=\"i-header\">Poussières fines</div>" +
             "Particules de moins de 10 ou de 2,5 micromètres (PM10/PM2,5) : émissions provenant principalement des moteurs, des chauffages, notamment des feux de bois, de l’industrie et à partir " +
             "de précurseurs tels que les oxydes d'azote, le soufre et l'ammoniac (dans la littérature technique, le terme de «poussières fines secondaires» est utilisé)",
-        "text_it": "<div class=\"i_header\">Polveri sottili</div>" +
+        "text_it": "<div class=\"i-header\">Polveri sottili</div>" +
             "Particelle più piccole di 10 o 2,5 micrometri (PM10/PM2,5): emissioni derivanti principalmente dal traffico o dalle combustioni per il riscaldamento, incendi (forestali) e formazione " +
             "da precursori come gli ossidi di azoto e l'ammoniaca (per quest’ultime nella letteratura tecnica si usa il termine \“polveri sottili secondarie\")",
-        "text_tr": "<div class=\"i_header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
+        "text_tr": "<div class=\"i-header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
             "Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) " +
             "gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
-        "text_mn": "<div class=\"i_header\">Тоосонцор</div>10 эсвэл 2.5 микрометрээс бага хэмжээтэй тоосонцор (PM10/PM2.5): " +
+        "text_uk": "<div class=\"i-header\">Зважені (тверді) частинки</div>Частинки діаметром менше 10 або 2,5 мікрометрів (РМ10/РМ2,5): " +
+            "викиди переважно від дорожнього руху або побутових систем центрального/дров’яного опалення, пожеж (лісових) та утворення з прекурсорів, таких як окиси азоту й аміак " +
+            "(у технічній літературі застосовується термін «вторинні тверді частинки»)",
+        "text_mn": "<div class=\"i-header\">Тоосонцор</div>10 эсвэл 2.5 микрометрээс бага хэмжээтэй тоосонцор (PM10/PM2.5): " +
             "Замын хөдөлгөөн, ахуйн халаалт/мод түлэх, ойн түймэр болон азотын исэл, аммиак зэрэг " +
             "урьдал бодисуудын урвалаас (\"хоёрдогч тоосонцор\" гэсэн нэр томъёог ашигладаг) үүсдэг.",
     },
     {
         "id": 13,
-        "parent": "Ozon",
-        "text_de": "<div class=\"i_header\">Ozon (O<sub>3</sub>)</div>" +
+        "parent": "ozon",
+        "text_de": "<div class=\"i-header\">Ozon (O<sub>3</sub>)</div>" +
             "Gebildet durch Sonneneinstrahlung aus Vorläuferstoffen wie Stickstoffdioxid und flüchtige organische Verbindungen (VOC)",
-        "text_en": "<div class=\"i_header\">Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
-        "text_fr": "<div class=\"i_header\">Ozone (O<sub>3</sub>)</div>Formé par le rayonnement solaire à partir de précurseurs tels que le dioxyde d'azote et les composés organiques volatils (COV)",
-        "text_it": "<div class=\"i_header\">Ozono (O<sub>3</sub>)</div>Formato da radiazioni solari provenienti da precursori come il biossido di azoto e composti organici volatili (COV)",
-        "text_tr": "<div class=\"i_header\">Ozon (O<sub>3</sub>)</div>Azot dioksit ve uçucu organik bileşikler gibi öncüllerden güneş ışımasıyla oluşur (VOC)",
-        "text_mn": "<div class=\"i_header\">Озон (O<sub>3</sub>)</div>Азотын давхар исэл, дэгдэмхий органик нэгдлүүд (VOC) зэрэг урьдал бодисуудаас үүссэн нарны цацрагтай урвалд орж үүссэн",
+        "text_en": "<div class=\"i-header\">Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
+        "text_fr": "<div class=\"i-header\">Ozone (O<sub>3</sub>)</div>Formé par le rayonnement solaire à partir de précurseurs tels que le dioxyde d'azote et les composés organiques volatils (COV)",
+        "text_it": "<div class=\"i-header\">Ozono (O<sub>3</sub>)</div>Formato da radiazioni solari provenienti da precursori come il biossido di azoto e composti organici volatili (COV)",
+        "text_tr": "<div class=\"i-header\">Ozon (O<sub>3</sub>)</div>Azot dioksit ve uçucu organik bileşikler gibi öncüllerden güneş ışımasıyla oluşur (VOC)",
+        "text_uk": "<div class=\"i-header\">Озон (O<sub>3</sub>)</div>утворюється сонячною радіацією з прекурсорів, таких як двоокис азоту й летючі органічні сполуки (ЛОС)",
+        "text_mn": "<div class=\"i-header\">Озон (O<sub>3</sub>)</div>Азотын давхар исэл, дэгдэмхий органик нэгдлүүд (VOC) зэрэг урьдал бодисуудаас үүссэн нарны цацрагтай урвалд орж үүссэн",
     },
     {
         "id": 14,
-        "parent": "Stickstoffdioxid",
-        "text_de": "<div class=\"i_header\">Stickstoffdioxid (NO<sub>2</sub>)</div>" +
+        "parent": "stickstoffdioxid",
+        "text_de": "<div class=\"i-header\">Stickstoffdioxid (NO<sub>2</sub>)</div>" +
             "Emissionen vorwiegend durch Verkehr und Feuerungen zu Heizzwecken",
-        "text_en": "<div class=\"i_header\">Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
-        "text_fr": "<div class=\"i_header\">Dioxyde d'azote (NO<sub>2</sub>)</div>Émissions provenant principalement de la combustion dans les moteurs, les chauffages et l’industrie",
-        "text_it": "<div class=\"i_header\">Diossido di azoto (NO<sub>2</sub>)</div>Emissioni derivanti principalmente dal traffico e dalle combustioni per il riscaldamento",
-        "text_tr": "<div class=\"i_header\">Nitrojen dioksit (NO<sub>2</sub>)</div>Esas olarak karayolu trafiğinden ve ısıtma gibi diğer fosil yakıt yanma işlemlerinden kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">Азотын давхар исэл (NO<sub>2</sub>)</div>Голдуу замын хөдөлгөөн болон чулуужсан түлшний шаталтын үйл явцаас ялгардаг",
+        "text_en": "<div class=\"i-header\">Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
+        "text_fr": "<div class=\"i-header\">Dioxyde d'azote (NO<sub>2</sub>)</div>Émissions provenant principalement de la combustion dans les moteurs, les chauffages et l’industrie",
+        "text_it": "<div class=\"i-header\">Diossido di azoto (NO<sub>2</sub>)</div>Emissioni derivanti principalmente dal traffico e dalle combustioni per il riscaldamento",
+        "text_tr": "<div class=\"i-header\">Nitrojen dioksit (NO<sub>2</sub>)</div>Esas olarak karayolu trafiğinden ve ısıtma gibi diğer fosil yakıt yanma işlemlerinden kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">Двоокис азоту (NO<sub>2</sub>)</div>викиди переважно від дорожнього руху та інших процесів горіння викопного палива, таких як опалення",
+        "text_mn": "<div class=\"i-header\">Азотын давхар исэл (NO<sub>2</sub>)</div>Голдуу замын хөдөлгөөн болон чулуужсан түлшний шаталтын үйл явцаас ялгардаг",
     },
     {
         "id": 15,
-        "parent": "Schwefeldioxid",
-        "text_de": "<div class=\"i_header\">Schwefeldioxid (SO<sub>2</sub>)</div>" +
+        "parent": "schwefeldioxid",
+        "text_de": "<div class=\"i-header\">Schwefeldioxid (SO<sub>2</sub>)</div>" +
             "Emissionen durch Verbrennung von schwefelhaltiger Kohle oder Erdöl",
-        "text_en": "<div class=\"i_header\">Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
-        "text_fr": "<div class=\"i_header\">Dioxyde de soufre (SO<sub>2</sub>)</div>Émissions provenant de la combustion de charbon ou de produits pétroliers contenant du soufre",
-        "text_it": "<div class=\"i_header\">Anidride solforosa (SO<sub>2</sub>)</div>Emissioni derivanti dalla combustione di carbone contenente zolfo o di petrolio",
-        "text_tr": "<div class=\"i_header\">Sülfür dioksit (SO<sub>2</sub>)</div>Kükürt içeren kömür veya dizel yakıtların yanmasından kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">Хүхрийн давхар исэл (SO<sub>2</sub>)</div>Хүхэр агуулсан нүүрс эсвэл дизель түлшний шаталтаас үүсдэг",
+        "text_en": "<div class=\"i-header\">Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
+        "text_fr": "<div class=\"i-header\">Dioxyde de soufre (SO<sub>2</sub>)</div>Émissions provenant de la combustion de charbon ou de produits pétroliers contenant du soufre",
+        "text_it": "<div class=\"i-header\">Anidride solforosa (SO<sub>2</sub>)</div>Emissioni derivanti dalla combustione di carbone contenente zolfo o di petrolio",
+        "text_tr": "<div class=\"i-header\">Sülfür dioksit (SO<sub>2</sub>)</div>Kükürt içeren kömür veya dizel yakıtların yanmasından kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">Двоокис сірки (SO<sub>2</sub>)</div>викиди від горіння сірки, що міститься у вугіллі чи дизельному паливі",
+        "text_mn": "<div class=\"i-header\">Хүхрийн давхар исэл (SO<sub>2</sub>)</div>Хүхэр агуулсан нүүрс эсвэл дизель түлшний шаталтаас үүсдэг",
     },
     {
         "id": 16,
-        "parent": "Kohlenmonoxid",
-        "text_de": "<div class=\"i_header\">Kohlenmonoxid (CO)</div>" +
+        "parent": "kohlenmonoxid",
+        "text_de": "<div class=\"i-header\">Kohlenmonoxid (CO)</div>" +
             "Emissionen durch unvollständige Verbrennungen von kohlenstoffhaltigen Brennstoffen",
-        "text_en": "<div class=\"i_header\">Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
-        "text_fr": "<div class=\"i_header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
-        "text_it": "<div class=\"i_header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
-        "text_tr": "<div class=\"i_header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">Нүүрстөрөгчийн дутуу исэл (CO)</div>Түлшний бүрэн бус шаталтаас үүсдэг",
+        "text_en": "<div class=\"i-header\">Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
+        "text_fr": "<div class=\"i-header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
+        "text_it": "<div class=\"i-header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
+        "text_tr": "<div class=\"i-header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
+        "text_uk": "<div class=\"i-header\">Окис вуглецю (CO)</div>викиди від неповного згоряння вуглецевого палива",
+        "text_mn": "<div class=\"i-header\">Нүүрстөрөгчийн дутуу исэл (CO)</div>Түлшний бүрэн бус шаталтаас үүсдэг",
     },
 ];
 
@@ -1229,242 +1423,265 @@ arrInfos = [
 arrUI = [
     {
         "id": 1,
-        "bez": "btn_Kurzzeit",
+        "bez": "btn-kurzzeit",
         "text_de": "Kurzzeit",
         "text_en": "Short-term",
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
+        "text_uk": "Коротко-<br>стро-<br>ковий",
         "text_mn": "Богино хугацааны",
     },
     {
         "id": 2,
-        "bez": "btn_Langzeit",
+        "bez": "btn-langzeit",
         "text_de": "Langzeit",
         "text_en": "Long-term",
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
+        "text_uk": "Довго-<br>стро-<br>ковий",
         "text_mn": "Урт хугацааны",
     },
 
     {
         "id": 3,
-        "bez": "btn_Feinstaub",
+        "bez": "btn-feinstaub",
         "text_de": "Fein<br>staub",
         "text_en": "Particulate Matter",
         "text_fr": "Poussières fines",
         "text_it": "Polveri sottili ",
         "text_tr": "Partikül Madde",
+        "text_uk": "Зважені (тверді) частинки",
         "text_mn": "Тоосонцор",
     },
     {
         "id": 4,
-        "bez": "btn_Ozon",
+        "bez": "btn-ozon",
         "text_de": "Ozon",
         "text_en": "Ozone",
         "text_fr": "Ozone",
         "text_it": "Ozono",
         "text_tr": "Ozon",
+        "text_uk": "Озон",
         "text_mn": "Озон",
     },
     {
         "id": 5,
-        "bez": "btn_Stickstoffdioxid",
+        "bez": "btn-stickstoffdioxid",
         "text_de": "Stickstoff<br>dioxid",
         "text_en": "Nitrogen dioxide",
         "text_fr": "Dioxyde d'azote",
         "text_it": "Diossido di azoto",
         "text_tr": "Nitrojen dioksit",
+        "text_uk": "Двоокис азоту",
         "text_mn": "Азотын давхар исэл",
     },
     {
         "id": 6,
-        "bez": "btn_Schwefeldioxid",
+        "bez": "btn-schwefeldioxid",
         "text_de": "Schwefel<br>dioxid",
         "text_en": "Sulphur dioxide",
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
+        "text_uk": "Двоокис сірки",
         "text_mn": "Хүхрийн давхар исэл",
     },
     {
         "id": 7,
-        "bez": "btn_Kohlenmonoxid",
+        "bez": "btn-kohlenmonoxid",
         "text_de": "Kohlen<br>monoxid",
         "text_en": "Carbon monoxide",
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
+        "text_uk": "Окис вуглецю",
         "text_mn": "Нүүрстөрөгчийн дутуу исэл",
     },
 
     {
         "id": 11,
-        "bez": "btn_Atemwege",
+        "bez": "btn-atemwege",
         "text_de": "Atemwege",
         "text_en": "Respiratory system",
         "text_fr": "Voies aériennes",
         "text_it": "Vie respiratorie",
         "text_tr": "Solunum sistemi",
+        "text_uk": "Респіраторна система",
         "text_mn": "Амьсгалын систем",
     },
     {
         "id": 12,
-        "bez": "btn_Herz",
+        "bez": "btn-herz",
         "text_de": "Herz-/Kreislaufsystem",
         "text_en": "Cardiovascular system",
         "text_fr": "Système cardiovasculaire",
         "text_it": "Sistema cardiovascolare",
         "text_tr": "Kardiyovasküler sistem",
+        "text_uk": "Серцево-судинна система",
         "text_mn": "Зүрх судасны систем",
     },
     {
         "id": 13,
-        "bez": "btn_Nervensystem",
+        "bez": "btn-nervensystem",
         "text_de": "Nervensystem",
         "text_en": "Nervous system",
         "text_fr": "Système nerveux",
         "text_it": "Sistema nervoso",
         "text_tr": "Sinir sistemi",
+        "text_uk": "Нервова система",
         "text_mn": "Мэдрэлийн систем",
     },
     {
         "id": 14,
-        "bez": "btn_Stoffwechsel",
+        "bez": "btn-stoffwechsel",
         "text_de": "Stoffwechsel/Immunsystem",
         "text_en": "Metabolism/Immune system",
         "text_fr": "Métabolisme/système immunitaire",
         "text_it": "Metabolismo/sistema immunitario",
         "text_tr": "Metabolizma/Bağışıklık sistemi",
+        "text_uk": "Метаболізм/імунна система",
         "text_mn": "Бодисын солилцоо/дархлааны систем",
     },
     {
         "id": 15,
-        "bez": "btn_Sterblichkeit",
+        "bez": "btn-sterblichkeit",
         "text_de": "Sterblich<br>keit",
         "text_en": "Mortality",
         "text_fr": "Mortalité",
         "text_it": "Mortalità",
         "text_tr": "Ölüm",
+        "text_uk": "Смертність",
         "text_mn": "Нас баралт",
     },
     {
         "id": 16,
-        "bez": "btn_Notfaelle",
+        "bez": "btn-notfaelle",
         "text_de": "Notfälle",
         "text_en": "Emergen<br>cies",
         "text_fr": "Urgences",
         "text_it": "Emergenze",
         "text_tr": "Acil durumlar",
+        "text_uk": "Надзвичайні<br>ситуації",
         "text_mn": "Амь тэнсэх<br>тохиолдол",
     },
 
     {
         "id": 21,
-        "bez": "btn_Luftbelastung",
+        "bez": "btn-luftbelastung",
         "text_de": "Aktuelle Belastung",
         "text_en": "Current pollution",
         "text_fr": "Pollution actuel",
         "text_it": "Esposizione attuale",
         "text_tr": "Mevcut<br/>kirlilik",
+        "text_uk": "Поточний рівень забрудненості повітря",
         "text_mn": "Өнөөгийн байдал",
     },
     {
         "id": 22,
-        "bez": "btn_Grenzwerte",
+        "bez": "btn-grenzwerte",
         "text_de": "Grenz<br>werte",
         "text_en": "Limit values",
         "text_fr": "Valeur limite",
         "text_it": "Valori limite",
         "text_tr": "Limit<br/>değerler",
+        "text_uk": "Граничні<br>величини",
         "text_mn": "Хязгаарлалт",
     },
     {
         "id": 23,
-        "bez": "btn_Quellen",
+        "bez": "btn-quellen",
         "text_de": "Schadstoff<br>quellen",
         "text_en": "Sources of pollutants",
         "text_fr": "Source polluants",
         "text_it": "Fonti inquinanti",
         "text_tr": "Kirletici kaynakları",
+        "text_uk": "Джерела забруднювачів повітря",
         "text_mn": "Бохирдуулагч эх үүсвэрүүд",
     },
     {
         "id": 24,
-        "bez": "btn_Hintergrund",
+        "bez": "btn-hintergrund",
         "text_de": "Hintergrund",
         "text_en": "Background",
         "text_fr": "Scénario",
         "text_it": "Scenario",
         "text_tr": "Arkaplan",
+        "text_uk": "Передумови або довідкова інформація",
         "text_mn": "Оршил",
     },
     {
         "id": 25,
-        "bez": "btn_Beitrag",
+        "bez": "btn-beitrag",
         "text_de": "Mein Beitrag",
         "text_en": "My Contribution",
         "text_fr": "Ma contribution",
         "text_it": "Cosa posso fare",
         "text_tr": "Katkınız",
+        "text_uk": "Мій внесок",
         "text_mn": "Таны оролцоо",
     },
     {
         "id": 26,
-        "bez": "btn_Referenzen",
+        "bez": "btn-referenzen",
         "text_de": "Referenzen",
         "text_en": "References",
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
+        "text_uk": "Література",
         "text_mn": "Ном зүй",
     },
     {
         "id": 27,
-        "bez": "btn_Impressum",
+        "bez": "btn-impressum",
         "text_de": "Impressum",
         "text_en": "Imprint",
         "text_fr": "Impressum",
         "text_it": "Impressum",
         "text_tr": "Baskı",
+        "text_uk": "Вихідні дані",
         "text_mn": "Дардас",
     },
 
     {
         "id": 31,
-        "bez": "leg_Kausalitaet",
+        "bez": "leg-kausalitaet",
         "text_de": "Kausalität",
         "text_en": "Causality",
         "text_fr": "Causalité",
         "text_it": "Causalità",
         "text_tr": "Nedensellik",
+        "text_uk": "Причинно-наслідковий зв’язок",
         "text_mn": "Учир шалтгааны үнэлгээ",
     },
     {
         "id": 32,
-        "bez": "leg_ursaechlich",
+        "bez": "leg-ursaechlich",
         "text_de": "ursächlich",
         "text_en": "causal",
         "text_fr": "cause",
         "text_it": "causale",
         "text_tr": "Neden",
+        "text_uk": "Причинно-наслідковий",
         "text_mn": "шалтгаант",
     },
     {
         "id": 33,
-        "bez": "leg_wahrscheinlich",
+        "bez": "leg-wahrscheinlich",
         "text_de": "wahrscheinlich ursächlich",
         "text_en": "likely causal",
         "text_fr": "cause probable",
         "text_it": "probabilmente causale",
         "text_tr": "Muhtemel neden",
+        "text_uk": "Ймовірно причинно-наслідковий",
         "text_mn": "болзошгүй шалтгаант",
     },
 
     {
         "id": 34,
-        "bez": "txt_Intro",
+        "bez": "txt-intro",
         "text_de": "<b>Interaktive Grafik zu den Auswirkungen der Luftverschmutzung auf die Gesundheit</b>" +
             "<br><br>" +
             "Wir haben für Sie die ursächlichen und wahrscheinlich ursächlichen Gesundheitsfolgen der wichtigsten Schadstoffe in der Aussenluft zusammengetragen " +
@@ -1484,6 +1701,8 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             " und" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
@@ -1507,6 +1726,8 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             ", and" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
@@ -1531,6 +1752,8 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             " et" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
@@ -1554,6 +1777,8 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             " e" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
@@ -1577,6 +1802,8 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
             " ve" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
@@ -1601,20 +1828,49 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
             "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
             "Бусад мэдээллийг доорх зурагт сонголтоос хайх боломжтой.",
+        "text_uk": "<b>Як використовувати цей інтерактивний малюнок?</b>" +
+            "<br><br>" +
+            "На інтерактивному малюнку ми узагальнили ті наслідки для здоров’я забруднювачів з установленим гранично допустимим вмістом у навколишньому повітрі, " +
+            "які мають або можуть мати причинно-наслідковий характер." +
+            "<ul>" +
+            "<li>Оберіть коротко- чи довгостроковий вплив.</li>" +
+            "<li>Потім оберіть забруднювач повітря або вражену систему органів.</li>" +
+            "</ul>" +
+            "<br><br>" +
+            "Малюнок доступний різними мовами:" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> німецькою</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> французькою</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> італійською</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> англійською</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> турецькою</a>" +
+            "," +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українською</a>" +
+            ", та" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "." +
+            "<br><br>" +
+            "Додаткова довідкова інформація наведена в нижній частині малюнка.",
     },
 
     {
         "id": 35,
-        "bez": "txt_no_effects",
+        "bez": "txt-no-effects",
         "text_de": "Derzeit keine Effekte gesichert",
         "text_en": "No effects known",
         "text_fr": "Pour l’instant, aucun effet n’a été mis en évidence",
         "text_it": "Nessun effetto è attualmente garantito",
         "text_tr": "Bilinen bir etki yok",
+        "text_uk": "вплив на здоров'я невідомий",
         "text_mn": "Нөлөөлөл илэрсэнгүй",
     },
 
