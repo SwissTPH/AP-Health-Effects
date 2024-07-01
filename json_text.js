@@ -82,19 +82,18 @@ arrPopups = [
             "Yönetmelikteki sınır değerlere ve yaşadığınız bölgenin hava kalitesi verilerine Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın hazırladığı Ulusal Hava Kalitesi İzleme Ağı'ndan " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">www.havaizleme.gov.tr</a> " +
             "ve cep telefonu uygulamasındaki ulaşabilirsiniz.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Current pollution</div>" +
-            "<b>What is the current level of air pollution in Switzerland?</b>" +
+        "text_mn": "<div class=\"i_header\">Өнөөгийн байдал</div>" +
+            "<b>Монгол орны агаарын бохирдол өнөөгийн байдлаар ямар байгаа вэ?</b>" +
             "<br><br>" +
-            "Switzerland's air quality has been steadily improving since the mid-1980s. Most areas in Switzerland, for most pollutants, are currently in compliance with the air quality standards. " +
-            "The levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland today are so low that harmful effects are not expected from these pollutants. However, " +
-            "the standards for ozone are frequently, and sometimes considerably, exceeded (over large areas). Despite improvements in recent years, in some situations air quality standards " +
-            "for nitrogen dioxide (NO<sub>2</sub>) and particulate matter (PM10/PM2.5) are still exceeded in areas exposed to traffic. This is due to the continued large quantities of these air pollutants " +
-            "emitted and released in Switzerland and in neighboring countries." +
+            "Өнгөрсөн 10 жилийн хугацаанд авч үзвэл Улаанбаатар хотын хувьд РМ2.5, SO2, NO2 бохирдуулагчид хүйтний улиралд үргэлж стандартыг давсан үзүүлэлттэй буюу өндөр бохирдолтой байсан " + 
+            "бөгөөд 2019 оноос эхлэн түүхий нүүрсний хэрэглээг хорьсноос хойш агаар дахь РМ10, РМ2.5-н хэмжээ 40% ба 36% тус тус буурсан боловч энэ нь стандартад нийцээгүй хэвээр байгаа. " + 
+            "Харин SO2-н хэмжээ 2020 оны хүйтний улирлаас эхлэн 41%-иар огцом өссөн байна. Монгол орны бусад аймгуудын  хувьд жил бүр агаарын чанар улам дордож байгаа бөгөөд өргөн хэмжээний, " + 
+            "нарийвчилсан судалгаанууд хэрэгцээтэй байна." +
             "<br><br>" +
-            "Current data on air quality can be found " +
-            "on the <a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>" +
-            ", in the MeteoSwiss app (see App stores on your mobile devices) or at the Federal Office for the Environment (FOEN) at air pollution " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">Air pollution: real time data.</a>",
+            "Бусад бохирдуулагч бодисын хувьд тухайлбал органик бохирдуулагч бодис болох " +
+            "<a href=\"https://www.mdpi.com/1660-4601/16/3/442\" target=\"_blank\">олон цагирагт үнэрт нүүрсустөрөгчийн судалгаа</a>" +
+            "гаар өвөл, хаврын улиралд гэр хороололд фенантрен зэрэг өвөрмөц олон цагирагт үнэрт нүүрсустөрөгчийн агууламж өндөр, харин суурьшлын бүсэд " +
+            "зуны сүүлчээр бензпирен агууламж давамгайлсан байна. Энэ бодисууд нь хүний эрүүл мэндэд өндөр эрсдэлтэй, шууд хорт хавдар тусах аюулт бодис юм.",
     },
     {
         "id": 2,
@@ -226,29 +225,24 @@ arrPopups = [
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan " +
             "<a href=\"https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12188&MevzuatTur=7&MevzuatTertip=5\" target=\"_blank\">Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği</a> " +
             "ile belirlenmektedir.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Limit values</div>" +
-            "<b>What is the legal basis, or who determines the guidelines?</b>" +
+        "text_mn": "<div class=\"i_header\">Хязгаарлалт</div>" +
+            "<b>Хууль эрх зүйн үндэслэл болон Удирдамжийг хэн боловсруулдаг вэ?</b>" +
             "<br><br>" +
-            "In the " +
-            "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">air quality guidelines</a>, " +
-            "the World Health Organization (WHO) defines values below which no or only minor effects on health are expected. These values are defined based on existing scientific evidence, " +
-            "and are intended to serve as a guideline for the national authorities when setting air quality standards. For the effects of long-term air pollution, the current scientific evidence " +
-            "assumes that effect thresholds do not exist for most pollutants. An \"effect threshold\" is defined as the concentration of a pollutant below which a harmful effect on health is not expected. " +
+            "Дэлхийн эрүүл мэндийн байгууллагаас (ДЭМБ) эрүүл мэндэд нөлөөгүй  эсвэл бага зэргийн нөлөө үзүүлэх агууламжийг тодорхойлсон ба энэ талаар " + 
+            "<a href=\"https://apps.who.int/iris/handle/10665/345329\" target=\"_blank\">Агаарын Чанарын Удирдамж</a>" +
+            "ид тусгасан байдаг. Эдгээр тоо хэмжээг шинжлэх ухааны нотолгоонд үндэслэн тодорхойлсон бөгөөд бодлого боловсруулагчдад агаарын чанарын стандартыг тогтоохдоо баримтлах " +
+            "үндэслэл болгоход зориулагдсан болно. Агаарын бохирдлын урт хугацааны үр нөлөөний хувьд өнөөгийн шинжлэх ухааны нотолгоо нь ихэнх бохирдуулагчид нөлөөллийн босго байдаггүй " +
+            "гэж үздэг. \"Нөлөөллийн босго\" гэдэг нь эрүүл мэндэд хортой нөлөө үзүүлэхгүй байгаа бохирдуулагчийн агууламжийг хэлнэ." +
             "<br><br>" +
-            "In Switzerland, the Federal Council has defined air quality standards (immission limit values) for various substances that are harmful to health in the " +
-            "<a href=\"https://www.admin.ch/opc/en/classified-compilation/19850321/index.html\" target=\"_blank\">Ordinance on Air Pollution Control (OAPC)</a>. " +
-            "These standards have been defined according to the criteria of the Environmental Protection Act, in general offering protection from the harmful and annoying effects of air pollutants " +
-            "to humans, animals, plants, soil, etc. The Swiss limit values are in line with the values recommended by the WHO in 2005. The Federal Commission for Air Hygiene (FCAH) is currently discussing " +
-            "a recommendation based on the current WHO values of 2021." +
+            "Монгол улсад агаарын чанарын стандартыг " + 
+            "<a href=\"https://estandard.gov.mn/standard/v/3377\" target=\"_blank\">Стандарт хэмжилзүйн газар</a>. " +
+            "батлан гаргадаг. Энэхүү стандартыг ДЭМБ-ын 2006 оны агаарын чанарыг 2006 оны зөвлөмж, АНУ-ын Байгаль хамгаалах агентлагын агаар бохирдуулах бодисын үзүүлэлтийг иш татан стандартыг баталсан болно." +
             "<br><br>" +
-            "Today, the levels of sulphur dioxide (SO<sub>2</sub>) and carbon monoxide (CO) pollution in Switzerland are so low that harmful health effects are not expected from these pollutants. " +
-            "The exposures measured in Switzerland combined with the associated small risks, translate into a low risk for an individual compared to harmful lifestyle factors such as smoking, " +
-            "malnutrition or lack of exercise." +
-            "<br><br>" +
-            "Further information on Swiss air quality standards can be found in the fact sheet «Immission limit values of the Ordinance on Air Pollution Control (OAPC)» (" +
-            "<a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_D.pdf\" target=\"_blank\">" +
-            "DE</a> or  <a href=\"https://www.bafu.admin.ch/dam/bafu/fr/dokumente/luft/fachinfo-daten/Immissionsgrenzwerte-LRV.pdf.download.pdf/Faktenblatt_Immissionsgrenzwerten_LRV_2019_F.pdf\" target=\"_blank\">" +
-            "FR</a> download, 0.6 MB) of the Federal Office for the Environment.",
+            "2022 оны байдлаар Улаанбаатар хотын хүйтний улиралд агаар дахь нарийн ширхэглэгт тоосонцор (PM2.5), хүхрийн давхар исэл (SO2), азотын давхар исэл (NO2) зэрэг нь стандартыг " +
+            "давсан үзүүлэлттэй байгаа бөгөөд дулааны улиралд харьцангуй стандарт хэмжээнд байна. Харин Монгол орны бусад аймгуудын хувьд " +
+            "<a href=\"https://link.springer.com/article/10.1007/s13762-022-04493-1\" target=\"_blank\">Ховд</a>, " +
+            "<a href=\"https://aaqr.org/articles/aaqr-21-07-oa-0163.pdf\" target=\"_blank\">Баянхонгор, Орхон, Хөвсгөл, Архангай</a> " +
+            "аймгуудын агаарын чанар бусад аймгуудтай харьцуулахад харьцангуй бохирдолтой байна.",
     },
     {
         "id": 3,
@@ -294,13 +288,18 @@ arrPopups = [
             "Kirlilik kontrolü düzenlemelerinin amacı, hava kirliliğinin insan sağlığı ve çevre üzerindeki zararlı etkilerini önlemek veya azaltmak için belirlenen hava kalitesi hedeflerine ulaşmaktır. " +
             "Daha fazla bilgi web sitesinde " +
             "<a href=\"https://www.havaizleme.gov.tr\" target=\"_blank\">https://www.havaizleme.gov.tr</a> bulunabilir.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Sources of pollutants</div>" +
-            "<b>What are the sources of air pollution?</b>" +
+        "text_mn": "<div class=\"i_header\">Бохирдуулагч эх үүсвэрүүд</div>" +
+            "<b>Агаар бохирдуулагч ямар эх үүсвэрүүд байна вэ?</b>" +
             "<br><br>" +
-            "The sources of air pollution vary depending on the pollutant. The main sources include traffic, heating systems, industry, commerce and agriculture." +
+            "Монгол орны агаарын бохирдлын эх үүсвэр нь хүйтний улиралд гэр хорооллын утаа, машинаас ялгарах утаа, цахилгааны дэд станцуудаас ялгарах утаа дийлэнх " +
+            "хувийг эзэлж байгаа бөгөөд харин дулааны улиралд шороон шуурга, ойн түймэр болон машины утаа агаарыг бохирдууж байна. Үүнээс нарийвчлан авч үзвэл, " +
+            "<a href=\"https://www.unicef.org/mongolia/media/911/file/Agaariin_bohirdol_report_mn.pdf\" target=\"_blank\">агаар дахь PM2.5</a>" +
+            "-ын ялгарлын 70% нь гэр хорооллын нүүрсээр галладаг зуухнаас ялгарч байгаа ба үлдсэн хувь нь цахилгаан станц, автомашин болон аж үйлдвэрээс ялгардаг байна." +
             "<br><br>" +
-            "Further information can be found at the Federal Office for the Environment (FOEN) website under " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">Air: In brief.</a>",
+            "Хэдийгээр гэр хорооллын галлагаа агаарын бохирдлын хамгийн том эх үүсвэр хэдий ч жил бүр өсөн нэмэгдэж байгаа автомашины үзүүлэх нөлөөлөл анхаарал татахуйцаар " +
+            "ихэссээр байна. Бидний хэрэглэж буй автомашин болон зорчиж буй нийтийн тээврийн хэрэгслийн " +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/in-brief.html\" target=\"_blank\">70-80%</a> " +
+            "нь 10 ба түүнээс дээш жилийн насжилттай байгаа бөгөөд насжилт өндөр байх тусам агаарт их хэмжээний бохирдол ялгаруулж байгаа гэсэн үг юм.",
     },
     {
         "id": 4,
@@ -566,58 +565,34 @@ arrPopups = [
             "Hava kirliliği, küresel sağlığa yönelik en büyük tehditlerden biridir; dolayısıyla Küresel Hastalık Yükü (GBD) çalışması ülkelerin, " +
             "bölgelerin ve dünyanın karşılaştırmalı olarak hava kirliliğinin sağlık üzerindeki etkilerini göstermeye yardımcı olmaktadır. " +
             "<a href=\"https://vizhub.healthdata.org/gbd-results/\" target=\"_blank\">GBD Results</a> ",
-        "text_mn": "<div class=\"i_header\">TODO MN: Background</div>" +
-            "<b>How are associations between health effects and pollutants investigated and assessed?</b>" +
+        "text_mn": "<div class=\"i_header\">Оршил</div>" +
+            "<b>Эрүүл мэндэд үзүүлэх нөлөө болон бохирдуулагчийн хоорондын хамаарлыг хэрхэн судалж, үнэлдэг вэ?</b>" +
             "<br><br>" +
-            "Every day, an adult breathes 12’000 – 15’000 litres of air. In addition to vital oxygen, pollutants also enter our lungs and airways through the nose and throat. " +
-            "This has been shown to be harmful for health." +
+            "Насанд хүрсэн хүн өдөр бүр 12'000-15'000 литр агаараар амьсгалдаг. Бидний уушги, амьсгалын зам руу амин чухал шаардлагатай хүчилтөрөгчөөс гадна эрүүл мэндэд хортой болох нь батлагдсан " +
+            "агаар бохирдуулагч бодисууд хамар, хоолойгоор дамжин ордог." +
             "<br><br>" +
-            "The knowledge presented here is based on a large number of studies that have examined the effects of air pollutants on human health at the population level (epidemiology). " +
-            "Experimental studies in humans, animals and cells are also used to assess the causal effects of air pollutants." +
+            "Энд танилцуулж буй зураглалт мэдээлэл нь АНУ-ын Байгаль орчныг хамгаалах газраас хийсэн (EPA) үнэлгээнд үндэслэсэн ба EPA нь агаар бохирдуулагч болон тэдгээрийн эрүүл мэндэд үзүүлэх " +
+            "нөлөөллийн хоорондын хамаарлыг таван түвшний хэмжүүрээр үнэлдэг. \"Шалтгаалж байгаа\" ба \"шалтгаантай байх магадлалтай\" түвшин нь энэхүү учир шалтгааны хэмжүүрийн хамгийн дээд хоёр түвшин юм." +
             "<br><br>" +
-            "A distinction is made between effects linked to short-term (over hours to days) and long-term (over months to years) exposure to air pollution. " +
-            "Notably, effects of long-term elevated exposures to ambient air are more serious." +
+            "Агаарын бохирдолд өртөлтийн нөлөөг богино хугацааны (хэдэн цагаас хэдэн өдөр) болон урт хугацааны (хэдэн сараас хэдэн жил) хэмээн ялгаж үздэг ба хүрээлэн буй орчны " +
+            "агаарын бохирдолд удаан хугацаагаар өртөх нь илүү ноцтой нөлөө үзүүлдэг нь илэрхий байна." +
             "<br><br>" +
-            "The figure is limited to effects determined to be causal and likely to be causal as assessed by the US Environmental Protection Agency (EPA). The EPA assesses the relationship " +
-            "between pollutants and potential health effects using a five-point scale. The levels \"causal\" and \"likely to be causal\" are the two highest levels on this causality scale." +
+            "Учир шалтгааны үнэлгээний талаарх дэлгэрэнгүй мэдээллийг доорх холбоосоор орж үзэх боломжтой:" +
             "<br><br>" +
-            "Further information on the causality assessment of the Integrated Science Assessments: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)»</a>." +
             "<br><br>" +
-            "There are other, <b>more recent evidence syntheses</b>, which are likely not as thorough as the US EPA assessments. " +
-            "Therefore, we did not include them in the figure. However, they still might point to even more health hazards from ambient air pollution for example: " +
-            "lower birth weight, neurodevelopmental effects, diabetes, cancers and others." +
-            "<ul>" +
-            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
-            "HEI review on health effects of traffic-related air pollution</a> with additional evidence for health effects by long-term traffic-related air pollution " +
-            "regarding type II diabetes, ischemic heart disease, low birth weight</li>" +
-            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
-            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
-            "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
-            "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
-            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
-            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
-            "</ul>" +
-            "<b>How relevant are the described health effects for you?</b>" +
+            "<b>Энд дурьдагдсан эрүүл мэндэд үзүүлэх нөлөө нь таньд хэр хамаатай вэ?</b>" +
             "<br><br>" +
-            "A hazard can potentially cause damage. A risk, on the other hand, is the probability with which a hazard can actually cause damage. It is the result of the hazard combined with the actual exposure." +
+            "Аливаа аюул нь хохирол учруулж болзошгүй. Харин эрсдлийн тухайд, нөгөө талаасаа ямар нэг аюул бодитоор хохирол учруулах магадлалыг хэлнэ. Үүнийг аюул болон өртөлтийн бодитоор нүүрлэх гэж хэлж болно." +
             "<br><br>" +
-            "The risks associated with exposure to air pollution often range in the lower one to two-digit percentages (0.2-15%) per exposure difference of 10 micrograms per cubic meter pollutant concentration." +
+            "Агаарын бохирдолд өртөхтэй холбоотой эрсдэл нь ихэвчлэн нэг шоо метр бохирдуулагчийн агууламжийн 10 микрограмм өртөлтийн зөрүүгээр, нэгээс хоёр оронтой тооны (0.2-15%) хооронд хэлбэлздэг." +
             "<br><br>" +
-            "For example, exposure to particulate matter is associated with higher mortality, " +
-            "i.e. 6% increase in risk per 10 microgram per cubic meter particulate matter (PM2.5) increase in long-term exposure. " +
-            "The risk of air pollutants for individuals is lower compared to lifestyle factors such as smoking. However, at the population level - i.e. from a public health perspective - this small increase " +
-            "in mortality is significant because, unlike smoking, the entire population is affected by air pollutants. Quantified for the Swiss population, and according to the " +
-            "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">European Environment Agency</a> " +
-            "this small increase in risk means that 3’700 people in Switzerland died prematurely in 2016 as a result of exposure to particulate matter (PM2.5)." +
+            "Жишээлбэл: их хэмжээний тоосонцорт өртөх нь нас барах магадлалыг нэмэгдүүлдэг, өөрөөр хэлбэл нэг шоо метр тоосонцор (PM2.5) нь 10 микрограммаар ихсэх тутамд нас барах эрсдэл 6%-иар нэмэгдэнэ. " +
+            "Тамхи татах гэх мэт амьдралын хэв маягийн хүчин зүйлүүдтэй харьцуулахад хувь хүний зүгээс ​​агаар бохирдуулах эрсдэл бага байдаг." +
             "<br><br>" +
-            "In addition, the personal medical history and individual sensitivity also play a major role. More susceptible (vulnerable) individuals typically have a higher risk of adverse effects. " +
-            "People who already have pneumonia or whose lungs are still growing, for example, are more susceptible to the effects of polluted air. This means that not all population groups react " +
-            "in the same way to air pollutants: children, sick people and elderly have, on average, a higher risk.",
+            "Нэмж дурдахад, хувь хүний өвчний түүх болон тухайн хүний мэдрэмтгий байдал зэрэг нь агаарын бохирдлын өртөлтөд чухал нөлөөтэй байдаг. Мэдрэмтгий (эмзэг) хүмүүс  сөрөг нөлөөлөлд илүү өртөх " +
+            "эрсдэлтэй байдаг. Жишээлбэл, уушгины хатгалгаа өвчнөөр өвчилсөн эсвэл уушиг нь төлжиж буй хүмүүс агаарын бохирдлын нөлөөнд илүү өртөмтгий байдаг. Энэ нь хүн амын бүх бүлгүүд агаарын бохирдуулагчид " +
+            "ижил хариу үйлдэл үзүүлдэггүй гэсэн үг юм. Хүүхэд, өвчтэй хүмүүс, өндөр настнууд илүү өндөр эрсдэлтэй байдаг.",
     },
     {
         "id": 5,
@@ -701,25 +676,11 @@ arrPopups = [
             "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">İtalyanca</a>)<br>" +
             "ABD Çevre Koruma Ajansı: «Actions You Can Take to Reduce Air Pollution» (" +
             "<a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">İngilizce</a>)<br/>",
-        "text_mn": "<div class=\"i_header\">TODO MN: My Contribution</div>" +
-            "<b>How you can contribute to good air quality</b>" +
+        "text_mn": "<div class=\"i_header\">Таны оролцоо</div>" +
+            "<b>Агаарын чанарыг сайжруулахад та хэрхэн хувь нэмэр оруулах вэ?</b>" +
             "<br><br>" +
-            "Air quality is part of a healthy environment. Anyone who would like to do something about air pollution to protect health and the environment will find suggestions on the webpages " +
-            "of FOEN, Cercl'Air or the US Environmental Protection Agency." +
-            "<br><br>" +
-            "BAFU Broschure «Air Pollution and Health» (p. 12-15) (" +
-            "<a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/luft/publikationen-studien/publikationen/luftverschmutzung-und-gesundheit.html\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/air/publications-etudes/publications/pollution-de-l-air-et-sante.html\" target=\"_blank\">French/</a>" +
-            "<a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/aria/pubblicazioni-studi/pubblicazioni/inquinamento-atmosferico-e-salute.html\" target=\"_blank\">Italian</a>)<br>" +
-            "Cercl’Air: Fine particulate matter (" +
-            "<a href=\"https://feinstaub.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://feinstaub.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://feinstaub.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "Cercl’Air: Ozone (" +
-            "<a href=\"https://ozon-info.ch/mein-beitrag\" target=\"_blank\">German</a>/" +
-            "<a href=\"https://ozon-info.ch/fr/mein-beitrag\" target=\"_blank\">French</a>/" +
-            "<a href=\"https://ozon-info.ch/it/mein-beitrag\" target=\"_blank\">Italian</a>)<br>" +
-            "US EPA: <a href=\"https://www3.epa.gov/region1/airquality/reducepollution.html\" target=\"_blank\">«Actions You Can Take to Reduce Air Pollution»</a>",
+            "Агаарын чанарыг сайжруулах нь зөвхөн шийдвэр гаргагч нарын хүлээх үүрэг биш бөгөөд бид бүгд дор бүрнээ арга хэмжээ авах хэрэгтэй. Хэрэв та агаарын бохирдлоо бууруулахын тулд " +
+            "ямар арга хэмжээ авахаа мэдэхгүй байвал <a href=\"https://breathemongolia.org/mn/take-actions\" target=\"_blank\">энэхүү холбоосоор</a> орж дэлгэрэнгүй мэдээлэл аваарай.",
     },
     {
         "id": 6,
@@ -787,8 +748,8 @@ arrPopups = [
             "<li>U.S. EPA. Integrated Science Assessment (ISA) for Carbon Monoxide (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-09/019F, 2010.</li>" +
             "<li><a href=\"https://www.who.int/publications/i/item/9789240034228\" target=\"_blank\">WHO: Air Quality Guidelines – Global Update 2021</a></li>" +
             "</ol>",
-        "text_mn": "<div class=\"i_header\">TODO MN: References</div>" +
-            "The data displayed in this interactive figure are based on the current Integrated Science Assessments by the US Environmental Protection Agency " +
+        "text_mn": "<div class=\"i_header\">Ном зүй</div>" +
+            "Энэхүү интерактив зурагт харуулсан өгөгдөл нь АНУ-ын Байгаль орчныг хамгаалах агентлагийн одоогийн шинжлэх ухааны нэгдсэн үнэлгээнд үндэслэсэн болно. " +
             "<a href=\"https://www.epa.gov/isa\" target=\"_blank\">(www.epa.gov/isa)</a>." +
             "<br><br>" +
             "<ol>" +
@@ -926,9 +887,10 @@ arrPopups = [
             "İnteraktif şeklin kullanımına ve uyarlanmasına, yazar olarak Swiss  TPH'ye atıfta bulunarak ve AGPL lisans koşullarına uygun olarak izin verilir. Geri bildirim ve katkılar " +
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> adresinden memnuniyetle karşılanacaktır.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Imprint</div>" +
-            "This interactive figure on health effects of ambient air pollution is a project of the Swiss Literature Database and Services on Health Effects of Ambient Air Pollution LUDOK " +
-            "at the Swiss Tropical and Public Health Institute (Swiss TPH). It was jointly developed with the following partner organizations: " +
+        "text_mn": "<div class=\"i_header\">Дардас</div>" +
+            "Энэхүү интерактив зурагаар  хүрээлэн буй орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллий харуулсан ба Swiss Tropical ба Нийгмийн эрүүл мэндийн хүрээлэнгийн (Швейцарийн TPH) " +
+            "Швейцарийн уран зохиолын мэдээллийн сан ба Орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллийн үйлчилгээ LUDOK-ийн төслийн хүрээнд боловсруулав. " +
+            "Дараах түнш байгууллагуудтай хамтран боловсрууллаа:" +
             "<ul>" +
             "<li>Bundesamt für Umwelt</li>" +
             "<li>Kantonale Behörden für Luftreinhaltung</li>" +
@@ -936,19 +898,19 @@ arrPopups = [
             "<li>LUNGE ZÜRICH</li>" +
             "<li>LerNetz</li>" +
             "</ul>" +
-            "Concept and implementation: LUDOK<br>" +
-            "Authors: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler und Zoe Roth<br>" +
-            "Visual design and programming: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
+            "Kонцепц ба хэрэгжилт: LUDOK<br>" +
+            "Зохиогчид: Meltem Kutlar Joss, Lara Stucki, Ron Kappeler, Zoe Roth<br>" +
+            "Визуал дизайн ба програмчлал: <a href=\"https://www.dr-carl.com\" target=\"_blank\">Dr. Carl GmbH</a>" +
             "<br><br>" +
-            "The content corresponds to the state of knowledge of 2022." +
+            "Агуулга нь 2022 оны мэдлэгийн төлөвтэй тохирч байна. " +
             "<br><br>" +
-            "The source code for the interactive figure is available at " +
-            "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. " +
-            "The interactive figure is licensed under the " +
+            "Интерактив зургийн эх кодыг " +
+            "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. дээрээс авах боломжтой." +
+            "Энэхүү интерактив дүрс нь " +
             "<a href=\"https://www.gnu.org/licenses/agpl-3.0\" target=\"_blank\">GNU Affero General Public License (AGPL)</a>. " +
-            "The use and adaptation of the interactive figure is allowed with reference to Swiss TPH as the author and under compliance to the AGPL license conditions. Feedback and input are welcome at " +
-            "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
-            "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
+            "лицензтэй. Интерактив дүрсийг ашиглах, тохируулахыг зохиогчийн хувьд Швейцарийн TPH-ээс лавлаж, AGPL лицензийн нөхцлийн дагуу зөвшөөрнө. Санал хүсэлт, санал хүсэлтийг " +
+            "<a href=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
+            "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</a> хаягаар авах боломжтой.",
     }
 ];
 
@@ -961,7 +923,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Voies aériennes</div>Poumon, trachée",
         "text_it": "<div class=\"i_header\">Vie respiratorie</div>Polmoni, trachea",
         "text_tr": "<div class=\"i_header\">Solunum sistemi</div>Akciğerler, nefes borusu (trake), hava yolları (bronşlar ve bronşiyoller), hava keseleri (alveoller)",
-        "text_mn": "<div class=\"i_header\">TODO MN: Respiratory system</div>Lungs, windpipe (trachea), airways (bronchi and bronchioles), air sacs (alveoli)",
+        "text_mn": "<div class=\"i_header\">Амьсгалын систем</div>Уушги, амьсгалын хоолой (цагаан хоолой), амьсгалын зам (гуурсан хоолой ба гуурсанцар), агаарын уут (цулцан)",
     },
     {
         "id": 2,
@@ -971,7 +933,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Système cardiovasculaire</div>Cœur, circulation sanguine",
         "text_it": "<div class=\"i_header\">Sistema cardiovascolare</div>Cuore, circolazione sanguigna",
         "text_tr": "<div class=\"i_header\">Kardiyovasküler sistem</div>Kalp, kan ve kan damarları",
-        "text_mn": "<div class=\"i_header\">TODO MN: Cardiovascular system</div>Heart, blood and blood vessels",
+        "text_mn": "<div class=\"i_header\">Зүрх судасны систем</div>Зүрх, цус болон судас",
     },
     {
         "id": 3,
@@ -981,7 +943,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Système nerveux</div>Cerveau, système nerveux",
         "text_it": "<div class=\"i_header\">Sistema nervoso</div>Cervello, sistema nervoso",
         "text_tr": "<div class=\"i_header\">Sinir sistemi</div>Beyin, sinir sistemi",
-        "text_mn": "<div class=\"i_header\">TODO MN: Nervous system</div>Brain, nervous system",
+        "text_mn": "<div class=\"i_header\">Мэдрэлийн систем</div>Тархи, мэдрэлийн систем",
     },
     {
         "id": 4,
@@ -991,7 +953,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Métabolisme/système immunitaire</div>Foie, pancréas, défenses immunitaires",
         "text_it": "<div class=\"i_header\">Metabolismo/sistema immunitario</div>Fegato, pancreas, difesa immunitaria",
         "text_tr": "<div class=\"i_header\">Metabolizma/Bağışıklık sistemi</div>Karaciğer, pankreas, bağışıklık sistemi",
-        "text_mn": "<div class=\"i_header\">TODO MN: Metabolism/Immune system</div>Liver, pancreas, immune defence",
+        "text_mn": "<div class=\"i_header\">Бодисын солилцоо/дархлааны систем</div>Элэг, нойр булчирхай, дархлааны хамгаалалт",
     },
     {
         "id": 5,
@@ -1001,7 +963,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Mortalité</div>Décès, nombre de décès rapporté à la population",
         "text_it": "<div class=\"i_header\">Mortalità</div>Decessi, numero di decessi in rapporto alla popolazione",
         "text_tr": "<div class=\"i_header\">Ölüm</div>Ölümler, nüfusa göre ölüm sayısı",
-        "text_mn": "<div class=\"i_header\">TODO MN: Mortality</div>Deaths, number of deaths in relation to the population",
+        "text_mn": "<div class=\"i_header\">Нас баралт</div>Хүн амтай харьцууласан нас баралтын тоо",
     },
     {
         "id": 6,
@@ -1011,7 +973,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Urgences</div>Consultations d'urgence dans les hôpitaux ou auprès du médecin de famille, admissions à l'hôpital pour cause d'urgence",
         "text_it": "<div class=\"i_header\">Emergenze</div>Consultazioni d’emergenza in ospedale o con il medico di famiglia, ricoveri ospedalieri per emergenze",
         "text_tr": "<div class=\"i_header\">Acil durumlar</div>Aile hekimi veya hastanelerdeki acil konsültasyonlar, acil durumlar nedeniyle hastaneye yatışlar",
-        "text_mn": "<div class=\"i_header\">TODO MN: Emergencies</div>Emergency consultations in hospitals or with the family doctor, hospital admissions due to emergencies",
+        "text_mn": "<div class=\"i_header\">Амь тэнсэх тохиолдол</div>Амь тэнсэх үед түргэн тусламж дуудан эмнэлэгт хүргэгдэх болон эмчид хандах тохиолдол",
     },
     {
         "id": 7,
@@ -1043,11 +1005,11 @@ arrInfos = [
             "insan ve epidemiyolojik çalışmaları kapsayan bir dizi çalışmaya dayanarak ortaya konmuştur." +
             "<br><br>" +
             "Rastgele sonuçlar, karıştırıcılar ve diğer sapmalar makul durumlarda hariç tutulabilir.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Causal</div>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
-            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+        "text_mn": "<div class=\"i_header\">Шалтгаант</div>" +
+            "Агаарт агуулагдах хорт бодисууд нь эс, амьтан, хүн, эпидемиологийн бүх судалгаагаар хүний эрүүл мэнд " +
+            "болон амьдралын чанарын бүх түвшинд сөрөг нөлөө үзүүлдэг болох нь нотлогдсон." +
             "<br><br>" +
-            "Random results, confounders and other biases can be excluded with reasonable probability.",
+            "Санамсаргүй үр дүн, төөрөгдөл болон бусад буруу ойлголтыг зарим нэг шалтгаанаар хасч болно.",
     },
     {
         "id": 8,
@@ -1078,10 +1040,10 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Likely causal</div>" +
-            "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
+        "text_mn": "<div class=\"i_header\">Болзошгүй шалтгаант</div>" +
+            "Хэдийгээр эрүүл мэндийн судалгааны үр дүнг гадны нөлөөгүй, тодорхой тайлбарлах шаардлага байдаг ч тодорхойгүй байдлын нөлөө ямагт байдаг." +
             "<br><br>" +
-            "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
+            "Тухайлбал, агаар бохируулагч бодисуудын нийлмэл нөлөөг нарийвчлан тогтоох, эсвэл тухайн шинжлэх ухааны салбарын үүднээс авч үзэхэд баримт нотолгоо хязгаарлагдмал, хоорондоо зөрчилтэй байж болно.",
     },
     {
         "id": 9,
@@ -1161,19 +1123,19 @@ arrInfos = [
             "Tesadüf, kafa karıştırıcı unsurlar veya diğer önyargılarla sonuçların açıklanamadığı araştırmalar vardır, ancak sağlık etkilerine ilişkin genel kanıtlarda belirsizlikler devam etmektedir." +
             "<br><br>" +
             "Örneğin, eşzamanlı kirleticilerin etkisinin yakalanması zordur veya farklı bilimsel disiplinlerdeki kanıtlar sınırlı veya çelişkili olabilir.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Causality</div>" +
-            "<b>Causal</b>" +
+        "text_mn": "<div class=\"i_header\">Учир шалтгааны үнэлгээ</div>" +
+            "<b>Шалтгаант</b>" +
             "<br><br>" +
-            "The pollutant has been shown to cause health or welfare effects at relevant levels of exposure, " +
-            "based on studies covering several lines of evidence (cellular, animal, human and epidemiological studies)." +
+            "Агаарт агуулагдах хорт бодисууд нь эс, амьтан, хүн, эпидемиологийн бүх судалгаагаар хүний эрүүл мэнд " +
+            "болон амьдралын чанарын бүх түвшинд сөрөг нөлөө үзүүлдэг болох нь нотлогдсон." +
             "<br><br>" +
-            "Random results, confounders and other biases can be excluded with reasonable probability." +
+            "Санамсаргүй үр дүн, төөрөгдөл болон бусад буруу ойлголтыг зарим нэг шалтгаанаар хасч болно." +
             "<br><br><br>" +
-            "<b>Likely causal</b>" +
+            "<b>Болзошгүй шалтгаант</b>" +
             "<br><br>" +
-            "There are studies in which the results cannot be explained by chance, confounders or other biases, but uncertainties remain in the overall evidence for health effects." +
+            "Хэдийгээр эрүүл мэндийн судалгааны үр дүнг гадны нөлөөгүй, тодорхой тайлбарлах шаардлага байдаг ч тодорхойгүй байдлын нөлөө ямагт байдаг." +
             "<br><br>" +
-            "For example, the influence of concurrent pollutants is difficult to capture, or the evidence in different scientific disciplines may be limited or contradictory.",
+            "Тухайлбал, агаар бохируулагч бодисуудын нийлмэл нөлөөг нарийвчлан тогтоох, эсвэл тухайн шинжлэх ухааны салбарын үүднээс авч үзэхэд баримт нотолгоо хязгаарлагдмал, хоорондоо зөрчилтэй байж болно.",
     },
     {
         "id": 10,
@@ -1183,7 +1145,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">A court terme</div>Effets associés à une exposition accrue à court terme (sur plusieurs heures ou jours)",
         "text_it": "<div class=\"i_header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
         "text_tr": "<div class=\"i_header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
-        "text_mn": "<div class=\"i_header\">TODO MN: Short-term</div>Effects associated with short-term exposures (hours to days)",
+        "text_mn": "<div class=\"i_header\">Богино хугацааны</div>Богино хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн цагаас хэдэн өдөр)",
     },
     {
         "id": 11,
@@ -1193,7 +1155,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Long terme</div>Effets associés à une exposition accrue à long terme (sur plusieurs mois ou années)",
         "text_it": "<div class=\"i_header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
         "text_tr": "<div class=\"i_header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
-        "text_mn": "<div class=\"i_header\">TODO MN: Long-term</div>Effects associated with long-term exposures (over months to years)",
+        "text_mn": "<div class=\"i_header\">Урт хугацааны</div>Урт хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн сараас хэдэн жил хүртэл)",
     },
     {
         "id": 12,
@@ -1213,9 +1175,9 @@ arrInfos = [
         "text_tr": "<div class=\"i_header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
             "Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) " +
             "gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
-        "text_mn": "<div class=\"i_header\">TODO MN: Particulate matter</div>Particles smaller than 10 or 2.5 micrometres (PM10/PM2.5): " +
-            "Emissions mainly from traffic or household heating/wood burning, (forest) fires and formation from precursors such as nitrogen oxides and ammonia " +
-            "(the term \"secondary particulate matter\" is used in the technical literature)",
+        "text_mn": "<div class=\"i_header\">Тоосонцор</div>10 эсвэл 2.5 микрометрээс бага хэмжээтэй тоосонцор (PM10/PM2.5): " +
+            "Замын хөдөлгөөн, ахуйн халаалт/мод түлэх, ойн түймэр болон азотын исэл, аммиак зэрэг " +
+            "урьдал бодисуудын урвалаас (\"хоёрдогч тоосонцор\" гэсэн нэр томъёог ашигладаг) үүсдэг.",
     },
     {
         "id": 13,
@@ -1226,7 +1188,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Ozone (O<sub>3</sub>)</div>Formé par le rayonnement solaire à partir de précurseurs tels que le dioxyde d'azote et les composés organiques volatils (COV)",
         "text_it": "<div class=\"i_header\">Ozono (O<sub>3</sub>)</div>Formato da radiazioni solari provenienti da precursori come il biossido di azoto e composti organici volatili (COV)",
         "text_tr": "<div class=\"i_header\">Ozon (O<sub>3</sub>)</div>Azot dioksit ve uçucu organik bileşikler gibi öncüllerden güneş ışımasıyla oluşur (VOC)",
-        "text_mn": "<div class=\"i_header\">TODO MN: Ozone (O<sub>3</sub>)</div>Formed by solar radiation from precursors such as nitrogen dioxide and volatile organic compounds (VOC)",
+        "text_mn": "<div class=\"i_header\">Озон (O<sub>3</sub>)</div>Азотын давхар исэл, дэгдэмхий органик нэгдлүүд (VOC) зэрэг урьдал бодисуудаас үүссэн нарны цацрагтай урвалд орж үүссэн",
     },
     {
         "id": 14,
@@ -1237,7 +1199,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Dioxyde d'azote (NO<sub>2</sub>)</div>Émissions provenant principalement de la combustion dans les moteurs, les chauffages et l’industrie",
         "text_it": "<div class=\"i_header\">Diossido di azoto (NO<sub>2</sub>)</div>Emissioni derivanti principalmente dal traffico e dalle combustioni per il riscaldamento",
         "text_tr": "<div class=\"i_header\">Nitrojen dioksit (NO<sub>2</sub>)</div>Esas olarak karayolu trafiğinden ve ısıtma gibi diğer fosil yakıt yanma işlemlerinden kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">TODO MN: Nitrogen dioxide (NO<sub>2</sub>)</div>Emissions mainly from road traffic and other fossil fuel combustion processes like heating",
+        "text_mn": "<div class=\"i_header\">Азотын давхар исэл (NO<sub>2</sub>)</div>Голдуу замын хөдөлгөөн болон чулуужсан түлшний шаталтын үйл явцаас ялгардаг",
     },
     {
         "id": 15,
@@ -1248,7 +1210,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Dioxyde de soufre (SO<sub>2</sub>)</div>Émissions provenant de la combustion de charbon ou de produits pétroliers contenant du soufre",
         "text_it": "<div class=\"i_header\">Anidride solforosa (SO<sub>2</sub>)</div>Emissioni derivanti dalla combustione di carbone contenente zolfo o di petrolio",
         "text_tr": "<div class=\"i_header\">Sülfür dioksit (SO<sub>2</sub>)</div>Kükürt içeren kömür veya dizel yakıtların yanmasından kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">TODO MN: Sulphur dioxide (SO<sub>2</sub>)</div>Emissions from combustions of sulphur containing coal or diesel",
+        "text_mn": "<div class=\"i_header\">Хүхрийн давхар исэл (SO<sub>2</sub>)</div>Хүхэр агуулсан нүүрс эсвэл дизель түлшний шаталтаас үүсдэг",
     },
     {
         "id": 16,
@@ -1259,7 +1221,7 @@ arrInfos = [
         "text_fr": "<div class=\"i_header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
         "text_it": "<div class=\"i_header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
         "text_tr": "<div class=\"i_header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
-        "text_mn": "<div class=\"i_header\">TODO MN: Carbon monoxide (CO)</div>Emissions from incomplete combustions of carbonaceous fuels",
+        "text_mn": "<div class=\"i_header\">Нүүрстөрөгчийн дутуу исэл (CO)</div>Түлшний бүрэн бус шаталтаас үүсдэг",
     },
 ];
 
@@ -1273,7 +1235,7 @@ arrUI = [
         "text_fr": "A court terme",
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
-        "text_mn": "TODO MN: Short-term",
+        "text_mn": "Богино хугацааны",
     },
     {
         "id": 2,
@@ -1283,7 +1245,7 @@ arrUI = [
         "text_fr": "A long terme",
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
-        "text_mn": "TODO MN: Long-term",
+        "text_mn": "Урт хугацааны",
     },
 
     {
@@ -1294,7 +1256,7 @@ arrUI = [
         "text_fr": "Poussières fines",
         "text_it": "Polveri sottili ",
         "text_tr": "Partikül Madde",
-        "text_mn": "TODO MN: Particulate Matter",
+        "text_mn": "Тоосонцор",
     },
     {
         "id": 4,
@@ -1304,7 +1266,7 @@ arrUI = [
         "text_fr": "Ozone",
         "text_it": "Ozono",
         "text_tr": "Ozon",
-        "text_mn": "TODO MN: Ozone",
+        "text_mn": "Озон",
     },
     {
         "id": 5,
@@ -1314,7 +1276,7 @@ arrUI = [
         "text_fr": "Dioxyde d'azote",
         "text_it": "Diossido di azoto",
         "text_tr": "Nitrojen dioksit",
-        "text_mn": "TODO MN: Nitrogen dioxide",
+        "text_mn": "Азотын давхар исэл",
     },
     {
         "id": 6,
@@ -1324,7 +1286,7 @@ arrUI = [
         "text_fr": "Dioxyde de soufre",
         "text_it": "Diossido di zolfo",
         "text_tr": "Sülfür dioksit",
-        "text_mn": "TODO MN: Sulphur dioxide",
+        "text_mn": "Хүхрийн давхар исэл",
     },
     {
         "id": 7,
@@ -1334,7 +1296,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
-        "text_mn": "TODO MN: Carbon monoxide",
+        "text_mn": "Нүүрстөрөгчийн дутуу исэл",
     },
 
     {
@@ -1345,7 +1307,7 @@ arrUI = [
         "text_fr": "Voies aériennes",
         "text_it": "Vie respiratorie",
         "text_tr": "Solunum sistemi",
-        "text_mn": "TODO MN: Respiratory system",
+        "text_mn": "Амьсгалын систем",
     },
     {
         "id": 12,
@@ -1355,7 +1317,7 @@ arrUI = [
         "text_fr": "Système cardiovasculaire",
         "text_it": "Sistema cardiovascolare",
         "text_tr": "Kardiyovasküler sistem",
-        "text_mn": "TODO MN: Cardiovascular system",
+        "text_mn": "Зүрх судасны систем",
     },
     {
         "id": 13,
@@ -1365,7 +1327,7 @@ arrUI = [
         "text_fr": "Système nerveux",
         "text_it": "Sistema nervoso",
         "text_tr": "Sinir sistemi",
-        "text_mn": "TODO MN: Nervous system",
+        "text_mn": "Мэдрэлийн систем",
     },
     {
         "id": 14,
@@ -1375,7 +1337,7 @@ arrUI = [
         "text_fr": "Métabolisme/système immunitaire",
         "text_it": "Metabolismo/sistema immunitario",
         "text_tr": "Metabolizma/Bağışıklık sistemi",
-        "text_mn": "TODO MN: Metabolism/Immune system",
+        "text_mn": "Бодисын солилцоо/дархлааны систем",
     },
     {
         "id": 15,
@@ -1385,7 +1347,7 @@ arrUI = [
         "text_fr": "Mortalité",
         "text_it": "Mortalità",
         "text_tr": "Ölüm",
-        "text_mn": "TODO MN: Mortality",
+        "text_mn": "Нас баралт",
     },
     {
         "id": 16,
@@ -1395,7 +1357,7 @@ arrUI = [
         "text_fr": "Urgences",
         "text_it": "Emergenze",
         "text_tr": "Acil durumlar",
-        "text_mn": "TODO MN: Emergen<br>cies",
+        "text_mn": "Амь тэнсэх<br>тохиолдол",
     },
 
     {
@@ -1406,7 +1368,7 @@ arrUI = [
         "text_fr": "Pollution actuel",
         "text_it": "Esposizione attuale",
         "text_tr": "Mevcut<br/>kirlilik",
-        "text_mn": "TODO MN: Current pollution",
+        "text_mn": "Өнөөгийн байдал",
     },
     {
         "id": 22,
@@ -1416,7 +1378,7 @@ arrUI = [
         "text_fr": "Valeur limite",
         "text_it": "Valori limite",
         "text_tr": "Limit<br/>değerler",
-        "text_mn": "TODO MN: Limit values",
+        "text_mn": "Хязгаарлалт",
     },
     {
         "id": 23,
@@ -1426,7 +1388,7 @@ arrUI = [
         "text_fr": "Source polluants",
         "text_it": "Fonti inquinanti",
         "text_tr": "Kirletici kaynakları",
-        "text_mn": "TODO MN: Sources of pollutants",
+        "text_mn": "Бохирдуулагч эх үүсвэрүүд",
     },
     {
         "id": 24,
@@ -1436,7 +1398,7 @@ arrUI = [
         "text_fr": "Scénario",
         "text_it": "Scenario",
         "text_tr": "Arkaplan",
-        "text_mn": "TODO MN: Background",
+        "text_mn": "Оршил",
     },
     {
         "id": 25,
@@ -1446,7 +1408,7 @@ arrUI = [
         "text_fr": "Ma contribution",
         "text_it": "Cosa posso fare",
         "text_tr": "Katkınız",
-        "text_mn": "TODO MN: My Contribution",
+        "text_mn": "Таны оролцоо",
     },
     {
         "id": 26,
@@ -1456,7 +1418,7 @@ arrUI = [
         "text_fr": "Références",
         "text_it": "Riferimenti",
         "text_tr": "Kaynaklar",
-        "text_mn": "TODO MN: References",
+        "text_mn": "Ном зүй",
     },
     {
         "id": 27,
@@ -1466,7 +1428,7 @@ arrUI = [
         "text_fr": "Impressum",
         "text_it": "Impressum",
         "text_tr": "Baskı",
-        "text_mn": "TODO MN: Imprint",
+        "text_mn": "Дардас",
     },
 
     {
@@ -1477,7 +1439,7 @@ arrUI = [
         "text_fr": "Causalité",
         "text_it": "Causalità",
         "text_tr": "Nedensellik",
-        "text_mn": "TODO MN: Causality",
+        "text_mn": "Учир шалтгааны үнэлгээ",
     },
     {
         "id": 32,
@@ -1487,7 +1449,7 @@ arrUI = [
         "text_fr": "cause",
         "text_it": "causale",
         "text_tr": "Neden",
-        "text_mn": "TODO MN: causal",
+        "text_mn": "шалтгаант",
     },
     {
         "id": 33,
@@ -1497,7 +1459,7 @@ arrUI = [
         "text_fr": "cause probable",
         "text_it": "probabilmente causale",
         "text_tr": "Muhtemel neden",
-        "text_mn": "TODO MN: likely causal",
+        "text_mn": "болзошгүй шалтгаант",
     },
 
     {
@@ -1620,15 +1582,15 @@ arrUI = [
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
-        "text_mn": "<b>TODO MN: How do you use this interactive figure?</b>" +
+        "text_mn": "<b>Хэрхэн энэ интерактив дүрсийг ашиглах вэ?</b>" +
             "<br><br>" +
-            "We have compiled health effects of criteria pollutants in ambient air that are causal and likely to be causal in an interactive figure." +
+            "Бид хүрээлэн буй орчны агаар дахь бохирдуулагч бодисын эрүүл мэндэд үзүүлэх нөлөө, байж болзошгүй учир шалтгааны холбоог интерактив зургаар нэгтгэн гаргалаа." +
             "<ul>" +
-            "<li>Choose between short-term or long-term exposure</li>" +
-            "<li>Next, choose an air pollutant or an affected organ system</li>" +
+            "<li>Богино эсвэл урт хугацааны өртөлтийн аль нэгийг нь сонгоорой<</li>" +
+            "<li>Дараа нь агаар бохирдуулагч эсвэл нөлөөлөлд өртсөн эрхтэн тогтолцоог сонгоорой</li>" +
             "</ul>" +
             "<br><br>" +
-            "The figure is available in different languages:" +
+            "Энэхүү зураглалыг дараах хэлээр үзэх боломжтой:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
@@ -1638,11 +1600,11 @@ arrUI = [
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
-            ", and" +
+            "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
             "." +
             "<br><br>" +
-            "Find further information at the bottom of the figure.",
+            "Бусад мэдээллийг доорх зурагт сонголтоос хайх боломжтой.",
     },
 
     {
@@ -1653,7 +1615,7 @@ arrUI = [
         "text_fr": "Pour l’instant, aucun effet n’a été mis en évidence",
         "text_it": "Nessun effetto è attualmente garantito",
         "text_tr": "Bilinen bir etki yok",
-        "text_mn": "TODO MN: No effects known",
+        "text_mn": "Нөлөөлөл илэрсэнгүй",
     },
 
 ]
