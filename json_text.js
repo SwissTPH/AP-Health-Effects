@@ -482,13 +482,13 @@ arrPopups = [
             "(anglais) sur les effets de la pollution atmosphérique (extérieure et intérieure) sur la santé des enfants et des adolescents, " +
             "avec des preuves supplémentaires des effets sur la santé des enfants en ce qui concerne la mortalité, le faible poids à la naissance, les naissances prématurées, " +
             "les retards de développement, l'autisme, la leucémie et les infections.</li>" +
-            "<li>Global burden of disease 2019 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux particules pour les cardiopathies ischémiques, " +
+            "<li>Global burden of disease 2021 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux (1) particules pour les cardiopathies ischémiques, " +
             "les accidents vasculaires cérébraux, les bronchopneumopathies chroniques obstructives (BPCO), le cancer du poumon, " +
-            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 sqq)</li>" +
+            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance; " +
+            "(2) ozone pour la mortalité due à la BPCO; et (3) dioxyde d'azote pour le développement de l'asthme chez l'enfant et l'adolescent.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
             "</ul>" +
             "<b>Dans quelle mesure les effets sur la santé décrits vous concernent-ils?</b>" +
             "<br><br>" +
