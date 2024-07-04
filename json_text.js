@@ -537,12 +537,12 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Revisione dell'ETC</a> " +
             "sugli effetti dell'inquinamento atmosferico (esterno e interno) sulla salute dei bambini e degli adolescenti con ulteriori evidenze di effetti sulla salute dei bambini " +
             "per quanto riguarda mortalità, basso peso alla nascita, nascita pretermine, ritardi nello sviluppo neurologico, autismo, leucemia, infezioni.</li>" +
-            "<li>Global burden of disease 2019 con ulteriori evidenze di effetti sulla salute legati all'esposizione al particolato per cardiopatia ischemica, ictus, " +
-            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 e segg.)</li>" +
+            "<li>Global burden of disease 2021 con ulteriori evidenze di effetti sulla salute legati all'esposizione al (1) particolato per cardiopatia ischemica, ictus, " +
+            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita; " +
+            "(2) ozone per mortalità a causa di broncopneumopatia cronica ostruttiva (BPCO); e (3) diossido di azoto per sviluppo dell'asma nell'infanzia e nell'adolescenza.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
             "</ul>" +
             "<b>Quanto sono rilevanti per voi gli effetti sulla salute descritti?</b>" +
             "<br><br>" +
