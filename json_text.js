@@ -372,12 +372,12 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" " +
             "target=\"_blank\">ETC umbrella Übersichtsarbeit</a> (Englisch) zu den gesundheitlichen Folgen der Aussen- und Raumluftbelastung auf Kinder und Jugendliche, " +
             "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
-            "<li>Global Burden of Disease Studie 2019, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
-            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (Englisch) S. 24 and S. 78 ff.)</li>" +
+            "<li>Global Burden of Disease Studie 2021, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von (1) Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
+            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht; " +
+            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO2 in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
             "</ul>" +
             "<b>Wie relevant sind die beschriebenen gesundheitlichen Auswirkungen für Sie?</b>" +
             "<br><br>" +
