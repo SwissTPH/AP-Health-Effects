@@ -377,7 +377,7 @@ arrPopups = [
             "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO2 in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
-            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Wie relevant sind die beschriebenen gesundheitlichen Auswirkungen für Sie?</b>" +
             "<br><br>" +
@@ -431,7 +431,7 @@ arrPopups = [
             "mortality due to chronic obstructive pulmonary disease (COPD); and (3) nitrogen dioxide for asthma development in children and adolescents.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
-            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>How relevant are the described health effects for you?</b>" +
             "<br><br>" +
@@ -488,7 +488,7 @@ arrPopups = [
             "(2) ozone pour la mortalité due à la BPCO; et (3) dioxyde d'azote pour le développement de l'asthme chez l'enfant et l'adolescent.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
-            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Dans quelle mesure les effets sur la santé décrits vous concernent-ils?</b>" +
             "<br><br>" +
@@ -542,7 +542,7 @@ arrPopups = [
             "(2) ozone per mortalità a causa di broncopneumopatia cronica ostruttiva (BPCO); e (3) diossido di azoto per sviluppo dell'asma nell'infanzia e nell'adolescenza.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
-            '<a href="https://doi.org/10.1016/S0140-6736(24)00933-4" target="_blank">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>' +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Quanto sono rilevanti per voi gli effetti sulla salute descritti?</b>" +
             "<br><br>" +
