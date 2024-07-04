@@ -372,12 +372,12 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" " +
             "target=\"_blank\">ETC umbrella Übersichtsarbeit</a> (Englisch) zu den gesundheitlichen Folgen der Aussen- und Raumluftbelastung auf Kinder und Jugendliche, " +
             "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
-            "<li>Global Burden of Disease Studie 2019, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
-            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (Englisch) S. 24 and S. 78 ff.)</li>" +
+            "<li>Global Burden of Disease Studie 2021, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von (1) Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
+            "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht; " +
+            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO2 in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Wie relevant sind die beschriebenen gesundheitlichen Auswirkungen für Sie?</b>" +
             "<br><br>" +
@@ -426,12 +426,12 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
             "on the health effects of air pollution (outdoor and indoor) in children and adolescents with additional evidence for health effects in children regarding mortality, " +
             "low birth weight, preterm birth, neuro-developmental delays, autism, leukemia, infections.</li>" +
-            "<li>Global Burden of Disease Study 2019 with additional evidence for health effects related to particulate matter exposure for ischaemic heart disease, stroke, " +
-            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight. <br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "<li>Global Burden of Disease Study 2021 with additional evidence for health effects related to (1) particulate matter exposure for ischaemic heart disease, stroke, " +
+            "chronic obstructive pulmonary disease (COPD), lung cancer, acute lower respiratory infection, Type II diabetes, preterm birth, and low birth weight; (2) ozone for " +
+            "mortality due to chronic obstructive pulmonary disease (COPD); and (3) nitrogen dioxide for asthma development in children and adolescents.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>How relevant are the described health effects for you?</b>" +
             "<br><br>" +
@@ -482,13 +482,13 @@ arrPopups = [
             "(anglais) sur les effets de la pollution atmosphérique (extérieure et intérieure) sur la santé des enfants et des adolescents, " +
             "avec des preuves supplémentaires des effets sur la santé des enfants en ce qui concerne la mortalité, le faible poids à la naissance, les naissances prématurées, " +
             "les retards de développement, l'autisme, la leucémie et les infections.</li>" +
-            "<li>Global burden of disease 2019 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux particules pour les cardiopathies ischémiques, " +
+            "<li>Global burden of disease 2021 avec des preuves supplémentaires des effets sur la santé liés à l'exposition aux (1) particules pour les cardiopathies ischémiques, " +
             "les accidents vasculaires cérébraux, les bronchopneumopathies chroniques obstructives (BPCO), le cancer du poumon, " +
-            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 sqq)</li>" +
+            "les infections aiguës des voies respiratoires inférieures, le diabète de type II, les naissances prématurées et le faible poids à la naissance; " +
+            "(2) ozone pour la mortalité due à la BPCO; et (3) dioxyde d'azote pour le développement de l'asthme chez l'enfant et l'adolescent.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Dans quelle mesure les effets sur la santé décrits vous concernent-ils?</b>" +
             "<br><br>" +
@@ -537,12 +537,12 @@ arrPopups = [
             "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">Revisione dell'ETC</a> " +
             "sugli effetti dell'inquinamento atmosferico (esterno e interno) sulla salute dei bambini e degli adolescenti con ulteriori evidenze di effetti sulla salute dei bambini " +
             "per quanto riguarda mortalità, basso peso alla nascita, nascita pretermine, ritardi nello sviluppo neurologico, autismo, leucemia, infezioni.</li>" +
-            "<li>Global burden of disease 2019 con ulteriori evidenze di effetti sulla salute legati all'esposizione al particolato per cardiopatia ischemica, ictus, " +
-            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita.<br/>" +
-            "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: " +
-            "a systematic analysis for the Global Burden of Disease Study 2019. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> (anglais) p. 24 and p. 78 e segg.)</li>" +
+            "<li>Global burden of disease 2021 con ulteriori evidenze di effetti sulla salute legati all'esposizione al (1) particolato per cardiopatia ischemica, ictus, " +
+            "broncopneumopatia cronica ostruttiva (BPCO), cancro ai polmoni, infezioni respiratorie acute inferiori, diabete di tipo II, nascita pretermine e basso peso alla nascita; " +
+            "(2) ozone per mortalità a causa di broncopneumopatia cronica ostruttiva (BPCO); e (3) diossido di azoto per sviluppo dell'asma nell'infanzia e nell'adolescenza.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Quanto sono rilevanti per voi gli effetti sulla salute descritti?</b>" +
             "<br><br>" +
