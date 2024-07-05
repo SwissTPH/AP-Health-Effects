@@ -1042,7 +1042,7 @@ arrPopups = [
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A>",
          "text_mn": "<div class=\"i-header\">Дардас</div>" +
-            "Энэхүү интерактив зурагаар  хүрээлэн буй орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллий харуулсан ба Swiss Tropical ба Нийгмийн эрүүл мэндийн хүрээлэнгийн (Швейцарийн TPH) " +
+            "Энэхүү интерактив зургаар хүрээлэн буй орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллийг харуулсан ба Swiss Tropical ба Нийгмийн эрүүл мэндийн хүрээлэнгийн (Швейцарийн TPH) " +
             "Швейцарийн уран зохиолын мэдээллийн сан ба Орчны агаарын бохирдлын эрүүл мэндэд үзүүлэх нөлөөллийн үйлчилгээ LUDOK-ийн төслийн хүрээнд боловсруулав. " +
             "Дараах түнш байгууллагуудтай хамтран боловсрууллаа:" +
             "<ul>" +
@@ -1062,7 +1062,7 @@ arrPopups = [
             "<a href=\"https://github.com/swisstph/ap-health-effects\" target=\"_blank\">github.com/swisstph/ap-health-effects</a>. дээрээс авах боломжтой." +
             "Энэхүү интерактив дүрс нь " +
             "<a href=\"https://www.gnu.org/licenses/agpl-3.0\" target=\"_blank\">GNU Affero General Public License (AGPL)</a>. " +
-            "лицензтэй. Интерактив дүрсийг ашиглах, тохируулахыг зохиогчийн хувьд Швейцарийн TPH-ээс лавлаж, AGPL лицензийн нөхцлийн дагуу зөвшөөрнө. Санал хүсэлт, санал хүсэлтийг " +
+            "лицензтэй. Интерактив дүрсийг ашиглах, тохируулахыг зохиогчийн хувьд Швейцарийн TPH-ээс лавлаж, AGPL лицензийн нөхцлийн дагуу зөвшөөрнө. Санал хүсэлтийг " +
             "<a href=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</a> хаягаар авах боломжтой.",
     }
@@ -1331,7 +1331,7 @@ arrInfos = [
         "text_it": "<div class=\"i-header\">A breve termine</div>Effetti associati all'aumento dell'esposizione a breve termine (in ore o giorni)",
         "text_tr": "<div class=\"i-header\">Kısa dönem</div>Kısa süreli maruz kalmalarla ilişkili etkiler (saatlerden günlere kadar)",
         "text_uk": "<div class=\"i-header\">Короткостроковий</div>Стосується наслідків, пов’язаних із короткостроковою дією (від кількох годин до кількох днів)",
-        "text_mn": "<div class=\"i-header\">Богино хугацааны</div>Богино хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн цагаас хэдэн өдөр)",
+        "text_mn": "<div class=\"i-header\">Богино хугацаа</div>Богино хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн цагаас хэдэн өдөр)",
     },
     {
         "id": 11,
@@ -1342,7 +1342,7 @@ arrInfos = [
         "text_it": "<div class=\"i-header\">A lungo termine</div>Effetti associati all'aumento dell'esposizione a lungo termine (in mesi o anni)",
         "text_tr": "<div class=\"i-header\">Uzun dönem</div>Uzun süreli maruz kalmalarla ilişkili etkiler (aylardan yıllara kadar)",
         "text_uk": "<div class=\"i-header\">Довгостроковий</div>Стосується наслідків, пов’язаних із довгостроковою дією (від кількох місяців до кількох років)",
-        "text_mn": "<div class=\"i-header\">Урт хугацааны</div>Урт хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн сараас хэдэн жил хүртэл)",
+        "text_mn": "<div class=\"i-header\">Урт хугацаа</div>Урт хугацааны өртөлттэй холбоотой үр нөлөө (хэдэн сараас хэдэн жил хүртэл)",
     },
     {
         "id": 12,
@@ -1415,7 +1415,7 @@ arrInfos = [
         "text_it": "<div class=\"i-header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
         "text_tr": "<div class=\"i-header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
         "text_uk": "<div class=\"i-header\">Окис вуглецю (CO)</div>викиди від неповного згоряння вуглецевого палива",
-        "text_mn": "<div class=\"i-header\">Нүүрстөрөгчийн дутуу исэл (CO)</div>Түлшний бүрэн бус шаталтаас үүсдэг",
+        "text_mn": "<div class=\"i-header\">Угаарын хий (CO)</div>Түлшний бүрэн бус шаталтаас үүсдэг",
     },
 ];
 
@@ -1430,7 +1430,7 @@ arrUI = [
         "text_it": "A breve termine",
         "text_tr": "Kısa dönem",
         "text_uk": "Коротко-<br>стро-<br>ковий",
-        "text_mn": "Богино хугацааны",
+        "text_mn": "Богино хугацаа",
     },
     {
         "id": 2,
@@ -1441,7 +1441,7 @@ arrUI = [
         "text_it": "A lungo termine",
         "text_tr": "Uzun dönem",
         "text_uk": "Довго-<br>стро-<br>ковий",
-        "text_mn": "Урт хугацааны",
+        "text_mn": "Урт хугацаа",
     },
 
     {
@@ -1453,7 +1453,7 @@ arrUI = [
         "text_it": "Polveri sottili ",
         "text_tr": "Partikül Madde",
         "text_uk": "Зважені (тверді) частинки",
-        "text_mn": "Тоосонцор",
+        "text_mn": "Тоосон-<br>цор",
     },
     {
         "id": 4,
@@ -1497,7 +1497,7 @@ arrUI = [
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
         "text_uk": "Окис вуглецю",
-        "text_mn": "Нүүрстөрөгчийн дутуу исэл",
+        "text_mn": "Угаарын хий",
     },
 
     {
@@ -1564,7 +1564,7 @@ arrUI = [
         "text_it": "Emergenze",
         "text_tr": "Acil durumlar",
         "text_uk": "Надзвичайні<br>ситуації",
-        "text_mn": "Амь тэнсэх<br>тохиолдол",
+        "text_mn": "Амь тэнсэх тохиол",
     },
 
     {
@@ -1598,7 +1598,7 @@ arrUI = [
         "text_it": "Fonti inquinanti",
         "text_tr": "Kirletici kaynakları",
         "text_uk": "Джерела забруднювачів повітря",
-        "text_mn": "Бохирдуулагч эх үүсвэрүүд",
+        "text_mn": "Бохирдуу<br>лагч эх үүсвэрүүд",
     },
     {
         "id": 24,
@@ -1809,11 +1809,11 @@ arrUI = [
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
-        "text_mn": "<b>Хэрхэн энэ интерактив дүрсийг ашиглах вэ?</b>" +
+        "text_mn": "<b>Хэрхэн энэхүү интерактив дүрсийг ашиглах вэ?</b>" +
             "<br><br>" +
             "Бид хүрээлэн буй орчны агаар дахь бохирдуулагч бодисын эрүүл мэндэд үзүүлэх нөлөө, байж болзошгүй учир шалтгааны холбоог интерактив зургаар нэгтгэн гаргалаа." +
             "<ul>" +
-            "<li>Богино эсвэл урт хугацааны өртөлтийн аль нэгийг нь сонгоорой<</li>" +
+            "<li>Богино эсвэл урт хугацааны өртөлтийн аль нэгийг нь сонгоорой</li>" +
             "<li>Дараа нь агаар бохирдуулагч эсвэл нөлөөлөлд өртсөн эрхтэн тогтолцоог сонгоорой</li>" +
             "</ul>" +
             "<br><br>" +

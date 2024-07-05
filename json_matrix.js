@@ -126,7 +126,7 @@ arrOrgane = [
         "organ_it": "Emergenze",
         "organ_tr": "Acil durumlar",
         "organ_uk": "Надзвичайні ситуації",
-        "organ_mn": "Амь тэнссэн тохиолдол",
+        "organ_mn": "Амь тэнсэх тохиолдол",
     }
 ];
 
