@@ -581,6 +581,29 @@ arrPopups = [
             "Entegre Bilimsel Değerlendirmeler'de nedensellik değerlendirmesine ilişkin daha fazla bilgi: " +
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Entegre Bilimsel Değerlendirmelere Giriş (ISA)»</a>. " +
             "<br><br><br>" +
+            "US EPA değerlendirmeleri kadar kapsamlı olmayan, <b>daha güncel kanıt sentezlerini</b> içeren başka " +
+            "değerlendirmeler de bulunmaktadır ancak onlar şekle dahil edilmemiştir. Fakat yine de ortamdaki hava " +
+            "kirliliğinden kaynaklı olarak daha fazla sağlık risklerine işaret edebilirler örneğin: " +
+            "düşük doğum ağırlığı, nörolojik gelişimsel etkiler, diyabet, kanserler ve diğerleri gibi." +
+            "<ul>" +
+            "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\"> " +
+            "Trafiğe bağlı hava kirliliğinin sağlık üzerindeki etkilerine ilişkin Sağlık Etki Değerlendirme (HEI)</a> " +
+            "incelemesi uzun vadeli trafik kaynaklı hava kirliliğinin sağlık üzerindeki etkilerine ilişkin tip II diyabet, " +
+            "iskemik kalp hastalığı, düşük doğum ağırlığı gibi ek kanıtlarla birlikte.</li>" +
+            "<li><a href=\"https://www.eionet.europa.eu/etcs/etc-he/products/etc-he-products/etc-he-reports/" +
+            "etc-he-report-2022-22-environmental-health-risks-to-children-and-adolescents-an-umbrella-review-on-indoor-and-outdoor-air-pollution\" target=\"_blank\">ETC umbrella review</a> " +
+            "Avrupa Konu Merkezleri (ETC) şemsiye incelemesi çocuklarda ve ergenlerde hava kirliliğinin " +
+            "(dış mekan ve iç mekan) sağlık üzerindeki etkileri ve çocuklarda ölüm oranı, düşük doğum ağırlığı, " +
+            "erken doğum, nörogelişimsel gecikmeler, otizm, lösemi, enfeksiyonlarla ilgili sağlık etkilerine ilişkin ek kanıtlarla birlikte.</li>" +
+            "<li>Global Burden of Disease Study 2021 - Sağlık etkilerine ilişkin ek kanıtlar içeren Küresel " +
+            "Hastalık Yükü Çalışması 2021 ile ilgili (1) Partikül madde maruziyeti, iskemik kalp hastalığı, felç, " +
+            "kronik obstrüktif akciğer hastalığı (KOAH), akciğer kanseri, akut alt solunum yolu enfeksiyonu, Tip II diyabet, " +
+            "erken doğum ve düşük doğum ağırlığı için; (2) Ozon, kronik obstrüktif akciğer hastalığına (KOAH) bağlı ölümler için; " +
+            "ve (3) Azotdioksit çocuklarda ve ergenlerde astım gelişimi için.<br/>" +
+            "GBD 2021 Risk Faktörleri İşbirlikçileri. 204 ülkede ve 811 yerel lokasyonda 88 risk faktörüne ilişkin küresel yük ve kanıt gücü, " +
+            "1990-2021: Küresel Hastalık Yükü Çalışması 2021 için sistematik bir analiz. Lancet, 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
+            "</ul>" +
             "<b>Tanımlanan sağlık etkileri sizinle ne kadar ilgili?</b>" +
             "<br><br>" +
             "Bir tehlike potansiyel olarak hasara neden olabilir. Öte yandan risk, bir tehlikenin gerçekten hasara neden olma olasılığıdır. Bu durum, tehlikenin gerçek maruz kalmayla birlikte oluşan sonucudur. " +
