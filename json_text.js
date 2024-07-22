@@ -722,8 +722,8 @@ arrPopups = [
             "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
             "target=\"_blank\">PDF нэмэлт</a> хуудас 24 болон 78)</li>" +
             "<li>PM2.5-ын бохирдолтой холбоотой төрөлт, зулбалт, амьгүй төрөлт зэрэг сөрөг үр дагавар гарч байгаа нотлох баримтууд нэмэгдсээр байна. Song et al 2023 " +
-            "(<a href=\"https://doi.org/10.1016/j.envres.2023.116652\" target=\"_blank\">https://doi.org/10.1016/j.envres.2023.116652</a> болон Wang et al 2023 " +
-            "(<a href=\"https://link.springer.com/article/10.1007/s11356-023-29700-5\" target=\"_blank\">https://link.springer.com/article/10.1007/s11356-023-29700-5</a></li>" +
+            "<a href=\"https://doi.org/10.1016/j.envres.2023.116652\" target=\"_blank\">https://doi.org/10.1016/j.envres.2023.116652</a> болон Wang et al 2023 " +
+            "<a href=\"https://link.springer.com/article/10.1007/s11356-023-29700-5\" target=\"_blank\">https://link.springer.com/article/10.1007/s11356-023-29700-5</a></li>" +
             "</ul>" +
             "<b>Энд дурьдагдсан эрүүл мэндэд үзүүлэх нөлөө нь таньд хэр хамаатай вэ?</b>" +
             "<br><br>" +
