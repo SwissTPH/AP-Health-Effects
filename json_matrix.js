@@ -199,7 +199,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
         "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
         "effekt_uk": "Погіршення хвороби або посилення симптомів у хворих на ХОЗЛ",
-        "effekt_mn": "Уушигны архаг бөглөрөөт өвчин даамжрах эсвэл өвчний шинж тэмдэг нэмэгдэх",
+        "effekt_mn": "Уушгины архаг бөглөрөөт өвчин даамжрах эсвэл өвчний шинж тэмдэг нэмэгдэх",
         "effekt_sv": "TODO SV: Worsening of the disease or increase in symptoms in patients with COPD",
         "organ": "atemwege"
     },
