@@ -1791,19 +1791,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Le graphique est disponible en plusieurs langues:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Allemand\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Français\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italien\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Anglais\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turc\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UK</a>" +
             " et" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongol\"> MN</a>" +
             "." +
             "<br><br>" +
             "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
