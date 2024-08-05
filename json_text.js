@@ -1740,19 +1740,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Die Grafik ist in verschiedenen Sprachen verfügbar:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Deutsch\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Französich\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italienisch\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Englisch\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkisch\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UK</a>" +
             " und" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolisch\"> MN</a>" +
             "." +
             "<br><br>" +
             "Am Fussende der Grafik finden Sie weitere Informationen.",
