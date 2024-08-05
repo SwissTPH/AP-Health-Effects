@@ -1765,19 +1765,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "The figure is available in different languages:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"German\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"French\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italian\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Englisch\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turkish\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UK</a>" +
             ", and" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolian\"> MN</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
