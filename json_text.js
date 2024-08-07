@@ -1904,7 +1904,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UK</a>" +
             ", та" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"монгольська\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"монгольською\"> MN</a>" +
             "." +
             "<br><br>" +
             "Додаткова довідкова інформація наведена в нижній частині малюнка.",
