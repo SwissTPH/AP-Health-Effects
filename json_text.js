@@ -655,13 +655,14 @@ arrPopups = [
             "Підготовлений консорціумом ЕTC систематичний огляд</a> " +
             "наслідків забруднення повітря (зовнішнього та у приміщеннях) на дітей та підлітків, із додатковими доказами впливу на здоров’я дітей, зокрема смертності, " +
             "низької маси тіла при народженні, передчасних пологів, затримок нервово-психічного розвитку, аутизму, лейкемії, інфекцій.</li>" +
-            "<li>Дослідження глобального тягаря хвороб (ГТХ) за 2019 рік із додатковими доказами наслідків для здоров’я через дію зважених частинок, зокрема ішемічної хвороби серця, " +
-            "інсульту, хронічного обструктивного захворювання легень (ХОЗЛ), раку легень, гострої респіраторної інфекції нижніх дихальних шляхів, діабету 2 типу, " +
-            "передчасних пологів та низької маси тіла при народженні.<br/>" +
-            "[Дослідження ГТХ за 2019 рік, співавтори з факторів ризику. Глобальний тягар 87 факторів ризику у 204 країнах і територіях, 1990-2019 рр.: " +
-            "систематичний аналіз Дослідження глобального тягаря хвороб за 2019 р.]. Lancet 2020; 396: 1223–49. " +
-            "(<a href=\"https://www.thelancet.com/cms/10.1016/S0140-6736(20)30752-2/attachment/452d9049-9c4a-4fbb-81f3-72cca8d8a620/mmc1.pdf\" " +
-            "target=\"_blank\">PDF Supplement</a> p. 24 and pp. 78)</li>" +
+            "<li>Дослідження Глобального тягаря захворювань 2021 року з додатковими доказами впливу на здоров'я, пов'язаного з " +
+            "(1) впливом твердих частинок на ішемічну хворобу серця, інсульт, хронічні обструктивні захворюванні легень (ХОЗЛ), " +
+            "рак легенів, гострі інфекції нижніх дихальних шляхів, діабет II типу, передчасні пологи та низьку вагу при народженні; " +
+            "(2) вплив озону на смертність від хронічного обструктивного захворювання легень (ХОЗЛ); " +
+            "(3) вплив діоксиду азоту на розвитку астми у дітей та підлітків.<br/>" +
+            "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
+            "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
+            "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
             "</ul>" +
             "<b>Наскільки актуальні для вас вищезазначені наслідки для здоров’я?</b>" +
             "<br><br>" +
@@ -1742,19 +1743,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Die Grafik ist in verschiedenen Sprachen verfügbar:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Deutsch\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Französisch\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italienisch\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Englisch\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkisch\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UK</a>" +
             " und" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolisch\"> MN</a>" +
             "." +
             "<br><br>" +
             "Am Fussende der Grafik finden Sie weitere Informationen.",
@@ -1767,19 +1768,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "The figure is available in different languages:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"German\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"French\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italian\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"English\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turkish\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UK</a>" +
             ", and" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolian\"> MN</a>" +
             "." +
             "<br><br>" +
             "Find further information at the bottom of the figure.",
@@ -1793,19 +1794,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Le graphique est disponible en plusieurs langues:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Allemand\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Français\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italien\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Anglais\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turc\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UK</a>" +
             " et" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongol\"> MN</a>" +
             "." +
             "<br><br>" +
             "Au bas de la page, vous trouverez encore d’autres informations qui peuvent vous intéresser.",
@@ -1818,19 +1819,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "La grafica è disponibile in diverse lingue:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Tedesco\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Francese\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Italiano\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Inglese\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turco\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ucraino\"> UK</a>" +
             " e" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolo\"> MN</a>" +
             "." +
             "<br><br>" +
             "Ai piedi dell’immagine trovate troverete maggiori informazioni.",
@@ -1843,19 +1844,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Figür farklı dillerde mevcuttur:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Almanca\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Fransızca\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"İtalyan\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"İngilizce\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkçe\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrayna\"> UK</a>" +
             " ve" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Moğolca\"> MN</a>" +
             "." +
             "<br><br>" +
             "Daha fazla bilgi figürün altında bulunabilir.",
@@ -1868,19 +1869,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Интерактив зургийг дараах хэлээр үзэх боломжтой:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> DE</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Герман\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> FR</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"Франц\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> IT</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"Итали\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> EN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"Англи\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> TR</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Турк\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Украин\"> UK</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Монгол\"> MN</a>" +
             "." +
             "<br><br>" +
             "Бусад мэдээллийг зурган доорх сонголтуудаас үзэж болно",
@@ -1894,19 +1895,19 @@ arrUI = [
             "</ul>" +
             "<br><br>" +
             "Малюнок доступний різними мовами:" +
-            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\"> німецькою</a>" +
+            "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"німецькою\"> DE</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\"> французькою</a>" +
+            "<a href=\"https://www.swisstph.ch/fr/projects/ludok/healtheffects\" target=\"_blank\" title=\"французькою\"> FR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\"> італійською</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/effetti-sulla-salute\" target=\"_blank\" title=\"італійською\"> IT</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\"> англійською</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects\" target=\"_blank\" title=\"англійською\"> EN</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\"> турецькою</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"турецькою\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\"> українською</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UK</a>" +
             ", та" +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\"> MN</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"монгольською\"> MN</a>" +
             "." +
             "<br><br>" +
             "Додаткова довідкова інформація наведена в нижній частині малюнка.",
