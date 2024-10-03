@@ -76,7 +76,7 @@ arrOrgane = [
         "organ_it": "Vie respiratorie",
         "organ_tr": "Solunum sistemi",
         "organ_uk": "Респіраторна система",
-        "organ_mn": "Амьсгалын систем",
+        "organ_mn": "Амьсгалын тогтолцоо",
         "organ_sv": "TODO SV: Respiratory system",
     },
     {
@@ -88,7 +88,7 @@ arrOrgane = [
         "organ_it": "Sistema cardiovascolare",
         "organ_tr": "Kardiyovasküler sistem",
         "organ_uk": "Серцево-судинна система",
-        "organ_mn": "Зүрх судасны систем",
+        "organ_mn": "Зүрх судасны тогтолцоо",
         "organ_sv": "TODO SV: Cardiovascular system",
     },
     {
@@ -100,7 +100,7 @@ arrOrgane = [
         "organ_it": "Sistema nervoso",
         "organ_tr": "Sinir sistemi",
         "organ_uk": "Нервова система",
-        "organ_mn": "Мэдрэлийн систем",
+        "organ_mn": "Мэдрэлийн тогтолцоо",
         "organ_sv": "TODO SV: Nervous system",
     },
     {
@@ -112,7 +112,7 @@ arrOrgane = [
         "organ_it": "Metabolismo/sistema immunitario",
         "organ_tr": "Metabolizma/Bağışıklık sistemi",
         "organ_uk": "Метаболізм/імунна система",
-        "organ_mn": "Бодисын солилцоо/Дархлааны систем",
+        "organ_mn": "Бодисын солилцоо/Дархлааны тогтолцоо",
         "organ_sv": "TODO SV: Metabolism/Immune system",
     },
     {
@@ -136,7 +136,7 @@ arrOrgane = [
         "organ_it": "Emergenze",
         "organ_tr": "Acil durumlar",
         "organ_uk": "Надзвичайні ситуації",
-        "organ_mn": "Амь тэнсэх тохиолдол",
+        "organ_mn": "Яаралтай тусламж",
         "organ_sv": "TODO SV: Emergency",
     }
 ];
@@ -151,7 +151,7 @@ arrEffekte = [
         "effekt_it": "Asma",
         "effekt_tr": "Astım",
         "effekt_uk": "Астма",
-        "effekt_mn": "Астма",
+        "effekt_mn": "Гуурсан хоолойн багтраа",
         "effekt_sv": "TODO SV: Asthma",
         "organ": "atemwege"
     },
@@ -175,7 +175,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia, più sintomi o farmaci nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda hastalığın alevlenmesi, semptomların artması veya ilaç tedavisi",
         "effekt_uk": "Загострення хвороби, посилення симптомів або лікування хворих на астму",
-        "effekt_mn": "Астма өвчин даамжрах: өвчний шинж тэмдгүүд болон эмийн эмчилгээний хэрэгцээ нэмэгдэх",
+        "effekt_mn": "Багтраа өвчин хүндрэх: өвчний шинж тэмдгүүд хүндрэх, эмийн эмчилгээний хэрэгцээ нэмэгдэх",
         "effekt_sv": "TODO SV: Exacerbation  of the disease, increase in symptoms or medication in patients with asthma",
         "organ": "atemwege"
     },
@@ -187,7 +187,7 @@ arrEffekte = [
         "effekt_it": "Funzione polmonare ridotta nei pazienti con asma",
         "effekt_tr": "Astımlı hastalarda akciğer fonksiyonlarında azalma",
         "effekt_uk": "Зниження функції легень у хворих на астму",
-        "effekt_mn": "Астматай өвчтөнүүдийн уушгины үйл ажиллагаа доройтох",
+        "effekt_mn": "Багтраатай өвчтөнүүдийн уушгины үйл ажиллагаа доройтох",
         "effekt_sv": "TODO SV: Lung function decline in patients with asthma",
         "organ": "atemwege"
     },
@@ -199,7 +199,7 @@ arrEffekte = [
         "effekt_it": "Peggioramento della malattia o più sintomi in pazienti con COPD",
         "effekt_tr": "KOAH hastalarında hastalığın kötüleşmesi veya semptomların artması",
         "effekt_uk": "Погіршення хвороби або посилення симптомів у хворих на ХОЗЛ",
-        "effekt_mn": "Уушгины архаг бөглөрөөт өвчин даамжрах эсвэл өвчний шинж тэмдэг нэмэгдэх",
+        "effekt_mn": "Уушгины архаг бөглөрөлт өвчин хүндрэх эсвэл өвчний шинж тэмдэг нэмэгдэх",
         "effekt_sv": "TODO SV: Worsening of the disease or increase in symptoms in patients with COPD",
         "organ": "atemwege"
     },
@@ -259,7 +259,7 @@ arrEffekte = [
         "effekt_it": "Riduzione accelerata della funzione polmonare",
         "effekt_tr": "Akciğer fonksiyonunda hızlı düşüş",
         "effekt_uk": "Прискорене зниження функції легень",
-        "effekt_mn": "Уушгины үйл ажиллагааны хурдацтай буурах",
+        "effekt_mn": "Уушгины үйл ажиллагаа хурдацтай буурах",
         "effekt_sv": "TODO SV: Accelerated decline in lung function",
         "organ": "atemwege"
     },
@@ -331,7 +331,7 @@ arrEffekte = [
         "effekt_it": "Variabilità della frequenza cardiaca",
         "effekt_tr": "Aritmi",
         "effekt_uk": "Аритмія",
-        "effekt_mn": "Хэм алдагдах",
+        "effekt_mn": "Зүрхний хэм алдагдах",
         "effekt_sv": "TODO SV: Arrhythmia",
         "organ": "herz"
     },
@@ -391,7 +391,7 @@ arrEffekte = [
         "effekt_it": "Diminuzione delle prestazioni cognitive (demenza)",
         "effekt_tr": "Bilişsel performans düşüşü (demans)",
         "effekt_uk": "Зниження когнітивних функцій (деменція)",
-        "effekt_mn": "Танин мэдэхүйн үйл ажиллагаа буурах (зөнөх өвчин))",
+        "effekt_mn": "Танин мэдэхүйн үйл ажиллагаа буурах (зөнөгрөх өвчин)",
         "effekt_sv": "TODO SV: Cognitive performance decline (dementia)",
         "organ": "nervensystem"
     },
@@ -403,7 +403,7 @@ arrEffekte = [
         "effekt_it": "Mortalità dovuta a malattia ",
         "effekt_tr": "Kaza kaynaklı olmayan ölüm",
         "effekt_uk": "Смертність (не включаючи нещасні випадки)",
-        "effekt_mn": "Гэнэтийн бус нас баралт",
+        "effekt_mn": "Ослын бус шалтгаант нас баралт",
         "effekt_sv": "TODO SV: Non-accidental mortality",
         "organ": "sterblichkeit"
     },
@@ -439,7 +439,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di asma",
         "effekt_tr": "Ölüm: astım",
         "effekt_uk": "Смертність: астма",
-        "effekt_mn": "Астма өвчний улмаас",
+        "effekt_mn": "Багтраа өвчний улмаас",
         "effekt_sv": "TODO SV: Mortality due to asthma",
         "organ": "sterblichkeit"
     },
@@ -451,7 +451,7 @@ arrEffekte = [
         "effekt_it": "Mortalità a causa di COPD",
         "effekt_tr": "Ölüm: KOAH",
         "effekt_uk": "Смертність: ХОЗЛ",
-        "effekt_mn": "Уушны архаг бөглөрөлт өвчний улмаас",
+        "effekt_mn": "Уушгины архаг бөглөрөлт өвчний улмаас",
         "effekt_sv": "TODO SV: Mortality due to COPD",
         "organ": "sterblichkeit"
     },
@@ -505,7 +505,7 @@ arrEffekte = [
         "effekt_it": "Emergenze a causa di asma",
         "effekt_tr": "Astım kaynaklı acil durum",
         "effekt_uk": "Надзвичайна ситуація через астму",
-        "effekt_mn": "Астма өвчний улмаас",
+        "effekt_mn": "Багтраа өвчний улмаас",
         "effekt_sv": "TODO SV: Emergency due to asthma",
         "organ": "notfaelle"
     },
