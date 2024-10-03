@@ -71,7 +71,7 @@ arrPopups = [
             "Hava kalitesine ilişkin güncel veriler " +
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck uygulamasında</a>" +
             ", MeteoSwiss uygulamasında (mobil cihazlarınızdaki uygulama mağazalarına bakın) veya Federal Çevre Dairesi'nde (FOEN) " +
-            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a>de bulunabilir." +
+            "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a> de bulunabilir." +
             "<br><br>" +
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan \"Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği\" " +
             "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM<sub>10</sub>, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
@@ -219,8 +219,8 @@ arrPopups = [
         "text_tr": "<div class=\"i-header\">Limit değerler</div>" +
             "<b>Yasal dayanak nedir veya yönergeleri kim belirliyor?</b>" +
             "<br><br>" +
-            "Dünya Sağlık Örgütü (DSÖ)" +
-            "<a href=\"https://www.who.int/airpollution/publications/aqg2005/en\" target=\"_blank\">hava kalitesi kılavuzlarında, </a>, " +
+            "Dünya Sağlık Örgütü (DSÖ) " +
+            "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">hava kalitesi kılavuzlarında</a>, " +
             "altında sağlık üzerine hiçbir etkinin beklenmediği veya çok az etki beklendiği limit değerleri tanımlamaktadır. Bu değerler mevcut bilimsel kanıtlara dayalı olarak tanımlanır " +
             "ve hava kalitesi standartlarını belirlerken ulusal yetkililer için bir kılavuz olarak hizmet etmesi amaçlanır. Uzun vadeli hava kirliliğinin etkileri açısından mevcut bilimsel kanıtlar, " +
             "çoğu kirletici için etki eşik değerlerinin mevcut olmadığını varsaymaktadır. Bir \"etki eşiği\", bir kirleticinin sağlık üzerinde zararlı bir etkisi beklenmeyen konstanrasyonu olarak tanımlanır. " +
