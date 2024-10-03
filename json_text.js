@@ -220,7 +220,7 @@ arrPopups = [
             "<b>Yasal dayanak nedir veya yönergeleri kim belirliyor?</b>" +
             "<br><br>" +
             "Dünya Sağlık Örgütü (DSÖ)" +
-            "<a href=\"https://www.who.int/airpollution/publications/aqg2005/en\" target=\"_blank\">hava kalitesi kılavuzlarında, </a>, " +
+            "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">hava kalitesi kılavuzlarında</a>, " +
             "altında sağlık üzerine hiçbir etkinin beklenmediği veya çok az etki beklendiği limit değerleri tanımlamaktadır. Bu değerler mevcut bilimsel kanıtlara dayalı olarak tanımlanır " +
             "ve hava kalitesi standartlarını belirlerken ulusal yetkililer için bir kılavuz olarak hizmet etmesi amaçlanır. Uzun vadeli hava kirliliğinin etkileri açısından mevcut bilimsel kanıtlar, " +
             "çoğu kirletici için etki eşik değerlerinin mevcut olmadığını varsaymaktadır. Bir \"etki eşiği\", bir kirleticinin sağlık üzerinde zararlı bir etkisi beklenmeyen konstanrasyonu olarak tanımlanır. " +
