@@ -1760,7 +1760,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkisch\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UKR</a>" +
             " und" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolisch\"> MN</a>" +
             "." +
@@ -1785,7 +1785,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turkish\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UKR</a>" +
             ", and" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolian\"> MN</a>" +
             "." +
@@ -1811,7 +1811,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turc\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UKR</a>" +
             " et" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongol\"> MN</a>" +
             "." +
@@ -1836,7 +1836,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turco\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ucraino\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ucraino\"> UKR</a>" +
             " e" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolo\"> MN</a>" +
             "." +
@@ -1861,7 +1861,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkçe\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrayna\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrayna\"> UKR</a>" +
             " ve" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Moğolca\"> MN</a>" +
             "." +
@@ -1886,7 +1886,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Турк\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Украин\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Украин\"> UKR</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Монгол\"> MN</a>" +
             "." +
@@ -1915,7 +1915,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"турецькою\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UKR</a>" +
             ", та" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"монгольською\"> MN</a>" +
             "." +
