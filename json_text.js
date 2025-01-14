@@ -74,7 +74,7 @@ arrPopups = [
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a> de bulunabilir." +
             "<br><br>" +
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan \"Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği\" " +
-            "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM<sub>10</sub>, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
+            "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM10, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
             "uyulması gereken sınır değerler belirlenmiştir. " +
             "İnsan sağlığını ve çevreyi korumak amacıyla Türkiye'de hava kalitesi sınır değerleri her geçen yıl azalmakta ve bu nedenle mevcut hava kalitesinin iyileştirilmesine yönelik " +
             "atılacak adımların önemi her geçen yıl artmaktadır. Sonuçta AB ülkelerinde hava kalitesi değerlerine ulaşılması hedefleniyor " +
@@ -87,11 +87,11 @@ arrPopups = [
             "<br><br>" +
             "Якість повітря у Швейцарії невпинно покращується з середини 1980-х років. " +
             "Більшість регіонів Швейцарії зараз відповідає нормам якості повітря за більшістю забруднювачів. " +
-            "Рівні забрудненості діоксидом сірки (SO2) та монооксидом вуглецю́ (СО) у Швейцарії є настільки низькими, що шкідливих наслідків для здоров’я від цих забруднювачів не очікується. " +
+            "Рівні забрудненості діоксидом сірки (SO<sub>2</sub>) та монооксидом вуглецю́ (СО) у Швейцарії є настільки низькими, що шкідливих наслідків для здоров’я від цих забруднювачів не очікується. " +
 
             "Проте норми щодо озону часто перевищуються, причому значно (на великих територіях). " +
 
-            "Попри покращення, що має місце останніми роками, у деяких випадках у районах зі значним трафіком досі перевищуються норми якості повітря за діоксидом азоту (NO2) " +
+            "Попри покращення, що має місце останніми роками, у деяких випадках у районах зі значним трафіком досі перевищуються норми якості повітря за діоксидом азоту (NO<sub>2</sub>) " +
 
             "і зваженими (твердими) частинками (PM10/PM2,5). Це пояснюється тим, що великі кількості цих забруднювачів повітря продовжують викидатися у повітря Швейцарії та сусідніх країн." +
 
@@ -106,10 +106,10 @@ arrPopups = [
         "text_mn": "<div class=\"i-header\">Өнөөгийн байдал</div>" +
             "<b>Монгол орны агаарын бохирдол: Өнөөгийн нөхцөл байдал</b>" +
             "<br><br>" +
-            "Өнгөрсөн 10 жилийн хугацаанд Улаанбаатар хотын хэмжээнд нарийн ширхэглэгт тоосонцор, хүхрийн давхар исэл, азотын давхар исэл (РМ2.5, SO2, NO2) бохирдуулагчид " +
+            "Өнгөрсөн 10 жилийн хугацаанд Улаанбаатар хотын хэмжээнд нарийн ширхэглэгт тоосонцор, хүхрийн давхар исэл, азотын давхар исэл (РМ2.5, SO<sub>2</sub>, NO<sub>2</sub>) бохирдуулагчид " +
             "хүйтний улиралд байнга стандарт давсан үзүүлэлттэй, өндөр бохирдолтой байсан бөгөөд 2019 оноос эхлэн түүхий нүүрсний хэрэглээг халснаар агаар дахь РМ10, РМ2.5 хэмжээ " +
             "<a href=\"https://aaqr.org/articles/aaqr-21-07-oa-0163.pdf\" target=\"_blank\">40% ба 36%</a> тус тус буурсан боловч энэ үзүүлэлт стандарт давсан хэвээр байсаар. " +
-            "Харин хүхрийн давхар ислийн (SO2) агууламж 2020 оны хүйтний улирлаас эхлэн 41% хүрч огцом өссөн байна. Аймгуудын хувьд жил бүр агаарын чанар улам дордож байгаа " +
+            "Харин хүхрийн давхар ислийн (SO<sub>2</sub>) агууламж 2020 оны хүйтний улирлаас эхлэн 41% хүрч огцом өссөн байна. Аймгуудын хувьд жил бүр агаарын чанар улам дордож байгаа " +
             "тул нарийвчилсан судалгаа хийх хэрэгтэй байна." +
             "<br><br>" +
             "Бусад бохирдуулагч бодисын хувьд тухайлбал органик бохирдуулагч бодис болох " +
@@ -187,7 +187,7 @@ arrPopups = [
             "<br><br>" +
             "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, " +
             "si bien qu'aucun effet nocif ne devrait en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), " +
-            "l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
+            "l'ozone troposphérique (O<sub>3</sub>) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
             "mesurés en Suisse, combinés aux faibles risques, signifient un risque faible pour un individu par rapport aux facteurs liés au mode de vie tels que le tabagisme, " +
             "l'alimentation ou le manque d'exercice." +
             "<br><br>" +
@@ -273,7 +273,7 @@ arrPopups = [
             "Монгол Улсад агаарын чанарын стандартыг Байгаль орчны яам боловсруулж (УЦУОШГ), <a href=\"https://estandard.gov.mn/standard/v/3377\" target=\"_blank\">Засгийн газрын хэрэгжүүлэгч агентлаг Стандарт хэмжилзүйн газар</a> " +
             "баталдаг ба үүнийг ДЭМБ-ын Агаарын чанар тодорхойлох удирдамж (2006 он), АНУ-ын Байгаль хамгаалах агентлагын Агаарт бохирдуулах бодис тодорхойлох удирдамжийг үндэслэн боловсруулжээ." +
             "<br><br>" +
-            "2022 оны байдлаар Улаанбаатар хотын хүйтний улиралд агаар дахь нарийн ширхэглэгт тоосонцор (PM2.5), хүхрийн давхар исэл (SO2), азотын давхар исэл (NO2) зэрэг нь стандарт " +
+            "2022 оны байдлаар Улаанбаатар хотын хүйтний улиралд агаар дахь нарийн ширхэглэгт тоосонцор (PM2.5), хүхрийн давхар исэл (SO<sub>2</sub>), азотын давхар исэл (NO<sub>2</sub>) зэрэг нь стандарт " +
             "давсан үзүүлэлттэй байгаа бөгөөд дулааны улиралд харьцангуй стандарт хэмжээнд байна. Орон нутагт " +
             "<a href=\"https://link.springer.com/article/10.1007/s13762-022-04493-1\" target=\"_blank\">Ховд</a>, " +
             "<a href=\"https://aaqr.org/articles/aaqr-21-07-oa-0163.pdf\" target=\"_blank\">Баянхонгор, Орхон, Хөвсгөл, Архангай</a> " +
@@ -378,7 +378,7 @@ arrPopups = [
             "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
             "<li>Global Burden of Disease Studie 2021, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von (1) Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
             "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht; " +
-            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO2 in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
+            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO<sub>2</sub> in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
             "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
