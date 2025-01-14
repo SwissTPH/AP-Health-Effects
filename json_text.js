@@ -74,7 +74,7 @@ arrPopups = [
             "<a href=\"https://www.bafu.admin.ch/bafu/en/home/topics/air/state/data/air-pollution--real-time-data.html\" target=\"_blank\">hava kirliliği: gerçek zamanlı veriler</a> de bulunabilir." +
             "<br><br>" +
             "<b>Türkiye'de</b> hava kalitesi yönetimine ilişkin usul ve esaslar, Avrupa Birliği (AB) çevre mevzuatıyla tam uyumlu olan \"Hava Kalitesi Değerlendirmesi ve Yönetimi Yönetmeliği\" " +
-            "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM<sub>10</sub>, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
+            "ile belirlenmektedir. Bu Yönetmelik ile 13 kirletici (SO<sub>2</sub>, PM10, NO<sub>x</sub> vb.) için insan sağlığının ve çevrenin korunması amacıyla " +
             "uyulması gereken sınır değerler belirlenmiştir. " +
             "İnsan sağlığını ve çevreyi korumak amacıyla Türkiye'de hava kalitesi sınır değerleri her geçen yıl azalmakta ve bu nedenle mevcut hava kalitesinin iyileştirilmesine yönelik " +
             "atılacak adımların önemi her geçen yıl artmaktadır. Sonuçta AB ülkelerinde hava kalitesi değerlerine ulaşılması hedefleniyor " +
@@ -85,12 +85,16 @@ arrPopups = [
         "text_uk": "<div class=\"i-header\">Поточний рівень забрудненості</div>" +
             "<b>Який зараз рівень забрудненості повітря у Швейцарії?</b>" +
             "<br><br>" +
-            "Якість повітря у Швейцарії неухильно покращується з середини 1980-х років. " +
+            "Якість повітря у Швейцарії невпинно покращується з середини 1980-х років. " +
             "Більшість регіонів Швейцарії зараз відповідає нормам якості повітря за більшістю забруднювачів. " +
-            "Рівні забрудненості двоокисом сірки (SO2) та окисом вуглецю (СО) у Швейцарії є настільки низькими, що шкідливих наслідків для здоров’я від цих забруднювачів не очікується. " +
+            "Рівні забрудненості діоксидом сірки (SO<sub>2</sub>) та монооксидом вуглецю́ (СО) у Швейцарії є настільки низькими, що шкідливих наслідків для здоров’я від цих забруднювачів не очікується. " +
+
             "Проте норми щодо озону часто перевищуються, причому значно (на великих територіях). " +
-            "Попри покращення, що має місце останніми роками, у деяких випадках у районах зі значним трафіком досі перевищуються норми якості повітря за двоокисом азоту (NO2) " +
-            "і зваженими частинками (PM10/PM2,5). Це пояснюється тим, що великі кількості цих забруднювачів повітря продовжують викидатися та випускатися у повітря Швейцарії та сусідніх країн." +
+
+            "Попри покращення, що має місце останніми роками, у деяких випадках у районах зі значним трафіком досі перевищуються норми якості повітря за діоксидом азоту (NO<sub>2</sub>) " +
+
+            "і зваженими (твердими) частинками (PM10/PM2,5). Це пояснюється тим, що великі кількості цих забруднювачів повітря продовжують викидатися у повітря Швейцарії та сусідніх країн." +
+
             "<br><br>" +
             "Актуальні дані про якість повітря можна знайти у застосунку " +
             "<a href=\"https://cerclair.ch/aircheck\" target=\"_blank\">airCHeck App</a>, " +
@@ -102,10 +106,10 @@ arrPopups = [
         "text_mn": "<div class=\"i-header\">Өнөөгийн байдал</div>" +
             "<b>Монгол орны агаарын бохирдол: Өнөөгийн нөхцөл байдал</b>" +
             "<br><br>" +
-            "Өнгөрсөн 10 жилийн хугацаанд Улаанбаатар хотын хэмжээнд нарийн ширхэглэгт тоосонцор, хүхрийн давхар исэл, азотын давхар исэл (РМ2.5, SO2, NO2) бохирдуулагчид " +
+            "Өнгөрсөн 10 жилийн хугацаанд Улаанбаатар хотын хэмжээнд нарийн ширхэглэгт тоосонцор, хүхрийн давхар исэл, азотын давхар исэл (РМ2.5, SO<sub>2</sub>, NO<sub>2</sub>) бохирдуулагчид " +
             "хүйтний улиралд байнга стандарт давсан үзүүлэлттэй, өндөр бохирдолтой байсан бөгөөд 2019 оноос эхлэн түүхий нүүрсний хэрэглээг халснаар агаар дахь РМ10, РМ2.5 хэмжээ " +
             "<a href=\"https://aaqr.org/articles/aaqr-21-07-oa-0163.pdf\" target=\"_blank\">40% ба 36%</a> тус тус буурсан боловч энэ үзүүлэлт стандарт давсан хэвээр байсаар. " +
-            "Харин хүхрийн давхар ислийн (SO2) агууламж 2020 оны хүйтний улирлаас эхлэн 41% хүрч огцом өссөн байна. Аймгуудын хувьд жил бүр агаарын чанар улам дордож байгаа " +
+            "Харин хүхрийн давхар ислийн (SO<sub>2</sub>) агууламж 2020 оны хүйтний улирлаас эхлэн 41% хүрч огцом өссөн байна. Аймгуудын хувьд жил бүр агаарын чанар улам дордож байгаа " +
             "тул нарийвчилсан судалгаа хийх хэрэгтэй байна." +
             "<br><br>" +
             "Бусад бохирдуулагч бодисын хувьд тухайлбал органик бохирдуулагч бодис болох " +
@@ -183,7 +187,7 @@ arrPopups = [
             "<br><br>" +
             "Les niveaux de pollution au dioxyde de soufre (SO<sub>2</sub>) et au monoxyde de carbone (CO) en Suisse sont bien en dessous des valeurs limites d'immission, " +
             "si bien qu'aucun effet nocif ne devrait en résulter. En revanche, le dioxyde d'azote (NO<sub>2</sub>), " +
-            "l'ozone troposphérique (O3) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
+            "l'ozone troposphérique (O<sub>3</sub>) et les poussières fines dépassent en partie les valeurs limites fixées. Les niveaux d'exposition " +
             "mesurés en Suisse, combinés aux faibles risques, signifient un risque faible pour un individu par rapport aux facteurs liés au mode de vie tels que le tabagisme, " +
             "l'alimentation ou le manque d'exercice." +
             "<br><br>" +
@@ -248,8 +252,8 @@ arrPopups = [
             "<br><br>" +
             "У " +
             "<a href=\"https://apps.who.int/iris/bitstream/handle/10665/345334/9789240034433-eng.pdf?sequence=1&isAllowed=y\" target=\"_blank\">рекомендаціях із якості повітря</a>, " +
-            "Всесвітня організація охорони здоров’я (ВООЗ) визначає величини, нижче котрих очікувані наслідки для здоров’я або відсутні, або є лише незначними. " +
-            "Ці величини визначаються на основі наявних наукових доказів і покликані слугувати для національних органів влади орієнтиром у встановленні норм якості повітря. " +
+            "Всесвітня організація охорони здоров’я (ВООЗ) визначає величини, нижче яких очікувані наслідки для здоров’я або відсутні, або є лише незначними. " +
+            "Ці величини визначаються на основі наявних наукових доказів і покликані слугувати для державних органів влади орієнтиром у встановленні норм якості повітря. " +
             "Що стосується впливу довгострокового забруднення повітря, наявні наукові докази свідчать про те, що для більшості забруднювачів порогів впливу не існує. " +
             "\"Поріг впливу\" визначається як концентрація забруднювача, нижче якої шкідливих наслідків для здоров’я не очікується. " +
             "<br><br>" +
@@ -269,7 +273,7 @@ arrPopups = [
             "Монгол Улсад агаарын чанарын стандартыг Байгаль орчны яам боловсруулж (УЦУОШГ), <a href=\"https://estandard.gov.mn/standard/v/3377\" target=\"_blank\">Засгийн газрын хэрэгжүүлэгч агентлаг Стандарт хэмжилзүйн газар</a> " +
             "баталдаг ба үүнийг ДЭМБ-ын Агаарын чанар тодорхойлох удирдамж (2006 он), АНУ-ын Байгаль хамгаалах агентлагын Агаарт бохирдуулах бодис тодорхойлох удирдамжийг үндэслэн боловсруулжээ." +
             "<br><br>" +
-            "2022 оны байдлаар Улаанбаатар хотын хүйтний улиралд агаар дахь нарийн ширхэглэгт тоосонцор (PM2.5), хүхрийн давхар исэл (SO2), азотын давхар исэл (NO2) зэрэг нь стандарт " +
+            "2022 оны байдлаар Улаанбаатар хотын хүйтний улиралд агаар дахь нарийн ширхэглэгт тоосонцор (PM2.5), хүхрийн давхар исэл (SO<sub>2</sub>), азотын давхар исэл (NO<sub>2</sub>) зэрэг нь стандарт " +
             "давсан үзүүлэлттэй байгаа бөгөөд дулааны улиралд харьцангуй стандарт хэмжээнд байна. Орон нутагт " +
             "<a href=\"https://link.springer.com/article/10.1007/s13762-022-04493-1\" target=\"_blank\">Ховд</a>, " +
             "<a href=\"https://aaqr.org/articles/aaqr-21-07-oa-0163.pdf\" target=\"_blank\">Баянхонгор, Орхон, Хөвсгөл, Архангай</a> " +
@@ -322,9 +326,9 @@ arrPopups = [
         "text_uk": "<div class=\"i-header\">Джерела забруднювачів</div>" +
             "<b>Які джерела забруднення повітря?</b>" +
             "<br><br>" +
-            "Джерела забруднення повітря різняться залежно від забруднювача. " +
+            "Джерела забруднення повітря розрізняють в залежності від забруднювача. " +
             "Основними джерелами є дорожній рух, системи опалення, промисловість, торгівля і сільське господарство. " +
-            "За даними State of Global Air, найбільший внесок у забруднення PM2.5 робить енергетичний сектор, за ним йдуть сільське господарство та опалення житлових будинків. " +
+            "За даними State of Global Air, найбільший внесок у забруднення PM2.5 здійснює енергетичний сектор, наступними є сільське господарство та опалення житлових будинків. " +
             "<a href=\"https://www.stateofglobalair.org/resources/countryprofiles?country-choice=Ukraine\" target=\"_blank\">State of Global Air - Ukraine</a>",
         "text_mn": "<div class=\"i-header\">Бохирдуулагч эх үүсвэрүүд</div>" +
             "<b>Агаар бохирдуулагч эх үүсвэрүүд</b>" +
@@ -374,7 +378,7 @@ arrPopups = [
             "welche zusätzliche Evidenz liefert für Kindersterblichkeit, tiefes Geburtsgewicht, Frühgeburten, Entwicklungsstörungen, Autismus, Leukämie, und Infektionen der Atemwege.</li>" +
             "<li>Global Burden of Disease Studie 2021, welche zusätzliche Evidenz liefert für gesundheitliche Wirkungen von (1) Feinstaub in Bezug auf ischämische Herzkrankheiten, Schlaganfälle, " +
             "chronisch obstruktive Lungenerkrankungen (COPD), Lungenkrebs, Infektionen der unteren Atemwege, Diabetes Typ 2, Frühgeburten und geringeres Geburtsgewicht; " +
-            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO2 in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
+            "(2) Ozon in Bezug auf die Sterblichkeit an chronisch obstruktiven Lungenkrankheiten (COPD); und (3) NO<sub>2</sub> in Bezug auf die Entwicklung von Asthma im Kindes- und Jugendalter.<br/>" +
             "GBD 2021 Risk Factors Collaborators. Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: " +
             "a systematic analysis for the Global Burden of Disease Study 2021. Lancet 2024; 403 (10440): 2162-2203.<br/>" +
             "<a href=\"https://doi.org/10.1016/S0140-6736(24)00933-4\" target=\"_blank\">https://doi.org/10.1016/S0140-6736(24)00933-4</a></li>" +
@@ -632,8 +636,8 @@ arrPopups = [
             "<br><br>" +
             "Представлені тут знання основані на значній кількості досліджень, у яких вивчався вплив забруднювачів повітря на здоров’я людини на популяційному рівні (епідеміологія). Експериментальні дослідження людей, тварин і клітин використовувалися також для оцінювання причинно-наслідкового характеру забруднювачів повітря." +
             "<br><br>" +
-            "Розрізнюються наслідки, пов’язані з короткостроковим (від кількох годин до кількох днів) та довгостроковим (від кількох місяців до кількох років) контактом із забрудненим повітрям. " +
-            "Примітно, що наслідки довгострокового інтенсивного контакту з атмосферним повітрям є більш серйозними." +
+            "Розрізняють наслідки, пов’язані з короткостроковим (від кількох годин до кількох днів) та довгостроковим (від кількох місяців до кількох років) контактом із забрудненим повітрям. " +
+            "Варто зазначити, що наслідки довгострокового інтенсивного контакту з атмосферним повітрям є більш серйозними." +
             "<br><br>" +
             "Зміст малюнку обмежується впливом, який Агентство з охорони навколишнього середовища США (US ЕРА) визначило як причинно-наслідковий або ймовірно причинно-наслідковий." +
             "ЕРА оцінює залежність між забруднювачами та потенційними наслідками для здоров’я за п’ятибальною шкалою." +
@@ -644,7 +648,8 @@ arrPopups = [
             "<a href=\"https://cfpub.epa.gov/ncea/isa/recordisplay.cfm?deid=310244\" target=\"_blank\">«Preamble to the Integrated Science Assessments (ISA)- Вступ до комплексних наукових оцінок»</a>." +
             "<br><br>" +
             "Є й інші, <b>новіші дослідження з синтезом доказів</b>, які, ймовірно, не такі ретельні, як оцінки US ЕРА. " +
-            "З цієї причини ми не включили їх у малюнок. Проте, вони все одне можуть указувати на ще більші небезпеки для здоров’я від забруднення атмосферного повітря, як, наприклад: " +
+            "З цієї причини ми не включили їх у малюнок. Проте, вони все одно можуть вказувати на ще більші небезпеки для здоров’я від забруднення атмосферного повітря, як, наприклад: " +
+
             "нижча маса тіла при народженні, вплив на нервово-психічний розвиток, діабет, рак тощо." +
             "<ul>" +
             "<li><a href=\"https://www.healtheffects.org/publication/systematic-review-and-meta-analysis-selected-health-effects-long-term-exposure-traffic\" target=\"_blank\">" +
@@ -668,7 +673,7 @@ arrPopups = [
             "<br><br>" +
             "Небезпека потенційно може спричинити шкоду. Ризик, з одного боку, - це вірогідність, з якою небезпека може фактично спричинити шкоду. Він є результатом поєднання небезпеки з фактичною дією." +
             "<br><br>" +
-            "Ризики, пов’язані з дією забрудненого повітря, часто варіюються від менш ніж однозначної до двозначної відсоткової частки (0,2-15)% на різницю експозиції, " +
+            "Ризики, пов’язані з дією забрудненого повітря, часто варіюють від менш ніж однозначної до двозначної відсоткової частки (0,2-15)% на різницю експозиції, " +
             "що дорівнює концентрації забруднювача у 10 мікрограмів на кубічний метр." +
             "<br><br>" +
             "Наприклад, дія зважених (твердих) частинок сприяє підвищенню смертності, а саме збільшення довготривалого контакту з концентрацією зважених (твердих) " +
@@ -676,11 +681,11 @@ arrPopups = [
             "Ризик із боку забруднювачів повітря для людей є нижчим у порівнянні з такими факторами способу життя, як тютюнопаління. " +
             "Проте, на популяційному рівні – тобто з точки зору громадського здоров’я – це незначне підвищення смертності є значущим, " +
             "тому що на відміну від тютюнопаління забруднювачі повітря впливають на всю популяцію. " +
-            "У кількісному виразі для <b>населення Швейцарії</b>, за даними " +
+            "У кількісному вираженні для <b>населення Швейцарії</b>, за даними " +
             "<a href=\"https://www.eea.europa.eu\" target=\"_blank\">Європейського агентства з охорони навколишнього середовища</a> " +
-            "це невелике збільшення ризику означає, що у 2016 році у Швейцарії 3700 осіб померли передчасно внаслідок дії зважених частинок (PM2,5)." +
+            "це невелике збільшення ризику означає, що у 2016 році у Швейцарії 3700 осіб померли передчасно внаслідок дії зважених (твердих) частинок (PM2,5)." +
             "<br><br>" +
-            "В <b>Україні</b>, відповідно до даних дослідження Глобального тягаря захворювань, 43’000 померло внаслідок забруднення атмосферного повітря PM2.5 в 2019 році. " +
+            "В <b>Україні</b>, відповідно до даних дослідження Глобального тягаря хвороб, 43’000 померло внаслідок забруднення атмосферного повітря PM2.5 в 2019 році. " +
             "Ця цифра знизилася з більш ніж 61’000 померлих у 2008 році. " +
             "<a href=\"https://vizhub.healthdata.org/gbd-compare\" target=\"_blank\">https://vizhub.healthdata.org/gbd-compare</a> " +
             "<br><br>" +
@@ -1067,7 +1072,8 @@ arrPopups = [
             "<A HREF=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;\">" +
             "&#x6c;&#x75;&#x64;&#x6f;&#x6b;&#x40;&#x73;&#x77;&#x69;&#x73;&#x73;&#x74;&#x70;&#x68;&#x2e;&#x63;&#x68;</A> adresinden memnuniyetle karşılanacaktır.",
         "text_uk": "<div class=\"i-header\">Вихідні дані</div>" +
-            "На цьому інтерактивному малюнку показано наслідки забруднення навколишнього повітря для здоров’я людини. " +
+
+            "На цьому інтерактивному малюнку показано наслідки забруднення атмосферного повітря для здоров’я людини. " +
             "Це – проєкт Бази даних швейцарської літератури та Служби з наслідків забруднення навколишнього середовища для здоров’я людини (LUDOR) " +
             "Швейцарського інституту тропічної медицини та громадського здоров’я (Swiss TPH). Він був спільно розроблений нижчезазначеними організаціями-партнерами: " +
             "<ul>" +
@@ -1754,7 +1760,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkisch\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainisch\"> UKR</a>" +
             " und" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolisch\"> MN</a>" +
             "." +
@@ -1779,7 +1785,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turkish\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainian\"> UKR</a>" +
             ", and" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolian\"> MN</a>" +
             "." +
@@ -1805,7 +1811,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turc\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrainien\"> UKR</a>" +
             " et" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongol\"> MN</a>" +
             "." +
@@ -1830,7 +1836,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Turco\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ucraino\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ucraino\"> UKR</a>" +
             " e" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Mongolo\"> MN</a>" +
             "." +
@@ -1855,7 +1861,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Türkçe\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrayna\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Ukrayna\"> UKR</a>" +
             " ve" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Moğolca\"> MN</a>" +
             "." +
@@ -1880,19 +1886,22 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"Турк\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Украин\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"Украин\"> UKR</a>" +
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"Монгол\"> MN</a>" +
             "." +
             "<br><br>" +
             "Бусад мэдээллийг зурган доорх сонголтуудаас үзэж болно",
-        "text_uk": "<b>Як використовувати цей інтерактивний малюнок?</b>" +
+        "text_uk": "<b>Як використовувати цей інтерактивний рисунок?</b>" +
+
             "<br><br>" +
-            "На інтерактивному малюнку ми узагальнили ті наслідки для здоров’я забруднювачів з установленим гранично допустимим вмістом у навколишньому повітрі, " +
+            "На інтерактивному рисунку зображено вплив найвагоміших (з встановленим гранично допустимим вмістом) забруднювачів атмосферного повітря на здоров’я" +
+
             "які мають або можуть мати причинно-наслідковий характер." +
             "<ul>" +
             "<li>Оберіть коротко- чи довгостроковий вплив.</li>" +
             "<li>Потім оберіть забруднювач повітря або вражену систему органів.</li>" +
+
             "</ul>" +
             "<br><br>" +
             "Малюнок доступний різними мовами:" +
@@ -1906,7 +1915,7 @@ arrUI = [
             "," +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-turkish\" target=\"_blank\" title=\"турецькою\"> TR</a>" +
             "," +
-            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UK</a>" +
+            "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-ukrainian\" target=\"_blank\" title=\"українською\"> UKR</a>" +
             ", та" +
             "<a href=\"https://www.swisstph.ch/en/projects/ludok/healtheffects-mongolian\" target=\"_blank\" title=\"монгольською\"> MN</a>" +
             "." +
