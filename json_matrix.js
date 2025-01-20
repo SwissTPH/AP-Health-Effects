@@ -55,7 +55,7 @@ arrNoxen = [
         "noxe_fr": "Monoxyde de carbone",
         "noxe_it": "Monossido di carbonio",
         "noxe_tr": "Karbonmonoksit",
-        "noxe_uk": "Окис вуглецю",
+        "noxe_uk": "Mонооксид вуглецю",
         "noxe_mn": "Нүүрстөрөгчийн дутуу исэл",
     }
 ];

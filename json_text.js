@@ -1472,7 +1472,7 @@ arrInfos = [
         "text_fr": "<div class=\"i-header\">Monoxyde de carbone (CO)</div>Émissions dues à la combustion incomplète de divers combustibles ",
         "text_it": "<div class=\"i-header\">Monossido di carbonio (CO)</div>Emissioni derivanti dalla combustione incompleta di carburanti contenenti carbonio",
         "text_tr": "<div class=\"i-header\">Karbon monoksit (CO)</div>Karbon içeren yakıtların eksik yanmasından kaynaklanan emisyonlar",
-        "text_uk": "<div class=\"i-header\">Окис вуглецю (CO)</div>викиди від неповного згоряння вуглецевого палива",
+        "text_uk": "<div class=\"i-header\">Mонооксид вуглецю (CO)</div>викиди від неповного згоряння вуглецевого палива",
         "text_mn": "<div class=\"i-header\">Угаарын хий (CO)</div>Түлшний дутуу шаталтаас үүсдэг",
     },
 ];
@@ -1554,7 +1554,7 @@ arrUI = [
         "text_fr": "Monoxyde de carbone",
         "text_it": "Monossido di carbonio",
         "text_tr": "Karbon monoksit",
-        "text_uk": "Окис вуглецю",
+        "text_uk": "Mонооксид вуглецю",
         "text_mn": "Угаарын хий",
     },
 
