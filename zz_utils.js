@@ -203,9 +203,6 @@ function Draw_Results(a_data, a_noxe, a_noxe_zeit, a_organ) {
         //}
 
         $("#i-eff-" + a_organ).tooltip({content: Get_Tooltip(a_organ, glb_Lang)});
-
-    } else {
-
     }// if (a_data.length > 0)
 
     // mobile: div-results unter Button schieben
@@ -291,9 +288,6 @@ function Draw_Results_Organ(a_data) {
         if (glb_isMobile == true) {
             $(glb_PCID + ".div-results").appendTo(glb_PCID + "#mnu-" + a_data[0].organ);
         }
-
-    } else {
-
     }// if (a_data.length > 0)
 
 } // Draw_Results_Organ

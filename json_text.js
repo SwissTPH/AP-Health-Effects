@@ -1416,7 +1416,7 @@ arrInfos = [
             "de précurseurs tels que les oxydes d'azote, le soufre et l'ammoniac (dans la littérature technique, le terme de «poussières fines secondaires» est utilisé)",
         "text_it": "<div class=\"i-header\">Polveri sottili</div>" +
             "Particelle più piccole di 10 o 2,5 micrometri (PM10/PM2,5): emissioni derivanti principalmente dal traffico o dalle combustioni per il riscaldamento, incendi (forestali) e formazione " +
-            "da precursori come gli ossidi di azoto e l'ammoniaca (per quest’ultime nella letteratura tecnica si usa il termine \“polveri sottili secondarie\")",
+            "da precursori come gli ossidi di azoto e l'ammoniaca (per quest’ultime nella letteratura tecnica si usa il termine \"polveri sottili secondarie\")",
         "text_tr": "<div class=\"i-header\">Partikül Madde</div>10 veya 2.5 mikrometreden küçük partiküller (PM10/PM2.5): " +
             "Esas olarak trafik veya evsel ısınma/odun yakma, orman yangınları, nitrojen oksitler ve amonyak (teknik literatürde \"ikincil partikül madde\" terimi kullanılmaktadır) " +
             "gibi öncüllerin oluşumundan kaynaklanan emisyonlar.",
