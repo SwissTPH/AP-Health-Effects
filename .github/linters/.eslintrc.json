@@ -9,7 +9,8 @@
   "rules": {
     "no-debugger": "warn",
     "no-duplicate-imports": "error",
+    "no-redeclare": "off",
     "no-undef": "off",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "off"
   }
 }
