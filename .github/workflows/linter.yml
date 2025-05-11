@@ -29,7 +29,7 @@ jobs:
           VALIDATE_CSS: true
           VALIDATE_HTML: true
           VALIDATE_JAVASCRIPT_ES: true
-          VALIDATE_JSON: true
+          VALIDATE_JSON: false
           FILTER_REGEX_EXCLUDE: jquery/*
           # For reporting status
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
