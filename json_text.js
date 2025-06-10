@@ -1748,6 +1748,7 @@ arrUI = [
             "<li>Wählen Sie zwischen Kurzzeit- oder Langzeitbelastung aus</li>" +
             "<li>Wählen Sie einen Schadstoff oder betroffenes Organ aus</li>" +
             "</ul>" +
+            "Sehen Sie sich ein <a href=\"tutorial.html\" target=\"_blank\">Video Tutorial</a> an (auf Englisch)." +
             "<br><br>" +
             "Die Grafik ist in verschiedenen Sprachen verfügbar:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Deutsch\"> DE</a>" +
@@ -1773,6 +1774,7 @@ arrUI = [
             "<li>Choose between short-term or long-term exposure</li>" +
             "<li>Next, choose an air pollutant or an affected organ system</li>" +
             "</ul>" +
+            "Watch an introductory <a href=\"tutorial.html\" target=\"_blank\">video tutorial</a>." +
             "<br><br>" +
             "The figure is available in different languages:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"German\"> DE</a>" +
@@ -1799,6 +1801,8 @@ arrUI = [
             "<li>Choisissez si vous voulez observer les effets à court ou à long terme</li>" +
             "<li>Choisissez un polluant ou un organe cible</li>" +
             "</ul>" +
+            "Regardez un petit <a href=\"tutorial.html\" target=\"_blank\">tutoriel vidéo</a> (en anglais)." +
+
             "<br><br>" +
             "Le graphique est disponible en plusieurs langues:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Allemand\"> DE</a>" +
@@ -1824,6 +1828,7 @@ arrUI = [
             "<li>Scegliete tra esposizione a breve o a lungo termine</li>" +
             "<li>Scegliete l’inquinante o l’organo interessato</li>" +
             "</ul>" +
+            "Guarda un breve <a href=\"tutorial.html\" target=\"_blank\">video tutorial</a> (inglese)." +
             "<br><br>" +
             "La grafica è disponibile in diverse lingue:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Tedesco\"> DE</a>" +
@@ -1849,6 +1854,7 @@ arrUI = [
             "<li>Kısa vadeli veya uzun vadeli maruziyet arasında seçim yapınız</li>" +
             "<li>Daha sonra, hava kirletici bir madde veya etkilenen bir organ sistemi seçiniz</li>" +
             "</ul>" +
+            "Kısa bir eğitim <a href=\"tutorial.html\" target=\"_blank\">videosu izleyin</a> (İngilizce)" +
             "<br><br>" +
             "Figür farklı dillerde mevcuttur:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Almanca\"> DE</a>" +
@@ -1874,6 +1880,7 @@ arrUI = [
             "<li>Богино эсвэл урт хугацааны өртөлтийн аль нэгийг нь сонгоорой</li>" +
             "<li>Дараа нь агаар бохирдуулагч эсвэл нөлөөлөлд өртсөн эрхтэн тогтолцоог сонгоорой</li>" +
             "</ul>" +
+            "Богино хэмжээний <a href=\"tutorial.html\" target=\"_blank\">видео заавар</a> үзэх (англи хэл дээр)." +
             "<br><br>" +
             "Интерактив зургийг дараах хэлээр үзэх боломжтой:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Герман\"> DE</a>" +
@@ -1899,8 +1906,8 @@ arrUI = [
             "<ul>" +
             "<li>Оберіть коротко- чи довгостроковий вплив.</li>" +
             "<li>Потім оберіть забруднювач повітря або вражену систему органів.</li>" +
-
             "</ul>" +
+            "Подивіться короткий <a href=\"tutorial.html\" target=\"_blank\">відеоурок</a> (англійською мовою)" +
             "<br><br>" +
             "Малюнок доступний різними мовами:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"німецькою\"> DE</a>" +
