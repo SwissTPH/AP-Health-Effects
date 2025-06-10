@@ -1801,7 +1801,8 @@ arrUI = [
             "<li>Choisissez si vous voulez observer les effets à court ou à long terme</li>" +
             "<li>Choisissez un polluant ou un organe cible</li>" +
             "</ul>" +
-            "Regardez un petit <a href=\"tutorial.html\" target=\"_blank\">tutoriel vidéeo</a> (en anglais)." +
+            "Regardez un petit <a href=\"tutorial.html\" target=\"_blank\">tutoriel vidéo</a> (en anglais)." +
+
             "<br><br>" +
             "Le graphique est disponible en plusieurs langues:" +
             "<a href=\"https://www.swisstph.ch/de/projects/ludok/healtheffects\" target=\"_blank\" title=\"Allemand\"> DE</a>" +
